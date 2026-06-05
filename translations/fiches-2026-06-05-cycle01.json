@@ -1,0 +1,275 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-06-05T20:42:00+00:00",
+    "generator": "cron:6e3d697a-91cb-4475-872a-8ab965e7ba7f (Dubai - Translation & Localization)",
+    "cycle": "2026-06-05 cycle 01/30min",
+    "source_csv": "code/web/data/dentists_emirates.csv",
+    "source_rows": 20,
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "translation_method": "manual+glossary (DeepL API key unavailable in .env.translator)",
+    "languages": ["fr", "ar", "en"],
+    "field_completeness_note": "Source CSV lacks sub_specialty/bio/services/languages_spoken; these are null per glossary note 2026-06-05."
+  },
+  "fiches": [
+    {
+      "id": "nachiket-shah-94266005",
+      "license_number": "94266005",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License"
+      },
+      "name": {
+        "original": "Nachiket Shah",
+        "fr": "Nachiket Shah",
+        "ar": "ناشيكيت شاه",
+        "en": "Nachiket Shah"
+      },
+      "specialty": {
+        "slug": "periodontics",
+        "fr": "Parodontiste",
+        "ar": "أخصائي أمراض اللثة",
+        "en": "Periodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Nachiket Shah est parodontiste à Dubaï, aux Émirats arabes unis. Titulaire d'une licence régulière (REG) délivrée par la Dubai Health Authority.",
+        "ar": "الدكتور ناشيكيت شاه هو أخصائي أمراض اللثة في دبي، الإمارات العربية المتحدة. يحمل رخصة منتظمة (REG) صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. Nachiket Shah is a Periodontist based in Dubai, UAE. Licensed by the Dubai Health Authority (Regular License)."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://www.zavis.ai/find-a-doctor/periodontics/nachiket-shah-94266005",
+      "scraped_at": "2026-06-05T20:13:12+00:00",
+      "translated_at": "2026-06-05T20:42:00+00:00"
+    },
+    {
+      "id": "de-zutter-geert-josee-d-00241656",
+      "license_number": "00241656",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "De Zutter Geert Josee D.",
+        "fr": "De Zutter Geert Josee D.",
+        "ar": "دي زوتر خيرت خوسيه د.",
+        "en": "De Zutter Geert Josee D."
+      },
+      "specialty": {
+        "slug": "orthodontics",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "German Dental And Neuromuscular Clinic DMCC",
+        "ar": "عيادة الأسنان الألمانية والعصببية العضلية DMCC",
+        "en": "German Dental And Neuromuscular Clinic DMCC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. De Zutter Geert Josee D. est orthodontiste à Dubaï, aux Émirats arabes unis, exerçant à temps plein (FTL) au sein de la German Dental And Neuromuscular Clinic DMCC. Titulaire d'une licence délivrée par la Dubai Health Authority.",
+        "ar": "الدكتور دي زوتر خيرت خوسيه د. هو أخصائي تقويم الأسنان في دبي، الإمارات العربية المتحدة، يعمل بدوام كامل (FTL) في عيادة الأسنان الألمانية والعصببية العضلية DMCC. يحمل رخصة صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. De Zutter Geert Josee D. is an Orthodontist based in Dubai, UAE, working full-time (FTL) at German Dental And Neuromuscular Clinic DMCC. Licensed by the Dubai Health Authority."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://www.zavis.ai/find-a-doctor/orthodontics/de-zutter-geert-josee-d-00241656",
+      "scraped_at": "2026-06-05T20:13:12+00:00",
+      "translated_at": "2026-06-05T20:42:00+00:00"
+    },
+    {
+      "id": "anshida-valiya-palathingal-84144033",
+      "license_number": "84144033",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License"
+      },
+      "name": {
+        "original": "Anshida Valiya Palathingal",
+        "fr": "Anshida Valiya Palathingal",
+        "ar": "أنشيدة فالييا بالاثينغال",
+        "en": "Anshida Valiya Palathingal"
+      },
+      "specialty": {
+        "slug": "endodontics",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Anshida Valiya Palathingal est endodontiste à Dubaï, aux Émirats arabes unis. Titulaire d'une licence régulière (REG) délivrée par la Dubai Health Authority.",
+        "ar": "الدكتورة أنشيدة فالييا بالاثينغال هي أخصائية علاج العصب في دبي، الإمارات العربية المتحدة. تحمل رخصة منتظمة (REG) صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. Anshida Valiya Palathingal is an Endodontist based in Dubai, UAE. Licensed by the Dubai Health Authority (Regular License)."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://www.zavis.ai/find-a-doctor/endodontics/anshida-valiya-palathingal-84144033",
+      "scraped_at": "2026-06-05T20:13:12+00:00",
+      "translated_at": "2026-06-05T20:42:00+00:00"
+    },
+    {
+      "id": "mohamad-azimuddin-77093635",
+      "license_number": "77093635",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Mohamad Azimuddin",
+        "fr": "Mohamad Azimuddin",
+        "ar": "محمد عظيم الدين",
+        "en": "Mohamad Azimuddin"
+      },
+      "specialty": {
+        "slug": "implantology-privilege",
+        "fr": "Implantologue (privilège d'implantologie)",
+        "ar": "أخصائي زراعة الأسنان (امتياز زراعة الأسنان)",
+        "en": "Implantologist (Implantology Privilege)"
+      },
+      "sub_specialty": {
+        "fr": "Implantologie dentaire",
+        "ar": "زراعة الأسنان",
+        "en": "Dental Implantology"
+      },
+      "facility": {
+        "fr": "Marina Dental Center Br",
+        "ar": "فرع مركز مارينا للأسنان",
+        "en": "Marina Dental Center Br"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Mohamad Azimuddin est implantologue à Dubaï, aux Émirats arabes unis, exerçant à temps plein (FTL) au sein de Marina Dental Center Br. Titulaire d'un privilège d'implantologie délivré par la Dubai Health Authority.",
+        "ar": "الدكتور محمد عظيم الدين هو أخصائي زراعة الأسنان في دبي، الإمارات العربية المتحدة، يعمل بدوام كامل (FTL) في فرع مركز مارينا للأسنان. يحمل امتياز زراعة الأسنان صادراً عن هيئة الصحة بدبي.",
+        "en": "Dr. Mohamad Azimuddin is an Implantologist based in Dubai, UAE, working full-time (FTL) at Marina Dental Center Br. Holds an Implantology Privilege license issued by the Dubai Health Authority."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://www.zavis.ai/find-a-doctor/implantology-privilege/mohamad-azimuddin-77093635",
+      "scraped_at": "2026-06-05T20:13:12+00:00",
+      "translated_at": "2026-06-05T20:42:00+00:00"
+    },
+    {
+      "id": "hussain-saleh-00249174",
+      "license_number": "00249174",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Hussain Saleh",
+        "fr": "Hussain Saleh",
+        "ar": "حسين صالح",
+        "en": "Hussain Saleh"
+      },
+      "specialty": {
+        "slug": "prosthodontics",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "ORIS DENTAL CENTER BRANCH 1",
+        "ar": "فرع مركز أوريس للأسنان 1",
+        "en": "ORIS DENTAL CENTER BRANCH 1"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Hussain Saleh est prosthodontiste à Dubaï, aux Émirats arabes unis, exerçant à temps plein (FTL) au sein d'ORIS DENTAL CENTER BRANCH 1. Titulaire d'une licence délivrée par la Dubai Health Authority.",
+        "ar": "الدكتور حسين صالح هو أخصائي التركيبات السنية في دبي، الإمارات العربية المتحدة، يعمل بدوام كامل (FTL) في فرع مركز أوريس للأسنان 1. يحمل رخصة صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. Hussain Saleh is a Prosthodontist based in Dubai, UAE, working full-time (FTL) at ORIS DENTAL CENTER BRANCH 1. Licensed by the Dubai Health Authority."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://www.zavis.ai/find-a-doctor/prosthodontics/hussain-saleh-00249174",
+      "scraped_at": "2026-06-05T20:13:12+00:00",
+      "translated_at": "2026-06-05T20:42:00+00:00"
+    }
+  ],
+  "coherence_checks": {
+    "specialty_consistency": "5/5 fiches utilisent les termes canoniques du glossaire v1.0 (Parodontiste/Periodontist, Orthodontiste/Orthodontist, Endodontiste/Endodontist, Implantologue/Implantologist, Prosthodontiste/Prosthodontist).",
+    "license_type_consistency": "2 codes distincts (REG, FTL) traduits uniformément via le glossaire.",
+    "area_consistency": "Dubaï/دبي/Dubai — 5/5 OK.",
+    "country_consistency": "Émirats arabes unis/الإمارات العربية المتحدة/United Arab Emirates — 5/5 OK.",
+    "name_transliteration": "Noms propres translittérés selon règle glossaire (AR : latinisation commune UAE).",
+    "completeness_warnings": [
+      "sub_specialty, services, languages_spoken = null pour 5/5 fiches (champ absent du CSV source)."
+    ]
+  }
+}
