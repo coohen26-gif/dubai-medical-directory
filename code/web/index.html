@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DMD Dubai — L'annuaire des médecins et dentistes à Dubai</title>
+  <meta name="description" content="Trouvez les meilleurs médecins, dentistes et chirurgiens à Dubai. 99 520 professionnels DHA-licensés référencés. Interface trilingue FR/AR/EN." />
+  <link rel="alternate" hreflang="ar" href="/ar/" />
+  <link rel="alternate" hreflang="en" href="/en/" />
+  <link rel="alternate" hreflang="fr" href="/fr/" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #1a202c; background: #f7fafc; }
+    header { background: linear-gradient(135deg, #1e40af 0%, #059669 100%); color: white; padding: 1.5rem 2rem; }
+    .header-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .logo { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.5px; }
+    .logo span { color: #fbbf24; }
+    .lang-switcher { display: flex; gap: 0.5rem; }
+    .lang-switcher a { color: white; text-decoration: none; padding: 0.4rem 0.8rem; border-radius: 0.4rem; background: rgba(255,255,255,0.15); font-size: 0.9rem; font-weight: 500; }
+    .lang-switcher a.active { background: white; color: #1e40af; }
+    .hero { text-align: center; padding: 3rem 1.5rem 2rem; }
+    .hero h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
+    .hero p { font-size: 1.1rem; opacity: 0.95; max-width: 700px; margin: 0 auto 2rem; }
+    .search-bar { max-width: 700px; margin: 0 auto; background: white; border-radius: 1rem; padding: 0.5rem; display: flex; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+    .search-bar input { flex: 1; border: none; padding: 1rem; font-size: 1rem; border-radius: 0.5rem; outline: none; }
+    .search-bar button { background: #059669; color: white; border: none; padding: 0 2rem; border-radius: 0.7rem; font-weight: 600; cursor: pointer; }
+    .filters-bar { max-width: 1200px; margin: 1.5rem auto; padding: 0 1.5rem; display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center; }
+    .filter-chip { background: white; padding: 0.6rem 1.2rem; border-radius: 2rem; font-size: 0.9rem; cursor: pointer; border: 1px solid #e2e8f0; }
+    .filter-chip:hover { background: #1e40af; color: white; }
+    .stats { max-width: 1200px; margin: 2rem auto; padding: 0 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .stat-card { background: white; padding: 1.5rem; border-radius: 1rem; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    .stat-number { font-size: 2rem; font-weight: 800; color: #1e40af; }
+    .stat-label { font-size: 0.9rem; color: #64748b; margin-top: 0.5rem; }
+    .section { max-width: 1200px; margin: 2rem auto; padding: 0 1.5rem; }
+    .section h2 { font-size: 1.75rem; font-weight: 700; margin-bottom: 1.5rem; }
+    .doctors-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+    .doctor-card { background: white; border-radius: 1rem; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; cursor: pointer; }
+    .doctor-card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
+    .doctor-name { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .doctor-specialty { color: #059669; font-size: 0.9rem; font-weight: 500; margin-bottom: 0.6rem; }
+    .doctor-facility { color: #64748b; font-size: 0.85rem; margin-bottom: 0.5rem; }
+    .doctor-license { color: #94a3b8; font-size: 0.75rem; }
+    .doctor-license .verified { color: #059669; font-weight: 600; }
+    .cta-praticien { background: linear-gradient(135deg, #1e40af 0%, #059669 100%); color: white; padding: 3rem 1.5rem; text-align: center; margin-top: 3rem; }
+    .cta-praticien h2 { font-size: 2rem; margin-bottom: 1rem; }
+    .cta-praticien p { font-size: 1.1rem; opacity: 0.95; max-width: 700px; margin: 0 auto 1.5rem; }
+    .cta-praticien .price { font-size: 3rem; font-weight: 800; margin: 1rem 0; }
+    .cta-praticien button { background: white; color: #1e40af; border: none; padding: 1rem 2.5rem; border-radius: 0.7rem; font-weight: 700; font-size: 1.1rem; cursor: pointer; }
+    footer { background: #1a202c; color: #94a3b8; padding: 2rem 1.5rem; text-align: center; font-size: 0.9rem; }
+    footer a { color: #60a5fa; text-decoration: none; }
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 1.8rem; }
+      .search-bar { flex-direction: column; }
+      .search-bar button { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">DMD <span>Dubai</span></div>
+      <nav class="lang-switcher">
+        <a href="/fr/" class="active">🇫🇷 FR</a>
+        <a href="/ar/">🇸🇦 AR</a>
+        <a href="/en/">🇬🇧 EN</a>
+        <a href="/ru/">🇷🇺 RU</a>
+        <a href="/zh/">🇨🇳 ZH</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Trouvez votre médecin à Dubai</h1>
+    <p>La première plateforme médicale trilingue des Émirats. 99 520 professionnels DHA-licensés référencés. Interface en français, arabe, anglais, russe et chinois.</p>
+    <div class="search-bar">
+      <input type="text" placeholder="Recherchez un médecin, dentiste, spécialité..." />
+      <button>🔍 Rechercher</button>
+    </div>
+  </section>
+
+  <div class="filters-bar">
+    <div class="filter-chip">🦷 Dentiste</div>
+    <div class="filter-chip">👨‍⚕️ Généraliste</div>
+    <div class="filter-chip">👶 Pédiatre</div>
+    <div class="filter-chip">🤰 Gynécologue</div>
+    <div class="filter-chip">❤️ Cardiologue</div>
+    <div class="filter-chip">👁️ Ophtalmologue</div>
+    <div class="filter-chip">🧴 Dermatologue</div>
+    <div class="filter-chip">🩺 Chirurgien</div>
+  </div>
+
+  <div class="stats">
+    <div class="stat-card">
+      <div class="stat-number">99 520</div>
+      <div class="stat-label">Professionnels DHA-licensés</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">7 713</div>
+      <div class="stat-label">Dentistes référencés</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">24 186</div>
+      <div class="stat-label">Médecins</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">5</div>
+      <div class="stat-label">Langues supportées</div>
+    </div>
+  </div>
+
+  <section class="section">
+    <h2>🦷 Dentistes à Dubai</h2>
+    <div class="doctors-grid" id="dentists-grid">
+      <!-- Généré dynamiquement depuis le CSV -->
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>👨‍⚕️ Médecins généralistes</h2>
+    <div class="doctors-grid" id="general-grid">
+      <!-- Généré dynamiquement depuis le CSV -->
+    </div>
+  </section>
+
+  <section class="cta-praticien">
+    <h2>Vous êtes médecin ou dentiste à Dubai ?</h2>
+    <p>78 % de vos confrères n'ont pas de site web. Pour 200 AED/mois, faites partie des 22 % qui captent les patients numériques.</p>
+    <div class="price">200 AED<span style="font-size: 1rem; opacity: 0.8;"> / mois</span></div>
+    <p>Photos HD • Vidéo de présentation • Bio trilingue • SEO boosté • WhatsApp direct</p>
+    <button onclick="window.location.href='/fr/praticien/inscription'">Devenir praticien référencé</button>
+  </section>
+
+  <footer>
+    <p><strong>DMD Dubai — Dubai Medical Directory</strong></p>
+    <p>Données officielles DHA Sheryan Registry • Conforme PDPL UAE • <a href="/fr/mentions-legales">Mentions légales</a> • <a href="/fr/contact">Contact</a></p>
+    <p>© 2026 DMD Dubai. Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    // Charge dynamique des fiches depuis le CSV embarqué
+    const data = [];
+    fetch('/data/dha_professionals.csv')
+      .then(r => r.text())
+      .then(csv => {
+        const lines = csv.split('\n').slice(1);
+        const dentists = [], general = [];
+        for (const line of lines) {
+          if (!line.trim()) continue;
+          const cols = line.split(',');
+          const obj = {
+            name: cols[0],
+            specialty: cols[1],
+            license: cols[2],
+            facility: cols[5],
+            area: cols[6],
+            category: cols[7]
+          };
+          if (obj.category === 'dentists') dentists.push(obj);
+          if (obj.specialty && obj.specialty.toLowerCase().includes('general practitioner')) general.push(obj);
+        }
+        renderCards('dentists-grid', dentists.slice(0, 12));
+        renderCards('general-grid', general.slice(0, 12));
+      });
+
+    function renderCards(id, items) {
+      const el = document.getElementById(id);
+      el.innerHTML = items.map(d => `
+        <div class="doctor-card">
+          <div class="doctor-name">Dr. ${escapeHtml(d.name)}</div>
+          <div class="doctor-specialty">${escapeHtml(d.specialty)}</div>
+          <div class="doctor-facility">📍 ${escapeHtml(d.facility || d.area || 'Dubai')}</div>
+          <div class="doctor-license"><span class="verified">✓ DHA-licensed</span> #${d.license}</div>
+        </div>
+      `).join('');
+    }
+    function escapeHtml(s) { return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+  </script>
+</body>
+</html>
