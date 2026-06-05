@@ -1,0 +1,7090 @@
+{
+  "total_dentists": 7780,
+  "total_physicians": 24034,
+  "sample_dentists": [
+    {
+      "id": "00005038",
+      "name": "Feras Yabroudi",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "FTL",
+      "facility": "N L V Medical Center LLC"
+    },
+    {
+      "id": "00004781",
+      "name": "Zeina Armouche",
+      "specialty": "Consultant Pediatric Dentistry",
+      "license": "FTL",
+      "facility": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C"
+    },
+    {
+      "id": "00000783",
+      "name": "Meena Shahnawaz",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00007079",
+      "name": "Vimalkumar Parthasarathy",
+      "specialty": "Specialist Oral Medicine",
+      "license": "FTL",
+      "facility": "Front Line Medical Center LLC"
+    },
+    {
+      "id": "00002150",
+      "name": "Johnny Haddad",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "The Dental Studio"
+    },
+    {
+      "id": "00006587",
+      "name": "Rosedina Villero",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Providence Dental Centre"
+    },
+    {
+      "id": "00018395",
+      "name": "Anila Virani",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "FTL",
+      "facility": "MICRIS DENTAL CLINIC LLC"
+    },
+    {
+      "id": "00006621",
+      "name": "Gunter Neumann",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Towerclinic FZ-LLC"
+    },
+    {
+      "id": "00018838",
+      "name": "FATMA OGUZ",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Oral Implantology Medical Center LLC"
+    },
+    {
+      "id": "00012409",
+      "name": "Samir Abuobaida",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Gorgeous Smile Dental Center LLC"
+    },
+    {
+      "id": "00023817",
+      "name": "Samira Diar Bakirly",
+      "specialty": "Consultant Orthodontics",
+      "license": "FTL",
+      "facility": "MICRIS DENTAL CLINIC LLC"
+    },
+    {
+      "id": "00023400",
+      "name": "Claudia Lorenz",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Vienna Dental Clinic Fz LLC"
+    },
+    {
+      "id": "00018819",
+      "name": "Shreekala Thazhe Veedu",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Al Tadawi Medical Centre"
+    },
+    {
+      "id": "00032021",
+      "name": "Shamma Ali Al Ali",
+      "specialty": "Consultant Prosthodontics",
+      "license": "FTL",
+      "facility": "Al Badaa Medical Center - PHC"
+    },
+    {
+      "id": "00042262",
+      "name": "Ahmad Aid",
+      "specialty": "Dental Resident",
+      "license": "FTL",
+      "facility": "Dubai Dental Hospital FZ LLC"
+    },
+    {
+      "id": "00040970",
+      "name": "Anas Karkout",
+      "specialty": "Implantology Privilege",
+      "license": "FTL",
+      "facility": "Dr Aburas Dental Center LLC (Branch)"
+    },
+    {
+      "id": "00064404",
+      "name": "Seema Vohra",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Jts Medical Centre LLC"
+    },
+    {
+      "id": "00067520",
+      "name": "Farha Baalawi",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "FTL",
+      "facility": "Al Barsha Medical Center - PHC"
+    },
+    {
+      "id": "00067503",
+      "name": "Sara Ostovar Zijerdi",
+      "specialty": "Implantology Privilege",
+      "license": "FTL",
+      "facility": "Medical Specialists Center(Branch)"
+    },
+    {
+      "id": "00073857",
+      "name": "Mohammed Ajazullah Khan",
+      "specialty": "Specialist Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00063781",
+      "name": "Mileva Karabasil Jovanovic",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dental Studio - Al Wasl LLC"
+    },
+    {
+      "id": "00070602",
+      "name": "Mostafa Elmasri",
+      "specialty": "Specialist Prosthodontics",
+      "license": "FTL",
+      "facility": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC"
+    },
+    {
+      "id": "00074333",
+      "name": "Bincy George",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Akeela Dental Clinic LLC"
+    },
+    {
+      "id": "00087766",
+      "name": "Tamer Buyukyilmaz",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Scandinavian Dental Clinic"
+    },
+    {
+      "id": "00098887",
+      "name": "Mumtaz Arsalan",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "SMILE ON DENTAL CLINIC LLC"
+    },
+    {
+      "id": "00076532",
+      "name": "Imran Ahmed",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00099873",
+      "name": "Zainab Mossa",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dr Sulaiman Al Habib Hospital FZ-LLC"
+    },
+    {
+      "id": "00100898",
+      "name": "ABUBAKKAR MOHAMMAD KINCHANAKODI",
+      "specialty": "Specialist Prosthodontics",
+      "license": "FTL",
+      "facility": "NEW MEDICAL CENTER LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00101777",
+      "name": "Fajar Panikkaveettil",
+      "specialty": "Specialist Periodontics",
+      "license": "FTL",
+      "facility": "KINGS DENTAL CENTER L.L.C"
+    },
+    {
+      "id": "00073013",
+      "name": "Nael Eid",
+      "specialty": "Consultant Prosthodontics",
+      "license": "FTL",
+      "facility": "Dubai Police Health Center - Al Qiyadah"
+    },
+    {
+      "id": "00110769",
+      "name": "Shaimaa Awad",
+      "specialty": "Specialist Endodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00095058",
+      "name": "Chantal Asimini",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "FTL",
+      "facility": "My Dental Clinic LLC"
+    },
+    {
+      "id": "00113487",
+      "name": "Layal Tarhini",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "GRAND EUROPEAN CLINIC LLC"
+    },
+    {
+      "id": "00095848",
+      "name": "Aarthy Viswanathan",
+      "specialty": "Specialist Prosthodontics",
+      "license": "FTL",
+      "facility": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC"
+    },
+    {
+      "id": "00086684",
+      "name": "Radhika Raj",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00086416",
+      "name": "Ahmadgazwan Zallat aljazairi",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "FTL",
+      "facility": "HARMONY MEDICAL CENTER L.L.C"
+    },
+    {
+      "id": "00111943",
+      "name": "Faiza Al Hubaishi",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Al Mamzar Medical Center - PHC"
+    },
+    {
+      "id": "00097533",
+      "name": "Sabeer Salam",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Aster Al Nahda Medical Center Br Of Dm Healthcare"
+    },
+    {
+      "id": "00104281",
+      "name": "Mukeshpal Rajput",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "New Emirates Medical Center"
+    },
+    {
+      "id": "00098995",
+      "name": "Samar Elsherif",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dr. Nicolas and Asp Centre(Branch Mirdif)"
+    },
+    {
+      "id": "00100563",
+      "name": "Sukhpreet Mangat",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "DR SOBCZAK DENTAL CLINIC"
+    },
+    {
+      "id": "00103069",
+      "name": "Raj Kumar",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Icare Oasis Branch Of Excel Healthcare"
+    },
+    {
+      "id": "00117610",
+      "name": "Waeel Alabdullah",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "NOVODENT CLINIC L.L.C"
+    },
+    {
+      "id": "00120527",
+      "name": "Wael Wannous",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "FTL",
+      "facility": "Silesia Dental Clinic LLC"
+    },
+    {
+      "id": "00129603",
+      "name": "Maya Jacob",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "FTL",
+      "facility": "DR MAYA DENTAL CENTRE L.L.C"
+    },
+    {
+      "id": "00122651",
+      "name": "Shaghayegh Kazemian",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "NEW SENSE CLINIC L L C"
+    },
+    {
+      "id": "00130324",
+      "name": "Ayesha Manzoor",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00116175",
+      "name": "Maher Darwich",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Babylon Dental Center L.L.C"
+    },
+    {
+      "id": "00119369",
+      "name": "Neha Sachdeva",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "SIKKA DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "00125980",
+      "name": "Shumaila Azhar",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "MEDVED POLYCLINIC DMCC"
+    },
+    {
+      "id": "00145737",
+      "name": "Nicola Obied",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dental Home"
+    },
+    {
+      "id": "00143904",
+      "name": "Suzanna Almaali",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Al Maher Medical Center"
+    },
+    {
+      "id": "00138750",
+      "name": "Pritibha Bhojwani",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Shine And Smile Dental Clinic LLC"
+    },
+    {
+      "id": "00150972",
+      "name": "Muawya Alkaseasbeh",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Derma Zone Laser And Cosmetic LLC"
+    },
+    {
+      "id": "00138229",
+      "name": "Aisha Taufiq",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Zia Medical Centre L.L.C"
+    },
+    {
+      "id": "00135591",
+      "name": "Shehab Ahmad Ali Shahin",
+      "specialty": "Implantology Privilege",
+      "license": "FTL",
+      "facility": "N L V Medical Center LLC"
+    },
+    {
+      "id": "00140151",
+      "name": "Jalal Al Kalamchi",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Liberty Dental Clinic"
+    },
+    {
+      "id": "00160023",
+      "name": "Fatemeh Razyanfard",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Al Badaa Medical Center - PHC"
+    },
+    {
+      "id": "00152770",
+      "name": "Fatemeh Monfared",
+      "specialty": "Implantology Privilege",
+      "license": "FTL",
+      "facility": "NEW AL SHEFA MODERN CLINIC L.L.C"
+    },
+    {
+      "id": "00143660",
+      "name": "Farhan Shah",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "NOBLE CARE DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "00146446",
+      "name": "Hazem Hassan",
+      "specialty": "Implantology Privilege",
+      "license": "FTL",
+      "facility": "Al Badaa Medical Center - PHC"
+    },
+    {
+      "id": "00142880",
+      "name": "Anahita Salehi",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Mediclinic Parkview Hospital LLC"
+    },
+    {
+      "id": "00158407",
+      "name": "Haitham Elbishari",
+      "specialty": "Consultant Prosthodontics",
+      "license": "FTL",
+      "facility": "Dubai Dental Hospital FZ LLC"
+    },
+    {
+      "id": "00170385",
+      "name": "Mohamad Firas Hdhod",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dubai Star Poly Clinic"
+    },
+    {
+      "id": "00176925",
+      "name": "Sina Mokhtarian",
+      "specialty": "Implantology Privilege",
+      "license": "PTL",
+      "facility": "Myosmile Dental Clinic"
+    },
+    {
+      "id": "00174955",
+      "name": "Mehanas Kasthurikattil",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Mankhool Dental Clinic"
+    },
+    {
+      "id": "00163490",
+      "name": "Basim Abu Hawas",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "FTL",
+      "facility": "Al Badaa Medical Center - PHC"
+    },
+    {
+      "id": "00167721",
+      "name": "Alaa Nasser",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dr Aburas Dental Center L.L.C"
+    },
+    {
+      "id": "00176742",
+      "name": "Ibrahim Shaheen",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "CAPOLINEA CLINICS L.L.C"
+    },
+    {
+      "id": "00177345",
+      "name": "Mohamed Almoselli",
+      "specialty": "Specialist Prosthodontics",
+      "license": "FTL",
+      "facility": "PROCARE AVENUES MEDICAL CENTER L.L.C"
+    },
+    {
+      "id": "00180006",
+      "name": "Mark Abskhiron",
+      "specialty": "General Dentist",
+      "license": "PTL",
+      "facility": "AESTHETIC SPACE POLY CLINIC L L C"
+    },
+    {
+      "id": "00183399",
+      "name": "Kashif Imrana",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "PEARLY WHITE DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "00189428",
+      "name": "Aditi Loomba",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Precision Dental Clinic L L C"
+    },
+    {
+      "id": "00190271",
+      "name": "Tameeza Tejani",
+      "specialty": "Specialist Prosthodontics",
+      "license": "FTL",
+      "facility": "The Dental Studio"
+    },
+    {
+      "id": "00191337",
+      "name": "Salmeh Kalbassi",
+      "specialty": "Specialist Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00184141",
+      "name": "Monir Al Shakaki",
+      "specialty": "Specialist Oral surgery",
+      "license": "FTL",
+      "facility": "DEEDZ DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "00185136",
+      "name": "Samuel Hyatt",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "DR HALA ALSAKKA CLINIC L.L.C"
+    },
+    {
+      "id": "00174037",
+      "name": "Tarek Kamel",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "OLIVIA MEDICAL CENTRE LLC"
+    },
+    {
+      "id": "00192382",
+      "name": "Ayman Hawari",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Clinica Joelle LLC"
+    },
+    {
+      "id": "00188439",
+      "name": "Arvind Kittur",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Apex Medical Clinics LLC"
+    },
+    {
+      "id": "00195389",
+      "name": "Jaisa Anas",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Sai Ganesh Medical Centre L L C"
+    },
+    {
+      "id": "00138851",
+      "name": "Morris Vincent Mutia",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "ANYTIME DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "00195849",
+      "name": "Marat Azizov",
+      "specialty": "Implantology Privilege",
+      "license": "FTL",
+      "facility": "Sakura Medical and Dental Clinic FZ-LLC"
+    },
+    {
+      "id": "00182095",
+      "name": "Sujith Sivan",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00183046",
+      "name": "ibrahim Aboushakra",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "OLIVIA MEDICAL CENTRE LLC"
+    },
+    {
+      "id": "00187354",
+      "name": "Susan Joseph",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "VELCARE ORTHODONTIC & DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "00188111",
+      "name": "Ahmed Abushariaa",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Oxygen Plus Medical Center L L C"
+    },
+    {
+      "id": "00189259",
+      "name": "Bashayer Al Ali",
+      "specialty": "Specialist Periodontics",
+      "license": "FTL",
+      "facility": "Al Badaa Medical Center - PHC"
+    },
+    {
+      "id": "00189728",
+      "name": "Roula Kilani",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "HARMONY MEDICAL CENTER L.L.C"
+    },
+    {
+      "id": "00204200",
+      "name": "Mona Ziadkhani",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "ORA CARE CLINIC L.L.C"
+    },
+    {
+      "id": "00147206",
+      "name": "Maria Aleksashina",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "The Dome Meddental Clinic Dmcc"
+    },
+    {
+      "id": "00148580",
+      "name": "Neetu Singh",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Dr Sirajuddin Medical Centre"
+    },
+    {
+      "id": "00188702",
+      "name": "Omar Nakash",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Fakeeh University Hospital"
+    },
+    {
+      "id": "00202355",
+      "name": "Jayakrishna Puthiya Veetil Krishnan",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Duval Digital Smile Design Polyclinic LLC"
+    },
+    {
+      "id": "00202694",
+      "name": "Hamsa Kahoul",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Al Tadawi Specialty Hospital LLC"
+    },
+    {
+      "id": "00205340",
+      "name": "Shameem Neduvancherry",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Primecorp Medical Center AL QUSAIS"
+    },
+    {
+      "id": "00208005",
+      "name": "Nincy Beevi Suneer Mohamed",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00208552",
+      "name": "Ghazal Erfani",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "DR MAYA DENTAL CENTRE L.L.C"
+    },
+    {
+      "id": "00155542",
+      "name": "Hayder Albayati",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Bright White Dental Center L.L.C"
+    },
+    {
+      "id": "00209539",
+      "name": "Halah Binladen",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "FTL",
+      "facility": "Dubai Dental Hospital FZ LLC"
+    },
+    {
+      "id": "00206437",
+      "name": "Sumaiya Sowkathali",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00207345",
+      "name": "Sami Atari",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00198767",
+      "name": "Galina Aftene",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "GYA Dental Center FZ-LLC"
+    },
+    {
+      "id": "00203359",
+      "name": "Saeed Karam",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dubai Police Health Center - Al Qiyadah"
+    },
+    {
+      "id": "00214106",
+      "name": "Marwa Mostafa",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00198818",
+      "name": "Hanadi Khamiri",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "BIN ARAB DENTAL CENTRE L.L.C"
+    },
+    {
+      "id": "00037358",
+      "name": "Hany Kasem",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "FTL",
+      "facility": "Al Badaa Medical Center - PHC"
+    },
+    {
+      "id": "00210833",
+      "name": "Yasser Alhindi",
+      "specialty": "Specialist Periodontics",
+      "license": "FTL",
+      "facility": "Levantine Dental Clinic L.L.C"
+    },
+    {
+      "id": "00204567",
+      "name": "Babyshylaja Nagapparajendran",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Icare Oasis Branch Of Excel Healthcare"
+    },
+    {
+      "id": "00213038",
+      "name": "Rishin Basheer",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "APOLLO ADVANCED MEDICAL CENTER"
+    },
+    {
+      "id": "00213646",
+      "name": "Suchindran Sundaramoorthy",
+      "specialty": "Specialist Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00214721",
+      "name": "Anita George",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Floraison Dental Clinic LLC"
+    },
+    {
+      "id": "00164666",
+      "name": "Shehreyar Chaudhry",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Al Badaa Medical Center - PHC"
+    },
+    {
+      "id": "00216694",
+      "name": "Niketa Sabhachandani",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Smile Story Medical Center"
+    },
+    {
+      "id": "00219931",
+      "name": "Yasmin Shamim",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Yasmin Shifa Dental Clinic LLC"
+    },
+    {
+      "id": "00221326",
+      "name": "Mayank Gahlot",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "LOLDENT SPECIALITY CLINIC FZCO"
+    },
+    {
+      "id": "00222406",
+      "name": "Sandesh Baralay",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Dental Oasis DMCC"
+    },
+    {
+      "id": "00220666",
+      "name": "Sreejaya Periyadan Kadinhapalli",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Floraison Dental Clinic LLC"
+    },
+    {
+      "id": "00222466",
+      "name": "Afsal Mallambalath",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "ASPEN CLINIC"
+    },
+    {
+      "id": "00211570",
+      "name": "Mamoun Melhem",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Veneers Dental Center LLC"
+    },
+    {
+      "id": "00176355",
+      "name": "Nawras Alkhoury",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Mcgill Medical And Dental Center L L C"
+    },
+    {
+      "id": "00225178",
+      "name": "Mona Yadav",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "TRUE SMILE WORKS DENTAL NETWORK L.L.C"
+    },
+    {
+      "id": "00214602",
+      "name": "Sadaf Naz",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00213213",
+      "name": "Priyanka Nunna",
+      "specialty": "Specialist Periodontics",
+      "license": "FTL",
+      "facility": "Shine And Smile Dental Clinic LLC"
+    },
+    {
+      "id": "00220937",
+      "name": "Reneesh Kareem",
+      "specialty": "Specialist Periodontics",
+      "license": "FTL",
+      "facility": "Vcare Polyclinic LLC"
+    },
+    {
+      "id": "00215663",
+      "name": "Antoun Wardeh",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dental Studio - Al Wasl LLC"
+    },
+    {
+      "id": "00216055",
+      "name": "Gunjan Poddar",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Araks Dental Clinic Dmcc"
+    },
+    {
+      "id": "00216431",
+      "name": "Nawres A Abdul Jabbar",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "GENTLEMAX CLINICS LLC"
+    },
+    {
+      "id": "00217252",
+      "name": "Riham Faisal Sharif Mahmoud",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Medcare Hospital(L.L.C)"
+    },
+    {
+      "id": "00220377",
+      "name": "Arya Menon",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "MEDZE CLINIC L.L.C"
+    },
+    {
+      "id": "00222918",
+      "name": "Aby John",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Healthhub  Br.Alfuttaim Healthcare Single Person Company L L C"
+    },
+    {
+      "id": "00217215",
+      "name": "Zeinab Osman",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Hoor Al Aliaa Polyclinic L L C"
+    },
+    {
+      "id": "00223383",
+      "name": "Andrea Tomic",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "DR JOY  DENTAL CLINIC LLC BRANCH"
+    },
+    {
+      "id": "00223971",
+      "name": "Gayathri Kanvatheertha",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Icare Al Reffa Br Of Excel Healthcare LLC"
+    },
+    {
+      "id": "00217573",
+      "name": "Safikabanu Yunus Kazi",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00225938",
+      "name": "Huma Rashid",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00187920",
+      "name": "Rida Fatema",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "NEW DAWN MEDICAL CLINIC L.L.C"
+    },
+    {
+      "id": "00229970",
+      "name": "Nevin Abdelmagid",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Bissan Dental Center L L C"
+    },
+    {
+      "id": "00191631",
+      "name": "Smrithi Vishakhavarma",
+      "specialty": "Specialist Periodontics",
+      "license": "FTL",
+      "facility": "Nadd Al Hammar Medical Center - PHC"
+    },
+    {
+      "id": "00227977",
+      "name": "Yalda Amini",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "TAJMEEL ROYAL CLINIC L.L.C"
+    },
+    {
+      "id": "00227546",
+      "name": "Tanweer Abdulnabee",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Good Living Medical Centre"
+    },
+    {
+      "id": "00241856",
+      "name": "Shaheen Basheer",
+      "specialty": "Specialist Endodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00234921",
+      "name": "Neha Singh",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Mint Dental Care LLC"
+    },
+    {
+      "id": "00239806",
+      "name": "Editha Gonzales",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00232573",
+      "name": "Khadeeja Sulaiman",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Easy Dental"
+    },
+    {
+      "id": "00197548",
+      "name": "Muhammad khair Alskaf",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Med Life Clinic LLC"
+    },
+    {
+      "id": "00239872",
+      "name": "Kurien Thomas",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "M I D A C Medical Center"
+    },
+    {
+      "id": "00239862",
+      "name": "Zinab Ibrahim Khalil",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dr. Zeinab Dental Clinic"
+    },
+    {
+      "id": "00240164",
+      "name": "Mohannad Kishi",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "THE DENTAL HOUSE CENTER BR OF DOCTOR MOHANNAD DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "00234325",
+      "name": "Suhana Anwar",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00247059",
+      "name": "Behnaz Ebrahimian",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Quironsalud Specialty Hospital LLC"
+    },
+    {
+      "id": "00247720",
+      "name": "Manikandan Sankaramani",
+      "specialty": "Specialist Prosthodontics",
+      "license": "FTL",
+      "facility": "Primecorp Medical Center AL QUSAIS"
+    },
+    {
+      "id": "00239928",
+      "name": "Ehab Rashed",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "BECLINIQUE GENERAL DENTAL CLINIC"
+    },
+    {
+      "id": "00241837",
+      "name": "Abdul Alwani",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Munich Dental Clinic"
+    },
+    {
+      "id": "00242078",
+      "name": "Bizhan Behrouz",
+      "specialty": "Implantology Privilege",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00248341",
+      "name": "Ibrahim Qasim",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dental Health Clinic LLC"
+    },
+    {
+      "id": "00241920",
+      "name": "Rasha Khalid",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Al Mousa Day Surgery Center L L C"
+    },
+    {
+      "id": "00239900",
+      "name": "Pottachilakath Hashim",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00242176",
+      "name": "Philippe Tardieu",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Alabama Dental Center"
+    },
+    {
+      "id": "00241905",
+      "name": "Hameeda Husain",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Al Rashidiyah Alnoor Polyclinic"
+    },
+    {
+      "id": "00250023",
+      "name": "Anand Shenoy",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "THE ONE PLUS DENTAL CLINIC"
+    },
+    {
+      "id": "00243096",
+      "name": "Noorthin Ahamed",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Prime Medical Center L L C"
+    },
+    {
+      "id": "00241028",
+      "name": "Sukhmohanjit Singh",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "New York Dental Clinic"
+    },
+    {
+      "id": "00244308",
+      "name": "Seyed Miremadi",
+      "specialty": "Specialist Periodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00242150",
+      "name": "Helme Altaee",
+      "specialty": "Implantology Privilege",
+      "license": "FTL",
+      "facility": "DR HELMI S SPECIALIZED IMPLANTOLOGY & DENTAL CENTER"
+    },
+    {
+      "id": "00245091",
+      "name": "Eyad Hamade",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Dr Imran Tahir Aestheticare Centre"
+    },
+    {
+      "id": "00246724",
+      "name": "Rihab Al Obaidi",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "FTL",
+      "facility": "Liberty Dental Clinic"
+    },
+    {
+      "id": "00247032",
+      "name": "Marina Goveas",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Unicare Medical Centre LLC Branch"
+    },
+    {
+      "id": "00243635",
+      "name": "Riyadh Arif",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dr. Jack Dental Clinic"
+    },
+    {
+      "id": "00213944",
+      "name": "Sowmya Hosamane",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dm Healthcare Llc Dmcc Branch"
+    },
+    {
+      "id": "00221862",
+      "name": "Timothy Gerard Shaughnessy",
+      "specialty": "Specialist Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00221338",
+      "name": "Anjuli Sharma",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "PEARLY WHITE DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "00222107",
+      "name": "Ahamed Puthiyaveettil",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "DR NAMSHIS AESTHETIC MEDICINE AND DENTISTRY L.L.C S.O.C"
+    },
+    {
+      "id": "00227429",
+      "name": "Jullanar Alsawah",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Jumeira Beach Dental Center"
+    },
+    {
+      "id": "00227988",
+      "name": "Franklin Mary Shirley Maria Antony Prakash",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "01094890",
+      "name": "Jayanthy Vijayan",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00243515",
+      "name": "Dalia Abdelwahab",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "AL MURAQABAT MEDICAL CENTRE L.L.C"
+    },
+    {
+      "id": "00244860",
+      "name": "Rasha Hassan",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Mercato Family Clinic"
+    },
+    {
+      "id": "02316084",
+      "name": "Afiya Rahim",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00230271",
+      "name": "Lalu Chellappan",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Noor Al Sama Medical Center LLC"
+    },
+    {
+      "id": "00246759",
+      "name": "Marwan Serhal",
+      "specialty": "Specialist Periodontics",
+      "license": "FTL",
+      "facility": "SMILE AVENUE DENTAL AND AESTHETIC CLINIC L.L.C"
+    },
+    {
+      "id": "00249759",
+      "name": "Najah Abdelrahman",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "FTL",
+      "facility": "Dubai Police Health Center - Al Qiyadah"
+    },
+    {
+      "id": "03688012",
+      "name": "Sharaf Mohamed Ajdad",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Armada Medical Centre"
+    },
+    {
+      "id": "03939785",
+      "name": "Ali Alrida Ahmad",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00230250",
+      "name": "Ali Alhakim",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Medi Centres Polyclinic"
+    },
+    {
+      "id": "00223212",
+      "name": "Hussam Bajunaid",
+      "specialty": "Specialist Oral surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00424341",
+      "name": "Sulyman Deeb",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00239858",
+      "name": "Lamis Sibay",
+      "specialty": "Specialist Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00228185",
+      "name": "Maria Lavanya George",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Cosmocare Medical Center LLC"
+    },
+    {
+      "id": "00234325",
+      "name": "Suhana Anwar",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "01257565",
+      "name": "SHAHALA MOHAMMED BASHEER",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "FTL",
+      "facility": "Villanova Cosmetic And Surgical Center"
+    },
+    {
+      "id": "00241436",
+      "name": "Behnaz Motlagh",
+      "specialty": "Implantology Privilege",
+      "license": "FTL",
+      "facility": "SHIRAZ MEDICAL CENTER LLC"
+    },
+    {
+      "id": "00241897",
+      "name": "Saju Kader",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Docib Clinic LLC"
+    },
+    {
+      "id": "00231639",
+      "name": "Iulian Negruvoda",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "LMC LASER MEDICAL CENTER LLC"
+    },
+    {
+      "id": "00239928",
+      "name": "Ehab Rashed",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "BECLINIQUE GENERAL DENTAL CLINIC"
+    },
+    {
+      "id": "00239830",
+      "name": "Andre Nassif",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dentaline FZ LLC"
+    },
+    {
+      "id": "00251838",
+      "name": "Fariba Noory",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Manhal Medical Center LLC"
+    },
+    {
+      "id": "00230213",
+      "name": "Farida Kachwala",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "APOLLO ADVANCED MEDICAL CENTER"
+    },
+    {
+      "id": "01666256",
+      "name": "Rasha Namouz",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "THE GARDEN PLUS MEDICAL CENTER L L C"
+    },
+    {
+      "id": "00233617",
+      "name": "Abutalib Al Tamemi",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "EDC ALTA DENTAL AND COSMETOLOGY INNOVATION CENTER L.L.C S.O.C"
+    },
+    {
+      "id": "00244033",
+      "name": "Lubab Mohammed",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "FTL",
+      "facility": "Medcare Medical Centre Jumeirah Br Of Medcare Hosp"
+    },
+    {
+      "id": "00397095",
+      "name": "MOHAMMAD TAHER",
+      "specialty": "Specialist Periodontics",
+      "license": "FTL",
+      "facility": "NOUR AL OLA MEDICAL CENTER"
+    },
+    {
+      "id": "00240684",
+      "name": "Kandampully Sudeep",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "RELEAF MEDICAL CENTRE LLC (BRANCH)"
+    },
+    {
+      "id": "00241836",
+      "name": "Kathrin Trelles",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Vila Fortuny Laser Centre"
+    },
+    {
+      "id": "00244673",
+      "name": "Rian Kalafatova",
+      "specialty": "Specialist Prosthodontics",
+      "license": "FTL",
+      "facility": "STANDARD MEDICAL CLINIC L L C"
+    },
+    {
+      "id": "01319830",
+      "name": "Sucheta Vanjari",
+      "specialty": "Specialist Periodontics",
+      "license": "FTL",
+      "facility": "DENTISTREE DENTAL CLINICBRANCH"
+    },
+    {
+      "id": "00246026",
+      "name": "Geetha Shetty",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Aster Medical Centre Al Barsha Br Of Dm Healthcare LLC"
+    },
+    {
+      "id": "00246872",
+      "name": "Rassull Jabar",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Al Rowaad Dental Center"
+    },
+    {
+      "id": "00249446",
+      "name": "Lubna Sharif",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dubai Police Health Center - Al Qiyadah"
+    },
+    {
+      "id": "00252739",
+      "name": "Shahanas Mohamed",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Valiant Healthcare L.Lc"
+    },
+    {
+      "id": "00336580",
+      "name": "UMME KULSUM",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Hollywood Smile Dental Clinic LLC"
+    },
+    {
+      "id": "00984866",
+      "name": "Ekaterina Kuzheleva",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Polar Bear General Dental Clinic"
+    },
+    {
+      "id": "01087731",
+      "name": "Ashwaq Al Jarih",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Vienna dental center FZ LLC"
+    },
+    {
+      "id": "11386406",
+      "name": "SHIJINA SHAJILA SHUKKOOR",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00248825",
+      "name": "Axel Berens",
+      "specialty": "Implantology Privilege",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "01754172",
+      "name": "Hana Mohamed",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "01850189",
+      "name": "FATHIMA FAMIN",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "REMEDY PLUS MEDICAL CLINIC LLC"
+    },
+    {
+      "id": "12655782",
+      "name": "Cigdem karahan genc",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Park Avenue Dental Clinic"
+    },
+    {
+      "id": "01946362",
+      "name": "Abdollah Ardaneh",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Plaza Clinics Aesthetic and Dental Center L.L.C"
+    },
+    {
+      "id": "02090596",
+      "name": "Alaa Abdalla Albannai",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Al Mizher Medical Center - PHC"
+    },
+    {
+      "id": "13326574",
+      "name": "Tasnim Hassan",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "03021950",
+      "name": "Nada adam",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "01037082",
+      "name": "Rouba Hamdan",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "American Dental Clinic"
+    },
+    {
+      "id": "09023820",
+      "name": "ARYA MOHAN VEEDU",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "03117606",
+      "name": "MUHSINA AHAMMED KABEER",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "04484108",
+      "name": "SARA MHEDDIN",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "04421979",
+      "name": "Nasiiat Velikhanova",
+      "specialty": "Specialist Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "04867951",
+      "name": "MOHAMED ALY",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "BELLA ROSE MEDICAL CENTER L.L.C"
+    },
+    {
+      "id": "04668328",
+      "name": "SHABNAM SHABI",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "05437329",
+      "name": "NIMMI ARAYAN VEETTIL",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "06383172",
+      "name": "Solmaz Francoise Vali Zadeh",
+      "specialty": "Specialist Dental Radiology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "06284393",
+      "name": "Mohamad Moussa",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Maisan Medical Clinic"
+    },
+    {
+      "id": "11132950",
+      "name": "Mohammed Alrousan",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Dr Aburas Dental Center LLC (Branch)"
+    },
+    {
+      "id": "06839511",
+      "name": "SHYNI SHAILA",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "16693739",
+      "name": "Titto Ansari",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Al Lubnani Medical Center Llc Dubai Branch"
+    },
+    {
+      "id": "07123104",
+      "name": "Pardis Ghorbani",
+      "specialty": "Specialist Prosthodontics",
+      "license": "FTL",
+      "facility": "DentaMed Clinic FZ-LLC"
+    },
+    {
+      "id": "05797490",
+      "name": "Lama Alamasi",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "HADIYA DENTAL CENTER L.L.C"
+    },
+    {
+      "id": "17083765",
+      "name": "RAMI ALNAJI",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Sultan Al Olama Medical Center - Al Quoz"
+    },
+    {
+      "id": "17891891",
+      "name": "Laura Sloan",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dento Faces Cosmetic Clinic LLC"
+    },
+    {
+      "id": "06405957",
+      "name": "Daad Al Halaki",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Signature Plus General Medical Center"
+    },
+    {
+      "id": "18619664",
+      "name": "Jumana Eralwala",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "13097339",
+      "name": "Anitha Pasupuleti",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "FTL",
+      "facility": "ESTHETIX DENTAL CENTER"
+    },
+    {
+      "id": "08569978",
+      "name": "KHALIL HARBA",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Park Dental Center"
+    },
+    {
+      "id": "07691044",
+      "name": "Roshanay Nasir",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "12902129",
+      "name": "Chitrangada pathak",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "ADVANCED CARE MEDICAL CENTER L.L.C (BRANCH)"
+    },
+    {
+      "id": "09598875",
+      "name": "Akhmedkhan Gadzhiakhmedov",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "13078450",
+      "name": "Ismail abdalgawad",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "11664108",
+      "name": "Svetlana Prisiazhnykh",
+      "specialty": "Specialist Prosthodontics",
+      "license": "FTL",
+      "facility": "MEDPALM POLY CLINIC LLC"
+    },
+    {
+      "id": "10382168",
+      "name": "Sony Ritin Kotian",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "CLOVER MEDICAL CENTRE L.L.C"
+    },
+    {
+      "id": "10519781",
+      "name": "SARAT RAVI KIRAN BALLAMUDI",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "07264253",
+      "name": "Pratik Narsikar",
+      "specialty": "Implantology Privilege",
+      "license": "FTL",
+      "facility": "Health Connect Clinic L.L.C"
+    },
+    {
+      "id": "08509435",
+      "name": "shabnam khattak khan",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "LUZAN DENTAL CENTER LLC BRANCH"
+    },
+    {
+      "id": "07382690",
+      "name": "Ashly Antony Zachariah",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "12429300",
+      "name": "ANAGHEEM ALSABAGH",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "SAFAA POLY CLINIC LLC"
+    },
+    {
+      "id": "11468320",
+      "name": "Osama Ahmed Fathy Shokr",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "AESTHETIC SPACE POLY CLINIC L L C"
+    },
+    {
+      "id": "09916558",
+      "name": "FASLA CHEMMAT",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "AL HANA MEDICAL CENTER LLC"
+    },
+    {
+      "id": "11760430",
+      "name": "SANA PATEL",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "FTL",
+      "facility": "Medcare Royal Speciality Hospital (Br of Medcare Hospital LLC)"
+    },
+    {
+      "id": "08101101",
+      "name": "Nazreen Madathiparambil Nazeer",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "LAITH MEDICAL CENTER L.L.C"
+    },
+    {
+      "id": "09564456",
+      "name": "Sohaib Shamshad",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "15333766",
+      "name": "Youstina Armanios",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "CAPOLINEA CLINICS L.L.C"
+    },
+    {
+      "id": "12603788",
+      "name": "zain al aswad",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "13062626",
+      "name": "NIRMALA SARAVANA MUTHU",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "11997512",
+      "name": "Abdelrhman Attallah",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "16307212",
+      "name": "ARSHAD UDINOOR MEETHALEPURAYIL",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "DR SUZAN ASSARIAN DENTAL CLINIC LLC"
+    },
+    {
+      "id": "13750585",
+      "name": "Veenu Singla",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "SIKKA DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "13877545",
+      "name": "KARTHIK RAJAN",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Manila polyclinic l.l.c (branch)"
+    },
+    {
+      "id": "10891132",
+      "name": "CHRISTIE LEYA PRASAD PRASAD OOMMEN",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "15953813",
+      "name": "Anil James",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Panacea Medical And Wellness Centre"
+    },
+    {
+      "id": "10009335",
+      "name": "Noora Janahi",
+      "specialty": "Dental Resident",
+      "license": "FTL",
+      "facility": "Graduate Medical Education- Dubai Health"
+    },
+    {
+      "id": "10259840",
+      "name": "Maha Mahmoud Saad Abdelaaty",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "14297267",
+      "name": "Raghd Al saman",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "GENTLEMAX CLINICS LLC"
+    },
+    {
+      "id": "11014188",
+      "name": "Hamid Reza Fallahi",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "13080290",
+      "name": "Akbar Khan",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "CRESCENT CLINICS L.L.C"
+    },
+    {
+      "id": "13252594",
+      "name": "Basant Elsayed",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "18026732",
+      "name": "Marwa Mahayni",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "14575202",
+      "name": "Youssef Elmashad",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "11707531",
+      "name": "Nishmitha Suvarna",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "ELITE SMILE DENTAL CLINIC- FZCO"
+    },
+    {
+      "id": "20707161",
+      "name": "SHAIK AFIYA BANU",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "21574069",
+      "name": "Abdalla Aboudia",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "14848185",
+      "name": "Nuha Alhasasneh",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "14180437",
+      "name": "Amnah Gherrouz",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "15504307",
+      "name": "MOSTAFA ABOHEDAYA",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Queens Medical Center"
+    },
+    {
+      "id": "12411399",
+      "name": "Sara Abdulghafoor",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dubai Police Health Center - Al Qiyadah"
+    },
+    {
+      "id": "16009515",
+      "name": "Nesreen Mohamed",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "16081753",
+      "name": "Arun Kalarikal Shashi",
+      "specialty": "Implantology Privilege",
+      "license": "FTL",
+      "facility": "N M C ROYAL HOSPITAL LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "17578957",
+      "name": "AFSAR MOHAMMAD",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "21157388",
+      "name": "Othman Elmehdi",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "21315276",
+      "name": "RENJU PREM",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "FTL",
+      "facility": "Aster Hospital Br Of Aster Dm Healthcare Fzc Dubai"
+    },
+    {
+      "id": "13569722",
+      "name": "Suhail Ahmed",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Community Medical Center"
+    },
+    {
+      "id": "16032372",
+      "name": "May Aljanahi",
+      "specialty": "Specialist Prosthodontics",
+      "license": "FTL",
+      "facility": "Dubai Dental Hospital FZ LLC"
+    },
+    {
+      "id": "18401586",
+      "name": "Iuliia Varykhalova",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "CSHP BEAUTE CONCEPT POLY CLINIC L.L.C"
+    },
+    {
+      "id": "17897803",
+      "name": "Mehdi Chahrour",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "DR HALA ALSAKKA CLINIC L.L.C"
+    },
+    {
+      "id": "13758378",
+      "name": "Tamanna Hoque",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "DR SAI GANESH MEDICAL CENTRE L.L.C )BRANCH("
+    },
+    {
+      "id": "22873311",
+      "name": "Kamila Akieva",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "FTL",
+      "facility": "Dr Joy Dental Clinic Llc Branch"
+    },
+    {
+      "id": "23179803",
+      "name": "Joman Albakri",
+      "specialty": "Dental Intern",
+      "license": "FTL",
+      "facility": "Oral Implantology Medical Center LLC"
+    },
+    {
+      "id": "19178317",
+      "name": "Nourshan Anqoud",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "18548786",
+      "name": "adil fayaz",
+      "specialty": "Specialist Prosthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "15179629",
+      "name": "THAYYEBA VALIYAPARAMBIL MOHAMMED ALI",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "18885089",
+      "name": "Afnan Syed Sulthan",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "BETTERCARE MEDICAL CENTER LLC"
+    },
+    {
+      "id": "19142679",
+      "name": "Vaishanavi Divyesh Pathak",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "25819299",
+      "name": "RASHA KAOH",
+      "specialty": "Specialist Endodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "23187615",
+      "name": "Koushina Dehghan",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "PAK ALMADEENA Poly Clinic CO. L.L.C"
+    },
+    {
+      "id": "20583593",
+      "name": "Venkata Suresh Venkataiah",
+      "specialty": "Specialist Endodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "16045200",
+      "name": "Fernanda Gomes",
+      "specialty": "Dental-Trainee",
+      "license": "FTL",
+      "facility": "Liberty Dental Clinic"
+    },
+    {
+      "id": "20760553",
+      "name": "MILIYA PARVEEN",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dr Sirajuddin Medical Centre"
+    },
+    {
+      "id": "19552550",
+      "name": "Ahmed Elawany",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "DR JOY DENTAL CLINIC LLC BRANCH"
+    },
+    {
+      "id": "26902251",
+      "name": "Nicola De Robertis",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "17483777",
+      "name": "Akanksha Mahajan",
+      "specialty": "Specialist Prosthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "20226804",
+      "name": "farah qashta",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "CLINICANOURA POLY CLINIC"
+    },
+    {
+      "id": "21770538",
+      "name": "POUYA NEJADSHAMSI",
+      "specialty": "Specialist Endodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "22181723",
+      "name": "FATHIMA THAMANNA",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "22320270",
+      "name": "Fatma Al Ali",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Al Badaa Medical Center - PHC"
+    },
+    {
+      "id": "21275959",
+      "name": "Mohamed Abdelwahed",
+      "specialty": "Consultant Oral and Maxillofacial Surgery",
+      "license": "FTL",
+      "facility": "Real Smile Dental Clinic L L C"
+    },
+    {
+      "id": "28257162",
+      "name": "SHIBILY HUSSAIN",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Al Bayan Medical Center"
+    },
+    {
+      "id": "22755256",
+      "name": "YOUMNA ABDELAAL",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "26890373",
+      "name": "MOAZ MOHAMED MAHMOUD Eid",
+      "specialty": "Specialist Prosthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "23394178",
+      "name": "Sonum Saileshkumar Vinubhai Patel",
+      "specialty": "Specialist Periodontics",
+      "license": "FTL",
+      "facility": "THE SMILE COLLECTIVE CLINIC L.L.C"
+    },
+    {
+      "id": "22937760",
+      "name": "Sai Darshana Nair",
+      "specialty": "Specialist Periodontics",
+      "license": "FTL",
+      "facility": "ALPHA DENTAL CENTRE"
+    },
+    {
+      "id": "18648730",
+      "name": "Ahmed Ahmed Abdelhamid",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "27317739",
+      "name": "ashwath ranganna",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Magnum clinic- FZE"
+    },
+    {
+      "id": "23845082",
+      "name": "Asma Zaheri Khosroshahi",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "30711057",
+      "name": "nour obaideen",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "27363483",
+      "name": "Syed Muhammad Sikandar Gillani",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "RIGHT CHOICE MEDICAL CENTER L.L.C"
+    },
+    {
+      "id": "31365200",
+      "name": "JIMSY JOHN",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "D C V I P Dental Clinic LLC"
+    },
+    {
+      "id": "27665216",
+      "name": "Rashed Alajmi",
+      "specialty": "Dental Resident",
+      "license": "FTL",
+      "facility": "Dubai Dental Hospital FZ LLC"
+    },
+    {
+      "id": "30723932",
+      "name": "Amr Saad Mohamed Mohamed Ahmed Farag",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Vibes Aesthetics Clinic LLC"
+    },
+    {
+      "id": "31073266",
+      "name": "Majid Kazem",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Dento Faces Cosmetic Clinic LLC"
+    },
+    {
+      "id": "31731761",
+      "name": "HADEEL REFAE",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "32369618",
+      "name": "ONISHA VIJAYKUMAR",
+      "specialty": "Specialist Periodontics",
+      "license": "FTL",
+      "facility": "LOTUS DENTAL CLINIC L.L.C (BRANCH)"
+    },
+    {
+      "id": "35985796",
+      "name": "Tracy Boghossian",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Happiness Clinic L L C"
+    },
+    {
+      "id": "33503968",
+      "name": "Simran Kaur",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "36190405",
+      "name": "ABDELRAHMAN IBRAHIM",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "32459860",
+      "name": "Bana Abu Snineh",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Oval Dental Clinic LLC"
+    },
+    {
+      "id": "33914136",
+      "name": "FATEMEH TOHIDI FAR",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "33029346",
+      "name": "Jaseela Blahayil Peedikakkal",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "34188209",
+      "name": "NAZREEN NAHAS",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "CLINICA MARIA MEDICAL CENTER L.L.C"
+    },
+    {
+      "id": "37108239",
+      "name": "Celine Medlij",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Park Avenue Dental Clinic"
+    },
+    {
+      "id": "32999938",
+      "name": "Sally Manla",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "FTL",
+      "facility": "DELTA PLUS DENTAL CLINICS BR OF RABIE GROUP FOR INVESTMENT IN HEALTHCARE ENTERPRISES AND DEVELOPMENT"
+    },
+    {
+      "id": "35015967",
+      "name": "Tuba Siddiqui",
+      "specialty": "Specialist Endodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "34252671",
+      "name": "Vaishali Jindam",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "HEALTHPOINT FOR GENERAL DENTAL CLINIC EST."
+    },
+    {
+      "id": "33263933",
+      "name": "Ali Jalali",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "TRUSMILE DENTAL CLINIC - FZCO"
+    },
+    {
+      "id": "33408973",
+      "name": "Nour Algherbawi",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00160948",
+      "name": "Neemu Sebastian",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "36939630",
+      "name": "Anjali mohan",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "31640698",
+      "name": "ANUP KUMAR PANDA",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "38923233",
+      "name": "Rajaa Antar",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Medcare Medical Center Arjan Br of Medcare Hospital LLC"
+    },
+    {
+      "id": "32105112",
+      "name": "Axel Carl Andersson",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Swedish Dental Clinic"
+    },
+    {
+      "id": "35813876",
+      "name": "RANYA SADIKA CADIDJA HAMMAD",
+      "specialty": "Consultant Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "35092689",
+      "name": "Dmitry Sosulnikov",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "FACTOR SMILE CLINIC L.L.C"
+    },
+    {
+      "id": "35788750",
+      "name": "PRIYANKA SHANTILAL MASTUD",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "ESTHETIX DENTAL CENTER"
+    },
+    {
+      "id": "40121062",
+      "name": "Mohamad hadi Bankasli",
+      "specialty": "Implantology Privilege",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "35994531",
+      "name": "Nada Haouili",
+      "specialty": "Specialist Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "36561721",
+      "name": "LAKSHMI GIRISH",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Go Dental Clinic L L C"
+    },
+    {
+      "id": "36916138",
+      "name": "FATHIMA RUKSANA HAJAMOHIDEEN GISTHI",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Pearl Dental Clinic"
+    },
+    {
+      "id": "39696671",
+      "name": "Umaiba Ummatt",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "ORIS DENTAL CENTER BRANCH 3"
+    },
+    {
+      "id": "37427806",
+      "name": "Mazen Masri",
+      "specialty": "Specialist Restorative Dentistry",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "42186933",
+      "name": "Muhammad Zafar",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "38738034",
+      "name": "MUNA ALSARIREH",
+      "specialty": "Implantology Privilege",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "38877876",
+      "name": "Musa Haboobi",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "37753378",
+      "name": "Islam Tahir Oglu islam Kazimli",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "37919172",
+      "name": "Belqees Abdo",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "38083980",
+      "name": "DIVYA SHASHANK BABEL",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Clove Dental Clinic LLC"
+    },
+    {
+      "id": "33458886",
+      "name": "Zulfauz Abdulla Kavil",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Oxygen Care Plus Polyclinic LLC"
+    },
+    {
+      "id": "38792000",
+      "name": "Karine Marie Ghiotti",
+      "specialty": "Consultant Orthodontics",
+      "license": "FTL",
+      "facility": "Happiness Clinic L L C"
+    },
+    {
+      "id": "41204080",
+      "name": "Georges El Habr",
+      "specialty": "Specialist Prosthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "40088893",
+      "name": "Sadaf Alireza Moasser",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "ORIS DENTAL CENTER BRANCH 3"
+    },
+    {
+      "id": "41579835",
+      "name": "Reem Ahli",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Al Badaa Medical Center - PHC"
+    },
+    {
+      "id": "44255636",
+      "name": "David Sami Abbas Tawfik",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "40682889",
+      "name": "Khadeeja Awan",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Hey Dental Clinic Dmcc"
+    },
+    {
+      "id": "35955618",
+      "name": "Ayesha Almarzooqi",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "44794242",
+      "name": "DAKSHAYANI DAS",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Next Care Dental Clinic L.L.C"
+    },
+    {
+      "id": "34839166",
+      "name": "Ali Mohammed Mohsin Mohsin",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Italian Dental Clinic FZ-LLC"
+    },
+    {
+      "id": "41105105",
+      "name": "Fatemeh Amir Rad",
+      "specialty": "Consultant Prosthodontics",
+      "license": "FTL",
+      "facility": "Dubai Dental Hospital FZ LLC"
+    },
+    {
+      "id": "40544610",
+      "name": "SIMRAN BANU SADATULLA",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "RUH ALBARSHA DENTAL CLINIC L LC"
+    },
+    {
+      "id": "41360530",
+      "name": "Tasneem Lirani",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "HOUSTON MEDICAL CLINIC L.L.C (Branch)"
+    },
+    {
+      "id": "45933163",
+      "name": "Aliha Madhu",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "43825885",
+      "name": "waseem tawba",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "BELLA ROSE MEDICAL CENTER L.L.C"
+    },
+    {
+      "id": "41416375",
+      "name": "SAGAR SHRIRAM SAPKAL",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Dentista Studio FZCO"
+    },
+    {
+      "id": "44187781",
+      "name": "Diana Alhamayda",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "One Aesthetic Clinic LLC"
+    },
+    {
+      "id": "00164344",
+      "name": "Dionibon Ramos",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Auvea Clinic LLC"
+    },
+    {
+      "id": "38155775",
+      "name": "ANAM MUHAMMAD IQBAL",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "REMEDY PLUS MEDICAL CLINIC LLC"
+    },
+    {
+      "id": "41853993",
+      "name": "JOHBIN JOSEPH",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "R C G MEDICAL CLINIC L.L.C"
+    },
+    {
+      "id": "00167205",
+      "name": "Adrian Pop",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "G B T CLINICS BY DR KHALID HANNOUNEH L.L.C"
+    },
+    {
+      "id": "37530713",
+      "name": "ZOYA SHAKIL MODAK",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "39119712",
+      "name": "Heena Kousar M",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "38486113",
+      "name": "Ahmed Asad",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "38590968",
+      "name": "RESHMA CHERIAN",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "42901659",
+      "name": "omar debs",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "43263600",
+      "name": "Nima Sabzchamanara",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "MOLODOST AND SMILE NO PAIN POLYCLINIC LLC"
+    },
+    {
+      "id": "46791905",
+      "name": "TAJ MOHAMMED",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Aster Medical Center"
+    },
+    {
+      "id": "46914302",
+      "name": "Khalid Ali",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "43675954",
+      "name": "Diksha Kaka",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Next Care Dental Clinic L.L.C"
+    },
+    {
+      "id": "40271887",
+      "name": "RASUNA CHERUVALLIKUDY RAZAK",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "48698659",
+      "name": "HADEEL ADLBI",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "43318440",
+      "name": "MUHAMMED FAHAD KAZHUNGUM THOTTATHIL",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "KINGS DENTAL CENTER LLC (BRANCH)"
+    },
+    {
+      "id": "43440166",
+      "name": "SHAMEEMA SHAREEF",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "40897457",
+      "name": "AKSHAYA Sheela radhakrishna pillai",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "50182180",
+      "name": "Aneesa Jubair",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "44097054",
+      "name": "Abeer Al Taee",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "44517882",
+      "name": "Fathimathul Farheen Khalid",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "44893337",
+      "name": "Khalid Al Ibawi",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "GULGLAM AESTHETIC CLINICS LLC"
+    },
+    {
+      "id": "41037665",
+      "name": "MOHAMED AHMED",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dr Gad Dental Clinic L.L.C"
+    },
+    {
+      "id": "42451780",
+      "name": "DINA ABDELMOHSIN SHIBEIKA",
+      "specialty": "Specialist Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "47686043",
+      "name": "Mehak Azhar",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00177008",
+      "name": "Noora Latheef",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "LIFE MEDICAL CENTRE 3 BR OF LIFE CLINIC LLC"
+    },
+    {
+      "id": "49260952",
+      "name": "Malek Habli",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Doctors Clinic Diagnostic Centre FZ-LLC"
+    },
+    {
+      "id": "45799085",
+      "name": "ANSHIFA PONNETH",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "42860120",
+      "name": "Farisha Mohammed",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Dr Sirajuddin Medical Centre"
+    },
+    {
+      "id": "37203160",
+      "name": "Houssam Kayed",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "31135732",
+      "name": "Noor Ali Hussein Ibrahim",
+      "specialty": "Dental Resident",
+      "license": "FTL",
+      "facility": "Dubai Dental Hospital FZ LLC"
+    },
+    {
+      "id": "31473789",
+      "name": "Syed Farooq Shah",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "45683191",
+      "name": "GHAZI ALTIZINI",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Hollywood Smile Dental Clinic LLC"
+    },
+    {
+      "id": "46012990",
+      "name": "Minusch Vossoughi",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "DR JOY DENTAL CLINIC L L C branch"
+    },
+    {
+      "id": "41510453",
+      "name": "ASWATHY VISHNU",
+      "specialty": "Specialist Endodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "48233877",
+      "name": "Nawrs abdlal",
+      "specialty": "Implantology Privilege",
+      "license": "FTL",
+      "facility": "La Joya Poly Clinic"
+    },
+    {
+      "id": "46480173",
+      "name": "SYED AKRAM",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "31819197",
+      "name": "Mikhail Kazanskii",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "37504629",
+      "name": "Nanditha Sankar",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "47029823",
+      "name": "Iuliia Gruich",
+      "specialty": "Specialist Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "36285314",
+      "name": "FAHIM CHANGIZI",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "AIC CITY POLY CLINIC L.L.C"
+    },
+    {
+      "id": "38686520",
+      "name": "DYNAMOL ABILASH PRASANNAN",
+      "specialty": "Specialist Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "38690857",
+      "name": "Ahmed Talib",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "39113512",
+      "name": "Kenza Bendi",
+      "specialty": "Specialist Prosthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "48164466",
+      "name": "Hubza Arshad Chatha",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "Veneto Clinic FZ-LLC"
+    },
+    {
+      "id": "37530713",
+      "name": "ZOYA SHAKIL MODAK",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "49693219",
+      "name": "Anuva Bhardwaj",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "50182180",
+      "name": "Aneesa Jubair",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "48919813",
+      "name": "Joudi Malla",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "American Medical Center"
+    },
+    {
+      "id": "44647987",
+      "name": "Hitaf Aboul Hosn",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "40727085",
+      "name": "Sabrin Ali",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "MEDI CENTRES POLYCLINIC LLC BRANCH"
+    },
+    {
+      "id": "40584912",
+      "name": "MOHAMMED ALKHATIB",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "41105105",
+      "name": "Fatemeh Amir Rad",
+      "specialty": "Consultant Prosthodontics",
+      "license": "FTL",
+      "facility": "Dubai Dental Hospital FZ LLC"
+    },
+    {
+      "id": "34838815",
+      "name": "ARUN THANGAPPAN",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "46185795",
+      "name": "Slman Baddour",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "47743215",
+      "name": "Caroline Rammal",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Dr Dina Pediatric Dentistry Clinic"
+    },
+    {
+      "id": "51370481",
+      "name": "Mohsen Nikoo",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "42194642",
+      "name": "SHAMEEJA VALIYA PUTHALATH",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "SHIFA AL RAHA GENERAL DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "42423902",
+      "name": "Divij Joshi",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "QUEENS ELITE MEDICAL CENTER L.L.C"
+    },
+    {
+      "id": "51556434",
+      "name": "Thanseela Moorkhan",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "51756544",
+      "name": "SHAHANA SHEREEF",
+      "specialty": "Specialist Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "52140812",
+      "name": "BEBIKA JANARDHAN DHURVE",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Cavendish Life Polyclinic LLC"
+    },
+    {
+      "id": "35788750",
+      "name": "PRIYANKA SHANTILAL MASTUD",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "ESTHETIX DENTAL CENTER"
+    },
+    {
+      "id": "36201575",
+      "name": "Jihad Alsahli",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Liberty Dental Clinic"
+    },
+    {
+      "id": "43605270",
+      "name": "Abdulrahman Naja",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Signature Plus General Medical Center"
+    },
+    {
+      "id": "41239249",
+      "name": "NOURA ALHAMWI",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "43987002",
+      "name": "Fedaa Sheloki",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "52920657",
+      "name": "Sahanai Sunny",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "36916138",
+      "name": "FATHIMA RUKSANA HAJAMOHIDEEN GISTHI",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Pearl Dental Clinic"
+    },
+    {
+      "id": "45024578",
+      "name": "Pinaki Sen",
+      "specialty": "Consultant Oral and Maxillofacial Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "45094553",
+      "name": "Ahmad Alani",
+      "specialty": "Implantology Privilege",
+      "license": "FTL",
+      "facility": "Dr Sulaiman Al Habib Hospital FZ-LLC"
+    },
+    {
+      "id": "38674782",
+      "name": "Yara Traboulsi",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "LE DENTE DENTAL CLINIC LLC"
+    },
+    {
+      "id": "53161385",
+      "name": "Fatima Murghay",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "STARRY SMILE DENTAL CENTRE L.L.C"
+    },
+    {
+      "id": "44173770",
+      "name": "Vea Romelle Sola",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "ANYTIME DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "45278780",
+      "name": "Retaj Al Karboolee",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "55449540",
+      "name": "Rifna Al Marzouk",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Lotus Medical Center L.L.C"
+    },
+    {
+      "id": "46679431",
+      "name": "SIREEN IBRAHIM MOHAMMAD LUBBAD",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Kings Medical Center LLC"
+    },
+    {
+      "id": "55170809",
+      "name": "UPAMA SISHAN",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "46667916",
+      "name": "RASNA KOYYODAN",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "55477722",
+      "name": "Carla Zogheib",
+      "specialty": "Specialist Endodontics",
+      "license": "FTL",
+      "facility": "Dr Michaels Dental Clinic Branch"
+    },
+    {
+      "id": "57017228",
+      "name": "Estabraq Alkubaisi",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "47205202",
+      "name": "Faezeh Sharafi",
+      "specialty": "Laser in Dentistry",
+      "license": "FTL",
+      "facility": "ROYAL VILLANOVA COSMETIC AND ONE DAY SURGICAL CENTER LLC"
+    },
+    {
+      "id": "40584443",
+      "name": "Nabaa Al Samarae",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "57098815",
+      "name": "Priyanka Garg",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "FTL",
+      "facility": "HYGIENIC DENTAL CLINIC"
+    },
+    {
+      "id": "49277281",
+      "name": "NADEER KOMBAN",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Re Leaf Medical Centre L.L.C Branch"
+    },
+    {
+      "id": "57941139",
+      "name": "Abdullah Ali Shahnawaz",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "58151942",
+      "name": "Mwafak Khatib",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "48545941",
+      "name": "Alaa Mardini",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "52950842",
+      "name": "Fasmiya Wasim Shariff",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "FIRST PRIORITY MEDICAL CENTER"
+    },
+    {
+      "id": "49015306",
+      "name": "Amneh Hasan",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "47725215",
+      "name": "NEETHU PAULSON",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Towerclinic FZ-LLC"
+    },
+    {
+      "id": "49567790",
+      "name": "Rand Saqer",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Saudi German Hospital"
+    },
+    {
+      "id": "41837668",
+      "name": "Mohamed SALIM",
+      "specialty": "Specialist Oral and Maxillofacial Surgery",
+      "license": "FTL",
+      "facility": "Al Badaa Medical Center - PHC"
+    },
+    {
+      "id": "48218956",
+      "name": "HAFIZ MUHAMMAD ARSAL",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "SHIELD MEDICAL CENTER - L.L.C - O.P.C - DUBAI BRANCH"
+    },
+    {
+      "id": "60068556",
+      "name": "FATHIMA JASNA VATTAKANDY",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Hollywood Smile Dental Clinic LLC"
+    },
+    {
+      "id": "57983272",
+      "name": "PRIYANKA SUNDER EMILY",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "60740936",
+      "name": "ahmed younis",
+      "specialty": "Specialist Periodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "58418829",
+      "name": "KANISHKA KUNHIKANNAN",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "ALUER AESTHETIC & DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "59010354",
+      "name": "Egle Simkute",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Blue Dental Clinic"
+    },
+    {
+      "id": "59306942",
+      "name": "SAHAR KHANCHI",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "58987652",
+      "name": "Omar Farsakh",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "SERENITY DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "55948507",
+      "name": "FEMINA SUBAIR",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "HADIYA DENTAL CENTER L.L.C"
+    },
+    {
+      "id": "49595985",
+      "name": "Mohamed El shahat",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "PARADISE PLUS POLY CLINIC L.L.C (BRANCH)"
+    },
+    {
+      "id": "49988552",
+      "name": "ISMAEEL ALTAYASNA",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "54323668",
+      "name": "Karam Anis",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "MINIMALLY INVASIVE DENTISTRY CLINIC L.L.C"
+    },
+    {
+      "id": "59133682",
+      "name": "Joud Meslmany",
+      "specialty": "Specialist Orthodontics",
+      "license": "FTL",
+      "facility": "The kairon polyclinic L L C"
+    },
+    {
+      "id": "65576657",
+      "name": "Yara Ismail",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Maisan Medical Clinic"
+    },
+    {
+      "id": "46726857",
+      "name": "Mohamed Ibrahim abdelhamid Ali",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "46858353",
+      "name": "Huda Sheikh",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Symbiosis Medical Centre Fzco"
+    },
+    {
+      "id": "55177646",
+      "name": "SHERIL SELVAN",
+      "specialty": "Specialist Orthodontics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "60435437",
+      "name": "Aadel Alahmed",
+      "specialty": "Consultant Prosthodontics",
+      "license": "FTL",
+      "facility": "Dr AlAhmed Dental Clinic LLC"
+    },
+    {
+      "id": "59211041",
+      "name": "Shafeena Ansheed",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "NOOR AL INAYA GENERAL DENTAL CLINIC L.L.C"
+    },
+    {
+      "id": "59363765",
+      "name": "Nahaana Vellikkakath",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "66891606",
+      "name": "Mohammed Shaikh",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "67054204",
+      "name": "nourhan elbassiouny",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "48351761",
+      "name": "BURHAN SAEED",
+      "specialty": "Dental Intern",
+      "license": "FTL",
+      "facility": "Graduate Medical Education- Dubai Health"
+    },
+    {
+      "id": "54318166",
+      "name": "Rawan Elshazly",
+      "specialty": "General Dentist",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "47790464",
+      "name": "Syed Ameer Haider Jafri",
+      "specialty": "Specialist Pediatric Dentistry",
+      "license": "FTL",
+      "facility": "Noor Al sama Medical Center LLC Branch"
+    },
+    {
+      "id": "48017977",
+      "name": "ABDULRAHMAN LBABIDI",
+      "specialty": "Specialist Prosthodontics",
+      "license": "FTL",
+      "facility": "American Academy of Cosmetic Surgery Hospital (AACSH) FZ-LLC"
+    },
+    {
+      "id": "67583786",
+      "name": "Ahamed Zuhail Poonthala",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Paradise Plus Poly Clinic L L C"
+    },
+    {
+      "id": "56632146",
+      "name": "Muneeba Marutheri",
+      "specialty": "General Dentist",
+      "license": "FTL",
+      "facility": "Abeer Alnoor Polyclinic L L C Branch"
+    }
+  ],
+  "sample_physicians": [
+    {
+      "id": "00005097",
+      "name": "Kunhi Moidu Cheenamadath",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "Abeer Al Noor Poly Clinic"
+    },
+    {
+      "id": "00002950",
+      "name": "Mazin Al Qaysi",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "Canadian Specialist Hospital"
+    },
+    {
+      "id": "00002152",
+      "name": "Younis Khalid",
+      "specialty": "Consultant Pediatrics",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00009218",
+      "name": "Magdi Sami",
+      "specialty": "Specialist Radiology",
+      "license": "FTL",
+      "facility": "Al Etihad Diagnostic Center"
+    },
+    {
+      "id": "00008294",
+      "name": "Aspasia Michalopoulou",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Medi Centres Polyclinic"
+    },
+    {
+      "id": "00009930",
+      "name": "Manohar Mamani",
+      "specialty": "Specialist Urology",
+      "license": "FTL",
+      "facility": "N.M.C SPECIALTY HOSPITAL LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00003804",
+      "name": "Jamil Ahmed Nazir",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Prime Medical Center L L C"
+    },
+    {
+      "id": "00011417",
+      "name": "Ali Ghofrani",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "Aestheticon JLT"
+    },
+    {
+      "id": "00008735",
+      "name": "Mehran Karimi",
+      "specialty": "Consultant Pediatrics (Hematology Oncology)",
+      "license": "FTL",
+      "facility": "American Hospital Dubai LLC"
+    },
+    {
+      "id": "00011271",
+      "name": "Ravinderkumar Verma",
+      "specialty": "Specialist Otolaryngology",
+      "license": "FTL",
+      "facility": "COOPER HEALTH CLINIC L L C"
+    },
+    {
+      "id": "00009848",
+      "name": "Nada Elomari",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Prime Medical Center Motor City Br Of Prime Medical Center L Lc"
+    },
+    {
+      "id": "00012970",
+      "name": "Seyedmehrdad Solatidehkordi",
+      "specialty": "Specialist Endocrinology",
+      "license": "FTL",
+      "facility": "Canadian Specialist Hospital Clinics L L C"
+    },
+    {
+      "id": "00012067",
+      "name": "Mohamed ElGafy",
+      "specialty": "Consultant Anesthesia",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00012861",
+      "name": "Ghazwan Maki",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Orthoflex Orthopedic and Physiotherapy Centre FZ LLC"
+    },
+    {
+      "id": "00014725",
+      "name": "Mohamed Alaqqad",
+      "specialty": "Consultant General Surgery",
+      "license": "FTL",
+      "facility": "Hatta Hospital - Dubai Health"
+    },
+    {
+      "id": "00010709",
+      "name": "Ala Ajeel",
+      "specialty": "Consultant General Surgery",
+      "license": "FTL",
+      "facility": "Dr Sulaiman Al Habib Hospital FZ-LLC"
+    },
+    {
+      "id": "00015477",
+      "name": "Sundarrajan Santhanam",
+      "specialty": "Specialist Otolaryngology",
+      "license": "FTL",
+      "facility": "Mediclinic Welcare Hospital LLC"
+    },
+    {
+      "id": "00019156",
+      "name": "Laith Ibrahim",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Al Tadawi Medical Center Branch Awair 1"
+    },
+    {
+      "id": "00024499",
+      "name": "Vikas Singhal",
+      "specialty": "Specialist Radiology",
+      "license": "FTL",
+      "facility": "Allied Medical Centre"
+    },
+    {
+      "id": "00009387",
+      "name": "Mohammed Khashab",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "Saudi German Hospital"
+    },
+    {
+      "id": "00019748",
+      "name": "Hala Aljaber",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Medcare Specialty Centre Br Of Medcare Hospital LLC"
+    },
+    {
+      "id": "00011032",
+      "name": "Doaa Elsawy",
+      "specialty": "Specialist Clinical Pathology",
+      "license": "FTL",
+      "facility": "Latifa Hospital - Dubai Health"
+    },
+    {
+      "id": "00015697",
+      "name": "SALWAN ALABDULLAH",
+      "specialty": "Consultant Otolaryngology",
+      "license": "FTL",
+      "facility": "Mediclinic Welcare Hospital LLC"
+    },
+    {
+      "id": "00020383",
+      "name": "Anoop Pinto",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Emirates Airline Clinic"
+    },
+    {
+      "id": "00022247",
+      "name": "Yasameen Altaie",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "COSMESURGE PLASTIC SURGERY HOSPITAL AND CLINICS L.L.C"
+    },
+    {
+      "id": "00028093",
+      "name": "Ali Al Ani",
+      "specialty": "Consultant General Surgery",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00027941",
+      "name": "Ayman Atmaz Al Sibaie",
+      "specialty": "Consultant Radiology",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00022938",
+      "name": "Sonia Chaudhary",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Medcare Women And Child Hospital Br Of Medcare Hospital"
+    },
+    {
+      "id": "00024428",
+      "name": "Dariush Kamali",
+      "specialty": "Consultant Neuroradiology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00028090",
+      "name": "Murtaza Canani",
+      "specialty": "Specialist Family Medicine",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00025455",
+      "name": "Magued Abadeer",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "Barraquer Eye Hospital FZ-LLC"
+    },
+    {
+      "id": "00027936",
+      "name": "Qassim Ahli",
+      "specialty": "Consultant Plastic Surgery",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00021262",
+      "name": "Maharra Hussain",
+      "specialty": "Specialist General Surgery",
+      "license": "FTL",
+      "facility": "Mediclinic Deira Clinic Br Of Mediclinic Clinics Investment LLC"
+    },
+    {
+      "id": "00029596",
+      "name": "Philip Koiujmian",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00029557",
+      "name": "Premanadh Kannada",
+      "specialty": "Specialist Internal Medicine (Pulmonary Disease)",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00029397",
+      "name": "Zulfiqar Ali",
+      "specialty": "Specialist Emergency Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00029620",
+      "name": "Razan Chakaki",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00029406",
+      "name": "Talha Deyab",
+      "specialty": "Specialist Emergency Medicine",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00029598",
+      "name": "Mohamed Seidam",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00029838",
+      "name": "Ishma Aijazi",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00029603",
+      "name": "Salma Al Sharji",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00029590",
+      "name": "Abdul Sathar Mallam Balam",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00029495",
+      "name": "Kobattay Nayeem Ur Rehman",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00029418",
+      "name": "Khadija Ahmed Hafidh",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00029630",
+      "name": "Mohamed Jammalmudugu",
+      "specialty": "Specialist Internal Medicine",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00032045",
+      "name": "Hanan Obaid",
+      "specialty": "Consultant Family Medicine",
+      "license": "FTL",
+      "facility": "Nadd Al Hammar Medical Center - PHC"
+    },
+    {
+      "id": "00029733",
+      "name": "Mohammed Al Mafraji",
+      "specialty": "Consultant Anesthesia",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00029926",
+      "name": "Ehabeldin Ahmed",
+      "specialty": "Specialist Ophthalmology",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00029484",
+      "name": "Mahmoud Maarouf",
+      "specialty": "Consultant Anesthesia",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00029788",
+      "name": "Abdulrazaq Yousefi",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Al Jalila Children’s Specialty Hospital FZ-LLC"
+    },
+    {
+      "id": "00029974",
+      "name": "Mostafa El Bolkini",
+      "specialty": "Registrar Pediatrics",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00031054",
+      "name": "Amal Alqedrah",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Saudi German Hospital"
+    },
+    {
+      "id": "00032201",
+      "name": "Osama El Galal",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Al Barsha Medical Center - PHC"
+    },
+    {
+      "id": "00029489",
+      "name": "Haider Kubba",
+      "specialty": "Specialist General Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00029651",
+      "name": "Batool Al Balooshi",
+      "specialty": "Consultant Nuclear Medicine",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00032237",
+      "name": "Mohsen Bin Risheed",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Al Badaa Medical Center - PHC"
+    },
+    {
+      "id": "00032148",
+      "name": "Zekeria Kerem",
+      "specialty": "Consultant Family Medicine",
+      "license": "FTL",
+      "facility": "Al Lusaily Medical Center - PHC"
+    },
+    {
+      "id": "00032390",
+      "name": "Ashraf Mohammad Swidan",
+      "specialty": "Consultant Family Medicine",
+      "license": "FTL",
+      "facility": "Doctor For Every Citizen Center"
+    },
+    {
+      "id": "00034898",
+      "name": "Hayder Al Saadi",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00037104",
+      "name": "Hana Alsughaiyer",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00029846",
+      "name": "Syed Asim Hussain",
+      "specialty": "Registrar Emergency Medicine",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00034238",
+      "name": "Hussein Abdelrazik",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Kaya Skin Care Clinic(Branch)Mardif"
+    },
+    {
+      "id": "00035592",
+      "name": "Ashok kumar Sankaranarayanan",
+      "specialty": "Specialist Emergency Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00033745",
+      "name": "Tamer El Said",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00040738",
+      "name": "Salman Salman",
+      "specialty": "Consultant Critical Care Medicine",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00042484",
+      "name": "Fadwa Muhammed",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Hatta Hospital - Dubai Health"
+    },
+    {
+      "id": "00047580",
+      "name": "Pajman Kokabian",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00031087",
+      "name": "Manal Mustafa Mohammed Khadoora",
+      "specialty": "Consultant Pediatrics",
+      "license": "FTL",
+      "facility": "Al Jalila Children’s Specialty Hospital FZ-LLC"
+    },
+    {
+      "id": "00035280",
+      "name": "Sara Khawaja",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Health Bay Polyclinic Branch Motor City"
+    },
+    {
+      "id": "00038076",
+      "name": "Vikram Hundia",
+      "specialty": "Consultant Endocrinology",
+      "license": "FTL",
+      "facility": "Al Zahra Pvt. Hospital"
+    },
+    {
+      "id": "00043115",
+      "name": "Ammar Hashash",
+      "specialty": "Consultant General Surgery",
+      "license": "FTL",
+      "facility": "Hatta Hospital - Dubai Health"
+    },
+    {
+      "id": "00032396",
+      "name": "Nadia Gadalla",
+      "specialty": "Specialist Under Supervision Family Medicine",
+      "license": "FTL",
+      "facility": "Al Mankhool Medical Center - PHC"
+    },
+    {
+      "id": "00039699",
+      "name": "Sharad Kumar",
+      "specialty": "Specialist Radiology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00043686",
+      "name": "Beena Jose",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Dr Ismail Day Surgical Centre"
+    },
+    {
+      "id": "00050153",
+      "name": "Alaaaldin Zedan",
+      "specialty": "Specialist Internal Medicine",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00038004",
+      "name": "Jelena Kokovic",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "Dubai London Clinic And Speciality Hospital"
+    },
+    {
+      "id": "00044722",
+      "name": "Anas Sheikhalbasatneh",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "NEW MEDICAL CENTER LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00050179",
+      "name": "Sarang Chaudhary",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "Dubai London Clinic And Speciality Hospital"
+    },
+    {
+      "id": "00042021",
+      "name": "Bariah Dardari",
+      "specialty": "Consultant Pediatrics",
+      "license": "FTL",
+      "facility": "Genesis Healthcare Center FZ-LLC"
+    },
+    {
+      "id": "00052428",
+      "name": "Prashant Sharma",
+      "specialty": "Consultant Otolaryngology",
+      "license": "FTL",
+      "facility": "Prime Hospital L.L.C"
+    },
+    {
+      "id": "00053889",
+      "name": "Azam Ashraf",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Aster Medical Centre Abu Hail Br Of Dm Healthcare"
+    },
+    {
+      "id": "00055016",
+      "name": "Ghassan Salameh",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Veil O Laser and cosmetic center LLC"
+    },
+    {
+      "id": "00039334",
+      "name": "Niaz Shaikh",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00032069",
+      "name": "Maha Rajab",
+      "specialty": "Registrar Family Medicine",
+      "license": "FTL",
+      "facility": "Nadd Al Sheba Medical Center - PHC"
+    },
+    {
+      "id": "00058564",
+      "name": "Habib Sammouh",
+      "specialty": "Consultant Pediatrics",
+      "license": "FTL",
+      "facility": "Al Zahra Pvt. Hospital"
+    },
+    {
+      "id": "00058976",
+      "name": "Islam Bon",
+      "specialty": "Consultant Critical Care Medicine",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00052240",
+      "name": "Tarek Elhefni",
+      "specialty": "Consultant Anesthesia",
+      "license": "FTL",
+      "facility": "Hatta Hospital - Dubai Health"
+    },
+    {
+      "id": "00034867",
+      "name": "Ayesha Tarannum",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Al Barsha Alnoor Polyclinic L L C"
+    },
+    {
+      "id": "00042255",
+      "name": "Shahram Ghotb Sajjadi",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "Elite Plastic & Cosmetic Surgery Group FZ-LLC"
+    },
+    {
+      "id": "00049369",
+      "name": "Hatem Said",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Orthocure Medical Center"
+    },
+    {
+      "id": "00040562",
+      "name": "Rami Mahafzah",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Clemenceau Medical Center FZ-LLC"
+    },
+    {
+      "id": "00044028",
+      "name": "Miral Abumoeilak",
+      "specialty": "Specialist Endocrinology",
+      "license": "FTL",
+      "facility": "Medcare Medical Center Mirdif Br"
+    },
+    {
+      "id": "00032956",
+      "name": "Paraskevas Kontoes",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "Dubai London Clinic And Speciality Hospital"
+    },
+    {
+      "id": "00042618",
+      "name": "Thomas Berger",
+      "specialty": "Consultant Dermatology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00052371",
+      "name": "RineLLE Sanaani",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Kaile Clinique LLC"
+    },
+    {
+      "id": "00055517",
+      "name": "Shalini Salim",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "Be You Plus Clinic LLC"
+    },
+    {
+      "id": "00059178",
+      "name": "Jiby Rajan",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Prime Medical Center L L C"
+    },
+    {
+      "id": "00058566",
+      "name": "Basel Jallad",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Gargash Hospital L L C"
+    },
+    {
+      "id": "00050001",
+      "name": "Eslam Shalaby",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Hatta Hospital - Dubai Health"
+    },
+    {
+      "id": "00040638",
+      "name": "Bilal Ahmed",
+      "specialty": "Consultant Endocrinology",
+      "license": "FTL",
+      "facility": "Dubai Diabetes Center - Dubai Health"
+    },
+    {
+      "id": "00052252",
+      "name": "Pramod Tulshiramji Warhekar",
+      "specialty": "Consultant Ophthalmology",
+      "license": "FTL",
+      "facility": "Mediclinic City Hospital FZ-LLC"
+    },
+    {
+      "id": "00051648",
+      "name": "Tahmineh Marzban",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Health Connect Clinic L.L.C"
+    },
+    {
+      "id": "00045414",
+      "name": "Rania Asil",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Novomed Centers LLC"
+    },
+    {
+      "id": "00054966",
+      "name": "Ourida Tagnit Hamou Ouhachi",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Trucare Clinics L L C"
+    },
+    {
+      "id": "00073022",
+      "name": "Mohamed Sulaiman",
+      "specialty": "Consultant Pediatric Cardiology",
+      "license": "FTL",
+      "facility": "KidsHeart Medical Center FZ-LLC"
+    },
+    {
+      "id": "00056887",
+      "name": "Murali Krishna Neelakantan",
+      "specialty": "Consultant Cardiology",
+      "license": "FTL",
+      "facility": "Prime Hospital L.L.C"
+    },
+    {
+      "id": "00081655",
+      "name": "Sara Oshi",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "INSTANT HOME HEALTH CARE CENTER L.L.C"
+    },
+    {
+      "id": "00083415",
+      "name": "Mohannad Alasaad",
+      "specialty": "Specialist Cardiothoracic Surgery",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00062555",
+      "name": "Imad Dabbous",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Al Barsha Medical Center - PHC"
+    },
+    {
+      "id": "00066674",
+      "name": "Issam Abdalbari",
+      "specialty": "Consultant Neonatology",
+      "license": "FTL",
+      "facility": "Medcare Women And Child Hospital Br Of Medcare Hospital"
+    },
+    {
+      "id": "00092849",
+      "name": "Rahul Chaudhary",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Medcare Medical Center Discovery Gardens Br Of Medcare Hospital LLC"
+    },
+    {
+      "id": "00068170",
+      "name": "Lucia Heras",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00079231",
+      "name": "Elham Alnuaimi",
+      "specialty": "Consultant Family Medicine",
+      "license": "FTL",
+      "facility": "Al Barsha Medical Center - PHC"
+    },
+    {
+      "id": "00084689",
+      "name": "Reza Nowruzi",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Mediclinic Ibn Battuta Clinic LLC"
+    },
+    {
+      "id": "00074750",
+      "name": "Asad Abdi",
+      "specialty": "Specialist Neurology",
+      "license": "FTL",
+      "facility": "MIRDIF PRIVATE HOSPITAL LLC"
+    },
+    {
+      "id": "00077275",
+      "name": "Roshan Pais",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00073170",
+      "name": "George Thachil",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "Healthhub (Br.Alfuttaim Healthcare Single Person Company LLC)"
+    },
+    {
+      "id": "00078577",
+      "name": "Rambabu Vadlamudi",
+      "specialty": "Specialist Emergency Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00077656",
+      "name": "Hajer Albadry",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "ONEA CLINIC L.L.C"
+    },
+    {
+      "id": "00060853",
+      "name": "Kiran Kumar Shetty",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "Kings College Hospital London Br Of Kch Healthcare LLC"
+    },
+    {
+      "id": "00097220",
+      "name": "Kulsoom Siddiqi",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Al Zahra Pvt. Hospital"
+    },
+    {
+      "id": "00079035",
+      "name": "Huda Ahmed",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Latifa Hospital - Dubai Health"
+    },
+    {
+      "id": "00075179",
+      "name": "Mohab Abdelnaby",
+      "specialty": "Specialist Radiology",
+      "license": "FTL",
+      "facility": "N M C ROYAL HOSPITAL LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00077714",
+      "name": "Ekaterina Kaloyanova",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Femiclinic Center FZ-LLC"
+    },
+    {
+      "id": "00079779",
+      "name": "Riam Louka",
+      "specialty": "Specialist Emergency Medicine",
+      "license": "FTL",
+      "facility": "Airport Medical Center Concourse D - PHC"
+    },
+    {
+      "id": "00082466",
+      "name": "Radhika Naidu",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Jts Medical Centre LLC"
+    },
+    {
+      "id": "00079091",
+      "name": "Abdulla Alhawai",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00070990",
+      "name": "Udaya Das",
+      "specialty": "Specialist Otolaryngology",
+      "license": "FTL",
+      "facility": "Jts Medical Centre LLC"
+    },
+    {
+      "id": "00088991",
+      "name": "Marwan Afifi",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Valiant Healthcare L.Lc"
+    },
+    {
+      "id": "00090941",
+      "name": "Ayham Alibrahimmuslleh",
+      "specialty": "Specialist Emergency Medicine",
+      "license": "FTL",
+      "facility": "Airport Medical Center Concourse D - PHC"
+    },
+    {
+      "id": "00092459",
+      "name": "Maria Khan Junaidi",
+      "specialty": "Consultant Neurology",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00085867",
+      "name": "Mohsen Naraghi",
+      "specialty": "Specialist Otolaryngology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00077863",
+      "name": "Nighat Fatima",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00080446",
+      "name": "Dania Tannir",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Mediclinic Dubai Mall Medical Centre Br Mediclinic Clinics LLC"
+    },
+    {
+      "id": "00087518",
+      "name": "Aleksandra Shopova",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Health Baypolyclinic Br"
+    },
+    {
+      "id": "00089391",
+      "name": "Mohan Babu Anjaneya Reddy",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00103853",
+      "name": "Nusrath Palli",
+      "specialty": "Consultant Pediatrics",
+      "license": "FTL",
+      "facility": "Al Jalila Children’s Specialty Hospital FZ-LLC"
+    },
+    {
+      "id": "00105163",
+      "name": "Maryam Abdulla Alrayssi",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00081619",
+      "name": "Jose Rojo",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00082212",
+      "name": "Amani Bayoumi",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Al Badaa Medical Center - PHC"
+    },
+    {
+      "id": "00076629",
+      "name": "Zahra Rajab",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Med Gate Center"
+    },
+    {
+      "id": "00094627",
+      "name": "Rosan Humydani",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Drrosan Humydani Dermatology Andbeauty Clinic LLC"
+    },
+    {
+      "id": "00070001",
+      "name": "Faraz Khan",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "DRYPSKIN POLY CLINIC L.L.C"
+    },
+    {
+      "id": "00105559",
+      "name": "Mansour Abdelmoula",
+      "specialty": "Specialist Radiology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00091067",
+      "name": "Muthana Altaie",
+      "specialty": "Consultant Critical Care Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00089878",
+      "name": "Fadi Baladi",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "Medeor 24X7 Hospital LLC"
+    },
+    {
+      "id": "00081436",
+      "name": "Moheiddin Okla",
+      "specialty": "Specialist Emergency Medicine",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00099842",
+      "name": "Amal Azab",
+      "specialty": "Specialist Dermatology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00076270",
+      "name": "Kote Shamsheer",
+      "specialty": "Consultant Gastroenterology",
+      "license": "FTL",
+      "facility": "Medcare Hospital(L.L.C)"
+    },
+    {
+      "id": "00082666",
+      "name": "Shazia Shafi Chiken",
+      "specialty": "Consultant Pediatrics",
+      "license": "FTL",
+      "facility": "Al Jalila Children’s Specialty Hospital FZ-LLC"
+    },
+    {
+      "id": "00079558",
+      "name": "Hussain Shaban",
+      "specialty": "Consultant Otolaryngology",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00119135",
+      "name": "Haseeb Ahmed",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00084701",
+      "name": "Motaz Abudaqqa",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Al Garhoud Private Hospital LLC"
+    },
+    {
+      "id": "00099997",
+      "name": "Manal Blel",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Mediclinic City Hospital FZ-LLC"
+    },
+    {
+      "id": "00101842",
+      "name": "Nermeen Amer",
+      "specialty": "Specialist Ophthalmology",
+      "license": "FTL",
+      "facility": "Mediclinic Parkview Hospital LLC"
+    },
+    {
+      "id": "00093194",
+      "name": "Mohammadabdullah Alharun",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00092328",
+      "name": "Ann Mathew",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Mediclinic Parkview Hospital LLC"
+    },
+    {
+      "id": "00121096",
+      "name": "Irene Habib",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Al Garhoud Private Hospital LLC"
+    },
+    {
+      "id": "00122868",
+      "name": "Eddy Harran",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "POLY CLINIC AESTHETIC DERMATOLOGY PLASTIC SURGERY DENTAL LLC - DUBAI BRANCH"
+    },
+    {
+      "id": "00116709",
+      "name": "Alaa Al Wahaily",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "ARWA AND ALI DENTAL AND DAY SURGICAL CENTER"
+    },
+    {
+      "id": "00098157",
+      "name": "Irshad Mohiuddin",
+      "specialty": "Specialist Otolaryngology",
+      "license": "FTL",
+      "facility": "Medcare Royal Speciality Hospital (Br of Medcare Hospital LLC)"
+    },
+    {
+      "id": "00099305",
+      "name": "Nabeel Zane",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "Gargash Hospital L L C"
+    },
+    {
+      "id": "00109458",
+      "name": "Sara Ahmadi",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00109098",
+      "name": "M Tarek Moualem",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Clinica Sabah LLC"
+    },
+    {
+      "id": "00095718",
+      "name": "JOSEPH GEORGE MEKKATTUKULAM",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "Jupiter Specialty Medical Center  LLC"
+    },
+    {
+      "id": "00098575",
+      "name": "Mazen Silman",
+      "specialty": "Consultant Plastic Surgery",
+      "license": "FTL",
+      "facility": "Pure white medical center"
+    },
+    {
+      "id": "00102550",
+      "name": "Reem Allateef",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Mediclinic Parkview Hospital LLC"
+    },
+    {
+      "id": "00120128",
+      "name": "Sherian Salama",
+      "specialty": "Consultant Clinical Hematology",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00093126",
+      "name": "Habeebu Panakkal",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Arin Care Poly Clinic"
+    },
+    {
+      "id": "00095552",
+      "name": "Muhammad Khan",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Access Clinic Sonapur Br Of Dm Healthcare LLC"
+    },
+    {
+      "id": "00121689",
+      "name": "Maged Ibrahim",
+      "specialty": "Specialist Neonatology",
+      "license": "FTL",
+      "facility": "Al Zahra Pvt. Hospital"
+    },
+    {
+      "id": "00104810",
+      "name": "Razan Yousef",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "Dubai London Hospital LLC"
+    },
+    {
+      "id": "00132389",
+      "name": "Diary Mohammad",
+      "specialty": "Consultant Pediatric Surgery",
+      "license": "FTL",
+      "facility": "Al Jalila Children’s Specialty Hospital FZ-LLC"
+    },
+    {
+      "id": "00127087",
+      "name": "Ramin Vakilipour",
+      "specialty": "Specialist Neurology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00105141",
+      "name": "Samer Cheaib",
+      "specialty": "Consultant Maternal and Fetal Medicine",
+      "license": "FTL",
+      "facility": "Emirates Hospital L.L.C"
+    },
+    {
+      "id": "00108729",
+      "name": "Ranya Rasheed Ali",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00108948",
+      "name": "Venkata Subba Reddy Elicherla Reddy",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Medcare Medical Center Discovery Gardens Br Of Medcare Hospital LLC"
+    },
+    {
+      "id": "00110569",
+      "name": "Seema Kamath",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Aster Medical Centre Al Barsha Br Of Dm Healthcare LLC"
+    },
+    {
+      "id": "00134390",
+      "name": "Prashanth Hegde",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Oxford Medical Center"
+    },
+    {
+      "id": "00135834",
+      "name": "Lubna Fatimah",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Aster Medical Center"
+    },
+    {
+      "id": "00125611",
+      "name": "Riman Ricardo",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "McDermott Middle East Inc - Company Clinic"
+    },
+    {
+      "id": "00110131",
+      "name": "Sameer Kapoor",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "Al Garhoud Private Hospital LLC"
+    },
+    {
+      "id": "00101972",
+      "name": "Babak Hatami",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "OLIVIA MEDICAL CENTRE LLC"
+    },
+    {
+      "id": "00128573",
+      "name": "Jelena Jevticakif",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Dubai London Clinic And Speciality Hospital"
+    },
+    {
+      "id": "00131872",
+      "name": "Sudhir Neral",
+      "specialty": "Specialist Diagnostic Radiology",
+      "license": "FTL",
+      "facility": "Dr. Sanjay Medical Centre"
+    },
+    {
+      "id": "00123871",
+      "name": "Syed imtiaz Ali",
+      "specialty": "Consultant Urology",
+      "license": "FTL",
+      "facility": "Medcare Hospital(L.L.C)"
+    },
+    {
+      "id": "00114990",
+      "name": "Riad Bayoumi",
+      "specialty": "Specialist Clinical Biochemistry",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00136240",
+      "name": "Sabari Dey",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Gargash Hospital L L C"
+    },
+    {
+      "id": "00136634",
+      "name": "Smitharaghavan Maniganahally Vijayaraghavan",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Mediclinic Welcare Hospital LLC"
+    },
+    {
+      "id": "00105583",
+      "name": "Mohamed Alhalfawy",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Al Zahra Pvt. Hospital"
+    },
+    {
+      "id": "00107091",
+      "name": "jawad ali",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "N.M.C SPECIALTY HOSPITAL LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00128384",
+      "name": "Josephine Jose",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Mediclinic Al Qusais Clinic LLC"
+    },
+    {
+      "id": "00140144",
+      "name": "Ravi Sekar Vinayaka Sundaram",
+      "specialty": "Specialist Cardiology",
+      "license": "FTL",
+      "facility": "Mediclinic Welcare Hospital LLC"
+    },
+    {
+      "id": "00117506",
+      "name": "Rabab Shahoud",
+      "specialty": "Specialist Diagnostic Radiology",
+      "license": "FTL",
+      "facility": "Al Garhoud Private Hospital LLC"
+    },
+    {
+      "id": "00121440",
+      "name": "Hilda Abu Atallah",
+      "specialty": "Consultant Radiology",
+      "license": "FTL",
+      "facility": "Healthhub  Br.Alfuttaim Healthcare Single Person Company L L C"
+    },
+    {
+      "id": "00122737",
+      "name": "Sachit Malhan",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00135641",
+      "name": "Feras Alkhatib",
+      "specialty": "Consultant General Surgery",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00114492",
+      "name": "Sail Abusaif",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Elish Poly clinic L.L.C"
+    },
+    {
+      "id": "00116197",
+      "name": "Juan Garciasanchez",
+      "specialty": "Specialist Ophthalmology",
+      "license": "FTL",
+      "facility": "Spanish Centre Lasik And Eyes And Cosmetic L L C"
+    },
+    {
+      "id": "00124100",
+      "name": "Mousumee Nanda",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Medcare Medical Center"
+    },
+    {
+      "id": "00129333",
+      "name": "Mohammad Samer Saab",
+      "specialty": "Specialist Cardiology",
+      "license": "FTL",
+      "facility": "Mediclinic Parkview Hospital LLC"
+    },
+    {
+      "id": "00140881",
+      "name": "Mohamed Okasha",
+      "specialty": "Specialist Radiology",
+      "license": "FTL",
+      "facility": "Nadd Al Hammar Medical Center - PHC"
+    },
+    {
+      "id": "00143330",
+      "name": "Nesmal Musaliar",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Healthhub Br Of Alfuttaim Healthcare Single Person Company LLC"
+    },
+    {
+      "id": "00144697",
+      "name": "Alia Alsayegh",
+      "specialty": "Consultant Radiology",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00124374",
+      "name": "Suresh Sivamurthy",
+      "specialty": "Consultant Anesthesia",
+      "license": "FTL",
+      "facility": "Al Jalila Children’s Specialty Hospital FZ-LLC"
+    },
+    {
+      "id": "00147629",
+      "name": "Monikoth Pradeep Nambiar",
+      "specialty": "Consultant Cardiac Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00131633",
+      "name": "Mohamed Shafeeq",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "Medcare Royal Speciality Hospital (Br of Medcare Hospital LLC)"
+    },
+    {
+      "id": "00122311",
+      "name": "Shazia Qasim",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00135711",
+      "name": "Shailesh Matkar",
+      "specialty": "Specialist General Surgery",
+      "license": "FTL",
+      "facility": "Medstar Healthcare LLC"
+    },
+    {
+      "id": "00136374",
+      "name": "Fayeza Meraj",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00135632",
+      "name": "Samar Mohammed Ramli",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Al Mizher Medical Center - PHC"
+    },
+    {
+      "id": "00129637",
+      "name": "Reham Ali",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Latifa Hospital - Dubai Health"
+    },
+    {
+      "id": "00130784",
+      "name": "Sarwat Nasreen",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Aster Specialist Medical Centre International City Br Of Dm Healthcare LLC"
+    },
+    {
+      "id": "00139747",
+      "name": "Mehmet Urumdas",
+      "specialty": "Specialist Cardiology",
+      "license": "FTL",
+      "facility": "N M C ROYAL HOSPITAL LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00132881",
+      "name": "Sajid Burud",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "SUPERIORMED LONGEVITY CLINIC L L C (Branch)"
+    },
+    {
+      "id": "00149596",
+      "name": "Tamer Abdellatif",
+      "specialty": "Consultant Geriatric Medicine",
+      "license": "FTL",
+      "facility": "Al Mamzar Medical Center - PHC"
+    },
+    {
+      "id": "00153322",
+      "name": "Shabeer Abdulrauf",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Gardens Medical Centre (Br of DM Healthcare LLC"
+    },
+    {
+      "id": "00133951",
+      "name": "Aftab Ahmed",
+      "specialty": "Consultant Pediatric Surgery",
+      "license": "FTL",
+      "facility": "Mediclinic Welcare Hospital LLC"
+    },
+    {
+      "id": "00134666",
+      "name": "Ahmad Nabil Ahmad",
+      "specialty": "Consultant Anesthesia",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00142072",
+      "name": "Mohamed Abdelraheem",
+      "specialty": "Specialist Family Medicine",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00137439",
+      "name": "Qundeel Shuaib",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Mediclinic City Hospital FZ-LLC"
+    },
+    {
+      "id": "00139955",
+      "name": "Hiba Alameri",
+      "specialty": "Specialist Clinical Pathology",
+      "license": "FTL",
+      "facility": "Proficiency Healthcare Diagnostic Laboratories Llc Dubai Branch"
+    },
+    {
+      "id": "00133230",
+      "name": "Ahmed Elsayed",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00142152",
+      "name": "Chadan Naji",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "SHAMMA CLINIC BY NOVOMED LLC"
+    },
+    {
+      "id": "00136300",
+      "name": "Thanuja Moideen",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Mediclinic Parkview Hospital LLC"
+    },
+    {
+      "id": "00157047",
+      "name": "Sameh Hassanin",
+      "specialty": "Specialist Clinical Pathology",
+      "license": "FTL",
+      "facility": "Zulekha Hospital LLC"
+    },
+    {
+      "id": "00145860",
+      "name": "Sujata Somashekhar Alawani",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Zulekha Hospital LLC"
+    },
+    {
+      "id": "00146848",
+      "name": "Devendrasing Vijaysing Jadhav",
+      "specialty": "Consultant Neonatology",
+      "license": "FTL",
+      "facility": "Fakeeh University Hospital"
+    },
+    {
+      "id": "00128718",
+      "name": "Eiman Alkhatib",
+      "specialty": "Specialist Hematology(Medical)",
+      "license": "FTL",
+      "facility": "Medcare Hospital(L.L.C)"
+    },
+    {
+      "id": "00129907",
+      "name": "Mohamed Kandil",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Al Garhoud Private Hospital LLC"
+    },
+    {
+      "id": "00141855",
+      "name": "Hafsa Yamok",
+      "specialty": "Consultant Pediatrics",
+      "license": "FTL",
+      "facility": "Medcare Medical Center Meadows Br of Medcare Hospital LLC"
+    },
+    {
+      "id": "00154068",
+      "name": "Sabitha Seerapani",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Al Amal Polyclinic"
+    },
+    {
+      "id": "00148049",
+      "name": "Azhar Khan",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "Emirates Hospital L.L.C"
+    },
+    {
+      "id": "00147125",
+      "name": "Baraa Dhuhair",
+      "specialty": "Consultant Psychiatry",
+      "license": "FTL",
+      "facility": "Al Jalila Children’s Specialty Hospital FZ-LLC"
+    },
+    {
+      "id": "00148922",
+      "name": "Ria Malik",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Harley International Medical Clinic Branch"
+    },
+    {
+      "id": "00167247",
+      "name": "Preeti Sahota",
+      "specialty": "Consultant Neurology",
+      "license": "FTL",
+      "facility": "Prime Hospital L.L.C"
+    },
+    {
+      "id": "00164660",
+      "name": "Badr Alhammadi",
+      "specialty": "Medical Resident",
+      "license": "FTL",
+      "facility": "Graduate Medical Education- Dubai Health"
+    },
+    {
+      "id": "00169719",
+      "name": "Ahmed Noureldin",
+      "specialty": "Specialist Neonatology",
+      "license": "FTL",
+      "facility": "Al Garhoud Private Hospital LLC"
+    },
+    {
+      "id": "00114722",
+      "name": "Nilesh Gundawar",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Al Jalila Children’s Specialty Hospital FZ-LLC"
+    },
+    {
+      "id": "00117159",
+      "name": "Suneel Kumar",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Al Azhar Clinic - Branch 2"
+    },
+    {
+      "id": "00179146",
+      "name": "Dilip Mundhada",
+      "specialty": "Consultant Radiology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00167516",
+      "name": "Afeera Ahsen",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00161615",
+      "name": "Moataz Abdalla",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00174119",
+      "name": "Rani Alset",
+      "specialty": "Specialist Neurosurgery",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00176085",
+      "name": "Ibrahim Riza",
+      "specialty": "Consultant Vascular Surgery",
+      "license": "FTL",
+      "facility": "Genesis Healthcare Center FZ-LLC"
+    },
+    {
+      "id": "00172833",
+      "name": "Arif Alnooryani",
+      "specialty": "Consultant Cardiology",
+      "license": "FTL",
+      "facility": "Clemenceau Medical Center FZ-LLC"
+    },
+    {
+      "id": "00170538",
+      "name": "Azbin Assiz",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Al Rashidiyah Private Poly Clinic"
+    },
+    {
+      "id": "00181178",
+      "name": "Anwar Alhassanieh",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "Medstar Healthcare LLC"
+    },
+    {
+      "id": "00179975",
+      "name": "Ala Babiker",
+      "specialty": "Consultant Pediatrics",
+      "license": "FTL",
+      "facility": "Hatta Hospital - Dubai Health"
+    },
+    {
+      "id": "00181071",
+      "name": "Sujatha Chella Rajesh",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Healthhub(Br.Alfuttaim Healthcare Single Person Company LLC"
+    },
+    {
+      "id": "00182311",
+      "name": "Mohammad Ali Kheiry",
+      "specialty": "Specialist Cardiology",
+      "license": "FTL",
+      "facility": "Medwin Medical Centre"
+    },
+    {
+      "id": "00177831",
+      "name": "Hani Sheikh Alshabab",
+      "specialty": "Specialist Anatomic Pathology",
+      "license": "FTL",
+      "facility": "PREMIER DIAGNOSTIC CENTER LLC"
+    },
+    {
+      "id": "00168862",
+      "name": "Hexor Cruz",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "Al Biraa Clinic L.L.C"
+    },
+    {
+      "id": "00175042",
+      "name": "Ali Hassan",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "SERVEU L L C - Company Clinic"
+    },
+    {
+      "id": "00183686",
+      "name": "Gargi Das Kundu",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Emirates Hospital L.L.C"
+    },
+    {
+      "id": "00172795",
+      "name": "Nader Saab",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "Dr Nader Saab Plastic Surgery Clinic LLC"
+    },
+    {
+      "id": "00174238",
+      "name": "Kaiser Raja",
+      "specialty": "Consultant Gastroenterology",
+      "license": "FTL",
+      "facility": "Kings College Hospital London Br Of Kch Healthcare LLC"
+    },
+    {
+      "id": "00182998",
+      "name": "Maha Ibrahim Elsayed",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Rond Point Clinic"
+    },
+    {
+      "id": "00186025",
+      "name": "Norhan Mohamed",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Al Nahda Occupational Screening Center"
+    },
+    {
+      "id": "00166710",
+      "name": "Ali Abdallah",
+      "specialty": "Consultant Pediatrics",
+      "license": "FTL",
+      "facility": "DR SULAIMAN AL HABIB MEDICAL CENTER (Br of DR SULAIMAN AL HABIB HOSPITAL FZ-L.L.C) - DUBAI BRANCH"
+    },
+    {
+      "id": "00167667",
+      "name": "Sohar Said",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "VALERA CLINICS"
+    },
+    {
+      "id": "00179163",
+      "name": "Fatma Khalaf",
+      "specialty": "Specialist Clinical Pathology (Chemical Pathology)",
+      "license": "FTL",
+      "facility": "Glucare Integrated Diabetes Center LLC"
+    },
+    {
+      "id": "00180622",
+      "name": "Rouf Jan",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "SKINFLUENCER CLINIC (BR OF DUBAI LONDON CLINIC & SPECIALITY HOSPITAL L.L.C)"
+    },
+    {
+      "id": "00169154",
+      "name": "Hesham Gadelkarim",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "Clemenceau Medical Center FZ-LLC"
+    },
+    {
+      "id": "00177611",
+      "name": "Haroon Mann",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Zia Medical Centre L.L.C"
+    },
+    {
+      "id": "00170666",
+      "name": "Faizal Ahamed",
+      "specialty": "Consultant Endocrinology",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00185775",
+      "name": "Mona Elmeligy",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "LELARA AESTHETIC CLINIC"
+    },
+    {
+      "id": "00182624",
+      "name": "Kamal Akkach",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "Health Baypolyclinic Br"
+    },
+    {
+      "id": "00184372",
+      "name": "Sivaprakash Rathanaswamy",
+      "specialty": "Consultant Surgical Oncology",
+      "license": "FTL",
+      "facility": "Prime Hospital L.L.C"
+    },
+    {
+      "id": "00188875",
+      "name": "Mohammed Al Olabi",
+      "specialty": "Consultant Anesthesia",
+      "license": "FTL",
+      "facility": "FAKIH IVF LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00189450",
+      "name": "Fatima Masood",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00190451",
+      "name": "Budoor Alemadi",
+      "specialty": "Consultant Endocrinology",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00186463",
+      "name": "Fauzia  Mustafa Shah",
+      "specialty": "Specialist Family Medicine",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00180528",
+      "name": "Erik Hohmann",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Adam Vital Hospital L.L.C"
+    },
+    {
+      "id": "00189224",
+      "name": "Mira Alketbi",
+      "specialty": "Medical Resident",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00171157",
+      "name": "Ahmed Shabana",
+      "specialty": "Specialist Ophthalmology",
+      "license": "FTL",
+      "facility": "Al Zahra Pvt. Hospital"
+    },
+    {
+      "id": "00172692",
+      "name": "Mazen Hamoudi",
+      "specialty": "Consultant Psychiatry",
+      "license": "FTL",
+      "facility": "NOVOMED WELLNESS CENTER (BR OF INTELLIGENT HEALTH INVESTMENT L.L.C)"
+    },
+    {
+      "id": "00131382",
+      "name": "Reyadh Mahdi",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "Dubai London Clinic(Festival City Branch)"
+    },
+    {
+      "id": "00189188",
+      "name": "Myra Fatima Syeda",
+      "specialty": "Specialist Emergency Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00181483",
+      "name": "Nancy Shuhdy Habib Abdelnour",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Fakeeh University Hospital"
+    },
+    {
+      "id": "00175319",
+      "name": "Christian Franke",
+      "specialty": "Consultant Neurology",
+      "license": "FTL",
+      "facility": "Medwin Medical Centre"
+    },
+    {
+      "id": "00184576",
+      "name": "Ashok Kumar",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Primecorp Medical Center Dwc Br Of Primecorp Medical Center L L C"
+    },
+    {
+      "id": "00177571",
+      "name": "Sameet Sanjeeva Shetty",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Primecorp Medical Center L L C Jabal Ali Branch"
+    },
+    {
+      "id": "00189650",
+      "name": "Madhavi Sankar",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Dr Ismail New Polyclinic"
+    },
+    {
+      "id": "00192136",
+      "name": "Nafisa Elsafi",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Al Rashid Al Saleh Pvt. School Clinic"
+    },
+    {
+      "id": "00178431",
+      "name": "Omidreza Sedigh",
+      "specialty": "Consultant Urology",
+      "license": "FTL",
+      "facility": "Medical Village"
+    },
+    {
+      "id": "00135711",
+      "name": "Shailesh Matkar",
+      "specialty": "Specialist General Surgery",
+      "license": "FTL",
+      "facility": "Medstar Healthcare LLC"
+    },
+    {
+      "id": "00136374",
+      "name": "Fayeza Meraj",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00197547",
+      "name": "Farah Al Nafoosi",
+      "specialty": "Consultant Emergency Medicine",
+      "license": "FTL",
+      "facility": "Clemenceau Medical Center FZ-LLC"
+    },
+    {
+      "id": "00200073",
+      "name": "Lilya Chub",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Hope Health and Healing Medical Center LLC"
+    },
+    {
+      "id": "00201481",
+      "name": "Laxmi Kant Sharma",
+      "specialty": "Consultant Endocrinology",
+      "license": "FTL",
+      "facility": "Hmc Medical Center L L C"
+    },
+    {
+      "id": "00141731",
+      "name": "Mukesh Shewakram",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "Canadian Specialist Hospital"
+    },
+    {
+      "id": "00198632",
+      "name": "Nadia Al Zarki",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00202471",
+      "name": "Mohammad Fadi Almarzouki",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Dr Sulaiman Al Habib Hospital FZ-LLC"
+    },
+    {
+      "id": "00191153",
+      "name": "Haider Alkhayyat",
+      "specialty": "BTX and Fillers Occupational Medicine Privilege",
+      "license": "FTL",
+      "facility": "ATTRAXIA POLYCLINIC LLC"
+    },
+    {
+      "id": "00200922",
+      "name": "Urmi Gupta",
+      "specialty": "Specialist Radiology",
+      "license": "FTL",
+      "facility": "N.M.C SPECIALTY HOSPITAL LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00185908",
+      "name": "Nashwa Dyab",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Saudi German Hospital"
+    },
+    {
+      "id": "00204524",
+      "name": "Swati Chandrashekher Pacharne",
+      "specialty": "Specialist Radiology",
+      "license": "FTL",
+      "facility": "Badr Al Samaa Medical Centre"
+    },
+    {
+      "id": "00188092",
+      "name": "Mahra Alsuwaidi",
+      "specialty": "Consultant General Surgery",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00194490",
+      "name": "Khalid Alkhayat",
+      "specialty": "Consultant Ophthalmology",
+      "license": "FTL",
+      "facility": "Dubai Police Health Center - Al Qiyadah"
+    },
+    {
+      "id": "00205428",
+      "name": "Faiza Akhlaque",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Kings College Hospital London Br Of Kch Healthcare LLC"
+    },
+    {
+      "id": "00199264",
+      "name": "Alia Alfalasi",
+      "specialty": "Consultant Family Medicine",
+      "license": "FTL",
+      "facility": "Umm Suqeim Health center - PHC"
+    },
+    {
+      "id": "00190388",
+      "name": "Girisankar Gangadharan",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Healthhub Br.Alfuttaim Healthcare Single Person Company LLC"
+    },
+    {
+      "id": "00201936",
+      "name": "Mohmmedarif Meman",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Primecorp Medical Center Alqouz L L C Branch"
+    },
+    {
+      "id": "00199951",
+      "name": "Rageena Suleman",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Call Doctor Home Health Care Center LLC"
+    },
+    {
+      "id": "00206459",
+      "name": "Lamya Al Marzooqi",
+      "specialty": "Consultant Family Medicine",
+      "license": "FTL",
+      "facility": "Mediclinic Meadows Clinic"
+    },
+    {
+      "id": "00194713",
+      "name": "Adib Al Attar",
+      "specialty": "Consultant Urology",
+      "license": "FTL",
+      "facility": "Mediclinic Parkview Hospital LLC"
+    },
+    {
+      "id": "00195453",
+      "name": "Eman Abdelhamed",
+      "specialty": "Specialist Clinical Pathology",
+      "license": "FTL",
+      "facility": "LIFESPAN GENOMICS LABS - FZCO"
+    },
+    {
+      "id": "00203134",
+      "name": "Maysarah Alawneh",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Kings College Hospital London Br Of Kch Healthcare LLC"
+    },
+    {
+      "id": "00197089",
+      "name": "Rabia Kamran",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00207366",
+      "name": "Absa Salim",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00203854",
+      "name": "Bhuvaneswari Esakkimuthu",
+      "specialty": "Specialist Psychiatry",
+      "license": "FTL",
+      "facility": "Kids Neuro Clinic and Rehab Center FZ-LLC"
+    },
+    {
+      "id": "00192352",
+      "name": "Maajitha Banu Shamsammal",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Procare Health Services"
+    },
+    {
+      "id": "00157316",
+      "name": "Sawsan Alnahas",
+      "specialty": "Consultant Public Health Medicine",
+      "license": "FTL",
+      "facility": "Public Health Protection Department"
+    },
+    {
+      "id": "00205513",
+      "name": "Hany Sarra",
+      "specialty": "Specialist Emergency Medicine",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00205941",
+      "name": "Eman Eleskafy",
+      "specialty": "Specialist Dermatology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00198880",
+      "name": "Tabassum Behlim",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "American Hospital Dubai LLC"
+    },
+    {
+      "id": "00205239",
+      "name": "Hedyeh Torabi",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "PERFECT DOCS HOME HEALTHCARE SERVICES"
+    },
+    {
+      "id": "00206385",
+      "name": "Kainath N Azad",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00208718",
+      "name": "Mauricio De Maio Domingos",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "OURONYX CLINIC L.L.C"
+    },
+    {
+      "id": "00210319",
+      "name": "Sana Kausar",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Mediclinic Parkview Hospital LLC"
+    },
+    {
+      "id": "00160657",
+      "name": "Prashanth Prabhu",
+      "specialty": "Specialist Otolaryngology",
+      "license": "FTL",
+      "facility": "Healthhub Br Of Alfuttaim Healthcare Single Person Company LLC"
+    },
+    {
+      "id": "00193833",
+      "name": "Marie Claire Westgarth",
+      "specialty": "Consultant Family Medicine",
+      "license": "FTL",
+      "facility": "Emirates Airline Clinic"
+    },
+    {
+      "id": "00206869",
+      "name": "Dapinder Pal Singh",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Saudi German Hospital"
+    },
+    {
+      "id": "00209550",
+      "name": "Omar Habo",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Healthhub Br Alfuttaim Healthcare Single Person Company LLC"
+    },
+    {
+      "id": "00210325",
+      "name": "Galina Scerbacova",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Medcare Medical Centre Jumeirah Br Of Medcare Hosp"
+    },
+    {
+      "id": "00211160",
+      "name": "Amany Kamaleldin",
+      "specialty": "Specialist Diagnostic Radiology",
+      "license": "FTL",
+      "facility": "Dr Sulaiman Al Habib Hospital FZ-LLC"
+    },
+    {
+      "id": "00208677",
+      "name": "Mohammad Elbakri",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Dr. Fathi Omara Medical Polyclinic"
+    },
+    {
+      "id": "00209440",
+      "name": "Heba Mohamed",
+      "specialty": "Consultant Anatomic Pathology",
+      "license": "FTL",
+      "facility": "Freiburg Medical Laboratory Middle East"
+    },
+    {
+      "id": "00197551",
+      "name": "Tamara Petrovic",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "ARWA AND ALI DENTAL AND DAY SURGICAL CENTER"
+    },
+    {
+      "id": "00208906",
+      "name": "Ahmed Mohamed Elmorsy Abdelmohsen",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00201921",
+      "name": "Yara Elfekky",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Public Health Protection Department"
+    },
+    {
+      "id": "00213494",
+      "name": "Maha Abdo",
+      "specialty": "Consultant Family Medicine",
+      "license": "FTL",
+      "facility": "Nadd Al Hammar Medical Center - PHC"
+    },
+    {
+      "id": "00034238",
+      "name": "Hussein Abdelrazik",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Kaya Skin Care Clinic(Branch)Mardif"
+    },
+    {
+      "id": "00204345",
+      "name": "Dilip Ramanathan",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Docib Clinic LLC"
+    },
+    {
+      "id": "00200120",
+      "name": "Mohammed Ahmed",
+      "specialty": "Consultant Rheumatology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00201537",
+      "name": "Mufique Gajdhar",
+      "specialty": "Specialist Pediatric Surgery",
+      "license": "FTL",
+      "facility": "Canadian Specialist Hospital"
+    },
+    {
+      "id": "00042740",
+      "name": "Nisha Ayyappanparambil Ravindran",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Aster Hospital Br Of Aster Dm Healthcare Fzc Dubai"
+    },
+    {
+      "id": "00044535",
+      "name": "Bindu Isaac Perumprathekethil",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Latifa Hospital - Dubai Health"
+    },
+    {
+      "id": "00206002",
+      "name": "Abeer Ammar",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Latifa Hospital - Dubai Health"
+    },
+    {
+      "id": "00213909",
+      "name": "Basma Mersal",
+      "specialty": "Specialist Clinical Immunology and Allergy",
+      "license": "FTL",
+      "facility": "Mediclinic Welcare Hospital LLC"
+    },
+    {
+      "id": "00214329",
+      "name": "Anitha Deve",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Abris Medical Centre LLC"
+    },
+    {
+      "id": "00211865",
+      "name": "Mehryar Andacheh",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Trudoc Healthcare LLC"
+    },
+    {
+      "id": "00206934",
+      "name": "Hatem Sarg",
+      "specialty": "Specialist Anatomic Pathology",
+      "license": "FTL",
+      "facility": "Dr. Azzam Al Abdul Razzak Clinic"
+    },
+    {
+      "id": "00207447",
+      "name": "Shakhnoz Nizomova",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Al Zahra Pvt. Hospital"
+    },
+    {
+      "id": "00203229",
+      "name": "Muhammad Nasim Sabir",
+      "specialty": "Specialist Clinical Biochemistry",
+      "license": "FTL",
+      "facility": "Pakistan   Medical Center"
+    },
+    {
+      "id": "00204819",
+      "name": "Zainab Saeed",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "Latifa Hospital - Dubai Health"
+    },
+    {
+      "id": "00216087",
+      "name": "Hafidh Alrajaby",
+      "specialty": "Specialist Emergency Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00207592",
+      "name": "Rahman Shah",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "CITICARE MEDICAL CENTER LLC"
+    },
+    {
+      "id": "00208897",
+      "name": "Rachid Alkudsi Sabbagh",
+      "specialty": "Consultant Neurosurgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00210104",
+      "name": "Asha Krishna Murthy Rajendran",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "IKIGAI MEDICAL CENTRE( BR OF LIFE CLINIC )"
+    },
+    {
+      "id": "00205821",
+      "name": "Sujith Shahul",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00216439",
+      "name": "Sabik Ameen Vayappurath",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Dr Ismail New Polyclinic"
+    },
+    {
+      "id": "00218705",
+      "name": "Muhammad Jabbr",
+      "specialty": "Consultant Otolaryngology",
+      "license": "FTL",
+      "facility": "Medcare Hospital(L.L.C)"
+    },
+    {
+      "id": "00210633",
+      "name": "Mangesh Manoharrao Dande",
+      "specialty": "Specialist Cardiology",
+      "license": "FTL",
+      "facility": "Al Warqa Medical Center"
+    },
+    {
+      "id": "00212251",
+      "name": "Teja Sree Machani",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "AL MURJAN MEDICAL CENTRE L.L.C"
+    },
+    {
+      "id": "00210971",
+      "name": "Dana Haddad",
+      "specialty": "Consultant Diagnostic Radiology",
+      "license": "FTL",
+      "facility": "Mediclinic Parkview Hospital LLC"
+    },
+    {
+      "id": "00216868",
+      "name": "Mavluda Mcdonnell",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Almavita Medical Clinic FZ-LLC"
+    },
+    {
+      "id": "00217631",
+      "name": "Malik Zaka Ullah",
+      "specialty": "Consultant Emergency Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00220030",
+      "name": "Ruba Masafeh",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Mediclinic Dubai Mall Medical Centre Br Mediclinic Clinics LLC"
+    },
+    {
+      "id": "00217920",
+      "name": "Ameerunnisa Khan",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00212265",
+      "name": "Joshi Raj",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Mobile Doctors Healthcare L.L.C"
+    },
+    {
+      "id": "00213064",
+      "name": "Manjusha Bodhey",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00209384",
+      "name": "Haddel Abdoush",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "LA VOGUE EXPERTS POLY CLINIC L.L.C"
+    },
+    {
+      "id": "00213671",
+      "name": "Tina Williams",
+      "specialty": "Consultant Pediatrics",
+      "license": "FTL",
+      "facility": "Mediclinic Meaisem"
+    },
+    {
+      "id": "00224333",
+      "name": "Sukanya Vrushabhendra",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Al Jalila Children’s Specialty Hospital FZ-LLC"
+    },
+    {
+      "id": "00212018",
+      "name": "Hatem Dalati",
+      "specialty": "Consultant Otolaryngology",
+      "license": "FTL",
+      "facility": "ENT Clinic of Excellence FZ LLC"
+    },
+    {
+      "id": "00219766",
+      "name": "Fatma Alhashimi",
+      "specialty": "Specialist Otolaryngology",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00224297",
+      "name": "Herath Mudiyanselage Pathirage",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "St. Mary Catholic High School"
+    },
+    {
+      "id": "00213596",
+      "name": "Kishore Kuduva",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "Prime Hospital L.L.C"
+    },
+    {
+      "id": "00226106",
+      "name": "Mouza Alnuaimi",
+      "specialty": "Consultant Clinical Pathology",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00214052",
+      "name": "Dirk Kremer",
+      "specialty": "Specialist Plastic Surgery",
+      "license": "FTL",
+      "facility": "Perfect Doctors Clinic L.L.C"
+    },
+    {
+      "id": "00217800",
+      "name": "Amar Alomar",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Medcare Orthopaedics And Spine Hospital"
+    },
+    {
+      "id": "00215808",
+      "name": "Pierre Elchater",
+      "specialty": "Consultant Otolaryngology",
+      "license": "FTL",
+      "facility": "Dr Sulaiman Al Habib Hospital FZ-LLC"
+    },
+    {
+      "id": "00218228",
+      "name": "Amna Khalid",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00217597",
+      "name": "Khaldoun Ghareb",
+      "specialty": "Consultant General Surgery",
+      "license": "FTL",
+      "facility": "Medcare Hospital(L.L.C)"
+    },
+    {
+      "id": "00213676",
+      "name": "Rose Petero",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Prime Medical Center Bur Dubai L L C"
+    },
+    {
+      "id": "00176828",
+      "name": "Merin Thomas",
+      "specialty": "Specialist Anesthesia",
+      "license": "FTL",
+      "facility": "Al Zahra Pvt. Hospital"
+    },
+    {
+      "id": "00215111",
+      "name": "Eve George",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "The Millenium School"
+    },
+    {
+      "id": "00215538",
+      "name": "Rajashri Patil",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00226878",
+      "name": "Jyothsna Aakavarapu",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00221807",
+      "name": "Renu Misurya",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Getwell Medical Center"
+    },
+    {
+      "id": "00218218",
+      "name": "Emad Albarrishi",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Emirates Sports Med Clinic LLC"
+    },
+    {
+      "id": "00216374",
+      "name": "Abdullah Ghanem",
+      "specialty": "Consultant Pediatrics",
+      "license": "FTL",
+      "facility": "Fakeeh University Hospital"
+    },
+    {
+      "id": "00216886",
+      "name": "Moustafa Hekmat Yazji",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Health Baypolyclinic Br"
+    },
+    {
+      "id": "00219079",
+      "name": "Hafiz Waqar Maqsood",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "SCULPT ROOTS MEDICAL CLINIC L.L.C"
+    },
+    {
+      "id": "00230949",
+      "name": "Marisa Joson",
+      "specialty": "Specialist Cardiology",
+      "license": "FTL",
+      "facility": "Prime Medical Center Sheikh Zayed Road L L C"
+    },
+    {
+      "id": "00224461",
+      "name": "Preeti Jaiswal",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00221712",
+      "name": "Falahunisa Shaikh",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Prime Medical Center Barsha Heights Branch L L C"
+    },
+    {
+      "id": "00219442",
+      "name": "Ayan Chakraborty",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Primecorp Medical Center AL QUSAIS"
+    },
+    {
+      "id": "00222413",
+      "name": "Samer Saour",
+      "specialty": "Consultant Plastic Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00223557",
+      "name": "Urooj Fatima",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Trudoc Health Care LLC"
+    },
+    {
+      "id": "00183013",
+      "name": "Eset Dzeygova",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "INNOVATION FAMILY POLYCLINIC L.L.C"
+    },
+    {
+      "id": "00239825",
+      "name": "Abdulhamed Rahman",
+      "specialty": "Specialist Radiology",
+      "license": "FTL",
+      "facility": "Duraiya Kamal Medical Clinic"
+    },
+    {
+      "id": "00240193",
+      "name": "Kishore Nimkhedkar",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "AL MURJAN MEDICAL CENTRE L.L.C"
+    },
+    {
+      "id": "00227208",
+      "name": "Abed Shihada",
+      "specialty": "Consultant General Surgery",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00222315",
+      "name": "Mohammad Tarek Aldairi",
+      "specialty": "Specialist Cardiology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00223092",
+      "name": "Osamah Aljumaily",
+      "specialty": "Consultant Urology",
+      "license": "FTL",
+      "facility": "Novomed Specialized Surgical Hospital LLC"
+    },
+    {
+      "id": "00222441",
+      "name": "Hussein Naji",
+      "specialty": "Consultant Pediatric Surgery",
+      "license": "FTL",
+      "facility": "Mediclinic Parkview Hospital LLC"
+    },
+    {
+      "id": "00223163",
+      "name": "Kalpana Krishnareddy",
+      "specialty": "Consultant Critical Care Medicine",
+      "license": "FTL",
+      "facility": "N M C ROYAL HOSPITAL LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00223654",
+      "name": "Deepak Gandhi",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Medeor 24X7 Hospital LLC"
+    },
+    {
+      "id": "00224156",
+      "name": "Mutaz Alqawasmeh",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Medcare Medical Centre Motorcity Br Of Medcare Hos"
+    },
+    {
+      "id": "00228047",
+      "name": "Anne Frederique Minsart",
+      "specialty": "Consultant Maternal and Fetal Medicine",
+      "license": "FTL",
+      "facility": "Mediclinic Parkview Hospital LLC"
+    },
+    {
+      "id": "00189191",
+      "name": "Mariam Tahir",
+      "specialty": "Specialist Emergency Medicine",
+      "license": "FTL",
+      "facility": "Al Zahra Pvt. Hospital"
+    },
+    {
+      "id": "00222920",
+      "name": "Noor Salman",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "DR FAIEZ GHANAM DERMATOLOGY AND COSMETIC AND LASER L.L.C"
+    },
+    {
+      "id": "00227000",
+      "name": "Ramzi Abou Ayache",
+      "specialty": "Consultant Nephrology",
+      "license": "FTL",
+      "facility": "Mediclinic City Hospital FZ-LLC"
+    },
+    {
+      "id": "00225151",
+      "name": "Maryam Alsuwaidi",
+      "specialty": "Consultant Psychiatry",
+      "license": "FTL",
+      "facility": "Dubai Police Health Center - Al Qiyadah"
+    },
+    {
+      "id": "00045835",
+      "name": "Kirthi Raju",
+      "specialty": "Consultant Rheumatology",
+      "license": "FTL",
+      "facility": "Mediclinic Welcare Hospital LLC"
+    },
+    {
+      "id": "00047305",
+      "name": "Mamoun Barrani",
+      "specialty": "Specialist Radiology",
+      "license": "FTL",
+      "facility": "Clemenceau Medical Center FZ-LLC"
+    },
+    {
+      "id": "00227871",
+      "name": "Eman Ibrahim Hussein",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "SKIN III LTD DUBAI BRANCH"
+    },
+    {
+      "id": "00228312",
+      "name": "Rabee Dewar",
+      "specialty": "Specialist Cardiology",
+      "license": "FTL",
+      "facility": "Dubai London Clinic And Speciality Hospital"
+    },
+    {
+      "id": "00229290",
+      "name": "Ann Sara George",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Trudoc Health Care LLC"
+    },
+    {
+      "id": "00225299",
+      "name": "Samuel Ho",
+      "specialty": "Consultant Gastroenterology",
+      "license": "FTL",
+      "facility": "Mediclinic City Hospital FZ-LLC"
+    },
+    {
+      "id": "00226677",
+      "name": "Shumaila Naqvi",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "ZYVA DENTAL AND AESTHETICS CLINIC L.L.C"
+    },
+    {
+      "id": "00240291",
+      "name": "Mohammad Jamal",
+      "specialty": "Specialist Ophthalmology",
+      "license": "FTL",
+      "facility": "ULTRA CARE MEDICAL GROUP LLC"
+    },
+    {
+      "id": "00240540",
+      "name": "Zubair Edakkavil",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "Mediclinic Welcare Hospital LLC"
+    },
+    {
+      "id": "00229058",
+      "name": "Isam Oumeish",
+      "specialty": "Consultant Dermatology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00229982",
+      "name": "Alaaelrahman Aboubakr",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "LOS ANGELES AESTHETIC MEDICAL L.L.C"
+    },
+    {
+      "id": "00190022",
+      "name": "Taimoor Ata Tung",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "HBG Medical Centre FZ LLC"
+    },
+    {
+      "id": "00241164",
+      "name": "Bassel Darwish",
+      "specialty": "Consultant Rheumatology",
+      "license": "FTL",
+      "facility": "Health Call FZ-LLC"
+    },
+    {
+      "id": "00229616",
+      "name": "Elham Ali Ahmad Akbari",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "IVF International Fertility Center LLC"
+    },
+    {
+      "id": "00231594",
+      "name": "Nafja Almazrouei",
+      "specialty": "Specialist Family Medicine",
+      "license": "FTL",
+      "facility": "Al Mamzar Medical Center - PHC"
+    },
+    {
+      "id": "00228768",
+      "name": "Wael Foad",
+      "specialty": "Consultant Psychiatry",
+      "license": "FTL",
+      "facility": "Erada Center for Treatment and Rehab in Dubai"
+    },
+    {
+      "id": "00229271",
+      "name": "Duaa Alhaddad",
+      "specialty": "Specialist Emergency Medicine",
+      "license": "FTL",
+      "facility": "Rashid Hospital - Dubai Health"
+    },
+    {
+      "id": "00193868",
+      "name": "Ahmed Radwan",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Zulekha Hospital LLC"
+    },
+    {
+      "id": "00230479",
+      "name": "Syeda Wajeeha Moazzam",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00242634",
+      "name": "Mohammad Konchwalla",
+      "specialty": "Consultant Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Medcare Orthopaedics And Spine Hospital"
+    },
+    {
+      "id": "00234302",
+      "name": "Nagla Said Abousharbin",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Public Health Protection Department"
+    },
+    {
+      "id": "00233394",
+      "name": "Amir Ahmed",
+      "specialty": "Consultant Geriatric Medicine",
+      "license": "FTL",
+      "facility": "American Hospital Dubai LLC"
+    },
+    {
+      "id": "00196943",
+      "name": "Dina El Sehly",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Prime Medical Center Branch LLC"
+    },
+    {
+      "id": "00231748",
+      "name": "Sachin Lohra",
+      "specialty": "Specialist General Surgery",
+      "license": "FTL",
+      "facility": "Healthhub (Br.Alfuttaim Healthcare Single Person Company LLC)"
+    },
+    {
+      "id": "00232411",
+      "name": "Manyala Veera Adinarayana",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Grand Infinity Medical Cnter LLC"
+    },
+    {
+      "id": "00240195",
+      "name": "Seyed Hosseini",
+      "specialty": "Specialist Psychiatry",
+      "license": "FTL",
+      "facility": "Medical Specialists Center"
+    },
+    {
+      "id": "00228780",
+      "name": "Baraa Alhafez",
+      "specialty": "Specialist Neurosurgery",
+      "license": "FTL",
+      "facility": "Doctors Clinic Diagnostic Centre FZ-LLC"
+    },
+    {
+      "id": "00199496",
+      "name": "Ahmed Youness",
+      "specialty": "Specialist Gastroenterology",
+      "license": "FTL",
+      "facility": "Al Garhoud Private Hospital LLC"
+    },
+    {
+      "id": "00243917",
+      "name": "Deeb Maxwell Kayed",
+      "specialty": "Consultant Neurology",
+      "license": "FTL",
+      "facility": "Chughtai Clinic FZ LLC"
+    },
+    {
+      "id": "00244227",
+      "name": "Sarah Olama",
+      "specialty": "Consultant Family Medicine",
+      "license": "FTL",
+      "facility": "Genesis Healthcare Center FZ-LLC"
+    },
+    {
+      "id": "00232995",
+      "name": "Ashab Ali",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "PARADISE PLUS POLY CLINIC L.L.C (BRANCH)"
+    },
+    {
+      "id": "00244591",
+      "name": "Ejas Kader",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Al Shifa Al Khaleeji Medical Centre"
+    },
+    {
+      "id": "00244945",
+      "name": "Daffodils Guevarra",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Prime Medical Center L L C"
+    },
+    {
+      "id": "00239624",
+      "name": "TARIQ ALHAWARY",
+      "specialty": "Specialist Otolaryngology",
+      "license": "FTL",
+      "facility": "Feel Good Clinic"
+    },
+    {
+      "id": "00239822",
+      "name": "Mahmoud Mostafa",
+      "specialty": "Registrar Otolaryngology",
+      "license": "FTL",
+      "facility": "ULTRA CARE MEDICAL GROUP LLC"
+    },
+    {
+      "id": "00239934",
+      "name": "Mohd Azzam Kayasseh",
+      "specialty": "Specialist Gastroenterology",
+      "license": "FTL",
+      "facility": "Dr. Kayasseh Medical Clinic LLC"
+    },
+    {
+      "id": "00241370",
+      "name": "Morteza Ebadati",
+      "specialty": "Specialist Urology",
+      "license": "FTL",
+      "facility": "Gargash Hospital L L C"
+    },
+    {
+      "id": "00241552",
+      "name": "Sivasankaran Sankar",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "N.M.C SPECIALTY HOSPITAL LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00241729",
+      "name": "Chhatwal Singh",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "N.M.C SPECIALTY HOSPITAL LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00246546",
+      "name": "Shahista Shaikh",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Harley International Medical Clinic Branch"
+    },
+    {
+      "id": "00241120",
+      "name": "Anand Gupta",
+      "specialty": "Specialist Radiology",
+      "license": "FTL",
+      "facility": "Medinova Diagnostic Center(24 Hours)"
+    },
+    {
+      "id": "00241832",
+      "name": "Dilip Kumar Sharma",
+      "specialty": "Consultant Urology",
+      "license": "FTL",
+      "facility": "N.M.C SPECIALTY HOSPITAL LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00240273",
+      "name": "Salim Bazazeh",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "ZEN LIFE POLY CLINIC CO. L.L.C"
+    },
+    {
+      "id": "00203841",
+      "name": "Ramy Abdelkader",
+      "specialty": "Specialist Cardiology",
+      "license": "FTL",
+      "facility": "Dubai Hospital - Dubai Health"
+    },
+    {
+      "id": "00205015",
+      "name": "Bassem Makkar",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Medcare Medical Centre Motorcity Br Of Medcare Hos"
+    },
+    {
+      "id": "00240784",
+      "name": "Meenu Agarwal",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC"
+    },
+    {
+      "id": "00241437",
+      "name": "Mohammad Tabari",
+      "specialty": "Specialist Otolaryngology",
+      "license": "FTL",
+      "facility": "SHIRAZ MEDICAL CENTER LLC"
+    },
+    {
+      "id": "00240234",
+      "name": "Amina Amiri",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Dr Amina Alamiri Clinic"
+    },
+    {
+      "id": "00242407",
+      "name": "Nastaran Rezaee",
+      "specialty": "Specialist Anatomic Pathology",
+      "license": "FTL",
+      "facility": "NEUBERG DIAGNOSTICS MIDDLE EAST LLC"
+    },
+    {
+      "id": "00242353",
+      "name": "Rekha Patidar",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Zulekha Hospital LLC"
+    },
+    {
+      "id": "00240192",
+      "name": "Sepideh Roodsary",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Medical Specialists Center"
+    },
+    {
+      "id": "00242649",
+      "name": "Ensaf Mohammad",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Prime Hospital L.L.C"
+    },
+    {
+      "id": "00241630",
+      "name": "Mohamed Nazari",
+      "specialty": "Consultant Ophthalmology",
+      "license": "FTL",
+      "facility": "Prime Hospital L.L.C"
+    },
+    {
+      "id": "00205717",
+      "name": "Adenike Dairo",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "tomoh alamal home healthcare center"
+    },
+    {
+      "id": "00242658",
+      "name": "Sanjay Kapoor",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Prime Medical Center Jumeirah L L C"
+    },
+    {
+      "id": "00240710",
+      "name": "Michaela Jaksch",
+      "specialty": "Specialist Clinical Pathology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00243069",
+      "name": "Juned Qadir",
+      "specialty": "Specialist Radiology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00242076",
+      "name": "NAZEER AHAMED PUTHIYAVEETTIL SAYED MOHAMED",
+      "specialty": "Specialist Urology",
+      "license": "FTL",
+      "facility": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC"
+    },
+    {
+      "id": "00241548",
+      "name": "Saeed Mehboob Khan",
+      "specialty": "Specialist Ophthalmology",
+      "license": "FTL",
+      "facility": "Prime Medical Center Jumeirah L L C"
+    },
+    {
+      "id": "00250434",
+      "name": "Babak Ansari",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Health Baypolyclinic Br"
+    },
+    {
+      "id": "00208217",
+      "name": "Fathima Sabnis Kurupaly Salim",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Aster Hospital Br Of Aster Dm Healthcare FZC"
+    },
+    {
+      "id": "00244142",
+      "name": "Anna Jacob",
+      "specialty": "Specialist Internal Medicine",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00244427",
+      "name": "Ellen Dhanawade",
+      "specialty": "Specialist Ophthalmology",
+      "license": "FTL",
+      "facility": "Prime Medical Center Sheikh Zayed Road L L C"
+    },
+    {
+      "id": "00242822",
+      "name": "Mohamed Elkalyoubi",
+      "specialty": "Consultant Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Dubai Fertility Center - Dubai Health"
+    },
+    {
+      "id": "00244566",
+      "name": "Girish Juneja",
+      "specialty": "Specialist General Surgery",
+      "license": "FTL",
+      "facility": "Gargash Hospital L L C"
+    },
+    {
+      "id": "00245414",
+      "name": "Syed Rais Ahmed",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Family First Medical Center LLC"
+    },
+    {
+      "id": "00252653",
+      "name": "Mahmoud Hamouri",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "Abuhammour Gastroenterology Same Day Surgery Center Fz LLC"
+    },
+    {
+      "id": "00243392",
+      "name": "Manoj Felix",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Aster Medical Centre Al Qouz Br Of Dm Healthcare L L C"
+    },
+    {
+      "id": "00242928",
+      "name": "Peddhadda Kiran",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Sekher Medical Clinic"
+    },
+    {
+      "id": "00243233",
+      "name": "Sathya Gangatharan",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "AL HANA MEDICAL CENTER LLC"
+    },
+    {
+      "id": "00243502",
+      "name": "Moeena Zain",
+      "specialty": "Consultant Infectious Diseases",
+      "license": "FTL",
+      "facility": "American Hospital Dubai LLC"
+    },
+    {
+      "id": "00246201",
+      "name": "Prasan Madhukar Rao",
+      "specialty": "Specialist Ophthalmology",
+      "license": "FTL",
+      "facility": "Medcare Eye Centre Br Of Medcare Hospital LLC"
+    },
+    {
+      "id": "00210105",
+      "name": "Shah Khan",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Grand Infinity Medical Cnter LLC"
+    },
+    {
+      "id": "00239876",
+      "name": "Ran Vikram Singh Ranawat",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "CLOVER GOLD MEDICAL CENTRE L.L.C"
+    },
+    {
+      "id": "00249556",
+      "name": "Mohammad Abdulhafez",
+      "specialty": "Consultant Ophthalmology",
+      "license": "FTL",
+      "facility": "EYE WALK AND TALK MEDICAL CENTER LLC"
+    },
+    {
+      "id": "00250897",
+      "name": "Zainab Al Mula Ali",
+      "specialty": "Specialist Obstetrics And Gynecology",
+      "license": "FTL",
+      "facility": "Al Borj Medical Center"
+    },
+    {
+      "id": "00219118",
+      "name": "Ayman Hassan",
+      "specialty": "Consultant Anesthesia",
+      "license": "FTL",
+      "facility": "Medcare Royal Speciality Hospital (Br of Medcare Hospital LLC)"
+    },
+    {
+      "id": "00240320",
+      "name": "Basheer Poovamparambil",
+      "specialty": "General Practitioner",
+      "license": "FTL",
+      "facility": "Dr Sirajuddin Medical Centre"
+    },
+    {
+      "id": "00224569",
+      "name": "Maya Mouzannar",
+      "specialty": "Consultant Pediatrics",
+      "license": "FTL",
+      "facility": "Dr. Sulaiman Al Habib Medical Center Br Of Dr Suliman Alhabib Hospital"
+    },
+    {
+      "id": "00241852",
+      "name": "Naghmeh Karbasi",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "International Modern Hospital (L. L. C)"
+    },
+    {
+      "id": "00242125",
+      "name": "Atanas Hristov",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "N M C ROYAL HOSPITAL LTD - DUBAI BRANCH"
+    },
+    {
+      "id": "00252274",
+      "name": "Mazin Aljabiri",
+      "specialty": "Consultant Internal Medicine",
+      "license": "FTL",
+      "facility": "Mediclinic Parkview Hospital LLC"
+    },
+    {
+      "id": "00246070",
+      "name": "Mina Milovanovic",
+      "specialty": "Specialist Internal Medicine",
+      "license": "FTL",
+      "facility": "Health Baypolyclinic Br"
+    },
+    {
+      "id": "00241674",
+      "name": "Rajanikant Shah",
+      "specialty": "Specialist Dermatology",
+      "license": "FTL",
+      "facility": "Grand Infinity Medical Center LLC Branch"
+    },
+    {
+      "id": "00221032",
+      "name": "Mohamed Ahmed",
+      "specialty": "Specialist Cardiology",
+      "license": "FTL",
+      "facility": "Medcare Royal Speciality Hospital (Br of Medcare Hospital LLC)"
+    },
+    {
+      "id": "00223293",
+      "name": "Ahmad Ayad",
+      "specialty": "Consultant Neurology",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00242359",
+      "name": "Nisha Joseph",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00215624",
+      "name": "Ahmad Abdulrahman",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    },
+    {
+      "id": "00243110",
+      "name": "Ahmed Zadeh",
+      "specialty": "Specialist Ophthalmology",
+      "license": "FTL",
+      "facility": "Shefa Medpoint Clinic L.L.C."
+    },
+    {
+      "id": "00226712",
+      "name": "Anju Sarah Thomas",
+      "specialty": "Specialist Pediatrics",
+      "license": "FTL",
+      "facility": "Better Life Clinic L L C"
+    },
+    {
+      "id": "00243784",
+      "name": "Kasid Nouri",
+      "specialty": "Consultant Neurology",
+      "license": "FTL",
+      "facility": "Mediclinic Welcare Hospital LLC"
+    },
+    {
+      "id": "00225171",
+      "name": "Abdullah Alhaji",
+      "specialty": "Specialist Orthopedic Surgery",
+      "license": "FTL",
+      "facility": "Medcare Medical Center Nad Al Sheba Br of Medcare Hospital LLC"
+    },
+    {
+      "id": "00759575",
+      "name": "HEND MABROUK MOHAMED FOUAD",
+      "specialty": "General Practitioner",
+      "license": "REG",
+      "facility": ""
+    }
+  ],
+  "top_specialties": [
+    [
+      "General Dentist",
+      5186
+    ],
+    [
+      "Specialist Orthodontics",
+      699
+    ],
+    [
+      "Specialist Endodontics",
+      269
+    ],
+    [
+      "Specialist Prosthodontics",
+      246
+    ],
+    [
+      "Specialist Pediatric Dentistry",
+      227
+    ],
+    [
+      "Specialist Oral and Maxillofacial Surgery",
+      217
+    ],
+    [
+      "Implantology Privilege",
+      214
+    ],
+    [
+      "Specialist Periodontics",
+      192
+    ],
+    [
+      "Dental Resident",
+      97
+    ],
+    [
+      "Dental-Trainee",
+      82
+    ],
+    [
+      "Dental Intern",
+      62
+    ],
+    [
+      "Consultant Orthodontics",
+      48
+    ],
+    [
+      "Specialist Oral surgery",
+      48
+    ],
+    [
+      "Specialist Restorative Dentistry",
+      43
+    ],
+    [
+      "Consultant Prosthodontics",
+      30
+    ],
+    [
+      "Consultant Oral and Maxillofacial Surgery",
+      25
+    ],
+    [
+      "Consultant Pediatric Dentistry",
+      21
+    ],
+    [
+      "Consultant Periodontics",
+      18
+    ],
+    [
+      "Consultant Oral surgery",
+      12
+    ],
+    [
+      "Laser in Dentistry",
+      11
+    ]
+  ]
+}

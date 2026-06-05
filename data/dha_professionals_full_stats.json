@@ -1,0 +1,222 @@
+{
+  "total_rows": 101080,
+  "unique_by_dhaUniqueId": 65593,
+  "source": "DHA Sheryan Registry (direct, services.dha.gov.ae)",
+  "scraped_at": "2026-06-05",
+  "field_fill_pct": {
+    "name": 100.0,
+    "categoryOrSpeciality": 100.0,
+    "facilityName": 69.8,
+    "licenseType": 100.0,
+    "photo": 0.0,
+    "licensecount": 100.0
+  },
+  "categories_top10": [
+    [
+      "Nurse and Midwife",
+      35126
+    ],
+    [
+      "Allied Health",
+      33211
+    ],
+    [
+      "Physician",
+      24034
+    ],
+    [
+      "Dentist",
+      7780
+    ],
+    [
+      "Traditional Complementary and Integrative Medicine Practitioners (TCIM)",
+      929
+    ]
+  ],
+  "specialties_top20": [
+    [
+      "Registered Nurse",
+      28957
+    ],
+    [
+      "Pharmacist",
+      9512
+    ],
+    [
+      "General Practitioner",
+      6978
+    ],
+    [
+      "Assistant Nurse",
+      5737
+    ],
+    [
+      "General Dentist",
+      5186
+    ],
+    [
+      "Physiotherapist",
+      3535
+    ],
+    [
+      "Medical Laboratory Technologist",
+      2360
+    ],
+    [
+      "Aesthetician/Beauty Therapist",
+      2158
+    ],
+    [
+      "Optometrist",
+      1888
+    ],
+    [
+      "Radiography Technologist",
+      1671
+    ],
+    [
+      "Medical Laboratory Technician",
+      1233
+    ],
+    [
+      "Specialist Obstetrics And Gynecology",
+      1124
+    ],
+    [
+      "Specialist Dermatology",
+      953
+    ],
+    [
+      "Specialist Pediatrics",
+      937
+    ],
+    [
+      "Dental Assistant",
+      853
+    ],
+    [
+      "Pharmacy Technician",
+      804
+    ],
+    [
+      "Laser Hair Reduction Technician",
+      764
+    ],
+    [
+      "Specialist Anesthesia",
+      738
+    ],
+    [
+      "Specialist Internal Medicine",
+      717
+    ],
+    [
+      "Specialist Orthodontics",
+      699
+    ]
+  ],
+  "facilities_top20": [
+    [
+      "Rashid Hospital - Dubai Health",
+      2714
+    ],
+    [
+      "Dubai Hospital - Dubai Health",
+      1616
+    ],
+    [
+      "American Hospital Dubai LLC",
+      1070
+    ],
+    [
+      "Mediclinic Parkview Hospital LLC",
+      1064
+    ],
+    [
+      "Al Jalila Children’s Specialty Hospital FZ-LLC",
+      1021
+    ],
+    [
+      "Mediclinic City Hospital FZ-LLC",
+      938
+    ],
+    [
+      "Latifa Hospital - Dubai Health",
+      900
+    ],
+    [
+      "Al Zahra Pvt. Hospital",
+      888
+    ],
+    [
+      "Kings College Hospital London Br Of Kch Healthcare LLC",
+      849
+    ],
+    [
+      "Saudi German Hospital",
+      816
+    ],
+    [
+      "Graduate Medical Education- Dubai Health",
+      765
+    ],
+    [
+      "N.M.C SPECIALTY HOSPITAL LTD - DUBAI BRANCH",
+      753
+    ],
+    [
+      "Fakeeh University Hospital",
+      650
+    ],
+    [
+      "N M C ROYAL HOSPITAL LTD - DUBAI BRANCH",
+      643
+    ],
+    [
+      "Aster Hospital Br Of Aster Dm Healthcare FZC",
+      547
+    ],
+    [
+      "Prime Hospital L.L.C",
+      514
+    ],
+    [
+      "Zulekha Hospital LLC",
+      512
+    ],
+    [
+      "MIRDIF PRIVATE HOSPITAL LLC",
+      500
+    ],
+    [
+      "Dr Sulaiman Al Habib Hospital FZ-LLC",
+      490
+    ],
+    [
+      "Aster Hospital Br Of Aster Dm Healthcare Fzc Dubai",
+      485
+    ]
+  ],
+  "license_types": [
+    [
+      "FTL",
+      70476
+    ],
+    [
+      "REG",
+      30529
+    ],
+    [
+      "PTL",
+      39
+    ],
+    [
+      "TRL",
+      36
+    ]
+  ],
+  "unique_categories": 5,
+  "unique_specialties": 410,
+  "unique_facilities": 5240,
+  "csv_path": "/root/.openclaw/workspace/data/dha_professionals_full.csv"
+}

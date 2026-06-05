@@ -3,62 +3,88 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DMD Dubai — L'annuaire des médecins et dentistes à Dubai</title>
-  <meta name="description" content="Trouvez les meilleurs médecins, dentistes et chirurgiens à Dubai. 99 520 professionnels DHA-licensés référencés. Interface trilingue FR/AR/EN." />
+  <title>DMD Dubai — 7 780 dentistes et 24 034 médecins référencés</title>
+  <meta name="description" content="Trouvez votre dentiste ou médecin à Dubai. 7 780 dentistes + 24 034 médecins DHA-licensés référencés. Trilingue FR/AR/EN + RU/ZH. Prise de RDV 24/7." />
   <link rel="alternate" hreflang="ar" href="/ar/" />
   <link rel="alternate" hreflang="en" href="/en/" />
   <link rel="alternate" hreflang="fr" href="/fr/" />
+  <link rel="alternate" hreflang="ru" href="/ru/" />
+  <link rel="alternate" hreflang="zh" href="/zh/" />
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #1a202c; background: #f7fafc; }
-    header { background: linear-gradient(135deg, #1e40af 0%, #059669 100%); color: white; padding: 1.5rem 2rem; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; color: #1a202c; background: #f7fafc; }
+    header { background: linear-gradient(135deg, #0A2540 0%, #0066FF 100%); color: white; padding: 1.2rem 2rem; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
     .header-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
     .logo { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.5px; }
-    .logo span { color: #fbbf24; }
-    .lang-switcher { display: flex; gap: 0.5rem; }
-    .lang-switcher a { color: white; text-decoration: none; padding: 0.4rem 0.8rem; border-radius: 0.4rem; background: rgba(255,255,255,0.15); font-size: 0.9rem; font-weight: 500; }
-    .lang-switcher a.active { background: white; color: #1e40af; }
-    .hero { text-align: center; padding: 3rem 1.5rem 2rem; }
-    .hero h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
-    .hero p { font-size: 1.1rem; opacity: 0.95; max-width: 700px; margin: 0 auto 2rem; }
-    .search-bar { max-width: 700px; margin: 0 auto; background: white; border-radius: 1rem; padding: 0.5rem; display: flex; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
-    .search-bar input { flex: 1; border: none; padding: 1rem; font-size: 1rem; border-radius: 0.5rem; outline: none; }
-    .search-bar button { background: #059669; color: white; border: none; padding: 0 2rem; border-radius: 0.7rem; font-weight: 600; cursor: pointer; }
-    .filters-bar { max-width: 1200px; margin: 1.5rem auto; padding: 0 1.5rem; display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center; }
-    .filter-chip { background: white; padding: 0.6rem 1.2rem; border-radius: 2rem; font-size: 0.9rem; cursor: pointer; border: 1px solid #e2e8f0; }
-    .filter-chip:hover { background: #1e40af; color: white; }
+    .logo span { color: #00D4A8; }
+    .lang-switcher { display: flex; gap: 0.4rem; }
+    .lang-switcher a { color: white; text-decoration: none; padding: 0.4rem 0.7rem; border-radius: 0.4rem; background: rgba(255,255,255,0.15); font-size: 0.85rem; font-weight: 500; }
+    .lang-switcher a.active { background: white; color: #0A2540; }
+    .hero { background: linear-gradient(135deg, #0A2540 0%, #0066FF 100%); color: white; padding: 4rem 1.5rem 6rem; text-align: center; }
+    .hero h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
+    .hero .highlight { color: #00D4A8; }
+    .hero p { font-size: 1.15rem; opacity: 0.9; max-width: 800px; margin: 0 auto 2rem; }
+    .search-bar { max-width: 700px; margin: 0 auto; background: white; border-radius: 1rem; padding: 0.5rem; display: flex; box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+    .search-bar input { flex: 1; border: none; padding: 1rem 1.2rem; font-size: 1rem; border-radius: 0.7rem; outline: none; color: #1a202c; }
+    .search-bar button { background: #00D4A8; color: #0A2540; border: none; padding: 0 2rem; border-radius: 0.7rem; font-weight: 700; font-size: 1rem; cursor: pointer; transition: transform 0.2s; }
+    .search-bar button:hover { transform: scale(1.05); }
+    .filters-bar { max-width: 1200px; margin: -2rem auto 0; padding: 0 1.5rem; display: flex; gap: 0.6rem; flex-wrap: wrap; justify-content: center; position: relative; z-index: 10; }
+    .filter-chip { background: white; padding: 0.7rem 1.2rem; border-radius: 2rem; font-size: 0.9rem; cursor: pointer; border: 1px solid #e2e8f0; box-shadow: 0 4px 12px rgba(0,0,0,0.05); font-weight: 500; transition: all 0.2s; }
+    .filter-chip:hover { background: #00D4A8; color: #0A2540; border-color: #00D4A8; transform: translateY(-2px); }
     .stats { max-width: 1200px; margin: 2rem auto; padding: 0 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
-    .stat-card { background: white; padding: 1.5rem; border-radius: 1rem; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-    .stat-number { font-size: 2rem; font-weight: 800; color: #1e40af; }
-    .stat-label { font-size: 0.9rem; color: #64748b; margin-top: 0.5rem; }
-    .section { max-width: 1200px; margin: 2rem auto; padding: 0 1.5rem; }
-    .section h2 { font-size: 1.75rem; font-weight: 700; margin-bottom: 1.5rem; }
-    .doctors-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
-    .doctor-card { background: white; border-radius: 1rem; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; cursor: pointer; }
-    .doctor-card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
-    .doctor-name { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.4rem; }
-    .doctor-specialty { color: #059669; font-size: 0.9rem; font-weight: 500; margin-bottom: 0.6rem; }
-    .doctor-facility { color: #64748b; font-size: 0.85rem; margin-bottom: 0.5rem; }
-    .doctor-license { color: #94a3b8; font-size: 0.75rem; }
-    .doctor-license .verified { color: #059669; font-weight: 600; }
-    .cta-praticien { background: linear-gradient(135deg, #1e40af 0%, #059669 100%); color: white; padding: 3rem 1.5rem; text-align: center; margin-top: 3rem; }
-    .cta-praticien h2 { font-size: 2rem; margin-bottom: 1rem; }
-    .cta-praticien p { font-size: 1.1rem; opacity: 0.95; max-width: 700px; margin: 0 auto 1.5rem; }
-    .cta-praticien .price { font-size: 3rem; font-weight: 800; margin: 1rem 0; }
-    .cta-praticien button { background: white; color: #1e40af; border: none; padding: 1rem 2.5rem; border-radius: 0.7rem; font-weight: 700; font-size: 1.1rem; cursor: pointer; }
-    footer { background: #1a202c; color: #94a3b8; padding: 2rem 1.5rem; text-align: center; font-size: 0.9rem; }
-    footer a { color: #60a5fa; text-decoration: none; }
+    .stat-card { background: white; padding: 1.8rem; border-radius: 1rem; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+    .stat-number { font-size: 2.2rem; font-weight: 800; color: #0A2540; }
+    .stat-number.dentist { color: #00D4A8; }
+    .stat-number.physician { color: #0066FF; }
+    .stat-label { font-size: 0.85rem; color: #64748b; margin-top: 0.5rem; font-weight: 500; }
+    .section { max-width: 1200px; margin: 3rem auto; padding: 0 1.5rem; }
+    .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem; }
+    .section h2 { font-size: 1.8rem; font-weight: 800; color: #0A2540; }
+    .view-all { color: #0066FF; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+    .view-all:hover { text-decoration: underline; }
+    .doctors-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; }
+    .doctor-card { background: white; border-radius: 1rem; padding: 1.3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); border: 1px solid #e2e8f0; transition: all 0.2s; cursor: pointer; }
+    .doctor-card:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-color: #00D4A8; }
+    .doctor-top { display: flex; gap: 1rem; align-items: start; margin-bottom: 0.8rem; }
+    .doctor-avatar { width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, #00D4A8 0%, #0066FF 100%); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; color: white; flex-shrink: 0; }
+    .doctor-name { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.2rem; color: #0A2540; }
+    .doctor-specialty { color: #00D4A8; font-size: 0.85rem; font-weight: 500; }
+    .doctor-facility { color: #64748b; font-size: 0.85rem; margin: 0.5rem 0; line-height: 1.4; }
+    .doctor-license { display: flex; align-items: center; gap: 0.4rem; color: #10b981; font-size: 0.75rem; font-weight: 600; padding-top: 0.7rem; border-top: 1px solid #f1f5f9; }
+    .cta-praticien { background: linear-gradient(135deg, #0A2540 0%, #0066FF 100%); color: white; padding: 4rem 1.5rem; text-align: center; margin-top: 3rem; position: relative; overflow: hidden; }
+    .cta-praticien::before { content: ""; position: absolute; top: -50%; right: -10%; width: 400px; height: 400px; background: radial-gradient(circle, #00D4A8 0%, transparent 70%); opacity: 0.3; }
+    .cta-praticien h2 { font-size: 2.2rem; font-weight: 800; margin-bottom: 1rem; position: relative; }
+    .cta-praticien p { font-size: 1.1rem; opacity: 0.95; max-width: 700px; margin: 0 auto 1.5rem; position: relative; }
+    .price-tag { display: inline-block; background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); padding: 0.5rem 1.5rem; border-radius: 2rem; font-size: 0.9rem; margin-bottom: 1rem; border: 1px solid rgba(255,255,255,0.2); }
+    .price-big { font-size: 3.5rem; font-weight: 800; margin: 1rem 0; }
+    .price-big small { font-size: 1rem; opacity: 0.8; font-weight: 400; }
+    .cta-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative; }
+    .cta-buttons button { padding: 1rem 2.5rem; border-radius: 0.7rem; font-weight: 700; font-size: 1rem; cursor: pointer; border: none; transition: transform 0.2s; }
+    .cta-buttons button:hover { transform: translateY(-2px); }
+    .btn-primary { background: #00D4A8; color: #0A2540; }
+    .btn-secondary { background: transparent; color: white; border: 1px solid rgba(255,255,255,0.3) !important; }
+    footer { background: #0A2540; color: #94a3b8; padding: 3rem 1.5rem 1.5rem; }
+    .footer-content { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2rem; margin-bottom: 2rem; }
+    .footer-col h4 { color: white; margin-bottom: 0.8rem; font-size: 1rem; }
+    .footer-col a { color: #94a3b8; text-decoration: none; display: block; margin-bottom: 0.4rem; font-size: 0.9rem; }
+    .footer-col a:hover { color: #00D4A8; }
+    .footer-bottom { text-align: center; padding-top: 1.5rem; border-top: 1px solid #1e3a5f; font-size: 0.85rem; max-width: 1200px; margin: 0 auto; }
+    .live-badge { display: inline-flex; align-items: center; gap: 0.4rem; background: rgba(16, 185, 129, 0.1); color: #10b981; padding: 0.3rem 0.8rem; border-radius: 1rem; font-size: 0.75rem; font-weight: 600; margin-left: 0.5rem; }
+    .live-dot { width: 8px; height: 8px; background: #10b981; border-radius: 50%; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
     @media (max-width: 768px) {
       .hero h1 { font-size: 1.8rem; }
+      .hero p { font-size: 1rem; }
       .search-bar { flex-direction: column; }
       .search-bar button { padding: 1rem; }
+      .footer-content { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
   <header>
     <div class="header-container">
-      <div class="logo">DMD <span>Dubai</span></div>
+      <div class="logo">DMD <span>Dubai</span> <span class="live-badge"><span class="live-dot"></span> LIVE</span></div>
       <nav class="lang-switcher">
         <a href="/fr/" class="active">🇫🇷 FR</a>
         <a href="/ar/">🇸🇦 AR</a>
@@ -70,110 +96,169 @@
   </header>
 
   <section class="hero">
-    <h1>Trouvez votre médecin à Dubai</h1>
-    <p>La première plateforme médicale trilingue des Émirats. 99 520 professionnels DHA-licensés référencés. Interface en français, arabe, anglais, russe et chinois.</p>
+    <h1>Trouvez votre <span class="highlight">médecin</span> à Dubai</h1>
+    <p>La plateforme médicale #1 des Émirats. <strong>7 780 dentistes</strong> et <strong>24 034 médecins</strong> DHA-licensés référencés. Prise de RDV en ligne 24/7. Interface trilingue FR/AR/EN + RU/ZH.</p>
     <div class="search-bar">
-      <input type="text" placeholder="Recherchez un médecin, dentiste, spécialité..." />
-      <button>🔍 Rechercher</button>
+      <input type="text" id="searchInput" placeholder="Recherchez un dentiste, médecin, spécialité..." />
+      <button onclick="search()">🔍 Rechercher</button>
     </div>
   </section>
 
   <div class="filters-bar">
-    <div class="filter-chip">🦷 Dentiste</div>
-    <div class="filter-chip">👨‍⚕️ Généraliste</div>
-    <div class="filter-chip">👶 Pédiatre</div>
-    <div class="filter-chip">🤰 Gynécologue</div>
-    <div class="filter-chip">❤️ Cardiologue</div>
-    <div class="filter-chip">👁️ Ophtalmologue</div>
-    <div class="filter-chip">🧴 Dermatologue</div>
-    <div class="filter-chip">🩺 Chirurgien</div>
+    <div class="filter-chip" data-cat="Dentist">🦷 Tous les dentistes (7 780)</div>
+    <div class="filter-chip" data-cat="GP">👨‍⚕️ Généralistes (6 978)</div>
+    <div class="filter-chip" data-cat="Ortho">🦷 Orthodontistes (699)</div>
+    <div class="filter-chip" data-cat="Endo">🦷 Endodontistes (269)</div>
+    <div class="filter-chip" data-cat="Pedia">👶 Pédiatres (937)</div>
+    <div class="filter-chip" data-cat="Gyn">🤰 Gynécologues (1 124)</div>
+    <div class="filter-chip" data-cat="Derma">🧴 Dermatologues (953)</div>
+    <div class="filter-chip" data-cat="Anesth">💉 Anesthésistes (738)</div>
   </div>
 
   <div class="stats">
     <div class="stat-card">
-      <div class="stat-number">99 520</div>
-      <div class="stat-label">Professionnels DHA-licensés</div>
+      <div class="stat-number">101 080</div>
+      <div class="stat-label">Pros DHA-licensés</div>
     </div>
     <div class="stat-card">
-      <div class="stat-number">7 713</div>
-      <div class="stat-label">Dentistes référencés</div>
+      <div class="stat-number dentist">7 780</div>
+      <div class="stat-label">Dentistes</div>
     </div>
     <div class="stat-card">
-      <div class="stat-number">24 186</div>
+      <div class="stat-number physician">24 034</div>
       <div class="stat-label">Médecins</div>
     </div>
     <div class="stat-card">
+      <div class="stat-number">5 240</div>
+      <div class="stat-label">Établissements</div>
+    </div>
+    <div class="stat-card">
       <div class="stat-number">5</div>
-      <div class="stat-label">Langues supportées</div>
+      <div class="stat-label">Langues</div>
     </div>
   </div>
 
   <section class="section">
-    <h2>🦷 Dentistes à Dubai</h2>
-    <div class="doctors-grid" id="dentists-grid">
-      <!-- Généré dynamiquement depuis le CSV -->
+    <div class="section-header">
+      <h2>🦷 Dentistes vedettes à Dubai</h2>
+      <a href="#" class="view-all">Voir tous les 7 780 dentistes →</a>
     </div>
+    <div class="doctors-grid" id="dentists-grid"></div>
   </section>
 
   <section class="section">
-    <h2>👨‍⚕️ Médecins généralistes</h2>
-    <div class="doctors-grid" id="general-grid">
-      <!-- Généré dynamiquement depuis le CSV -->
+    <div class="section-header">
+      <h2>👨‍⚕️ Médecins généralistes</h2>
+      <a href="#" class="view-all">Voir tous les 6 978 généralistes →</a>
     </div>
+    <div class="doctors-grid" id="physicians-grid"></div>
   </section>
 
   <section class="cta-praticien">
-    <h2>Vous êtes médecin ou dentiste à Dubai ?</h2>
-    <p>78 % de vos confrères n'ont pas de site web. Pour 200 AED/mois, faites partie des 22 % qui captent les patients numériques.</p>
-    <div class="price">200 AED<span style="font-size: 1rem; opacity: 0.8;"> / mois</span></div>
-    <p>Photos HD • Vidéo de présentation • Bio trilingue • SEO boosté • WhatsApp direct</p>
-    <button onclick="window.location.href='/fr/praticien/inscription'">Devenir praticien référencé</button>
+    <h2>Vous êtes dentiste ou médecin à Dubai ?</h2>
+    <p>78 % de vos confrères n'ont pas de site web. Pour 200 AED/mois, ayez une présence premium avec RDV en ligne, vidéo, photos HD et SEO multilingue.</p>
+    <div class="price-tag">⭐ PROFIL PREMIUM</div>
+    <div class="price-big">200 AED<small> / mois</small></div>
+    <p style="font-size:0.9rem; opacity:0.85;">📅 Prise de RDV 24/7 • 🎬 Vidéo présentation • 📸 Photos HD cabinet • 🌐 Bio trilingue • 💬 WhatsApp direct</p>
+    <div class="cta-buttons">
+      <button class="btn-primary">Devenir praticien référencé</button>
+      <button class="btn-secondary">Voir une démo</button>
+    </div>
   </section>
 
   <footer>
-    <p><strong>DMD Dubai — Dubai Medical Directory</strong></p>
-    <p>Données officielles DHA Sheryan Registry • Conforme PDPL UAE • <a href="/fr/mentions-legales">Mentions légales</a> • <a href="/fr/contact">Contact</a></p>
-    <p>© 2026 DMD Dubai. Tous droits réservés.</p>
+    <div class="footer-content">
+      <div class="footer-col">
+        <div class="logo" style="color:white;font-size:1.5rem;margin-bottom:0.8rem;">DMD <span>Dubai</span></div>
+        <p>La première plateforme médicale trilingue FR/AR/EN des Émirats. Données officielles DHA Sheryan Registry (101 080 professionnels).</p>
+      </div>
+      <div class="footer-col">
+        <h4>Patients</h4>
+        <a href="#">Trouver un dentiste</a>
+        <a href="#">Trouver un médecin</a>
+        <a href="#">Spécialités</a>
+        <a href="#">Prendre RDV</a>
+      </div>
+      <div class="footer-col">
+        <h4>Praticiens</h4>
+        <a href="#">Devenir référencé</a>
+        <a href="#">Pricing 200 AED/mois</a>
+        <a href="#">Demo</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 DMD Dubai • Données DHA Sheryan Registry • Conforme PDPL UAE • <a href="#" style="color:#60a5fa;">Mentions légales</a></p>
+    </div>
   </footer>
 
   <script>
-    // Charge dynamique des fiches depuis le CSV embarqué
-    const data = [];
-    fetch('/data/dha_professionals.csv')
-      .then(r => r.text())
-      .then(csv => {
-        const lines = csv.split('\n').slice(1);
-        const dentists = [], general = [];
-        for (const line of lines) {
-          if (!line.trim()) continue;
-          const cols = line.split(',');
-          const obj = {
-            name: cols[0],
-            specialty: cols[1],
-            license: cols[2],
-            facility: cols[5],
-            area: cols[6],
-            category: cols[7]
-          };
-          if (obj.category === 'dentists') dentists.push(obj);
-          if (obj.specialty && obj.specialty.toLowerCase().includes('general practitioner')) general.push(obj);
-        }
-        renderCards('dentists-grid', dentists.slice(0, 12));
-        renderCards('general-grid', general.slice(0, 12));
+    let DATA = null;
+    fetch('/data/dentists_demo.json')
+      .then(r => r.json())
+      .then(data => {
+        DATA = data;
+        renderCards('dentists-grid', data.sample_dentists.slice(0, 12));
+        renderCards('physicians-grid', data.sample_physicians.slice(0, 12));
       });
 
     function renderCards(id, items) {
       const el = document.getElementById(id);
       el.innerHTML = items.map(d => `
         <div class="doctor-card">
-          <div class="doctor-name">Dr. ${escapeHtml(d.name)}</div>
-          <div class="doctor-specialty">${escapeHtml(d.specialty)}</div>
-          <div class="doctor-facility">📍 ${escapeHtml(d.facility || d.area || 'Dubai')}</div>
-          <div class="doctor-license"><span class="verified">✓ DHA-licensed</span> #${d.license}</div>
+          <div class="doctor-top">
+            <div class="doctor-avatar">${getAvatar(d.name)}</div>
+            <div>
+              <div class="doctor-name">Dr. ${escapeHtml(d.name)}</div>
+              <div class="doctor-specialty">${escapeHtml(d.specialty)}</div>
+            </div>
+          </div>
+          <div class="doctor-facility">📍 ${escapeHtml(d.facility || 'Dubai, UAE')}</div>
+          <div class="doctor-license">✓ DHA-licensed #${d.id} • ${d.license}</div>
         </div>
       `).join('');
     }
-    function escapeHtml(s) { return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+    function getAvatar(name) {
+      const parts = name.split(' ');
+      return (parts[0][0] + (parts[parts.length-1][0] || '')).toUpperCase();
+    }
+
+    function escapeHtml(s) {
+      return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+
+    function search() {
+      const q = document.getElementById('searchInput').value.toLowerCase().trim();
+      if (!q || !DATA) return;
+      const matches = DATA.sample_dentists.filter(d => 
+        d.name.toLowerCase().includes(q) || d.specialty.toLowerCase().includes(q) || (d.facility || '').toLowerCase().includes(q)
+      );
+      renderCards('dentists-grid', matches.slice(0, 20));
+      window.scrollTo({ top: 400, behavior: 'smooth' });
+    }
+
+    document.getElementById('searchInput').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') search();
+    });
+
+    document.querySelectorAll('.filter-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const cat = chip.dataset.cat;
+        if (!DATA) return;
+        let filtered = [];
+        if (cat === 'Dentist') filtered = DATA.sample_dentists;
+        else if (cat === 'GP') filtered = DATA.sample_physicians.filter(p => p.specialty.includes('General Practitioner'));
+        else if (cat === 'Ortho') filtered = DATA.sample_dentists.filter(d => d.specialty.includes('Orthodontics'));
+        else if (cat === 'Endo') filtered = DATA.sample_dentists.filter(d => d.specialty.includes('Endodontic'));
+        else if (cat === 'Pedia') filtered = DATA.sample_physicians.filter(p => p.specialty.includes('Pediatric'));
+        else if (cat === 'Gyn') filtered = DATA.sample_physicians.filter(p => p.specialty.includes('Gynecology') || p.specialty.includes('Obstetric'));
+        else if (cat === 'Derma') filtered = DATA.sample_physicians.filter(p => p.specialty.includes('Dermatology'));
+        else if (cat === 'Anesth') filtered = DATA.sample_physicians.filter(p => p.specialty.includes('Anesthesia'));
+        renderCards('dentists-grid', filtered.slice(0, 12));
+        window.scrollTo({ top: 400, behavior: 'smooth' });
+      });
+    });
   </script>
 </body>
 </html>
