@@ -134,14 +134,25 @@ CREATE TABLE reviews (
 - 🆕 **Boost SEO** : fiche en tête de liste pour sa zone/specialty
 - 🆕 **Statistiques de vues** : nb visiteurs/mois sur la fiche
 
-### 4.3. Phase 3 — Booking & Reviews (mois 6-12)
+### 4.3. Phase 3 — Booking & Reviews (mois 3-6) — DOCTOLIB-LIKE PRIORITÉ
 
-- 🆕 **Système de réservation** intégré (calendrier praticien)
-- 🆕 **Pré-paiement** AED 50-200 par consultation
-- 🆕 **Commission 10-15 %** sur chaque booking confirmé
+**OBJECTIF: Devenir le Doctolib de Dubai.**
+
+- 🆕 **Prise de RDV en ligne 24/7** (cœur du produit, pas un add-on)
+- 🆕 **Affichage disponibilités réelles** du praticien (sync Google Cal/iCal)
+- 🆕 **Booking instantané 1 clic** (mobile-first)
+- 🆕 **Confirmation auto SMS + email**
+- 🆕 **Rappel RDV J-1** (anti no-show, taux présence 95%+)
+- 🆕 **Pré-paiement AED 50-200** par consultation
+- 🆕 **Commission 10% sur RDV réservé** (revenu récurrent)
+- 🆕 **Taux d'occupation optimisé** via data (praticien +25% CA)
+- 🆕 **Multi-langue booking** FR/AR/EN/RU/ZH
 - 🆕 **Reviews vérifiés** : QR code en cabinet + SMS-OTP post-visite
 - 🆕 **Modération multilingue** (FR/AR/EN)
-- 🆕 **Notifications email/SMS** au praticien (nouveau RDV, nouvel avis)
+
+**Stack technique** : Cal.com self-hosted customisé OU custom build Next.js (étude en cours)
+**Référence UX** : Doctolib, Zocdoc
+**Coût estimé MVP** : 0-15 000€ (selon option choisie)
 
 ### 4.4. Phase 4 — Teleconsult (année 2)
 

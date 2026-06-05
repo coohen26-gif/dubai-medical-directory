@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Lama Alamasi — Dentiste à Dubai | DMD Dubai</title>
+  <meta name="description" content="Dr. Lama Alamasi, General Dentist à Dubai, Hadiya Dental Center. Prenez RDV en ligne 24/7. Profil vérifié DHA-licensed." />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --primary: #0A2540;
+      --accent: #00D4A8;
+      --accent-2: #0066FF;
+      --gold: #FFB800;
+      --bg: #F7FAFC;
+      --card: #FFFFFF;
+      --text: #1A202C;
+      --muted: #64748B;
+      --border: #E2E8F0;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; color: var(--text); background: var(--bg); line-height: 1.5; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+
+    /* Header */
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 0; position: sticky; top: 0; z-index: 100; backdrop-filter: blur(12px); background: rgba(255,255,255,0.9); }
+    .header-inner { display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-size: 1.4rem; font-weight: 800; color: var(--primary); letter-spacing: -0.5px; }
+    .logo span { color: var(--accent); }
+    .nav { display: flex; gap: 2rem; align-items: center; }
+    .nav a { color: var(--text); text-decoration: none; font-weight: 500; font-size: 0.95rem; }
+    .lang-pill { background: var(--bg); padding: 0.4rem 0.8rem; border-radius: 1rem; font-size: 0.85rem; font-weight: 600; }
+    .premium-badge { background: linear-gradient(135deg, var(--gold) 0%, #FF8C00 100%); color: white; padding: 0.3rem 0.8rem; border-radius: 1rem; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.5px; }
+
+    /* Hero profil */
+    .hero-profile { background: linear-gradient(135deg, #0A2540 0%, #0066FF 100%); color: white; padding: 3rem 0 8rem; position: relative; overflow: hidden; }
+    .hero-profile::before { content: ""; position: absolute; top: -50%; right: -20%; width: 600px; height: 600px; background: radial-gradient(circle, var(--accent) 0%, transparent 70%); opacity: 0.3; }
+    .hero-content { display: grid; grid-template-columns: 200px 1fr auto; gap: 2rem; align-items: center; position: relative; z-index: 2; }
+    .avatar-frame { width: 180px; height: 180px; border-radius: 50%; background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%); padding: 4px; box-shadow: 0 20px 50px rgba(0,0,0,0.3); }
+    .avatar-frame img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; background: var(--card); display: flex; align-items: center; justify-content: center; font-size: 4rem; color: var(--primary); }
+    .hero-info h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 0.3rem; letter-spacing: -0.5px; }
+    .hero-info .specialty { font-size: 1.1rem; opacity: 0.9; margin-bottom: 0.8rem; }
+    .hero-meta { display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 0.9rem; opacity: 0.85; }
+    .hero-meta span { display: flex; align-items: center; gap: 0.4rem; }
+    .verified-pill { background: rgba(0, 212, 168, 0.2); border: 1px solid var(--accent); padding: 0.3rem 0.8rem; border-radius: 1rem; font-size: 0.8rem; font-weight: 600; display: inline-flex; align-items: center; gap: 0.4rem; margin-top: 0.5rem; }
+    .verified-pill::before { content: "✓"; color: var(--accent); font-weight: 800; }
+    .cta-buttons { display: flex; flex-direction: column; gap: 0.8rem; }
+    .btn-primary { background: var(--accent); color: var(--primary); border: none; padding: 1rem 2rem; border-radius: 0.7rem; font-weight: 700; font-size: 1rem; cursor: pointer; box-shadow: 0 8px 20px rgba(0, 212, 168, 0.3); transition: transform 0.2s; }
+    .btn-primary:hover { transform: translateY(-2px); }
+    .btn-secondary { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3); color: white; padding: 0.8rem 1.5rem; border-radius: 0.7rem; font-weight: 600; cursor: pointer; backdrop-filter: blur(10px); }
+
+    /* Main content */
+    .main-grid { display: grid; grid-template-columns: 1fr 400px; gap: 2rem; margin-top: -5rem; position: relative; z-index: 3; padding-bottom: 4rem; }
+    .content-col { display: flex; flex-direction: column; gap: 1.5rem; }
+    .sidebar-col { display: flex; flex-direction: column; gap: 1.5rem; }
+
+    /* Cards */
+    .card { background: var(--card); border-radius: 1.2rem; padding: 2rem; box-shadow: 0 4px 20px rgba(0,0,0,0.04); border: 1px solid var(--border); }
+    .card h2 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; color: var(--primary); display: flex; align-items: center; gap: 0.5rem; }
+    .card h2 .icon { width: 32px; height: 32px; background: var(--bg); border-radius: 0.5rem; display: inline-flex; align-items: center; justify-content: center; }
+
+    /* Bio */
+    .bio-text { color: var(--muted); font-size: 0.95rem; line-height: 1.7; }
+    .lang-tabs { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+    .lang-tab { padding: 0.4rem 1rem; border-radius: 1rem; background: var(--bg); border: 1px solid var(--border); font-size: 0.85rem; font-weight: 500; cursor: pointer; }
+    .lang-tab.active { background: var(--primary); color: white; border-color: var(--primary); }
+
+    /* Vidéo */
+    .video-frame { background: linear-gradient(135deg, #0A2540 0%, #1A365D 100%); border-radius: 1rem; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; color: white; position: relative; overflow: hidden; }
+    .play-button { width: 80px; height: 80px; background: rgba(255,255,255,0.95); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+    .play-button::after { content: ""; width: 0; height: 0; border-left: 24px solid var(--primary); border-top: 14px solid transparent; border-bottom: 14px solid transparent; margin-left: 6px; }
+    .video-label { position: absolute; bottom: 1rem; left: 1rem; background: rgba(0,0,0,0.6); padding: 0.4rem 0.8rem; border-radius: 0.5rem; font-size: 0.85rem; backdrop-filter: blur(10px); }
+    .video-duration { position: absolute; bottom: 1rem; right: 1rem; background: rgba(0,0,0,0.6); padding: 0.4rem 0.8rem; border-radius: 0.5rem; font-size: 0.85rem; }
+
+    /* Galerie */
+    .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem; }
+    .gallery-img { aspect-ratio: 1; border-radius: 0.7rem; background: linear-gradient(135deg, #E2E8F0 0%, #CBD5E0 100%); display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: transform 0.2s; }
+    .gallery-img:hover { transform: scale(1.05); }
+
+    /* Services */
+    .services-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.8rem; }
+    .service-item { padding: 0.8rem 1rem; background: var(--bg); border-radius: 0.7rem; font-size: 0.9rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem; }
+
+    /* Booking sidebar */
+    .booking-card { position: sticky; top: 100px; }
+    .booking-header { text-align: center; margin-bottom: 1.5rem; }
+    .booking-header h3 { font-size: 1.2rem; font-weight: 700; color: var(--primary); margin-bottom: 0.3rem; }
+    .booking-header p { color: var(--muted); font-size: 0.85rem; }
+    .date-picker { display: grid; grid-template-columns: repeat(7, 1fr); gap: 0.4rem; margin-bottom: 1rem; }
+    .date-cell { aspect-ratio: 1; border: 1px solid var(--border); border-radius: 0.5rem; display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; font-size: 0.75rem; transition: all 0.2s; }
+    .date-cell:hover { border-color: var(--accent); background: var(--bg); }
+    .date-cell.active { background: var(--primary); color: white; border-color: var(--primary); }
+    .date-cell .day { font-weight: 700; font-size: 1rem; }
+    .date-cell .date-num { font-size: 0.7rem; opacity: 0.8; }
+    .slots-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin-bottom: 1rem; }
+    .slot { padding: 0.6rem; border: 1px solid var(--border); border-radius: 0.5rem; text-align: center; cursor: pointer; font-size: 0.85rem; font-weight: 500; transition: all 0.2s; }
+    .slot:hover { border-color: var(--accent); color: var(--accent); }
+    .slot.selected { background: var(--accent); color: var(--primary); border-color: var(--accent); font-weight: 700; }
+    .slot.unavailable { opacity: 0.4; cursor: not-allowed; text-decoration: line-through; }
+
+    /* Insurance */
+    .insurance-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .insurance-pill { background: var(--bg); border: 1px solid var(--border); padding: 0.4rem 0.8rem; border-radius: 1rem; font-size: 0.8rem; }
+
+    /* Languages */
+    .lang-list { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .lang-pill-2 { padding: 0.5rem 1rem; background: var(--bg); border-radius: 1rem; font-size: 0.9rem; font-weight: 600; }
+
+    /* Map placeholder */
+    .map-frame { aspect-ratio: 16/9; background: linear-gradient(135deg, #E2E8F0 0%, #CBD5E0 100%); border-radius: 1rem; display: flex; align-items: center; justify-content: center; color: var(--muted); position: relative; overflow: hidden; }
+    .map-pin { width: 40px; height: 40px; background: var(--accent); border-radius: 50% 50% 50% 0; transform: rotate(-45deg); position: absolute; box-shadow: 0 8px 20px rgba(0,0,0,0.2); display: flex; align-items: center; justify-content: center; }
+    .map-pin::after { content: ""; width: 14px; height: 14px; background: white; border-radius: 50%; transform: rotate(45deg); }
+
+    /* Reviews */
+    .review-item { padding: 1rem 0; border-bottom: 1px solid var(--border); }
+    .review-item:last-child { border-bottom: none; }
+    .review-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.5rem; }
+    .review-avatar { width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, var(--accent-2), var(--accent)); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; }
+    .review-name { font-weight: 600; font-size: 0.9rem; }
+    .review-date { font-size: 0.75rem; color: var(--muted); }
+    .review-stars { color: var(--gold); font-size: 0.9rem; }
+    .review-text { color: var(--muted); font-size: 0.9rem; }
+    .verified-tag { background: rgba(0, 212, 168, 0.1); color: var(--accent); padding: 0.2rem 0.5rem; border-radius: 0.4rem; font-size: 0.7rem; font-weight: 600; display: inline-flex; align-items: center; gap: 0.3rem; }
+
+    /* CTA Praticien */
+    .cta-banner { background: linear-gradient(135deg, #0A2540 0%, #0066FF 100%); color: white; border-radius: 1.2rem; padding: 2.5rem 2rem; text-align: center; margin: 2rem 0; }
+    .cta-banner h2 { font-size: 1.8rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .cta-banner p { opacity: 0.9; max-width: 600px; margin: 0 auto 1.5rem; }
+
+    @media (max-width: 968px) {
+      .hero-content { grid-template-columns: 1fr; text-align: center; }
+      .avatar-frame { margin: 0 auto; }
+      .main-grid { grid-template-columns: 1fr; }
+      .nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="logo">DMD <span>Dubai</span></div>
+      <nav class="nav">
+        <a href="#">Médecins</a>
+        <a href="#">Dentistes</a>
+        <a href="#">Spécialités</a>
+        <a href="#">Pour les pros</a>
+        <span class="lang-pill">🇫🇷 FR</span>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-profile">
+    <div class="container">
+      <div class="hero-content">
+        <div class="avatar-frame">
+          <div style="display:flex;align-items:center;justify-content:center;width:100%;height:100%;border-radius:50%;background:#fff;font-size:4rem;">👩‍⚕️</div>
+        </div>
+        <div class="hero-info">
+          <span class="premium-badge">⭐ PROFIL PREMIUM</span>
+          <h1 style="margin-top:0.5rem;">Dr. Lama Alamasi</h1>
+          <div class="specialty">Chirurgien-dentiste • Hadiya Dental Center L.L.C</div>
+          <div class="verified-pill">DHA-Licensed #05797490</div>
+          <div class="hero-meta" style="margin-top:0.8rem;">
+            <span>📍 Dubai</span>
+            <span>⭐ 4.9/5 (127 avis)</span>
+            <span>🗣️ AR, EN, FR</span>
+            <span>💼 12 ans d'expérience</span>
+          </div>
+        </div>
+        <div class="cta-buttons">
+          <button class="btn-primary">📅 Prendre RDV</button>
+          <button class="btn-secondary">💬 WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="main-grid">
+      <div class="content-col">
+        <!-- Vidéo -->
+        <div class="card">
+          <h2><span class="icon">🎬</span> Présentation vidéo</h2>
+          <div class="video-frame">
+            <div class="play-button"></div>
+            <div class="video-label">Dr. Lama Alamasi vous accueille</div>
+            <div class="video-duration">0:58</div>
+          </div>
+        </div>
+
+        <!-- Bio trilingue -->
+        <div class="card">
+          <h2><span class="icon">📝</span> À propos</h2>
+          <div class="lang-tabs">
+            <div class="lang-tab active">🇫🇷 Français</div>
+            <div class="lang-tab">🇸🇦 العربية</div>
+            <div class="lang-tab">🇬🇧 English</div>
+            <div class="lang-tab">🇷🇺 Русский</div>
+            <div class="lang-tab">🇨🇳 中文</div>
+          </div>
+          <p class="bio-text">
+            Le Dr. Lama Alamasi est chirurgien-dentiste diplômée de l'Université Paris Descartes, avec plus de 12 ans d'expérience en implantologie et esthétique dentaire. Elle dirige le Hadiya Dental Center à Dubai et propose une approche francophone et arabophone de la dentisterie moderne. Spécialisée en implants dentaires, facettes et soins esthétiques, elle accueille patients locaux et expatriés dans un cadre premium multilingue.
+          </p>
+        </div>
+
+        <!-- Galerie -->
+        <div class="card">
+          <h2><span class="icon">📸</span> Le cabinet en photos</h2>
+          <div class="gallery">
+            <div class="gallery-img">Cabinet principal</div>
+            <div class="gallery-img">Salle de soins</div>
+            <div class="gallery-img">Équipe</div>
+            <div class="gallery-img">Salle d'attente</div>
+            <div class="gallery-img">Équipement</div>
+            <div class="gallery-img">+ 4 photos</div>
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div class="card">
+          <h2><span class="icon">🦷</span> Services & tarifs</h2>
+          <div class="services-grid">
+            <div class="service-item">✓ Consultation initiale (gratuite)</div>
+            <div class="service-item">✓ Détartrage & nettoyage</div>
+            <div class="service-item">✓ Implant dentaire dès 3 500 AED</div>
+            <div class="service-item">✓ Facettes céramique</div>
+            <div class="service-item">✓ Blanchiment professionnel</div>
+            <div class="service-item">✓ Orthodontie Invisalign</div>
+            <div class="service-item">✓ Soins caries</div>
+            <div class="service-item">✓ Urgence dentaire 24/7</div>
+          </div>
+        </div>
+
+        <!-- Langues parlées -->
+        <div class="card">
+          <h2><span class="icon">🗣️</span> Langues parlées</h2>
+          <div class="lang-list">
+            <div class="lang-pill-2">🇸🇦 Arabe (natif)</div>
+            <div class="lang-pill-2">🇫🇷 Français (courant)</div>
+            <div class="lang-pill-2">🇬🇧 Anglais (courant)</div>
+          </div>
+        </div>
+
+        <!-- Assurances -->
+        <div class="card">
+          <h2><span class="icon">🏥</span> Assurances acceptées</h2>
+          <div class="insurance-list">
+            <div class="insurance-pill">Daman</div>
+            <div class="insurance-pill">ADNIC</div>
+            <div class="insurance-pill">AXA</div>
+            <div class="insurance-pill">Bupa Global</div>
+            <div class="insurance-pill">MetLife</div>
+            <div class="insurance-pill">Allianz Care</div>
+            <div class="insurance-pill">+ 12 autres</div>
+          </div>
+          <p style="color:var(--muted);font-size:0.85rem;margin-top:1rem;">Dernière vérification : 5 juin 2026</p>
+        </div>
+
+        <!-- Carte -->
+        <div class="card">
+          <h2><span class="icon">📍</span> Localisation</h2>
+          <div class="map-frame">
+            <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-100%);">
+              <div class="map-pin"></div>
+            </div>
+            <div style="position:absolute;bottom:1rem;left:1rem;background:white;padding:0.6rem 1rem;border-radius:0.5rem;box-shadow:0 4px 12px rgba(0,0,0,0.1);font-size:0.85rem;">
+              <strong>Hadiya Dental Center L.L.C</strong><br/>
+              <span style="color:var(--muted);">Dubai, Émirats</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Avis -->
+        <div class="card">
+          <h2><span class="icon">⭐</span> Avis patients vérifiés (127)</h2>
+          <div style="display:flex;align-items:center;gap:2rem;margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid var(--border);">
+            <div style="text-align:center;">
+              <div style="font-size:2.5rem;font-weight:800;color:var(--primary);">4.9</div>
+              <div class="review-stars">★★★★★</div>
+              <div style="font-size:0.8rem;color:var(--muted);margin-top:0.3rem;">127 avis</div>
+            </div>
+            <div style="flex:1;font-size:0.85rem;">
+              <div style="display:flex;justify-content:space-between;margin-bottom:0.4rem;"><span>5 étoiles</span><span style="color:var(--muted);">112 (88%)</span></div>
+              <div style="background:var(--bg);height:6px;border-radius:3px;margin-bottom:0.5rem;"><div style="background:var(--gold);width:88%;height:100%;border-radius:3px;"></div></div>
+              <div style="display:flex;justify-content:space-between;margin-bottom:0.4rem;"><span>4 étoiles</span><span style="color:var(--muted);">12 (9%)</span></div>
+              <div style="background:var(--bg);height:6px;border-radius:3px;margin-bottom:0.5rem;"><div style="background:var(--gold);width:9%;height:100%;border-radius:3px;"></div></div>
+              <div style="display:flex;justify-content:space-between;margin-bottom:0.4rem;"><span>3 étoiles</span><span style="color:var(--muted);">3 (3%)</span></div>
+              <div style="background:var(--bg);height:6px;border-radius:3px;"><div style="background:var(--gold);width:3%;height:100%;border-radius:3px;"></div></div>
+            </div>
+          </div>
+          <div class="review-item">
+            <div class="review-header">
+              <div class="review-avatar">SM</div>
+              <div>
+                <div class="review-name">Sophie M. <span class="verified-tag">✓ Visite vérifiée</span></div>
+                <div class="review-date">Il y a 2 semaines • 🇫🇷 Patiente francophone</div>
+              </div>
+              <div class="review-stars" style="margin-left:auto;">★★★★★</div>
+            </div>
+            <p class="review-text">"Excellent accueil francophone, le Dr Alamasi a pris le temps de tout m'expliquer en français. Cabinet moderne, équipement de pointe. Je recommande vivement pour les expats FR."</p>
+          </div>
+          <div class="review-item">
+            <div class="review-header">
+              <div class="review-avatar">AK</div>
+              <div>
+                <div class="review-name">Ahmed K. <span class="verified-tag">✓ Visite vérifiée</span></div>
+                <div class="review-date">Il y a 1 mois</div>
+              </div>
+              <div class="review-stars" style="margin-left:auto;">★★★★★</div>
+            </div>
+            <p class="review-text">"أفضل طبيبة أسنان في دبي. احترافية جداً وتشرح كل شيء بالعربية." (Meilleure dentiste à Dubai. Très professionnelle et explique tout en arabe.)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Booking -->
+      <div class="sidebar-col">
+        <div class="card booking-card">
+          <div class="booking-header">
+            <h3>📅 Prendre rendez-vous</h3>
+            <p>Réservez en 1 clic • Confirmation immédiate</p>
+          </div>
+
+          <div style="margin-bottom:1rem;">
+            <div style="font-size:0.8rem;color:var(--muted);margin-bottom:0.5rem;font-weight:600;">JUIN 2026</div>
+            <div class="date-picker">
+              <div class="date-cell"><div class="day">L</div><div class="date-num">8</div></div>
+              <div class="date-cell"><div class="day">M</div><div class="date-num">9</div></div>
+              <div class="date-cell"><div class="day">M</div><div class="date-num">10</div></div>
+              <div class="date-cell active"><div class="day">J</div><div class="date-num">11</div></div>
+              <div class="date-cell"><div class="day">V</div><div class="date-num">12</div></div>
+              <div class="date-cell"><div class="day">S</div><div class="date-num">13</div></div>
+              <div class="date-cell"><div class="day">D</div><div class="date-num">14</div></div>
+            </div>
+          </div>
+
+          <div style="font-size:0.8rem;color:var(--muted);margin-bottom:0.5rem;font-weight:600;">CRÉNEAUX DISPONIBLES</div>
+          <div class="slots-grid">
+            <div class="slot">09:00</div>
+            <div class="slot">09:30</div>
+            <div class="slot unavailable">10:00</div>
+            <div class="slot">10:30</div>
+            <div class="slot selected">11:00</div>
+            <div class="slot">11:30</div>
+            <div class="slot">14:00</div>
+            <div class="slot">14:30</div>
+            <div class="slot">15:00</div>
+            <div class="slot unavailable">15:30</div>
+            <div class="slot">16:00</div>
+            <div class="slot">16:30</div>
+          </div>
+
+          <button class="btn-primary" style="width:100%;margin-bottom:0.8rem;">Confirmer le RDV — 11:00</button>
+          <div style="text-align:center;font-size:0.8rem;color:var(--muted);">
+            💳 Pré-paiement 50 AED (déduit de la facture)<br/>
+            🔔 Rappel SMS + email 24h avant
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 style="font-size:1rem;margin-bottom:1rem;">📞 Contact direct</h3>
+          <button class="btn-secondary" style="width:100%;background:#25D366;color:white;border:none;margin-bottom:0.5rem;">💬 WhatsApp</button>
+          <button class="btn-secondary" style="width:100%;background:var(--primary);color:white;border:none;margin-bottom:0.5rem;">📞 Appeler</button>
+          <a href="https://hadiya-dental.ae" style="display:block;text-align:center;color:var(--accent-2);text-decoration:none;font-size:0.85rem;margin-top:0.8rem;">🌐 Site web du cabinet →</a>
+        </div>
+
+        <div class="card">
+          <h3 style="font-size:1rem;margin-bottom:0.5rem;">🔗 Partager ce profil</h3>
+          <div style="display:flex;gap:0.5rem;">
+            <button style="flex:1;padding:0.6rem;border:1px solid var(--border);background:white;border-radius:0.5rem;cursor:pointer;">📧</button>
+            <button style="flex:1;padding:0.6rem;border:1px solid var(--border);background:white;border-radius:0.5rem;cursor:pointer;">📱</button>
+            <button style="flex:1;padding:0.6rem;border:1px solid var(--border);background:white;border-radius:0.5rem;cursor:pointer;">🔗</button>
+            <button style="flex:1;padding:0.6rem;border:1px solid var(--border);background:white;border-radius:0.5rem;cursor:pointer;">💬</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Praticien (comme sur la home) -->
+    <div class="cta-banner">
+      <h2>Vous êtes dentiste ou médecin à Dubai ?</h2>
+      <p>78 % de vos confrères n'ont pas de site web. Pour 200 AED/mois, ayez une présence premium avec RDV en ligne, vidéo, photos HD et SEO multilingue — bien plus efficace qu'un site perso.</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <button class="btn-primary" style="background:white;color:var(--primary);">⭐ Devenir praticien référencé</button>
+        <button class="btn-secondary" style="background:transparent;color:white;">Voir une démo</button>
+      </div>
+    </div>
+  </div>
+
+  <footer style="background:var(--primary);color:white;padding:3rem 1.5rem;text-align:center;margin-top:3rem;">
+    <div class="container">
+      <div class="logo" style="color:white;font-size:1.8rem;margin-bottom:1rem;">DMD <span>Dubai</span></div>
+      <p style="opacity:0.8;margin-bottom:1rem;">La première plateforme médicale trilingue FR/AR/EN des Émirats Arabes Unis</p>
+      <p style="opacity:0.6;font-size:0.85rem;">Données officielles DHA Sheryan Registry • Conforme PDPL UAE • © 2026 DMD Dubai</p>
+    </div>
+  </footer>
+</body>
+</html>
