@@ -1,0 +1,31 @@
+{
+  "id": "farha-baalawi-00067520",
+  "license_number": "00067520",
+  "license_type": "全职执照",
+  "name": {
+    "original": "Farha Baalawi",
+    "zh": "Fālāhā Bā'ālāwī"
+  },
+  "specialty": "儿童牙医",
+  "sub_specialty": null,
+  "facility": "Al Barsha Medical Center - PHC",
+  "area": "Al Barsha Medical Center - PHC, 迪拜, 阿联酋",
+  "city": "迪拜",
+  "country": "阿拉伯联合酋长国",
+  "country_short": "阿联酋",
+  "category": "dentists",
+  "bio": "Fālāhā Bā'ālāwī医生是阿联酋迪拜的儿童牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T04:20:12Z",
+  "_lang": "zh",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00067520",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+  }
+}

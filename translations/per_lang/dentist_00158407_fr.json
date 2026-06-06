@@ -1,0 +1,31 @@
+{
+  "id": "haitham-elbishari-00158407",
+  "license_number": "00158407",
+  "license_type": "Temps plein",
+  "name": {
+    "original": "Haitham Elbishari",
+    "fr": "Haitham Elbishari"
+  },
+  "specialty": "Prosthodontiste",
+  "sub_specialty": null,
+  "facility": "Dubai Dental Hospital FZ LLC",
+  "area": "Dubai Dental Hospital FZ LLC, Dubaï, Émirats arabes unis",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Dr Haitham Elbishari est un prosthodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T04:20:12Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00158407",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+  }
+}

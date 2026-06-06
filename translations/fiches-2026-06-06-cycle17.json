@@ -1,0 +1,977 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T04:20:12Z",
+    "generator": "build_cycle17.py",
+    "cron": "6e3d697a-91cb-4475-872a-8ab965e7ba7f",
+    "cron_name": "Dubai - Translation & Localization",
+    "cycle": "2026-06-06 cycle 17/30min",
+    "previous_cycle": "2026-06-06 cycle 16/30min (45 fiches cumul, 5 partielles)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "new_fiches": 5,
+    "fill_fiches": 5,
+    "fill_langs": [
+      "fr",
+      "ru",
+      "zh"
+    ],
+    "translations_produced": 40,
+    "specialty_mix": {
+      "specialist-dentist": 1,
+      "implantologist": 1,
+      "pediatric-dentist": 1,
+      "prosthodontist": 1,
+      "endodontist": 1
+    },
+    "gender_mix": {
+      "M": 4,
+      "F": 1
+    },
+    "license_mix": {
+      "FTL": 5
+    },
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle17_notes": [
+      "1× Specialist Dentist (Vimalkumar Parthasarathy) — Inde Tamoul Nadu (nouveau mapping non-arabe)",
+      "1× Dental Implant (Anas Karkout) — Syrie (Karkout = كركوت, Al-Karkout patronyme)",
+      "1× Pediatric Dentist (Farha Baalawi) — Émiratie (Baalawi = بعلawi patronyme)",
+      "1× Prosthodontist (Abubakkar Mohammad Kinchanakodi) — Inde Kerala musulman (long nom composé)",
+      "1× Endodontist (Aby John) — Inde Kerala chrétien (nom composé indo-anglo)",
+      "FILL : 5 fiches cycle11 partiellement couvertes en AR+EN → FR/RU/ZH (15 fichiers)",
+      "Cohérence terminologique validée sur 11 spécialités observées (glossary v1.0)"
+    ]
+  },
+  "new_fiches": [
+    {
+      "id": "vimalkumar-parthasarathy-00007079",
+      "license_number": "00007079",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Vimalkumar Parthasarathy",
+        "fr": "Vimalkumar Parthasarathy",
+        "ar": "فيمالكومار بارثاساراثي",
+        "en": "Vimalkumar Parthasarathy",
+        "ru": "Вималкумар Партхасаратхи",
+        "zh": "Wéimǎ'ěrkùmǎ'ěr Pā'ěrtāsàlātī"
+      },
+      "specialty": {
+        "slug": "specialist-dentist",
+        "fr": "Dentiste spécialiste",
+        "ar": "طبيب أسنان أخصائي",
+        "en": "Specialist Dentist",
+        "ru": "Стоматолог-специалист",
+        "zh": "专科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Front Line Medical Center LLC",
+        "ar": "Front Line Medical Center LLC",
+        "en": "Front Line Medical Center LLC",
+        "ru": "Front Line Medical Center LLC",
+        "zh": "Front Line Medical Center LLC"
+      },
+      "area": {
+        "fr": "Front Line Medical Center LLC, Dubaï, Émirats arabes unis",
+        "ar": "Front Line Medical Center LLC, دبي, الإمارات العربية المتحدة",
+        "en": "Front Line Medical Center LLC, Dubai, UAE",
+        "ru": "Front Line Medical Center LLC, Дубай, ОАЭ",
+        "zh": "Front Line Medical Center LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Vimalkumar Parthasarathy est un dentiste spécialiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور فيمالكومار بارثاساراثي طبيب أسنان أخصائي في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Vimalkumar Parthasarathy is a Specialist Dentist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Вималкумар Партхасаратхи — Стоматолог-специалист в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Wéimǎ'ěrkùmǎ'ěr Pā'ěrtāsàlātī医生是阿联酋迪拜的专科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00007079",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T04:20:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "anas-karkout-00040970",
+      "license_number": "00040970",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Anas Karkout",
+        "fr": "Anas Karkout",
+        "ar": "أنس كركوت",
+        "en": "Anas Karkout",
+        "ru": "Анас Каркут",
+        "zh": "Ānàsī Kǎ'ěrkùtè"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "fr": "Implantologue",
+        "ar": "أخصائي زراعة الأسنان",
+        "en": "Implantologist",
+        "ru": "Имплантолог",
+        "zh": "种植牙医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Dr Aburas Dental Center LLC (Branch)",
+        "ar": "Dr Aburas Dental Center LLC (Branch)",
+        "en": "Dr Aburas Dental Center LLC (Branch)",
+        "ru": "Dr Aburas Dental Center LLC (Branch)",
+        "zh": "Dr Aburas Dental Center LLC (Branch)"
+      },
+      "area": {
+        "fr": "Dr Aburas Dental Center LLC (Branch), Dubaï, Émirats arabes unis",
+        "ar": "Dr Aburas Dental Center LLC (Branch), دبي, الإمارات العربية المتحدة",
+        "en": "Dr Aburas Dental Center LLC (Branch), Dubai, UAE",
+        "ru": "Dr Aburas Dental Center LLC (Branch), Дубай, ОАЭ",
+        "zh": "Dr Aburas Dental Center LLC (Branch), 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Anas Karkout est un implantologue à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور أنس كركوت أخصائي زراعة الأسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Anas Karkout is an Implantologist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Анас Каркут — Имплантолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Ānàsī Kǎ'ěrkùtè医生是阿联酋迪拜的种植牙医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00040970",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T04:20:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "farha-baalawi-00067520",
+      "license_number": "00067520",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Farha Baalawi",
+        "fr": "Farha Baalawi",
+        "ar": "فرحا بعلاوي",
+        "en": "Farha Baalawi",
+        "ru": "Фарха Баалави",
+        "zh": "Fālāhā Bā'ālāwī"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Barsha Medical Center - PHC",
+        "ar": "Al Barsha Medical Center - PHC",
+        "en": "Al Barsha Medical Center - PHC",
+        "ru": "Al Barsha Medical Center - PHC",
+        "zh": "Al Barsha Medical Center - PHC"
+      },
+      "area": {
+        "fr": "Al Barsha Medical Center - PHC, Dubaï, Émirats arabes unis",
+        "ar": "Al Barsha Medical Center - PHC, دبي, الإمارات العربية المتحدة",
+        "en": "Al Barsha Medical Center - PHC, Dubai, UAE",
+        "ru": "Al Barsha Medical Center - PHC, Дубай, ОАЭ",
+        "zh": "Al Barsha Medical Center - PHC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Farha Baalawi est une pédodontiste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتورة فرحا بعلاوي أخصائي أسنان الأطفال في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Farha Baalawi is a Pediatric Dentist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Фарха Баалави — Детский стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Fālāhā Bā'ālāwī医生是阿联酋迪拜的儿童牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00067520",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T04:20:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    },
+    {
+      "id": "abubakkar-mohammad-kinchanakodi-00100898",
+      "license_number": "00100898",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "ABUBAKKAR MOHAMMAD KINCHANAKODI",
+        "fr": "ABUBAKKAR MOHAMMAD KINCHANAKODI",
+        "ar": "أبوبكر محمد كينتشاناكودي",
+        "en": "ABUBAKKAR MOHAMMAD KINCHANAKODI",
+        "ru": "Абубаккар Мухаммад Кинчанакоди",
+        "zh": "Ābùbākǎ'ěr Mùhǎnmǎdè Jīnchánàkēdí"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist",
+        "ru": "Ортопед-стоматолог",
+        "zh": "修复科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "NEW MEDICAL CENTER LTD - DUBAI BRANCH",
+        "ar": "NEW MEDICAL CENTER LTD - DUBAI BRANCH",
+        "en": "NEW MEDICAL CENTER LTD - DUBAI BRANCH",
+        "ru": "NEW MEDICAL CENTER LTD - DUBAI BRANCH",
+        "zh": "NEW MEDICAL CENTER LTD - DUBAI BRANCH"
+      },
+      "area": {
+        "fr": "NEW MEDICAL CENTER LTD - DUBAI BRANCH, Dubaï, Émirats arabes unis",
+        "ar": "NEW MEDICAL CENTER LTD - DUBAI BRANCH, دبي, الإمارات العربية المتحدة",
+        "en": "NEW MEDICAL CENTER LTD - DUBAI BRANCH, Dubai, UAE",
+        "ru": "NEW MEDICAL CENTER LTD - DUBAI BRANCH, Дубай, ОАЭ",
+        "zh": "NEW MEDICAL CENTER LTD - DUBAI BRANCH, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr ABUBAKKAR MOHAMMAD KINCHANAKODI est un prosthodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور أبوبكر محمد كينتشاناكودي أخصائي التركيبات السنية في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. ABUBAKKAR MOHAMMAD KINCHANAKODI is a Prosthodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Абубаккар Мухаммад Кинчанакоди — Ортопед-стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Ābùbākǎ'ěr Mùhǎnmǎdè Jīnchánàkēdí医生是阿联酋迪拜的修复科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00100898",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T04:20:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "aby-john-00222918",
+      "license_number": "00222918",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Aby John",
+        "fr": "Aby John",
+        "ar": "آبي جون",
+        "en": "Aby John",
+        "ru": "Аби Джон",
+        "zh": "Ābǐ Yuēhàn"
+      },
+      "specialty": {
+        "slug": "endodontist",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist",
+        "ru": "Эндодонтист",
+        "zh": "牙髓病医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Healthhub  Br.Alfuttaim Healthcare Single Person Company L L C",
+        "ar": "Healthhub  Br.Alfuttaim Healthcare Single Person Company L L C",
+        "en": "Healthhub  Br.Alfuttaim Healthcare Single Person Company L L C",
+        "ru": "Healthhub  Br.Alfuttaim Healthcare Single Person Company L L C",
+        "zh": "Healthhub  Br.Alfuttaim Healthcare Single Person Company L L C"
+      },
+      "area": {
+        "fr": "Healthhub  Br.Alfuttaim Healthcare Single Person Company L L C, Dubaï, Émirats arabes unis",
+        "ar": "Healthhub  Br.Alfuttaim Healthcare Single Person Company L L C, دبي, الإمارات العربية المتحدة",
+        "en": "Healthhub  Br.Alfuttaim Healthcare Single Person Company L L C, Dubai, UAE",
+        "ru": "Healthhub  Br.Alfuttaim Healthcare Single Person Company L L C, Дубай, ОАЭ",
+        "zh": "Healthhub  Br.Alfuttaim Healthcare Single Person Company L L C, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Aby John est un endodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور آبي جون أخصائي علاج العصب في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Aby John is an Endodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Аби Джон — Эндодонтист в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Ābǐ Yuēhàn医生是阿联酋迪拜的牙髓病医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00222918",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T04:20:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    }
+  ],
+  "fill_fiches": [
+    {
+      "id": "suzanna-almaali-00143904",
+      "license_number": "00143904",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Suzanna Almaali",
+        "fr": "Suzanna Almaali",
+        "ar": "سوزانا المعالي",
+        "en": "Suzanna Almaali",
+        "ru": "Сюзанна Ал-Маали",
+        "zh": "Sūzānnà Ā'ěrmǎ'ālì"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Maher Medical Center",
+        "ar": "Al Maher Medical Center",
+        "en": "Al Maher Medical Center",
+        "ru": "Al Maher Medical Center",
+        "zh": "Al Maher Medical Center"
+      },
+      "area": {
+        "fr": "Al Maher Medical Center, Dubaï, Émirats arabes unis",
+        "ar": "Al Maher Medical Center, دبي, الإمارات العربية المتحدة",
+        "en": "Al Maher Medical Center, Dubai, UAE",
+        "ru": "Al Maher Medical Center, Дубай, ОАЭ",
+        "zh": "Al Maher Medical Center, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Suzanna Almaali est une orthodontiste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتورة سوزانا المعالي أخصائي تقويم الأسنان في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Suzanna Almaali is an Orthodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Сюзанна Ал-Маали — Ортодонт в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Sūzānnà Ā'ěrmǎ'ālì医生是阿联酋迪拜的正畸医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00143904",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T04:20:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    },
+    {
+      "id": "hazem-hassan-00146446",
+      "license_number": "00146446",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Hazem Hassan",
+        "fr": "Hazem Hassan",
+        "ar": "Hazem حسن",
+        "en": "Hazem Hassan",
+        "ru": "Hazem Хасан",
+        "zh": "Hazem Hǎisāng"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "fr": "Implantologue",
+        "ar": "أخصائي زراعة الأسنان",
+        "en": "Implantologist",
+        "ru": "Имплантолог",
+        "zh": "种植牙医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Badaa Medical Center - PHC",
+        "ar": "Al Badaa Medical Center - PHC",
+        "en": "Al Badaa Medical Center - PHC",
+        "ru": "Al Badaa Medical Center - PHC",
+        "zh": "Al Badaa Medical Center - PHC"
+      },
+      "area": {
+        "fr": "Al Badaa Medical Center - PHC, Dubaï, Émirats arabes unis",
+        "ar": "Al Badaa Medical Center - PHC, دبي, الإمارات العربية المتحدة",
+        "en": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "ru": "Al Badaa Medical Center - PHC, Дубай, ОАЭ",
+        "zh": "Al Badaa Medical Center - PHC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Hazem Hassan est un implantologue à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور Hazem حسن أخصائي زراعة الأسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Hazem Hassan is an Implantologist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Hazem Хасан — Имплантолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Hazem Hǎisāng医生是阿联酋迪拜的种植牙医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00146446",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T04:20:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "haitham-elbishari-00158407",
+      "license_number": "00158407",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Haitham Elbishari",
+        "fr": "Haitham Elbishari",
+        "ar": "هيثم البشاري",
+        "en": "Haitham Elbishari",
+        "ru": "Хайтам Эль-Бишари",
+        "zh": "Hāyītǎmǔ Ā'ěrbìshālǐ"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist",
+        "ru": "Ортопед-стоматолог",
+        "zh": "修复科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Dubai Dental Hospital FZ LLC",
+        "ar": "Dubai Dental Hospital FZ LLC",
+        "en": "Dubai Dental Hospital FZ LLC",
+        "ru": "Dubai Dental Hospital FZ LLC",
+        "zh": "Dubai Dental Hospital FZ LLC"
+      },
+      "area": {
+        "fr": "Dubai Dental Hospital FZ LLC, Dubaï, Émirats arabes unis",
+        "ar": "Dubai Dental Hospital FZ LLC, دبي, الإمارات العربية المتحدة",
+        "en": "Dubai Dental Hospital FZ LLC, Dubai, UAE",
+        "ru": "Dubai Dental Hospital FZ LLC, Дубай, ОАЭ",
+        "zh": "Dubai Dental Hospital FZ LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Haitham Elbishari est un prosthodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور هيثم البشاري أخصائي التركيبات السنية في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Haitham Elbishari is a Prosthodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Хайтам Эль-Бишари — Ортопед-стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Hāyītǎmǔ Ā'ěrbìshālǐ医生是阿联酋迪拜的修复科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00158407",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T04:20:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "fatemeh-razyanfard-00160023",
+      "license_number": "00160023",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Fatemeh Razyanfard",
+        "fr": "Fatemeh Razyanfard",
+        "ar": "فاطمة رازيانفرد",
+        "en": "Fatemeh Razyanfard",
+        "ru": "Фатима Разянфард",
+        "zh": "Fātíméihēi Lāzīyānfā'ěrdé"
+      },
+      "specialty": {
+        "slug": "endodontist",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist",
+        "ru": "Эндодонтист",
+        "zh": "牙髓病医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Badaa Medical Center - PHC",
+        "ar": "Al Badaa Medical Center - PHC",
+        "en": "Al Badaa Medical Center - PHC",
+        "ru": "Al Badaa Medical Center - PHC",
+        "zh": "Al Badaa Medical Center - PHC"
+      },
+      "area": {
+        "fr": "Al Badaa Medical Center - PHC, Dubaï, Émirats arabes unis",
+        "ar": "Al Badaa Medical Center - PHC, دبي, الإمارات العربية المتحدة",
+        "en": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "ru": "Al Badaa Medical Center - PHC, Дубай, ОАЭ",
+        "zh": "Al Badaa Medical Center - PHC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Fatemeh Razyanfard est un endodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور فاطمة رازيانفرد أخصائي علاج العصب في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Fatemeh Razyanfard is an Endodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Фатима Разянфард — Эндодонтист в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Fātíméihēi Lāzīyānfā'ěrdé医生是阿联酋迪拜的牙髓病医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00160023",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T04:20:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "?"
+    },
+    {
+      "id": "sina-mokhtarian-00176925",
+      "license_number": "00176925",
+      "license_type": {
+        "code": "PTL",
+        "fr": "Temps partiel",
+        "ar": "دوام جزئي",
+        "en": "Part-Time License",
+        "ru": "Частичная занятость",
+        "zh": "兼职执照"
+      },
+      "name": {
+        "original": "Sina Mokhtarian",
+        "fr": "Sina Mokhtarian",
+        "ar": "سينا مختاريان",
+        "en": "Sina Mokhtarian",
+        "ru": "Сина Мохтариан",
+        "zh": "Sīnā Mòhéntǎlǐ'āng"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "fr": "Implantologue",
+        "ar": "أخصائي زراعة الأسنان",
+        "en": "Implantologist",
+        "ru": "Имплантолог",
+        "zh": "种植牙医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Myosmile Dental Clinic",
+        "ar": "Myosmile Dental Clinic",
+        "en": "Myosmile Dental Clinic",
+        "ru": "Myosmile Dental Clinic",
+        "zh": "Myosmile Dental Clinic"
+      },
+      "area": {
+        "fr": "Myosmile Dental Clinic, Dubaï, Émirats arabes unis",
+        "ar": "Myosmile Dental Clinic, دبي, الإمارات العربية المتحدة",
+        "en": "Myosmile Dental Clinic, Dubai, UAE",
+        "ru": "Myosmile Dental Clinic, Дубай, ОАЭ",
+        "zh": "Myosmile Dental Clinic, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Sina Mokhtarian est une implantologue à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps partiel délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتورة سينا مختاريان أخصائي زراعة الأسنان في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام جزئي صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Sina Mokhtarian is an Implantologist based in Dubai, United Arab Emirates (UAE). Holds a Part-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Сина Мохтариан — Имплантолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает Частичная занятость, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Sīnā Mòhéntǎlǐ'āng医生是阿联酋迪拜的种植牙医生。持有迪拜卫生局 (DHA) 颁发的兼职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00176925",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T04:20:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    }
+  ]
+}
