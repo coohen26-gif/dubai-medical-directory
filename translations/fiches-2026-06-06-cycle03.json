@@ -1,0 +1,500 @@
+{
+  "_meta": {
+    "schema_version": "1.1",
+    "generated_at": "2026-06-06T00:41:55+00:00",
+    "generator": "cron:ad25646f-4b17-4eb0-b148-0b7d037c7231 (Dubai - Traduction 5 Langues)",
+    "cycle": "2026-06-06 cycle 03/30min",
+    "previous_cycles": [
+      "fiches-2026-06-05-cycle01.json (5 fiches, fr+ar+en, manual+glossary v0.9)",
+      "fiches-2026-06-06-cycle02.json (5 fiches, fr+ar+en, manual+glossary v1.0)"
+    ],
+    "source_csv": "data/dentists_emirates.csv",
+    "source_rows_total": 6013,
+    "source_rows_translated_to_date": 15,
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "translation_method": "manual+glossary (DeepL API key still unavailable in .env.translator)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "field_completeness_note": "Source CSV lacks sub_specialty/bio/services/languages_spoken; bio is synthesized from glossary template, services=[] per source.",
+    "quality_notes": [
+      "Noms : translittération manuelle (AR) + table ISO-9 (RU) + pinyin diacritique (ZH). Validation humaine requise pour AR/RU/ZH.",
+      "Spécialités : 100% alignées avec glossary.md v1.0.",
+      "Licences : mapping FTL/REG/PTL/VIS aligné glossary.md.",
+      "Émirats : mapping glossary.md (Dubai/Abu Dhabi/Sharjah/Ajman/RAK/Fujairah/UAQ).",
+      "Bio : template canonique multi-langue, à enrichir depuis DHA Sheryan (profil long) au cycle suivant.",
+      "Services : [] — source CSV ne contient pas la liste, à récupérer depuis source_url."
+    ]
+  },
+  "fiches": [
+    {
+      "id": "feras-yabroudi-00005038",
+      "license_number": "00005038",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Feras Yabroudi",
+        "fr": "Feras Yabroudi",
+        "ar": "فراس يبرودي",
+        "en": "Feras Yabroudi",
+        "ru": "Ферас Ябруди",
+        "zh": "Fèilāsī Yàbùlǔdí"
+      },
+      "specialty": {
+        "slug": "oral-surgeon",
+        "fr": "Chirurgien dentiste",
+        "ar": "جراح الفم والأسنان",
+        "en": "Oral Surgeon",
+        "ru": "Челюстно-лицевой хирург",
+        "zh": "口腔外科医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "N L V Medical Center LLC",
+        "ar": "N L V Medical Center LLC",
+        "en": "N L V Medical Center LLC",
+        "ru": "N L V Medical Center LLC",
+        "zh": "N L V Medical Center LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "bio": {
+        "fr": "Feras Yabroudi est chirurgien dentiste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل فراس يبرودي جراح الفم والأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Feras Yabroudi is an oral surgeon based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Ферас Ябруди — челюстно-лицевой хирург в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Fèilāsī Yàbùlǔdí是迪拜的口腔外科医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00005038",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      }
+    },
+    {
+      "id": "zeina-armouche-00004781",
+      "license_number": "00004781",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Zeina Armouche",
+        "fr": "Zeina Armouche",
+        "ar": "زينة عرمش",
+        "en": "Zeina Armouche",
+        "ru": "Зейна Армуш",
+        "zh": "Zéinà Ā'ermǔshī"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C",
+        "ar": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C",
+        "en": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C",
+        "ru": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C",
+        "zh": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "bio": {
+        "fr": "Zeina Armouche est pédodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل زينة عرمش أخصائي أسنان الأطفال في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Zeina Armouche is a pediatric dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Зейна Армуш — детский стоматолог в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Zéinà Ā'ermǔshī是迪拜的儿童牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00004781",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      }
+    },
+    {
+      "id": "meena-shahnawaz-00000783",
+      "license_number": "00000783",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "name": {
+        "original": "Meena Shahnawaz",
+        "fr": "Meena Shahnawaz",
+        "ar": "مينا شهنواز",
+        "en": "Meena Shahnawaz",
+        "ru": "Мина Шахнаваз",
+        "zh": "Mínà Shāhnuòwǎzī"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "bio": {
+        "fr": "Meena Shahnawaz est dentiste généraliste à Dubaï, EAU. Licenciée sous licence régulière délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل مينا شهنواز طبيب أسنان عام في دبي، الإمارات. تحمل رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Meena Shahnawaz is a general dentist based in Dubai, UAE. Holds a regular license issued by the Dubai Health Authority (DHA).",
+        "ru": "Мина Шахнаваз — стоматолог общей практики в Дубай, ОАЭ. Обладает обычной лицензией, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Mínà Shāhnuòwǎzī是迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的普通执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00000783",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      }
+    },
+    {
+      "id": "vimalkumar-parthasarathy-00007079",
+      "license_number": "00007079",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Vimalkumar Parthasarathy",
+        "fr": "Vimalkumar Parthasarathy",
+        "ar": "فيمالكومار بارثاساراثي",
+        "en": "Vimalkumar Parthasarathy",
+        "ru": "Вималкумар Партхасаратхи",
+        "zh": "Wéimǎ'ěrkùmǎ'ěr Bā'ěrsāsālātī"
+      },
+      "specialty": {
+        "slug": "specialist-dentist",
+        "fr": "Dentiste spécialiste",
+        "ar": "طبيب أسنان أخصائي",
+        "en": "Specialist Dentist",
+        "ru": "Стоматолог-специалист",
+        "zh": "专科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Front Line Medical Center LLC",
+        "ar": "Front Line Medical Center LLC",
+        "en": "Front Line Medical Center LLC",
+        "ru": "Front Line Medical Center LLC",
+        "zh": "Front Line Medical Center LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "bio": {
+        "fr": "Vimalkumar Parthasarathy est dentiste spécialiste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل فيمالكومار بارثاساراثي طبيب أسنان أخصائي في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Vimalkumar Parthasarathy is a specialist dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Вималкумар Партхасаратхи — стоматолог-специалист в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Wéimǎ'ěrkùmǎ'ěr Bā'ěrsāsālātī是迪拜的专科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00007079",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      }
+    },
+    {
+      "id": "johnny-haddad-00002150",
+      "license_number": "00002150",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Johnny Haddad",
+        "fr": "Johnny Haddad",
+        "ar": "جوني حداد",
+        "en": "Johnny Haddad",
+        "ru": "Джонни Хаддад",
+        "zh": "Qiángnī Hādádá"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "The Dental Studio",
+        "ar": "The Dental Studio",
+        "en": "The Dental Studio",
+        "ru": "The Dental Studio",
+        "zh": "The Dental Studio"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "bio": {
+        "fr": "Johnny Haddad est dentiste généraliste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل جوني حداد طبيب أسنان عام في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Johnny Haddad is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Джонни Хаддад — стоматолог общей практики в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Qiángnī Hādádá是迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00002150",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      }
+    }
+  ]
+}
