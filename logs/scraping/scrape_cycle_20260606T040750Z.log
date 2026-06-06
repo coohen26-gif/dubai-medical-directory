@@ -1,0 +1,13 @@
+2026-06-06 04:07:50,118 [INFO] === DMD scrape cycle starting ===
+2026-06-06 04:07:50,118 [INFO] csv=/root/.openclaw/workspace/dubai-medical-directory/data/dentists_emirates.csv  dha=/root/.openclaw/workspace/dubai-medical-directory/data/dha_sheryan_full.jsonl  workers=6  delay=0.18s  max_zavis=3000
+2026-06-06 04:07:50,118 [INFO] skip_dha=False  skip_zavis=False  scraped_at=2026-06-06T04:07:50.118281+00:00
+2026-06-06 04:07:50,139 [INFO] loaded 6186 existing licenses, 6186 existing source_urls
+2026-06-06 04:07:50,139 [INFO] [DHA] scanning /root/.openclaw/workspace/dubai-medical-directory/data/dha_sheryan_full.jsonl
+2026-06-06 04:07:50,526 [INFO] [DHA] scanned=101080 matched=9537 new=0 skipped_dup=9537
+2026-06-06 04:07:50,526 [INFO] [DHA] elapsed=0.4s total_new=0
+2026-06-06 04:07:50,526 [INFO] [ZAVIS] fetching sitemap index https://www.zavis.ai/sitemap-dentists.xml
+2026-06-06 04:07:51,551 [INFO] [ZAVIS] 7713 total URLs, 7713 profile URLs (after filter)
+2026-06-06 04:07:51,551 [INFO] [ZAVIS] scraping up to 3000 URLs with 6 workers (delay=0.18s)
+2026-06-06 04:08:11,530 [INFO] [ZAVIS] progress: 200/3000 processed, 66 new rows
+2026-06-06 04:11:17,776 [INFO] [ZAVIS] progress: 1400/3000 processed, 471 new rows
+2026-06-06 04:12:02,064 [INFO] [ZAVIS] progress: 1600/3000 processed, 540 new rows
