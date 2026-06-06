@@ -1,0 +1,295 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-06-06T00:06:00+00:00",
+    "generator": "cron:6e3d697a-91cb-4475-872a-8ab965e7ba7f (Dubai - Translation & Localization)",
+    "cycle": "2026-06-06 cycle 02/30min",
+    "previous_cycle": "2026-06-05 cycle 01/30min (fiches-2026-06-05-cycle01.json, 5 fiches)",
+    "source_csv": "code/web/data/dentists_emirates.csv",
+    "source_rows_total": 20,
+    "source_rows_translated_to_date": 10,
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "translation_method": "manual+glossary (DeepL API key still unavailable in .env.translator)",
+    "languages": ["fr", "ar", "en"],
+    "field_completeness_note": "Source CSV lacks sub_specialty/bio/services/languages_spoken; these are null per glossary note 2026-06-05."
+  },
+  "fiches": [
+    {
+      "id": "sruthi-balakkandy-suja-sukumaran-89396350",
+      "license_number": "89396350",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License"
+      },
+      "name": {
+        "original": "Sruthi Balakkandy Suja Sukumaran",
+        "fr": "Sruthi Balakkandy Suja Sukumaran",
+        "ar": "سروثي بالاكندي سوها سوكوماران",
+        "en": "Sruthi Balakkandy Suja Sukumaran"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Sruthi Balakkandy Suja Sukumaran est dentiste généraliste à Dubaï, aux Émirats arabes unis. Titulaire d'une licence régulière (REG) délivrée par la Dubai Health Authority.",
+        "ar": "الدكتورة سروثي بالاكندي سوها سوكوماران هي طبيبة أسنان عامة في دبي، الإمارات العربية المتحدة. تحمل رخصة منتظمة (REG) صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. Sruthi Balakkandy Suja Sukumaran is a General Dentist based in Dubai, UAE. Licensed by the Dubai Health Authority (Regular License)."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://www.zavis.ai/find-a-doctor/general-dentist/sruthi-balakkandy-suja-sukumaran-89396350",
+      "scraped_at": "2026-06-05T20:13:12+00:00",
+      "translated_at": "2026-06-06T00:06:00+00:00"
+    },
+    {
+      "id": "lama-alamasi-05797490",
+      "license_number": "05797490",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Lama Alamasi",
+        "fr": "Lama Alamasi",
+        "ar": "لمى العلمي",
+        "en": "Lama Alamasi"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "HADIYA DENTAL CENTER L.L.C",
+        "ar": "مركز هادية للأسنان ش.ذ.م.م",
+        "en": "HADIYA DENTAL CENTER L.L.C"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Lama Alamasi est dentiste généraliste à Dubaï, aux Émirats arabes unis, exerçant à temps plein (FTL) au sein de HADIYA DENTAL CENTER L.L.C. Titulaire d'une licence délivrée par la Dubai Health Authority.",
+        "ar": "الدكتورة لمى العلمي هي طبيبة أسنان عامة في دبي، الإمارات العربية المتحدة، تعمل بدوام كامل (FTL) في مركز هادية للأسنان ش.ذ.م.م. تحمل رخصة صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. Lama Alamasi is a General Dentist based in Dubai, UAE, working full-time (FTL) at HADIYA DENTAL CENTER L.L.C. Licensed by the Dubai Health Authority."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://www.zavis.ai/find-a-doctor/general-dentist/lama-alamasi-05797490",
+      "scraped_at": "2026-06-05T20:13:12+00:00",
+      "translated_at": "2026-06-06T00:06:00+00:00"
+    },
+    {
+      "id": "mouhammad-nour-halfawi-93641964",
+      "license_number": "93641964",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Mouhammad Nour Halfawi",
+        "fr": "Mouhammad Nour Halfawi",
+        "ar": "محمد نور حلفاوي",
+        "en": "Mouhammad Nour Halfawi"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "COSMETIC ART DENTAL CLINIC",
+        "ar": "عيادة كوزمتك آرت للأسنان",
+        "en": "COSMETIC ART DENTAL CLINIC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Mouhammad Nour Halfawi est dentiste généraliste à Dubaï, aux Émirats arabes unis, exerçant à temps plein (FTL) au sein de COSMETIC ART DENTAL CLINIC. Titulaire d'une licence délivrée par la Dubai Health Authority.",
+        "ar": "الدكتور محمد نور حلفاوي هو طبيب أسنان عام في دبي، الإمارات العربية المتحدة، يعمل بدوام كامل (FTL) في عيادة كوزمتك آرت للأسنان. يحمل رخصة صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. Mouhammad Nour Halfawi is a General Dentist based in Dubai, UAE, working full-time (FTL) at COSMETIC ART DENTAL CLINIC. Licensed by the Dubai Health Authority."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://www.zavis.ai/find-a-doctor/general-dentist/mouhammad-nour-halfawi-93641964",
+      "scraped_at": "2026-06-05T20:13:12+00:00",
+      "translated_at": "2026-06-06T00:06:00+00:00"
+    },
+    {
+      "id": "pouya-nejadshamsi-21770538",
+      "license_number": "21770538",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License"
+      },
+      "name": {
+        "original": "Pouya Nejadshamsi",
+        "fr": "Pouya Nejadshamsi",
+        "ar": "بويه نجادشمسي",
+        "en": "Pouya Nejadshamsi"
+      },
+      "specialty": {
+        "slug": "endodontics",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Pouya Nejadshamsi est endodontiste à Dubaï, aux Émirats arabes unis. Titulaire d'une licence régulière (REG) délivrée par la Dubai Health Authority.",
+        "ar": "الدكتور بويه نجادشمسي هو أخصائي علاج العصب في دبي، الإمارات العربية المتحدة. يحمل رخصة منتظمة (REG) صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. Pouya Nejadshamsi is an Endodontist based in Dubai, UAE. Licensed by the Dubai Health Authority (Regular License)."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://www.zavis.ai/find-a-doctor/endodontics/pouya-nejadshamsi-21770538",
+      "scraped_at": "2026-06-05T20:13:12+00:00",
+      "translated_at": "2026-06-06T00:06:00+00:00"
+    },
+    {
+      "id": "oday-ibrahim-00248706",
+      "license_number": "00248706",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License"
+      },
+      "name": {
+        "original": "Oday Ibrahim",
+        "fr": "Oday Ibrahim",
+        "ar": "عدي إبراهيم",
+        "en": "Oday Ibrahim"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Oday Ibrahim est dentiste généraliste à Dubaï, aux Émirats arabes unis. Titulaire d'une licence régulière (REG) délivrée par la Dubai Health Authority.",
+        "ar": "الدكتور عدي إبراهيم هو طبيب أسنان عام في دبي، الإمارات العربية المتحدة. يحمل رخصة منتظمة (REG) صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. Oday Ibrahim is a General Dentist based in Dubai, UAE. Licensed by the Dubai Health Authority (Regular License)."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://www.zavis.ai/find-a-doctor/general-dentist/oday-ibrahim-00248706",
+      "scraped_at": "2026-06-05T20:13:12+00:00",
+      "translated_at": "2026-06-06T00:06:00+00:00"
+    }
+  ],
+  "coherence_checks": {
+    "specialty_consistency": "5/5 fiches utilisent les termes canoniques du glossaire v1.0. 4 fiches en 'Dentiste généraliste / طبيب أسنان عام / General Dentist' (slugs general-dentist) et 1 fiche en 'Endodontiste / أخصائي علاج العصب / Endodontist' (slug endodontics, identique à la fiche Anshida Valiya Palathingal du cycle 01).",
+    "license_type_consistency": "2 codes distincts : REG (3 fiches) et FTL (2 fiches). Traductions uniformes via glossaire v1.0 (Licence régulière / رخصة منتظمة / Regular License ; Temps plein / دوام كامل / Full-Time License).",
+    "area_consistency": "Dubaï / دبي / Dubai — 5/5 OK.",
+    "country_consistency": "Émirats arabes unis / الإمارات العربية المتحدة / United Arab Emirates — 5/5 OK.",
+    "name_transliteration": "5 noms propres translittérés selon la règle du glossaire. Variété : 1 nom indien (Sruthi Balakkandy Suja Sukumaran → سروثي بالاكندي سوها سوكوماران, translittération latine), 3 noms arabes (Lama Alamasi → لمى العلمي ; Mouhammad Nour Halfawi → محمد نور حلفاوي ; Oday Ibrahim → عدي إبراهيم, full Arabic), 1 nom persan (Pouya Nejadshamsi → بويه نجادشمسي, translittération phonétique).",
+    "facility_consistency": "3/5 fiches sans facility (string vide, conforme cycle 01). 2/5 fiches avec facility : HADIYA DENTAL CENTER L.L.C (FR/EN = nom propre tel quel ; AR = translittération locale 'مركز هادية للأسنان ش.ذ.م.م' avec L.L.C converti en ش.ذ.م.م) ; COSMETIC ART DENTAL CLINIC (FR/EN = nom propre tel quel ; AR = traduction descriptive 'عيادة كوزمتك آرت للأسنان' avec translittération phonétique de 'Cosmetic Art').",
+    "bio_structure": "5/5 bios suivent la structure canonique du glossaire : 'Dr. {Name} is a {specialty} based in {city}, UAE. Licensed by the Dubai Health Authority ({license_type}).' + clause facility optionnelle pour les 2 fiches concernées.",
+    "gender_agreement_ar": "2/5 bios utilisent la forme féminine arabe طبيبة (pour Lama Alamasi et Sruthi Balakkandy Suja Sukumaran) ; 3/5 utilisent la forme masculine طبيب (pour Mouhammad Nour Halfawi, Pouya Nejadshamsi, Oday Ibrahim). La concordance genre/nom est respectée selon les conventions de translittération. ⚠️ Note : le genre exact des praticiennes indiennes/arabes n'est pas explicitement présent dans la source CSV — déduction par prénom (Lama = prénom féminin arabe classique ; Sruthi = prénom féminin indien Kerala). À confirmer lors de l'enrichissement de la base.",
+    "completeness_warnings": [
+      "sub_specialty, services, languages_spoken = null pour 5/5 fiches (champ absent du CSV source).",
+      "Facilities avec legal suffix anglais (L.L.C) — convention AR 'ش.ذ.م.م' (شركة ذات مسؤولية محدودة) appliquée sur HADIYA DENTAL CENTER L.L.C."
+    ]
+  },
+  "cycle_progress": {
+    "cycle_01": {
+      "file": "fiches-2026-06-05-cycle01.json",
+      "count": 5,
+      "specialties_covered": ["Parodontiste", "Orthodontiste", "Endodontiste", "Implantologue", "Prosthodontiste"]
+    },
+    "cycle_02": {
+      "file": "fiches-2026-06-06-cycle02.json",
+      "count": 5,
+      "specialties_covered": ["Dentiste généraliste (×4)", "Endodontiste (×1)"]
+    },
+    "total_translated_to_date": 10,
+    "remaining_in_small_csv": 10,
+    "next_cycle_targets": [
+      "Diversifier specialties (Pediatric Dentist, Oral Surgeon) — présents dans le gros CSV data/dentists_emirates.csv (6012 lignes) plutôt que le petit CSV cycle (20 lignes)",
+      "Envisager migration vers data/dentists_emirates.csv (6012 lignes, source Sheryan) pour augmenter le débit de traduction 50x"
+    ]
+  }
+}
