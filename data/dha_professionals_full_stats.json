@@ -218,5 +218,13 @@
   "unique_categories": 5,
   "unique_specialties": 410,
   "unique_facilities": 5240,
-  "csv_path": "/root/.openclaw/workspace/data/dha_professionals_full.csv"
+  "csv_path": "/root/.openclaw/workspace/data/dha_professionals_full.csv",
+  "quality_run_at": "2026-06-06T11:07:40.047253+00:00",
+  "quality_master_rows": 101080,
+  "quality_master_license_invalid": 0,
+  "quality_dentists_rows": 7113,
+  "quality_dentists_lang_filled_pct": 0.759,
+  "quality_dentists_lang_raw_unique": 12,
+  "quality_dentists_lang_normalized_unique": 12,
+  "quality_web_rows": 181
 }
