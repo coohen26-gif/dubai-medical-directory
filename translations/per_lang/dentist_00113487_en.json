@@ -1,0 +1,31 @@
+{
+  "id": "layal-tarhini-00113487",
+  "license_number": "00113487",
+  "license_type": "Full-Time License",
+  "name": {
+    "original": "Layal Tarhini",
+    "en": "Layal Tarhini"
+  },
+  "specialty": "General Dentist",
+  "sub_specialty": null,
+  "facility": "GRAND EUROPEAN CLINIC LLC",
+  "area": "GRAND EUROPEAN CLINIC LLC, Dubai, UAE",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "country_short": "UAE",
+  "category": "dentists",
+  "bio": "Dr. Layal Tarhini is a General Dentist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.3",
+  "translated_at": "2026-06-06T02:41:03Z",
+  "_lang": "en",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00113487",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+  }
+}

@@ -1,0 +1,1777 @@
+{
+  "_meta": {
+    "schema_version": "1.3",
+    "generated_at": "2026-06-06T02:41:03Z",
+    "generator": "build_cycle10.py",
+    "cron": "ad25646f-4b17-4eb0-b148-0b7d037c7231",
+    "cycle": "2026-06-06 cycle 10/30min",
+    "languages_count": 5,
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "target_fiches": 20,
+    "fiches_produced": 20,
+    "translations_produced": 100,
+    "specialty_mix": {
+      "Orthodontist": 3,
+      "Pediatric Dentist": 3,
+      "Endodontist": 2,
+      "Prosthodontist": 2,
+      "Periodontist": 2,
+      "Oral Surgeon": 2,
+      "Dental Implant": 2,
+      "Restorative Dentist": 1,
+      "Specialist Dentist": 1,
+      "General Dentist": 2
+    },
+    "per_lang_count": {
+      "fr": 20,
+      "ar": 20,
+      "en": 20,
+      "ru": 20,
+      "zh": 20
+    },
+    "per_lang_files": 100,
+    "previous_cycles": [
+      "2026-06-05 cycle 01/30min",
+      "2026-06-06 cycle 02/30min",
+      "2026-06-06 cycle 03/30min",
+      "2026-06-06 cycle 04/30min",
+      "2026-06-06 cycle 05/30min",
+      "2026-06-06 cycle 06/30min",
+      "2026-06-06 cycle 07/30min",
+      "2026-06-06 cycle 08/30min",
+      "2026-06-06 cycle 09/30min"
+    ],
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0+RU/ZH extension (cycle10)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + table FR→X alignée glossary.md"
+  },
+  "fiches": [
+    {
+      "id": "mukeshpal-rajput-00104281",
+      "license_number": "00104281",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Mukeshpal Rajput",
+        "fr": "Mukeshpal Rajput",
+        "ar": "Mukeshpal Rajput",
+        "en": "Mukeshpal Rajput",
+        "ru": "Mukeshpal Rajput",
+        "zh": "Mukeshpal Rajput"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "New Emirates Medical Center",
+        "ar": "New Emirates Medical Center",
+        "en": "New Emirates Medical Center",
+        "ru": "New Emirates Medical Center",
+        "zh": "New Emirates Medical Center"
+      },
+      "area": {
+        "original": "New Emirates Medical Center, Dubai, UAE",
+        "fr": "New Emirates Medical Center, Dubai, UAE",
+        "ar": "New Emirates Medical Center, Dubai, UAE",
+        "en": "New Emirates Medical Center, Dubai, UAE",
+        "ru": "New Emirates Medical Center, Dubai, UAE",
+        "zh": "New Emirates Medical Center, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Mukeshpal Rajput est Orthodontiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي تقويم الأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Mukeshpal Rajput is a Orthodontist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Mukeshpal Rajput — ортодонт в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Mukeshpal Rajput 医生是位于阿联酋迪拜的正畸医生。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00104281",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "sukhpreet-mangat-00100563",
+      "license_number": "00100563",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Sukhpreet Mangat",
+        "fr": "Sukhpreet Mangat",
+        "ar": "Sukhpreet Mangat",
+        "en": "Sukhpreet Mangat",
+        "ru": "Sukhpreet Mangat",
+        "zh": "Sukhpreet Mangat"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "DR SOBCZAK DENTAL CLINIC",
+        "ar": "DR SOBCZAK DENTAL CLINIC",
+        "en": "DR SOBCZAK DENTAL CLINIC",
+        "ru": "DR SOBCZAK DENTAL CLINIC",
+        "zh": "DR SOBCZAK DENTAL CLINIC"
+      },
+      "area": {
+        "original": "DR SOBCZAK DENTAL CLINIC, Dubai, UAE",
+        "fr": "DR SOBCZAK DENTAL CLINIC, Dubai, UAE",
+        "ar": "DR SOBCZAK DENTAL CLINIC, Dubai, UAE",
+        "en": "DR SOBCZAK DENTAL CLINIC, Dubai, UAE",
+        "ru": "DR SOBCZAK DENTAL CLINIC, Dubai, UAE",
+        "zh": "DR SOBCZAK DENTAL CLINIC, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Sukhpreet Mangat est Orthodontiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي تقويم الأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Sukhpreet Mangat is a Orthodontist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Sukhpreet Mangat — ортодонт в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Sukhpreet Mangat 医生是位于阿联酋迪拜的正畸医生。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00100563",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "raj-kumar-00103069",
+      "license_number": "00103069",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Raj Kumar",
+        "fr": "Raj Kumar",
+        "ar": "Raj Kumar",
+        "en": "Raj Kumar",
+        "ru": "Raj Kumar",
+        "zh": "Raj Kumar"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Icare Oasis Branch Of Excel Healthcare",
+        "ar": "Icare Oasis Branch Of Excel Healthcare",
+        "en": "Icare Oasis Branch Of Excel Healthcare",
+        "ru": "Icare Oasis Branch Of Excel Healthcare",
+        "zh": "Icare Oasis Branch Of Excel Healthcare"
+      },
+      "area": {
+        "original": "Icare Oasis Branch Of Excel Healthcare, Dubai, UAE",
+        "fr": "Icare Oasis Branch Of Excel Healthcare, Dubai, UAE",
+        "ar": "Icare Oasis Branch Of Excel Healthcare, Dubai, UAE",
+        "en": "Icare Oasis Branch Of Excel Healthcare, Dubai, UAE",
+        "ru": "Icare Oasis Branch Of Excel Healthcare, Dubai, UAE",
+        "zh": "Icare Oasis Branch Of Excel Healthcare, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Raj Kumar est Orthodontiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي تقويم الأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Raj Kumar is a Orthodontist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Raj Kumar — ортодонт в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Raj Kumar 医生是位于阿联酋迪拜的正畸医生。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00103069",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "chantal-asimini-00095058",
+      "license_number": "00095058",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Chantal Asimini",
+        "fr": "Chantal Asimini",
+        "ar": "Chantal Asimini",
+        "en": "Chantal Asimini",
+        "ru": "Chantal Asimini",
+        "zh": "Chantal Asimini"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "My Dental Clinic LLC",
+        "ar": "My Dental Clinic LLC",
+        "en": "My Dental Clinic LLC",
+        "ru": "My Dental Clinic LLC",
+        "zh": "My Dental Clinic LLC"
+      },
+      "area": {
+        "original": "My Dental Clinic LLC, Dubai, UAE",
+        "fr": "My Dental Clinic LLC, Dubai, UAE",
+        "ar": "My Dental Clinic LLC, Dubai, UAE",
+        "en": "My Dental Clinic LLC, Dubai, UAE",
+        "ru": "My Dental Clinic LLC, Dubai, UAE",
+        "zh": "My Dental Clinic LLC, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Chantal Asimini est Pédodontiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي أسنان الأطفال في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Chantal Asimini is a Pediatric Dentist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Chantal Asimini — детский стоматолог в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Chantal Asimini 医生是位于阿联酋迪拜的儿童牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00095058",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "maya-jacob-00129603",
+      "license_number": "00129603",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Maya Jacob",
+        "fr": "Maya Jacob",
+        "ar": "Maya Jacob",
+        "en": "Maya Jacob",
+        "ru": "Maya Jacob",
+        "zh": "Maya Jacob"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "DR MAYA DENTAL CENTRE L.L.C",
+        "ar": "DR MAYA DENTAL CENTRE L.L.C",
+        "en": "DR MAYA DENTAL CENTRE L.L.C",
+        "ru": "DR MAYA DENTAL CENTRE L.L.C",
+        "zh": "DR MAYA DENTAL CENTRE L.L.C"
+      },
+      "area": {
+        "original": "DR MAYA DENTAL CENTRE L.L.C, Dubai, UAE",
+        "fr": "DR MAYA DENTAL CENTRE L.L.C, Dubai, UAE",
+        "ar": "DR MAYA DENTAL CENTRE L.L.C, Dubai, UAE",
+        "en": "DR MAYA DENTAL CENTRE L.L.C, Dubai, UAE",
+        "ru": "DR MAYA DENTAL CENTRE L.L.C, Dubai, UAE",
+        "zh": "DR MAYA DENTAL CENTRE L.L.C, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Maya Jacob est Pédodontiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي أسنان الأطفال في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Maya Jacob is a Pediatric Dentist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Maya Jacob — детский стоматолог в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Maya Jacob 医生是位于阿联酋迪拜的儿童牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00129603",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "halah-binladen-00209539",
+      "license_number": "00209539",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Halah Binladen",
+        "fr": "Halah Binladen",
+        "ar": "هالة Binladen",
+        "en": "Halah Binladen",
+        "ru": "Halah Binladen",
+        "zh": "Halah Binladen"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Dubai Dental Hospital FZ LLC",
+        "ar": "Dubai Dental Hospital FZ LLC",
+        "en": "Dubai Dental Hospital FZ LLC",
+        "ru": "Dubai Dental Hospital FZ LLC",
+        "zh": "Dubai Dental Hospital FZ LLC"
+      },
+      "area": {
+        "original": "Dubai Dental Hospital FZ LLC, Dubai, UAE",
+        "fr": "Dubai Dental Hospital FZ LLC, Dubai, UAE",
+        "ar": "Dubai Dental Hospital FZ LLC, Dubai, UAE",
+        "en": "Dubai Dental Hospital FZ LLC, Dubai, UAE",
+        "ru": "Dubai Dental Hospital FZ LLC, Dubai, UAE",
+        "zh": "Dubai Dental Hospital FZ LLC, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Halah Binladen est Pédodontiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي أسنان الأطفال في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Halah Binladen is a Pediatric Dentist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Halah Binladen — детский стоматолог в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Halah Binladen 医生是位于阿联酋迪拜的儿童牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00209539",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "shaimaa-awad-00110769",
+      "license_number": "00110769",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "name": {
+        "original": "Shaimaa Awad",
+        "fr": "Shaimaa Awad",
+        "ar": "شيماء Awad",
+        "en": "Shaimaa Awad",
+        "ru": "Shaimaa Awad",
+        "zh": "Shaimaa Awad"
+      },
+      "specialty": {
+        "slug": "endodontist",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist",
+        "ru": "Эндодонтист",
+        "zh": "牙髓病医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "area": {
+        "original": "Dubai, UAE",
+        "fr": "Dubai, UAE",
+        "ar": "Dubai, UAE",
+        "en": "Dubai, UAE",
+        "ru": "Dubai, UAE",
+        "zh": "Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Shaimaa Awad est Endodontiste à Dubaï, EAU. Titulaire d'une licence Licence régulière délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي علاج العصب في دبي، الإمارات. يحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Shaimaa Awad is a Endodontist based in Dubaï, UAE. Holds a Regular License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Shaimaa Awad — эндодонтист в Дубае, ОАЭ. Имеет обычную лицензию, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Shaimaa Awad 医生是位于阿联酋迪拜的牙髓病医生。持有迪拜卫生局 (DHA) 颁发的普通执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00110769",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "sabeer-salam-00097533",
+      "license_number": "00097533",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Sabeer Salam",
+        "fr": "Sabeer Salam",
+        "ar": "Sabeer Salam",
+        "en": "Sabeer Salam",
+        "ru": "Sabeer Salam",
+        "zh": "Sabeer Salam"
+      },
+      "specialty": {
+        "slug": "endodontist",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist",
+        "ru": "Эндодонтист",
+        "zh": "牙髓病医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Aster Al Nahda Medical Center Br Of Dm Healthcare",
+        "ar": "Aster Al Nahda Medical Center Br Of Dm Healthcare",
+        "en": "Aster Al Nahda Medical Center Br Of Dm Healthcare",
+        "ru": "Aster Al Nahda Medical Center Br Of Dm Healthcare",
+        "zh": "Aster Al Nahda Medical Center Br Of Dm Healthcare"
+      },
+      "area": {
+        "original": "Aster Al Nahda Medical Center Br Of Dm Healthcare, Dubai, UAE",
+        "fr": "Aster Al Nahda Medical Center Br Of Dm Healthcare, Dubai, UAE",
+        "ar": "Aster Al Nahda Medical Center Br Of Dm Healthcare, Dubai, UAE",
+        "en": "Aster Al Nahda Medical Center Br Of Dm Healthcare, Dubai, UAE",
+        "ru": "Aster Al Nahda Medical Center Br Of Dm Healthcare, Dubai, UAE",
+        "zh": "Aster Al Nahda Medical Center Br Of Dm Healthcare, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Sabeer Salam est Endodontiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي علاج العصب في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Sabeer Salam is a Endodontist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Sabeer Salam — эндодонтист в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Sabeer Salam 医生是位于阿联酋迪拜的牙髓病医生。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00097533",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "nael-eid-00073013",
+      "license_number": "00073013",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Nael Eid",
+        "fr": "Nael Eid",
+        "ar": "نائل عيد",
+        "en": "Nael Eid",
+        "ru": "Nael Eid",
+        "zh": "Nael Eid"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist",
+        "ru": "Ортопед-стоматолог",
+        "zh": "修复科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Dubai Police Health Center - Al Qiyadah",
+        "ar": "Dubai Police Health Center - Al Qiyadah",
+        "en": "Dubai Police Health Center - Al Qiyadah",
+        "ru": "Dubai Police Health Center - Al Qiyadah",
+        "zh": "Dubai Police Health Center - Al Qiyadah"
+      },
+      "area": {
+        "original": "Dubai Police Health Center - Al Qiyadah, Dubai, UAE",
+        "fr": "Dubai Police Health Center - Al Qiyadah, Dubai, UAE",
+        "ar": "Dubai Police Health Center - Al Qiyadah, Dubai, UAE",
+        "en": "Dubai Police Health Center - Al Qiyadah, Dubai, UAE",
+        "ru": "Dubai Police Health Center - Al Qiyadah, Dubai, UAE",
+        "zh": "Dubai Police Health Center - Al Qiyadah, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Nael Eid est Prosthodontiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي التركيبات السنية في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Nael Eid is a Prosthodontist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Nael Eid — стоматолог-ортопед в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Nael Eid 医生是位于阿联酋迪拜的修复科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00073013",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "aarthy-viswanathan-00095848",
+      "license_number": "00095848",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Aarthy Viswanathan",
+        "fr": "Aarthy Viswanathan",
+        "ar": "Aarthy Viswanathan",
+        "en": "Aarthy Viswanathan",
+        "ru": "Aarthy Viswanathan",
+        "zh": "Aarthy Viswanathan"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist",
+        "ru": "Ортопед-стоматолог",
+        "zh": "修复科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC",
+        "ar": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC",
+        "en": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC",
+        "ru": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC",
+        "zh": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC"
+      },
+      "area": {
+        "original": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC, Dubai, UAE",
+        "fr": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC, Dubai, UAE",
+        "ar": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC, Dubai, UAE",
+        "en": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC, Dubai, UAE",
+        "ru": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC, Dubai, UAE",
+        "zh": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Aarthy Viswanathan est Prosthodontiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي التركيبات السنية في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Aarthy Viswanathan is a Prosthodontist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Aarthy Viswanathan — стоматолог-ортопед в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Aarthy Viswanathan 医生是位于阿联酋迪拜的修复科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00095848",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "fajar-panikkaveettil-00101777",
+      "license_number": "00101777",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Fajar Panikkaveettil",
+        "fr": "Fajar Panikkaveettil",
+        "ar": "Fajar Panikkaveettil",
+        "en": "Fajar Panikkaveettil",
+        "ru": "Fajar Panikkaveettil",
+        "zh": "Fajar Panikkaveettil"
+      },
+      "specialty": {
+        "slug": "periodontist",
+        "fr": "Parodontiste",
+        "ar": "أخصائي أمراض اللثة",
+        "en": "Periodontist",
+        "ru": "Пародонтолог",
+        "zh": "牙周病医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "KINGS DENTAL CENTER L.L.C",
+        "ar": "KINGS DENTAL CENTER L.L.C",
+        "en": "KINGS DENTAL CENTER L.L.C",
+        "ru": "KINGS DENTAL CENTER L.L.C",
+        "zh": "KINGS DENTAL CENTER L.L.C"
+      },
+      "area": {
+        "original": "KINGS DENTAL CENTER L.L.C, Dubai, UAE",
+        "fr": "KINGS DENTAL CENTER L.L.C, Dubai, UAE",
+        "ar": "KINGS DENTAL CENTER L.L.C, Dubai, UAE",
+        "en": "KINGS DENTAL CENTER L.L.C, Dubai, UAE",
+        "ru": "KINGS DENTAL CENTER L.L.C, Dubai, UAE",
+        "zh": "KINGS DENTAL CENTER L.L.C, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Fajar Panikkaveettil est Parodontiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي أمراض اللثة في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Fajar Panikkaveettil is a Periodontist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Fajar Panikkaveettil — пародонтолог в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Fajar Panikkaveettil 医生是位于阿联酋迪拜的牙周病医生。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00101777",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "bashayer-al-ali-00189259",
+      "license_number": "00189259",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Bashayer Al Ali",
+        "fr": "Bashayer Al Ali",
+        "ar": "Bashayer Al علي",
+        "en": "Bashayer Al Ali",
+        "ru": "Bashayer Al Ali",
+        "zh": "Bashayer Al Ali"
+      },
+      "specialty": {
+        "slug": "periodontist",
+        "fr": "Parodontiste",
+        "ar": "أخصائي أمراض اللثة",
+        "en": "Periodontist",
+        "ru": "Пародонтолог",
+        "zh": "牙周病医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Badaa Medical Center - PHC",
+        "ar": "Al Badaa Medical Center - PHC",
+        "en": "Al Badaa Medical Center - PHC",
+        "ru": "Al Badaa Medical Center - PHC",
+        "zh": "Al Badaa Medical Center - PHC"
+      },
+      "area": {
+        "original": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "fr": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "ar": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "en": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "ru": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "zh": "Al Badaa Medical Center - PHC, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Bashayer Al Ali est Parodontiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي أمراض اللثة في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Bashayer Al Ali is a Periodontist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Bashayer Al Ali — пародонтолог в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Bashayer Al Ali 医生是位于阿联酋迪拜的牙周病医生。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00189259",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "ahmadgazwan-zallat-aljazairi-00086416",
+      "license_number": "00086416",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Ahmadgazwan Zallat aljazairi",
+        "fr": "Ahmadgazwan Zallat aljazairi",
+        "ar": "Ahmadgazwan Zallat aljazairi",
+        "en": "Ahmadgazwan Zallat aljazairi",
+        "ru": "Ahmadgazwan Zallat aljazairi",
+        "zh": "Ahmadgazwan Zallat aljazairi"
+      },
+      "specialty": {
+        "slug": "oral-surgeon",
+        "fr": "Chirurgien dentiste",
+        "ar": "جراح الفم والأسنان",
+        "en": "Oral Surgeon",
+        "ru": "Челюстно-лицевой хирург",
+        "zh": "口腔外科医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "HARMONY MEDICAL CENTER L.L.C",
+        "ar": "HARMONY MEDICAL CENTER L.L.C",
+        "en": "HARMONY MEDICAL CENTER L.L.C",
+        "ru": "HARMONY MEDICAL CENTER L.L.C",
+        "zh": "HARMONY MEDICAL CENTER L.L.C"
+      },
+      "area": {
+        "original": "HARMONY MEDICAL CENTER L.L.C, Dubai, UAE",
+        "fr": "HARMONY MEDICAL CENTER L.L.C, Dubai, UAE",
+        "ar": "HARMONY MEDICAL CENTER L.L.C, Dubai, UAE",
+        "en": "HARMONY MEDICAL CENTER L.L.C, Dubai, UAE",
+        "ru": "HARMONY MEDICAL CENTER L.L.C, Dubai, UAE",
+        "zh": "HARMONY MEDICAL CENTER L.L.C, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Ahmadgazwan Zallat aljazairi est Chirurgien dentiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور جراح الفم والأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Ahmadgazwan Zallat aljazairi is a Oral Surgeon based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Ahmadgazwan Zallat aljazairi — челюстно-лицевой хирург в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Ahmadgazwan Zallat aljazairi 医生是位于阿联酋迪拜的口腔外科医生。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00086416",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "wael-wannous-00120527",
+      "license_number": "00120527",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Wael Wannous",
+        "fr": "Wael Wannous",
+        "ar": "وائل Wannous",
+        "en": "Wael Wannous",
+        "ru": "Wael Wannous",
+        "zh": "Wael Wannous"
+      },
+      "specialty": {
+        "slug": "oral-surgeon",
+        "fr": "Chirurgien dentiste",
+        "ar": "جراح الفم والأسنان",
+        "en": "Oral Surgeon",
+        "ru": "Челюстно-лицевой хирург",
+        "zh": "口腔外科医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Silesia Dental Clinic LLC",
+        "ar": "Silesia Dental Clinic LLC",
+        "en": "Silesia Dental Clinic LLC",
+        "ru": "Silesia Dental Clinic LLC",
+        "zh": "Silesia Dental Clinic LLC"
+      },
+      "area": {
+        "original": "Silesia Dental Clinic LLC, Dubai, UAE",
+        "fr": "Silesia Dental Clinic LLC, Dubai, UAE",
+        "ar": "Silesia Dental Clinic LLC, Dubai, UAE",
+        "en": "Silesia Dental Clinic LLC, Dubai, UAE",
+        "ru": "Silesia Dental Clinic LLC, Dubai, UAE",
+        "zh": "Silesia Dental Clinic LLC, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Wael Wannous est Chirurgien dentiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور جراح الفم والأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Wael Wannous is a Oral Surgeon based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Wael Wannous — челюстно-лицевой хирург в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Wael Wannous 医生是位于阿联酋迪拜的口腔外科医生。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00120527",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "shehab-ahmad-ali-shahin-00135591",
+      "license_number": "00135591",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Shehab Ahmad Ali Shahin",
+        "fr": "Shehab Ahmad Ali Shahin",
+        "ar": "Shehab أحمد علي Shahin",
+        "en": "Shehab Ahmad Ali Shahin",
+        "ru": "Shehab Ahmad Ali Shahin",
+        "zh": "Shehab Ahmad Ali Shahin"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "fr": "Implantologue",
+        "ar": "أخصائي زراعة الأسنان",
+        "en": "Implantologist",
+        "ru": "Имплантолог",
+        "zh": "种植牙医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "N L V Medical Center LLC",
+        "ar": "N L V Medical Center LLC",
+        "en": "N L V Medical Center LLC",
+        "ru": "N L V Medical Center LLC",
+        "zh": "N L V Medical Center LLC"
+      },
+      "area": {
+        "original": "N L V Medical Center LLC, Dubai, UAE",
+        "fr": "N L V Medical Center LLC, Dubai, UAE",
+        "ar": "N L V Medical Center LLC, Dubai, UAE",
+        "en": "N L V Medical Center LLC, Dubai, UAE",
+        "ru": "N L V Medical Center LLC, Dubai, UAE",
+        "zh": "N L V Medical Center LLC, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Shehab Ahmad Ali Shahin est Implantologue à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي زراعة الأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Shehab Ahmad Ali Shahin is a Implantologist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Shehab Ahmad Ali Shahin — имплантолог в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Shehab Ahmad Ali Shahin 医生是位于阿联酋迪拜的种植牙医生。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00135591",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "fatemeh-monfared-00152770",
+      "license_number": "00152770",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Fatemeh Monfared",
+        "fr": "Fatemeh Monfared",
+        "ar": "Fatemeh Monfared",
+        "en": "Fatemeh Monfared",
+        "ru": "Fatemeh Monfared",
+        "zh": "Fatemeh Monfared"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "fr": "Implantologue",
+        "ar": "أخصائي زراعة الأسنان",
+        "en": "Implantologist",
+        "ru": "Имплантолог",
+        "zh": "种植牙医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "NEW AL SHEFA MODERN CLINIC L.L.C",
+        "ar": "NEW AL SHEFA MODERN CLINIC L.L.C",
+        "en": "NEW AL SHEFA MODERN CLINIC L.L.C",
+        "ru": "NEW AL SHEFA MODERN CLINIC L.L.C",
+        "zh": "NEW AL SHEFA MODERN CLINIC L.L.C"
+      },
+      "area": {
+        "original": "NEW AL SHEFA MODERN CLINIC L.L.C, Dubai, UAE",
+        "fr": "NEW AL SHEFA MODERN CLINIC L.L.C, Dubai, UAE",
+        "ar": "NEW AL SHEFA MODERN CLINIC L.L.C, Dubai, UAE",
+        "en": "NEW AL SHEFA MODERN CLINIC L.L.C, Dubai, UAE",
+        "ru": "NEW AL SHEFA MODERN CLINIC L.L.C, Dubai, UAE",
+        "zh": "NEW AL SHEFA MODERN CLINIC L.L.C, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Fatemeh Monfared est Implantologue à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور أخصائي زراعة الأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Fatemeh Monfared is a Implantologist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Fatemeh Monfared — имплантолог в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Fatemeh Monfared 医生是位于阿联酋迪拜的种植牙医生。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00152770",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "mazen-masri-37427806",
+      "license_number": "37427806",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "name": {
+        "original": "Mazen Masri",
+        "fr": "Mazen Masri",
+        "ar": "مازن Masri",
+        "en": "Mazen Masri",
+        "ru": "Mazen Masri",
+        "zh": "Mazen Masri"
+      },
+      "specialty": {
+        "slug": "restorative-dentist",
+        "fr": "Dentiste restaurateur",
+        "ar": "طبيب ترميم الأسنان",
+        "en": "Restorative Dentist",
+        "ru": "Стоматолог-реставратор",
+        "zh": "修复牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "area": {
+        "original": "Dubai, UAE",
+        "fr": "Dubai, UAE",
+        "ar": "Dubai, UAE",
+        "en": "Dubai, UAE",
+        "ru": "Dubai, UAE",
+        "zh": "Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Mazen Masri est Dentiste restaurateur à Dubaï, EAU. Titulaire d'une licence Licence régulière délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور طبيب ترميم الأسنان في دبي، الإمارات. يحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Mazen Masri is a Restorative Dentist based in Dubaï, UAE. Holds a Regular License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Mazen Masri — стоматолог-реставратор в Дубае, ОАЭ. Имеет обычную лицензию, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Mazen Masri 医生是位于阿联酋迪拜的修复牙医。持有迪拜卫生局 (DHA) 颁发的普通执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=37427806",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "solmaz-francoise-vali-zadeh-06383172",
+      "license_number": "06383172",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "name": {
+        "original": "Solmaz Francoise Vali Zadeh",
+        "fr": "Solmaz Francoise Vali Zadeh",
+        "ar": "Solmaz Francoise Vali Zadeh",
+        "en": "Solmaz Francoise Vali Zadeh",
+        "ru": "Solmaz Francoise Vali Zadeh",
+        "zh": "Solmaz Francoise Vali Zadeh"
+      },
+      "specialty": {
+        "slug": "specialist-dentist",
+        "fr": "Dentiste spécialiste",
+        "ar": "طبيب أسنان أخصائي",
+        "en": "Specialist Dentist",
+        "ru": "Стоматолог-специалист",
+        "zh": "专科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "area": {
+        "original": "Dubai, UAE",
+        "fr": "Dubai, UAE",
+        "ar": "Dubai, UAE",
+        "en": "Dubai, UAE",
+        "ru": "Dubai, UAE",
+        "zh": "Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Solmaz Francoise Vali Zadeh est Dentiste spécialiste à Dubaï, EAU. Titulaire d'une licence Licence régulière délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور طبيب أسنان أخصائي في دبي، الإمارات. يحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Solmaz Francoise Vali Zadeh is a Specialist Dentist based in Dubaï, UAE. Holds a Regular License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Solmaz Francoise Vali Zadeh — стоматолог-специалист в Дубае, ОАЭ. Имеет обычную лицензию, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Solmaz Francoise Vali Zadeh 医生是位于阿联酋迪拜的专科牙医。持有迪拜卫生局 (DHA) 颁发的普通执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=06383172",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "layal-tarhini-00113487",
+      "license_number": "00113487",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Layal Tarhini",
+        "fr": "Layal Tarhini",
+        "ar": "Layal Tarhini",
+        "en": "Layal Tarhini",
+        "ru": "Layal Tarhini",
+        "zh": "Layal Tarhini"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "GRAND EUROPEAN CLINIC LLC",
+        "ar": "GRAND EUROPEAN CLINIC LLC",
+        "en": "GRAND EUROPEAN CLINIC LLC",
+        "ru": "GRAND EUROPEAN CLINIC LLC",
+        "zh": "GRAND EUROPEAN CLINIC LLC"
+      },
+      "area": {
+        "original": "GRAND EUROPEAN CLINIC LLC, Dubai, UAE",
+        "fr": "GRAND EUROPEAN CLINIC LLC, Dubai, UAE",
+        "ar": "GRAND EUROPEAN CLINIC LLC, Dubai, UAE",
+        "en": "GRAND EUROPEAN CLINIC LLC, Dubai, UAE",
+        "ru": "GRAND EUROPEAN CLINIC LLC, Dubai, UAE",
+        "zh": "GRAND EUROPEAN CLINIC LLC, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Layal Tarhini est Dentiste généraliste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور طبيب أسنان عام في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Layal Tarhini is a General Dentist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Layal Tarhini — стоматолог общей практики в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Layal Tarhini 医生是位于阿联酋迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00113487",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    },
+    {
+      "id": "radhika-raj-00086684",
+      "license_number": "00086684",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "name": {
+        "original": "Radhika Raj",
+        "fr": "Radhika Raj",
+        "ar": "Radhika Raj",
+        "en": "Radhika Raj",
+        "ru": "Radhika Raj",
+        "zh": "Radhika Raj"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "area": {
+        "original": "Dubai, UAE",
+        "fr": "Dubai, UAE",
+        "ar": "Dubai, UAE",
+        "en": "Dubai, UAE",
+        "ru": "Dubai, UAE",
+        "zh": "Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Radhika Raj est Dentiste généraliste à Dubaï, EAU. Titulaire d'une licence Licence régulière délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+        "ar": "الدكتور طبيب أسنان عام في دبي، الإمارات. يحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Radhika Raj is a General Dentist based in Dubaï, UAE. Holds a Regular License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+        "ru": "Доктор Radhika Raj — стоматолог общей практики в Дубае, ОАЭ. Имеет обычную лицензию, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+        "zh": "Radhika Raj 医生是位于阿联酋迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的普通执照。工作语言：en, ar。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00086684",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:41:03Z",
+      "schema_version": "1.3"
+    }
+  ]
+}

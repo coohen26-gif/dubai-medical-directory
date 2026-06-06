@@ -1,0 +1,31 @@
+{
+  "id": "bashayer-al-ali-00189259",
+  "license_number": "00189259",
+  "license_type": "Temps plein",
+  "name": {
+    "original": "Bashayer Al Ali",
+    "fr": "Bashayer Al Ali"
+  },
+  "specialty": "Parodontiste",
+  "sub_specialty": null,
+  "facility": "Al Badaa Medical Center - PHC",
+  "area": "Al Badaa Medical Center - PHC, Dubai, UAE",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Bashayer Al Ali est Parodontiste à Dubaï, EAU. Titulaire d'une licence Temps plein délivrée par la Dubai Health Authority (DHA). Langues de travail : en, ar.",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.3",
+  "translated_at": "2026-06-06T02:41:03Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00189259",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+  }
+}

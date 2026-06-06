@@ -1,0 +1,31 @@
+{
+  "id": "wael-wannous-00120527",
+  "license_number": "00120527",
+  "license_type": "Full-Time License",
+  "name": {
+    "original": "Wael Wannous",
+    "en": "Wael Wannous"
+  },
+  "specialty": "Oral Surgeon",
+  "sub_specialty": null,
+  "facility": "Silesia Dental Clinic LLC",
+  "area": "Silesia Dental Clinic LLC, Dubai, UAE",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "country_short": "UAE",
+  "category": "dentists",
+  "bio": "Dr. Wael Wannous is a Oral Surgeon based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.3",
+  "translated_at": "2026-06-06T02:41:03Z",
+  "_lang": "en",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00120527",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+  }
+}

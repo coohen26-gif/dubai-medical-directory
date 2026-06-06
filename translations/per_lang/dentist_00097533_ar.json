@@ -1,0 +1,31 @@
+{
+  "id": "sabeer-salam-00097533",
+  "license_number": "00097533",
+  "license_type": "دوام كامل",
+  "name": {
+    "original": "Sabeer Salam",
+    "ar": "Sabeer Salam"
+  },
+  "specialty": "أخصائي علاج العصب",
+  "sub_specialty": null,
+  "facility": "Aster Al Nahda Medical Center Br Of Dm Healthcare",
+  "area": "Aster Al Nahda Medical Center Br Of Dm Healthcare, Dubai, UAE",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "الدكتور أخصائي علاج العصب في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.3",
+  "translated_at": "2026-06-06T02:41:03Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00097533",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+  }
+}

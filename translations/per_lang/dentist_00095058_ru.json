@@ -1,0 +1,31 @@
+{
+  "id": "chantal-asimini-00095058",
+  "license_number": "00095058",
+  "license_type": "Полная занятость",
+  "name": {
+    "original": "Chantal Asimini",
+    "ru": "Chantal Asimini"
+  },
+  "specialty": "Детский стоматолог",
+  "sub_specialty": null,
+  "facility": "My Dental Clinic LLC",
+  "area": "My Dental Clinic LLC, Dubai, UAE",
+  "city": "Дубай",
+  "country": "Объединённые Арабские Эмираты",
+  "country_short": "ОАЭ",
+  "category": "dentists",
+  "bio": "Доктор Chantal Asimini — детский стоматолог в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.3",
+  "translated_at": "2026-06-06T02:41:03Z",
+  "_lang": "ru",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00095058",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+  }
+}

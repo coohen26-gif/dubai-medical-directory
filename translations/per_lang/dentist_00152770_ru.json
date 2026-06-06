@@ -1,0 +1,31 @@
+{
+  "id": "fatemeh-monfared-00152770",
+  "license_number": "00152770",
+  "license_type": "Полная занятость",
+  "name": {
+    "original": "Fatemeh Monfared",
+    "ru": "Fatemeh Monfared"
+  },
+  "specialty": "Имплантолог",
+  "sub_specialty": null,
+  "facility": "NEW AL SHEFA MODERN CLINIC L.L.C",
+  "area": "NEW AL SHEFA MODERN CLINIC L.L.C, Dubai, UAE",
+  "city": "Дубай",
+  "country": "Объединённые Арабские Эмираты",
+  "country_short": "ОАЭ",
+  "category": "dentists",
+  "bio": "Доктор Fatemeh Monfared — имплантолог в Дубае, ОАЭ. Имеет лицензию на полную занятость, выданную Управлением здравоохранения Дубая (DHA). Рабочие языки: en, ar.",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.3",
+  "translated_at": "2026-06-06T02:41:03Z",
+  "_lang": "ru",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00152770",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+  }
+}
