@@ -1,0 +1,516 @@
+{
+  "_meta": {
+    "schema_version": "1.1",
+    "generated_at": "2026-06-06T01:14:52+00:00",
+    "generator": "cron:6e3d697a-91cb-4475-872a-8ab965e7ba7f (Dubai - Translation & Localization)",
+    "cycle": "2026-06-06 cycle 06/30min",
+    "previous_cycles": [
+      "fiches-2026-06-05-cycle01.json (5 fiches, fr+ar+en, manual+glossary v0.9)",
+      "fiches-2026-06-06-cycle02.json (5 fiches, fr+ar+en, manual+glossary v1.0)",
+      "fiches-2026-06-06-cycle03.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0 — schema v1.1)",
+      "fiches-2026-06-06-cycle04.json (5 fiches, fr+ar+en only — REGRESSION note: cycle04 lost RU/ZH coverage; cycle05 restores schema v1.1 5-langue)",
+      "fiches-2026-06-06-cycle05.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0, specialty mix: orthodontist+4×general-dentist)"
+    ],
+    "source_csv": "data/dentists_emirates.csv",
+    "source_rows_total": 6186,
+    "source_rows_translated_to_date": 30,
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "translation_method": "manual+glossary (DeepL API key still unavailable in .env.translator — placeholder)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "field_completeness_note": "Source CSV lacks sub_specialty/bio/services/languages_spoken; bio is synthesized from glossary template, services=[] per source.",
+    "quality_notes": [
+      "Noms : translittération manuelle (AR) + table ISO-9 (RU) + pinyin diacritique (ZH). Validation humaine requise pour AR/RU/ZH.",
+      "Spécialités : 100% alignées avec glossary.md v1.0. Ce cycle introduit 1 Prosthodontist (Shamma Ali Al Ali) — diversifie la couverture au-delà de general-dentist.",
+      "Licences : mapping FTL/REG/PTL/VIS aligné glossary.md (toutes FTL ce cycle).",
+      "Émirats : tous Dubai ce cycle (mapping glossary.md).",
+      "Genre : heuristique étendue cycle06 (Hasna, Shamma, Ermel ajoutées au set féminin; Earl, Ahmad au set masculin pour éviter faux féminin en '-a'). F pour Hasna, Ermel, Shamma; M pour Earl, Ahmad.",
+      "Bio : template canonique 5-langue aligné cycle05.",
+      "Cohérence Prosthodontiste/Prosthodontist/Ортопед-стоматолог/修复科牙医/أخصائي التركيبات السنية : VALIDÉE glossary v1.0.",
+      "Translittération Yap (nom sino-philippin) → ياب (AR) / Яп (RU) / Yè 葉 (ZH) : le caractère 葉 est mentionné en note car pinyin diacritique (Yè) est la lecture Hokkien/Teochew standard.",
+      "Services : [] — source CSV ne contient pas la liste, à récupérer depuis source_url."
+    ]
+  },
+  "fiches": [
+    {
+      "id": "hasna-hafsi-00031825",
+      "license_number": "00031825",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Hasna Hafsi",
+        "fr": "Hasna Hafsi",
+        "ar": "حسنة حفصي",
+        "en": "Hasna Hafsi",
+        "ru": "Хасна Хафси",
+        "zh": "Hāsīnà Hāfūsī"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Badaa Medical Center - PHC",
+        "ar": "Al Badaa Medical Center - PHC",
+        "en": "Al Badaa Medical Center - PHC",
+        "ru": "Al Badaa Medical Center - PHC",
+        "zh": "Al Badaa Medical Center - PHC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Hasna Hafsi est dentiste généraliste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل حسنة حفصي طبيب أسنان عام في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Hasna Hafsi is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Хасна Хафси — стоматолог общей практики в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Hāsīnà Hāfūsī是迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00031825",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:14:52+00:00"
+    },
+    {
+      "id": "ermel-yap-00031909",
+      "license_number": "00031909",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Ermel Yap",
+        "fr": "Ermel Yap",
+        "ar": "إيرمل ياب",
+        "en": "Ermel Yap",
+        "ru": "Эрмел Яп",
+        "zh": "Āiměi'ěr Yè"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Mizher Medical Center - PHC",
+        "ar": "Al Mizher Medical Center - PHC",
+        "en": "Al Mizher Medical Center - PHC",
+        "ru": "Al Mizher Medical Center - PHC",
+        "zh": "Al Mizher Medical Center - PHC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Ermel Yap est dentiste généraliste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل إيرمل ياب طبيب أسنان عام في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Ermel Yap is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Эрмел Яп — стоматолог общей практики в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Āiměi'ěr Yè是迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00031909",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:14:52+00:00"
+    },
+    {
+      "id": "shamma-ali-al-ali-00032021",
+      "license_number": "00032021",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Shamma Ali Al Ali",
+        "fr": "Shamma Ali Al Ali",
+        "ar": "شمة علي العلي",
+        "en": "Shamma Ali Al Ali",
+        "ru": "Шамма Али Аль Али",
+        "zh": "Xīmǎmǎ Ālī Ālī"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist",
+        "ru": "Ортопед-стоматолог",
+        "zh": "修复科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Badaa Medical Center - PHC",
+        "ar": "Al Badaa Medical Center - PHC",
+        "en": "Al Badaa Medical Center - PHC",
+        "ru": "Al Badaa Medical Center - PHC",
+        "zh": "Al Badaa Medical Center - PHC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Shamma Ali Al Ali est prosthodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل شمة علي العلي أخصائي التركيبات السنية في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Shamma Ali Al Ali is a prosthodontist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Шамма Али Аль Али — ортопед-стоматолог в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Xīmǎmǎ Ālī Ālī是迪拜的修复科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00032021",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:14:52+00:00"
+    },
+    {
+      "id": "earl-odena-00031807",
+      "license_number": "00031807",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Earl Odena",
+        "fr": "Earl Odena",
+        "ar": "إيرل أودينا",
+        "en": "Earl Odena",
+        "ru": "Эрл Одена",
+        "zh": "Ā'ěr Àodénà"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Badaa Medical Center - PHC",
+        "ar": "Al Badaa Medical Center - PHC",
+        "en": "Al Badaa Medical Center - PHC",
+        "ru": "Al Badaa Medical Center - PHC",
+        "zh": "Al Badaa Medical Center - PHC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Earl Odena est dentiste généraliste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل إيرل أودينا طبيب أسنان عام في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Earl Odena is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Эрл Одена — стоматолог общей практики в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Ā'ěr Àodénà是迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00031807",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:14:52+00:00"
+    },
+    {
+      "id": "ahmad-aid-00042262",
+      "license_number": "00042262",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Ahmad Aid",
+        "fr": "Ahmad Aid",
+        "ar": "أحمد عيد",
+        "en": "Ahmad Aid",
+        "ru": "Ахмад Аид",
+        "zh": "Āhǎomǎdài Āyīdé"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Dubai Dental Hospital FZ LLC",
+        "ar": "Dubai Dental Hospital FZ LLC",
+        "en": "Dubai Dental Hospital FZ LLC",
+        "ru": "Dubai Dental Hospital FZ LLC",
+        "zh": "Dubai Dental Hospital FZ LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Ahmad Aid est dentiste généraliste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل أحمد عيد طبيب أسنان عام في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Ahmad Aid is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Ахмад Аид — стоматолог общей практики в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Āhǎomǎdài Āyīdé是迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00042262",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:14:52+00:00"
+    }
+  ]
+}
