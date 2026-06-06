@@ -1,0 +1,305 @@
+{
+  "_meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-06-06T00:46:55+00:00",
+    "generator": "cron:6e3d697a-91cb-4475-872a-8ab965e7ba7f (Dubai - Translation & Localization)",
+    "cycle": "2026-06-06 cycle 04/30min",
+    "previous_cycles": [
+      "fiches-2026-06-05-cycle01.json (5 fiches, fr+ar+en, manual+glossary v1.0)",
+      "fiches-2026-06-06-cycle02.json (5 fiches, fr+ar+en, manual+glossary v1.0)",
+      "fiches-2026-06-06-cycle03.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0 — schema v1.1)"
+    ],
+    "source_csv": "data/dentists_emirates.csv",
+    "source_rows_total": 6012,
+    "source_rows_translated_to_date": 20,
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "translation_method": "manual+glossary (DeepL API key unavailable in .env.translator — template bio synthesized from glossary v1.0)",
+    "languages": [
+      "fr",
+      "ar",
+      "en"
+    ],
+    "field_completeness_note": "Source CSV lacks sub_specialty/bio/services/languages_spoken; these are null per glossary note 2026-06-05.",
+    "quality_notes": [
+      "Noms : translittération manuelle AR (glossary rule). FR/EN = nom original latin (conservé).",
+      "Spécialités : 100% alignées avec glossary.md v1.0 (9 specialties + 1 fallback specialist-dentist).",
+      "Licences : mapping REG/FTL/PTL/VIS aligné glossary.md.",
+      "Émirats : mapping glossary.md (Dubai/Abu Dhabi/Sharjah/Ajman/RAK/Fujairah/UAQ).",
+      "Genre : heuristique sur prénom (F pour Rosedina, Anila, Fatma; M pour Gunter, Samir). Accord FR (licencié/licenciée) et AR (يحمل/تحمل).",
+      "Bio : template canonique 3-langue aligné cycle01 (FR: 'Titulaire d'une licence...' / EN: 'Licensed by DHA' / AR: 'يحمل رخصة صادرة عن هيئة الصحة بدبي').",
+      "Services : null — source CSV ne contient pas la liste, à récupérer depuis source_url."
+    ]
+  },
+  "fiches": [
+    {
+      "id": "rosedina-villero-00006587",
+      "license_number": "00006587",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Rosedina Villero",
+        "fr": "Rosedina Villero",
+        "ar": "روزيدينا فيليرو",
+        "en": "Rosedina Villero"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Providence Dental Centre",
+        "ar": "Providence Dental Centre",
+        "en": "Providence Dental Centre"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Rosedina Villero est dentiste généraliste à Dubaï, aux Émirats arabes unis. Licenciée par la Dubai Health Authority sous licence temps plein.",
+        "ar": "الدكتور روزيدينا فيليرو هو طبيب أسنان عام في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. Rosedina Villero is a general dentist based in Dubai, UAE. Licensed by the Dubai Health Authority (Full-Time License)."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00006587",
+      "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+      "translated_at": "2026-06-06T00:46:55+00:00"
+    },
+    {
+      "id": "anila-virani-00018395",
+      "license_number": "00018395",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Anila Virani",
+        "fr": "Anila Virani",
+        "ar": "أنيلا فيراني",
+        "en": "Anila Virani"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "MICRIS DENTAL CLINIC LLC",
+        "ar": "MICRIS DENTAL CLINIC LLC",
+        "en": "MICRIS DENTAL CLINIC LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Anila Virani est pédodontiste à Dubaï, aux Émirats arabes unis. Licenciée par la Dubai Health Authority sous licence temps plein.",
+        "ar": "الدكتور أنيلا فيراني هو أخصائي أسنان الأطفال في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. Anila Virani is a pediatric dentist based in Dubai, UAE. Licensed by the Dubai Health Authority (Full-Time License)."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00018395",
+      "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+      "translated_at": "2026-06-06T00:46:55+00:00"
+    },
+    {
+      "id": "gunter-neumann-00006621",
+      "license_number": "00006621",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Gunter Neumann",
+        "fr": "Gunter Neumann",
+        "ar": "غونتر نويما",
+        "en": "Gunter Neumann"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Towerclinic FZ-LLC",
+        "ar": "Towerclinic FZ-LLC",
+        "en": "Towerclinic FZ-LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Gunter Neumann est orthodontiste à Dubaï, aux Émirats arabes unis. Licencié par la Dubai Health Authority sous licence temps plein.",
+        "ar": "الدكتور غونتر نويما هو أخصائي تقويم الأسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. Gunter Neumann is an orthodontist based in Dubai, UAE. Licensed by the Dubai Health Authority (Full-Time License)."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00006621",
+      "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+      "translated_at": "2026-06-06T00:46:55+00:00"
+    },
+    {
+      "id": "fatma-oguz-00018838",
+      "license_number": "00018838",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "FATMA OGUZ",
+        "fr": "FATMA OGUZ",
+        "ar": "فاطمة أوغوز",
+        "en": "FATMA OGUZ"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Oral Implantology Medical Center LLC",
+        "ar": "Oral Implantology Medical Center LLC",
+        "en": "Oral Implantology Medical Center LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. FATMA OGUZ est orthodontiste à Dubaï, aux Émirats arabes unis. Licenciée par la Dubai Health Authority sous licence temps plein.",
+        "ar": "الدكتور فاطمة أوغوز هو أخصائي تقويم الأسنان في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. FATMA OGUZ is an orthodontist based in Dubai, UAE. Licensed by the Dubai Health Authority (Full-Time License)."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00018838",
+      "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+      "translated_at": "2026-06-06T00:46:55+00:00"
+    },
+    {
+      "id": "samir-abuobaida-00012409",
+      "license_number": "00012409",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Samir Abuobaida",
+        "fr": "Samir Abuobaida",
+        "ar": "سمير أبو عبيدة",
+        "en": "Samir Abuobaida"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Gorgeous Smile Dental Center LLC",
+        "ar": "Gorgeous Smile Dental Center LLC",
+        "en": "Gorgeous Smile Dental Center LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr. Samir Abuobaida est orthodontiste à Dubaï, aux Émirats arabes unis. Licencié par la Dubai Health Authority sous licence temps plein.",
+        "ar": "الدكتور سمير أبو عبيدة هو أخصائي تقويم الأسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي.",
+        "en": "Dr. Samir Abuobaida is an orthodontist based in Dubai, UAE. Licensed by the Dubai Health Authority (Full-Time License)."
+      },
+      "services": null,
+      "languages_spoken": null,
+      "profile_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00012409",
+      "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+      "translated_at": "2026-06-06T00:46:55+00:00"
+    }
+  ]
+}
