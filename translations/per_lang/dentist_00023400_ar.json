@@ -1,0 +1,33 @@
+{
+  "id": "claudia-lorenz-00023400",
+  "license_number": "00023400",
+  "license_type": "دوام كامل",
+  "name": {
+    "original": "Claudia Lorenz",
+    "ar": "كلاوديا لورنتز"
+  },
+  "specialty": "طبيبة أسنان عامة",
+  "sub_specialty": null,
+  "facility": "Vienna Dental Clinic Fz LLC",
+  "area": "Vienna Dental Clinic Fz LLC, دبي, الإمارات العربية المتحدة",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "الدكتورة كلاوديا لورنتز طبيبة أسنان عامة في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). تتحدث en و de و fr.",
+  "services": null,
+  "languages_spoken": [
+    "en",
+    "de",
+    "fr"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T05:14:23Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00023400",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "languages_raw": "English (Fluent); German (Native); French (Intermediate)"
+  }
+}

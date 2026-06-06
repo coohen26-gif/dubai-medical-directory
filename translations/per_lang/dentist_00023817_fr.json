@@ -1,0 +1,31 @@
+{
+  "id": "samira-diar-bakirly-00023817",
+  "license_number": "00023817",
+  "license_type": "Temps plein",
+  "name": {
+    "original": "Samira Diar Bakirly",
+    "fr": "Samira Diar Bakirly"
+  },
+  "specialty": "Orthodontiste",
+  "sub_specialty": null,
+  "facility": "MICRIS DENTAL CLINIC LLC",
+  "area": "MICRIS DENTAL CLINIC LLC, Dubaï, Émirats arabes unis",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Dr Samira Diar Bakirly est une orthodontiste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA). Parlant en.",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T05:14:23Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00023817",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "languages_raw": "English (Intermediate)"
+  }
+}

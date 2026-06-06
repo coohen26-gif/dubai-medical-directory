@@ -1,0 +1,33 @@
+{
+  "id": "claudia-lorenz-00023400",
+  "license_number": "00023400",
+  "license_type": "Temps plein",
+  "name": {
+    "original": "Claudia Lorenz",
+    "fr": "Claudia Lorenz"
+  },
+  "specialty": "Dentiste généraliste",
+  "sub_specialty": null,
+  "facility": "Vienna Dental Clinic Fz LLC",
+  "area": "Vienna Dental Clinic Fz LLC, Dubaï, Émirats arabes unis",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Dr Claudia Lorenz est une dentiste généraliste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA). Parlant en, de, fr.",
+  "services": null,
+  "languages_spoken": [
+    "en",
+    "de",
+    "fr"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T05:14:23Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00023400",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "languages_raw": "English (Fluent); German (Native); French (Intermediate)"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "samira-diar-bakirly-00023817",
+  "license_number": "00023817",
+  "license_type": "Полная занятость",
+  "name": {
+    "original": "Samira Diar Bakirly",
+    "ru": "Самира Диар Бакирли"
+  },
+  "specialty": "Ортодонт",
+  "sub_specialty": null,
+  "facility": "MICRIS DENTAL CLINIC LLC",
+  "area": "MICRIS DENTAL CLINIC LLC, Дубай, ОАЭ",
+  "city": "Дубай",
+  "country": "Объединённые Арабские Эмираты",
+  "country_short": "ОАЭ",
+  "category": "dentists",
+  "bio": "Д-р Самира Диар Бакирли — Ортодонт в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA). Владеет языками: en.",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T05:14:23Z",
+  "_lang": "ru",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00023817",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "languages_raw": "English (Intermediate)"
+  }
+}

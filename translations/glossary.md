@@ -3,7 +3,7 @@
 > Source de vérité terminologique pour toutes les traductions de fiches praticiens.
 > Convention : `terme_FR` → `ar` | `en` | `ru` | `zh`
 > Maintenu par cron `ad25646f-4b17-4eb0-b148-0b7d037c7231` (Dubai - Traduction 5 Langues).
-> Dernière mise à jour : 2026-06-05 (cycle 1/30min)
+> Dernière mise à jour : 2026-06-06 (cycle 19/30min)
 
 ## Règles de translittération
 
@@ -76,6 +76,16 @@ Codes conservés en **ISO 639-1** dans toutes les versions localisées (jamais t
 
 Structure EN canonique (puis traduite) :
 > "Dr. {Name} is a {specialty} based in {city}, UAE. Licensed by the Dubai Health Authority ({license_type}). Fluent in {languages}."
+
+## Notes qualité (2026-06-06)
+
+- Cycle 19 : 5 nouvelles fiches × 5 langues = 25 traductions (cumul 275 fichiers, 55 fiches).
+- DIVERSITÉ : 2× Orthodontist + 3× General Dentist ; 5 nationalités distinctes (DE/CA/JO/IT?/RS).
+- AMÉLIORATION cycle 19 : extraction `languages_spoken` depuis CSV colonne `languages` (au lieu de hardcoder `["ar","en"]`) — 1/5 trilingue (Claudia Lorenz : en/de/fr).
+- Accord en genre arabe : `طبيب أسنان عام` → `طبيبة أسنان عامة` (F) ; `أخصائي تقويم الأسنان` → `أخصائية تقويم الأسنان` (F) ; verbe `يتحدث` → `تتحدث` (F).
+- 4 fiches pré-cycle 19 portent encore la forme masculine en AR (Darya Shahabi 00093245, Cecilia Brizuela 00123367) — à fill lors d'un cycle ultérieur.
+- 12 nouvelles entrées translittération noms : claudia/lorenz/samira/diar/bakirly/samir/abuobaida/ahmad/aid/mileva/karabasil/jovanovic.
+- Bio enrichie 5 langues : `Speaks en, de, fr` / `يتحدث en و de و fr` / `使用语言：en、de、fr` / `Владеет языками: en, de, fr` / `Parlant en, de, fr`.
 
 ## Notes qualité (2026-06-05)
 

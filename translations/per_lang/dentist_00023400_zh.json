@@ -1,0 +1,33 @@
+{
+  "id": "claudia-lorenz-00023400",
+  "license_number": "00023400",
+  "license_type": "全职执照",
+  "name": {
+    "original": "Claudia Lorenz",
+    "zh": "Kèlāodìyà Luólúncí"
+  },
+  "specialty": "全科牙医",
+  "sub_specialty": null,
+  "facility": "Vienna Dental Clinic Fz LLC",
+  "area": "Vienna Dental Clinic Fz LLC, 迪拜, 阿联酋",
+  "city": "迪拜",
+  "country": "阿拉伯联合酋长国",
+  "country_short": "阿联酋",
+  "category": "dentists",
+  "bio": "Kèlāodìyà Luólúncí医生是阿联酋迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。使用语言：en、de、fr。",
+  "services": null,
+  "languages_spoken": [
+    "en",
+    "de",
+    "fr"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T05:14:23Z",
+  "_lang": "zh",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00023400",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "languages_raw": "English (Fluent); German (Native); French (Intermediate)"
+  }
+}

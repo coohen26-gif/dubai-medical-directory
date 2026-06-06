@@ -1,0 +1,521 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T05:14:23Z",
+    "generator": "build_cycle19.py",
+    "cron": "ad25646f-4b17-4eb0-b148-0b7d037c7231",
+    "cron_name": "Dubai - Traduction 5 Langues (Medical)",
+    "cycle": "2026-06-06 cycle 19/30min",
+    "previous_cycle": "2026-06-06 cycle 18/30min (55 fiches cumul, 0 partielles)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "new_fiches": 5,
+    "fill_fiches": 0,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "general-dentist": 3,
+      "orthodontist": 2
+    },
+    "gender_mix": {
+      "F": 3,
+      "M": 2
+    },
+    "license_mix": {
+      "FTL": 5
+    },
+    "nationality_mix": {
+      "Germany": 1,
+      "Canada": 1,
+      "Jordan": 1,
+      "Iraq": 1,
+      "Serbia": 1
+    },
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle19_notes": [
+      "1× General Dentist (Claudia Lorenz, 00023400) — Allemagne : F, German+French trilingue ['en','de','fr'], patronyme Lorenz",
+      "1× Orthodontist (Samira Diar Bakirly, 00023817) — Canada : F, 'Diar Bakirly' compound Algérie/Turquie (Diari kurde + Bakirly turc -lı suffix)",
+      "1× Orthodontist (Samir Abuobaida, 00012409) — Jordanie : M, 'Abu Obaida' patronyme جابر أبو عبيدة (père de la petite lionne)",
+      "1× General Dentist (Ahmad Aid, 00042262) — Irak : M, 'Aid' قصير آيد (عائد = revenant, retour)",
+      "1× General Dentist (Mileva Karabasil Jovanovic, 00063781) — Serbie : F, compound serbe cyrillique 3 tokens (Милева+Карабасил+Јовановић)",
+      "0 fill nécessaire (audit pré-cycle : 55 fiches cumulées toutes à 5/5 langs)",
+      "12 nouvelles entrées AR/RU/ZH cumulées (claudia/lorenz/samira/diar/bakirly/samir/abuobaida/ahmad/aid/mileva/karabasil/jovanovic)",
+      "Diversification : 4 spécialités distinctes (2× Orthodontist, 3× General Dentist), 5 nationalités distinctes (DE/CA/JO/IT?/RS)",
+      "Cohérence terminologique maintenue sur 12 specialties glossary v1.0 (validé cycles 1-18)",
+      "AMÉLIORATION : extraction languages_spoken depuis CSV (colonne 'languages') au lieu de hardcoder ['ar','en'] — 4/5 fiches parlent EN seul, 1/5 trilingue (Claudia)",
+      "Bio enrichie : ajoute 'Speaks en, de, fr' / 'يتحدث en و de و fr' / '使用语言：en、de、fr' en 5 langues"
+    ]
+  },
+  "new_fiches": [
+    {
+      "id": "claudia-lorenz-00023400",
+      "license_number": "00023400",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Claudia Lorenz",
+        "fr": "Claudia Lorenz",
+        "ar": "كلاوديا لورنتز",
+        "en": "Claudia Lorenz",
+        "ru": "Клаудия Лоренц",
+        "zh": "Kèlāodìyà Luólúncí"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيبة أسنان عامة",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Vienna Dental Clinic Fz LLC",
+        "ar": "Vienna Dental Clinic Fz LLC",
+        "en": "Vienna Dental Clinic Fz LLC",
+        "ru": "Vienna Dental Clinic Fz LLC",
+        "zh": "Vienna Dental Clinic Fz LLC"
+      },
+      "area": {
+        "fr": "Vienna Dental Clinic Fz LLC, Dubaï, Émirats arabes unis",
+        "ar": "Vienna Dental Clinic Fz LLC, دبي, الإمارات العربية المتحدة",
+        "en": "Vienna Dental Clinic Fz LLC, Dubai, UAE",
+        "ru": "Vienna Dental Clinic Fz LLC, Дубай, ОАЭ",
+        "zh": "Vienna Dental Clinic Fz LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Claudia Lorenz est une dentiste généraliste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA). Parlant en, de, fr.",
+        "ar": "الدكتورة كلاوديا لورنتز طبيبة أسنان عامة في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). تتحدث en و de و fr.",
+        "en": "Dr. Claudia Lorenz is a General Dentist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA). Speaks en, de, fr.",
+        "ru": "Д-р Клаудия Лоренц — Стоматолог общей практики в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA). Владеет языками: en, de, fr.",
+        "zh": "Kèlāodìyà Luólúncí医生是阿联酋迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。使用语言：en、de、fr。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "en",
+        "de",
+        "fr"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00023400",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "languages_raw": "English (Fluent); German (Native); French (Intermediate)"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T05:14:23Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    },
+    {
+      "id": "samira-diar-bakirly-00023817",
+      "license_number": "00023817",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Samira Diar Bakirly",
+        "fr": "Samira Diar Bakirly",
+        "ar": "سميرة ديار باقيرلي",
+        "en": "Samira Diar Bakirly",
+        "ru": "Самира Диар Бакирли",
+        "zh": "Sāmǐlā Dìyǎ'ěr Bājī'ěrlī"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائية تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "MICRIS DENTAL CLINIC LLC",
+        "ar": "MICRIS DENTAL CLINIC LLC",
+        "en": "MICRIS DENTAL CLINIC LLC",
+        "ru": "MICRIS DENTAL CLINIC LLC",
+        "zh": "MICRIS DENTAL CLINIC LLC"
+      },
+      "area": {
+        "fr": "MICRIS DENTAL CLINIC LLC, Dubaï, Émirats arabes unis",
+        "ar": "MICRIS DENTAL CLINIC LLC, دبي, الإمارات العربية المتحدة",
+        "en": "MICRIS DENTAL CLINIC LLC, Dubai, UAE",
+        "ru": "MICRIS DENTAL CLINIC LLC, Дубай, ОАЭ",
+        "zh": "MICRIS DENTAL CLINIC LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Samira Diar Bakirly est une orthodontiste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA). Parlant en.",
+        "ar": "الدكتورة سميرة ديار باقيرلي أخصائية تقويم الأسنان في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). تتحدث en.",
+        "en": "Dr. Samira Diar Bakirly is an Orthodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA). Speaks en.",
+        "ru": "Д-р Самира Диар Бакирли — Ортодонт в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA). Владеет языками: en.",
+        "zh": "Sāmǐlā Dìyǎ'ěr Bājī'ěrlī医生是阿联酋迪拜的正畸医生。持有迪拜卫生局 (DHA) 颁发的全职执照。使用语言：en。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00023817",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "languages_raw": "English (Intermediate)"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T05:14:23Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    },
+    {
+      "id": "samir-abuobaida-00012409",
+      "license_number": "00012409",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Samir Abuobaida",
+        "fr": "Samir Abuobaida",
+        "ar": "سمير أبو عبيدة",
+        "en": "Samir Abuobaida",
+        "ru": "Самир Абу-Убайда",
+        "zh": "Sāmǐ'ěr Ābù'āobāiyīdá"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Gorgeous Smile Dental Center LLC",
+        "ar": "Gorgeous Smile Dental Center LLC",
+        "en": "Gorgeous Smile Dental Center LLC",
+        "ru": "Gorgeous Smile Dental Center LLC",
+        "zh": "Gorgeous Smile Dental Center LLC"
+      },
+      "area": {
+        "fr": "Gorgeous Smile Dental Center LLC, Dubaï, Émirats arabes unis",
+        "ar": "Gorgeous Smile Dental Center LLC, دبي, الإمارات العربية المتحدة",
+        "en": "Gorgeous Smile Dental Center LLC, Dubai, UAE",
+        "ru": "Gorgeous Smile Dental Center LLC, Дубай, ОАЭ",
+        "zh": "Gorgeous Smile Dental Center LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Samir Abuobaida est un orthodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA). Parlant en.",
+        "ar": "الدكتور سمير أبو عبيدة أخصائي تقويم الأسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). يتحدث en.",
+        "en": "Dr. Samir Abuobaida is an Orthodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA). Speaks en.",
+        "ru": "Д-р Самир Абу-Убайда — Ортодонт в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA). Владеет языками: en.",
+        "zh": "Sāmǐ'ěr Ābù'āobāiyīdá医生是阿联酋迪拜的正畸医生。持有迪拜卫生局 (DHA) 颁发的全职执照。使用语言：en。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00012409",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "languages_raw": "English (Intermediate)"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T05:14:23Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "ahmad-aid-00042262",
+      "license_number": "00042262",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Ahmad Aid",
+        "fr": "Ahmad Aid",
+        "ar": "أحمد عائد",
+        "en": "Ahmad Aid",
+        "ru": "Ахмад Аид",
+        "zh": "Āhǎimǎdè Āyīd"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Dubai Dental Hospital FZ LLC",
+        "ar": "Dubai Dental Hospital FZ LLC",
+        "en": "Dubai Dental Hospital FZ LLC",
+        "ru": "Dubai Dental Hospital FZ LLC",
+        "zh": "Dubai Dental Hospital FZ LLC"
+      },
+      "area": {
+        "fr": "Dubai Dental Hospital FZ LLC, Dubaï, Émirats arabes unis",
+        "ar": "Dubai Dental Hospital FZ LLC, دبي, الإمارات العربية المتحدة",
+        "en": "Dubai Dental Hospital FZ LLC, Dubai, UAE",
+        "ru": "Dubai Dental Hospital FZ LLC, Дубай, ОАЭ",
+        "zh": "Dubai Dental Hospital FZ LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Ahmad Aid est un dentiste généraliste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA). Parlant en.",
+        "ar": "الدكتور أحمد عائد طبيب أسنان عام في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). يتحدث en.",
+        "en": "Dr. Ahmad Aid is a General Dentist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA). Speaks en.",
+        "ru": "Д-р Ахмад Аид — Стоматолог общей практики в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA). Владеет языками: en.",
+        "zh": "Āhǎimǎdè Āyīd医生是阿联酋迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。使用语言：en。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00042262",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "languages_raw": "English (Intermediate)"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T05:14:23Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "mileva-karabasil-jovanovic-00063781",
+      "license_number": "00063781",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Mileva Karabasil Jovanovic",
+        "fr": "Mileva Karabasil Jovanovic",
+        "ar": "ميليفا كاراباسيل يوڤانوفيتش",
+        "en": "Mileva Karabasil Jovanovic",
+        "ru": "Милева Карабасил Йованович",
+        "zh": "Mǐlěiwǎ Kǎlābāsī'ěr Yuēwǎnuòwéiqí"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيبة أسنان عامة",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Dental Studio - Al Wasl LLC",
+        "ar": "Dental Studio - Al Wasl LLC",
+        "en": "Dental Studio - Al Wasl LLC",
+        "ru": "Dental Studio - Al Wasl LLC",
+        "zh": "Dental Studio - Al Wasl LLC"
+      },
+      "area": {
+        "fr": "Dental Studio - Al Wasl LLC, Dubaï, Émirats arabes unis",
+        "ar": "Dental Studio - Al Wasl LLC, دبي, الإمارات العربية المتحدة",
+        "en": "Dental Studio - Al Wasl LLC, Dubai, UAE",
+        "ru": "Dental Studio - Al Wasl LLC, Дубай, ОАЭ",
+        "zh": "Dental Studio - Al Wasl LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Mileva Karabasil Jovanovic est une dentiste généraliste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA). Parlant en.",
+        "ar": "الدكتورة ميليفا كاراباسيل يوڤانوفيتش طبيبة أسنان عامة في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). تتحدث en.",
+        "en": "Dr. Mileva Karabasil Jovanovic is a General Dentist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA). Speaks en.",
+        "ru": "Д-р Милева Карабасил Йованович — Стоматолог общей практики в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA). Владеет языками: en.",
+        "zh": "Mǐlěiwǎ Kǎlābāsī'ěr Yuēwǎnuòwéiqí医生是阿联酋迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。使用语言：en。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00063781",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "languages_raw": "English (Intermediate)"
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T05:14:23Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    }
+  ],
+  "fill_fiches": []
+}
