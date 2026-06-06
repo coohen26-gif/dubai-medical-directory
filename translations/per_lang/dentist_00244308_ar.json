@@ -1,0 +1,31 @@
+{
+  "id": "seyed-miremadi-00244308",
+  "license_number": "00244308",
+  "license_type": "رخصة منتظمة",
+  "name": {
+    "original": "Seyed Miremadi",
+    "ar": "سيد ميرعمادي"
+  },
+  "specialty": "أخصائي أمراض اللثة",
+  "sub_specialty": null,
+  "facility": "",
+  "area": "Dubai, دبي, الإمارات العربية المتحدة",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "يعمل سيد ميرعمادي أخصائي أمراض اللثة في دبي، الإمارات. يحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T06:40:10Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00244308",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 214
+  }
+}

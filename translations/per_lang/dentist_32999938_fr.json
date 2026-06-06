@@ -1,0 +1,31 @@
+{
+  "id": "sally-manla-32999938",
+  "license_number": "32999938",
+  "license_type": "Temps plein",
+  "name": {
+    "original": "Sally Manla",
+    "fr": "Sally Manla"
+  },
+  "specialty": "Pédodontiste",
+  "sub_specialty": null,
+  "facility": "DELTA PLUS DENTAL CLINICS BR OF RABIE GROUP FOR INVESTMENT IN HEALTHCARE ENTERPRISES AND DEVELOPMENT",
+  "area": "DELTA PLUS DENTAL CLINICS BR OF RABIE GROUP FOR INVESTMENT IN HEALTHCARE ENTERPRISES AND DEVELOPMENT, Dubaï, Émirats arabes unis",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Sally Manla est pédodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T06:40:10Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=32999938",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 432
+  }
+}

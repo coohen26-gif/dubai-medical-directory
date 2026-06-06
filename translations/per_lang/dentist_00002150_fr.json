@@ -1,0 +1,33 @@
+{
+  "id": "johnny-haddad-00002150",
+  "license_number": "00002150",
+  "license_type": "Temps plein",
+  "name": {
+    "original": "Johnny Haddad",
+    "fr": "Johnny Haddad"
+  },
+  "specialty": "Dentiste généraliste",
+  "sub_specialty": null,
+  "facility": "The Dental Studio",
+  "area": "The Dental Studio, Dubaï, Émirats arabes unis",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Johnny Haddad est dentiste généraliste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T06:40:10Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00002150",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 4
+  }
+}

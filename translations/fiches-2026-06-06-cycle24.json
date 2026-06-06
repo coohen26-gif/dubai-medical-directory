@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T06:40:10Z",
+    "generator": "build_cycle24.py",
+    "cron": "ad25646f-4b17-4eb0-b148-0b7d037c7231",
+    "cron_name": "Dubai - Traduction 5 Langues (Medical)",
+    "cycle": "2026-06-06 cycle 24/30min",
+    "previous_cycle": "2026-06-06 cycle 23/30min",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "new_fiches": 5,
+    "fill_fiches": 0,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "general-dentist": 1,
+      "oral-surgeon": 1,
+      "periodontist": 1,
+      "pediatric-dentist": 1,
+      "prosthodontist": 1
+    },
+    "gender_mix": {
+      "M": 3,
+      "F": 2
+    },
+    "license_mix": {
+      "FTL": 3,
+      "REG": 2
+    },
+    "nationality_mix": {
+      "Lebanon": 1,
+      "Saudi Arabia": 1,
+      "Iran": 1,
+      "Palestine": 1,
+      "Russia": 1
+    },
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle24_notes": [
+      "Cible cycle 24 = 5 fiches × 5 langues = 25 traductions (NO_REPLY cron, cadence normale)",
+      "1× General Dentist (Johnny Haddad 00002150 LB — trilingue en/fr/ar natif,The Dental Studio)",
+      "1× Oral Surgeon (Hussam Bajunaid 00223212 SA probable — REG)",
+      "1× Periodontist (Seyed Miremadi 00244308 IR — REG,Miremadi patronyme iranien)",
+      "1× Pediatric Dentist (Sally Manla 32999938 PS — Sally سالي,Manla منلا patronyme palestino-libanais)",
+      "1× Prosthodontist (Svetlana Prisiazhnykh 11664108 RU — translittération RU native + AR translittéré سفيتلانا)",
+      "Diversification 5 specialties distinctes + 5 nationalités (LB, SA, IR, PS, RU)",
+      "Nouveau cycle : 2/5 en licence REG (Bajunaid,Miremadi) — diversifie mix license vs cycles précédents (≥80% FTL)",
+      "Nouveau : Sally Manla = genre F déduit (Sally = Sally Setton,Chelsea Clinton etc. = prénom féminin EN-PS)",
+      "Nouveau : Svetlana Prisiazhnykh = translittération RU native possible (Присяжных patronyme slave Р-ський 'de l'assignation',-ських suffixe géographique RU)",
+      "Mapping NAME_TRANS : 5 nouveaux noms translittérés EN/FR/RU/ZH + AR natif LB/PS/SA natif + RU/IR translittéré",
+      "Glossaire réutilisé tel quel (v1.0,5 langues stable depuis cycle 19)",
+      "Schéma per_lang v1.5 : 5 langues (FR/AR/EN/RU/ZH),14 champs par fiche",
+      "Aucun problème de traduction critique rencontré"
+    ]
+  },
+  "new_fiches": [
+    {
+      "id": "00002150",
+      "license_number": "00002150",
+      "name": "Johnny Haddad",
+      "specialty": "general-dentist",
+      "license_type": "FTL",
+      "nationality": "Lebanon",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "ar",
+        "en",
+        "fr"
+      ]
+    },
+    {
+      "id": "00223212",
+      "license_number": "00223212",
+      "name": "Hussam Bajunaid",
+      "specialty": "oral-surgeon",
+      "license_type": "REG",
+      "nationality": "Saudi Arabia",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "00244308",
+      "license_number": "00244308",
+      "name": "Seyed Miremadi",
+      "specialty": "periodontist",
+      "license_type": "REG",
+      "nationality": "Iran",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "32999938",
+      "license_number": "32999938",
+      "name": "Sally Manla",
+      "specialty": "pediatric-dentist",
+      "license_type": "FTL",
+      "nationality": "Palestine",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "11664108",
+      "license_number": "11664108",
+      "name": "Svetlana Prisiazhnykh",
+      "specialty": "prosthodontist",
+      "license_type": "FTL",
+      "nationality": "Russia",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en"
+      ]
+    }
+  ],
+  "fill_fiches": []
+}

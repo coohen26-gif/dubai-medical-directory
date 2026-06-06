@@ -1,0 +1,31 @@
+{
+  "id": "svetlana-prisiazhnykh-11664108",
+  "license_number": "11664108",
+  "license_type": "Temps plein",
+  "name": {
+    "original": "Svetlana Prisiazhnykh",
+    "fr": "Svetlana Prisiazhnykh"
+  },
+  "specialty": "Prosthodontiste",
+  "sub_specialty": null,
+  "facility": "MEDPALM POLY CLINIC LLC",
+  "area": "MEDPALM POLY CLINIC LLC, Dubaï, Émirats arabes unis",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Svetlana Prisiazhnykh est prosthodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T06:40:10Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=11664108",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 319
+  }
+}
