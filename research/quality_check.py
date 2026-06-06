@@ -35,6 +35,8 @@ def check_dha_main():
     facilities = Counter()
     dup_ids = 0
     seen_ids = set()
+    exact_dup_rows = 0
+    seen_row_hashes = set()
     license_invalid = []
     name_blank = 0
     cat_blank = 0
@@ -62,6 +64,12 @@ def check_dha_main():
                 name_blank += 1
             if not row.get("category", "").strip():
                 cat_blank += 1
+            # exact-row duplicate detection (all columns identical)
+            rh = tuple(row.get(k, "") for k in cols)
+            if rh in seen_row_hashes:
+                exact_dup_rows += 1
+            else:
+                seen_row_hashes.add(rh)
             lic_num = did
             lic_type = lt
             if lic_num and lic_type:
@@ -77,6 +85,8 @@ def check_dha_main():
         "columns": cols,
         "unique_ids": len(seen_ids),
         "duplicate_ids": dup_ids,
+        "unique_rows": len(seen_row_hashes),
+        "exact_duplicate_rows": exact_dup_rows,
         "field_filled": {k: round(v * 100 / total, 2) for k, v in fields.items()},
         "field_filled_count": dict(fields),
         "license_types": dict(licenses),
@@ -211,7 +221,13 @@ def build_report(dha, dent, sheryan):
 
     out.append(f"## Executive Summary\n")
     critical = []
-    if dha["duplicate_ids"] > 0:
+    if dha.get("exact_duplicate_rows", 0) > 0:
+        critical.append(
+            f"❌ **{dha['exact_duplicate_rows']:,} exact duplicate rows** in DHA main CSV "
+            f"({round(dha['exact_duplicate_rows']*100/dha['rows'],2)}% of {dha['rows']:,} rows). "
+            f"Likely scraping bug re-appending same records."
+        )
+    elif dha["duplicate_ids"] > 0:
         critical.append(f"⚠️ **{dha['duplicate_ids']} duplicate `dhaUniqueId` rows** in DHA main CSV (out of {dha['rows']})")
     if dent and dent["duplicate_keys"] > 0:
         critical.append(f"⚠️ **{dent['duplicate_keys']} duplicate (name+clinic) rows** in dentists CSV")
@@ -225,8 +241,10 @@ def build_report(dha, dent, sheryan):
     out.append(f"| Metric | Value |")
     out.append(f"|---|---|")
     out.append(f"| Total rows | {dha['rows']:,} |")
+    out.append(f"| Unique rows (all-cols) | {dha['unique_rows']:,} |")
+    out.append(f"| **Exact duplicate rows** | **{dha.get('exact_duplicate_rows',0):,}** ({round(dha.get('exact_duplicate_rows',0)*100/dha['rows'],2)}%) |")
     out.append(f"| Unique `dhaUniqueId` | {dha['unique_ids']:,} |")
-    out.append(f"| Duplicate IDs | {dha['duplicate_ids']:,} ({round(dha['duplicate_ids']*100/dha['rows'],2)}%) |")
+    out.append(f"| Duplicate IDs (re-occurrences) | {dha['duplicate_ids']:,} ({round(dha['duplicate_ids']*100/dha['rows'],2)}%) |")
     out.append(f"| Unique facilities | {dha['unique_facilities']:,} |")
     out.append(f"| Blank `full_name` | {dha['blank_name']} |")
     out.append(f"| Blank `category` | {dha['blank_category']} |")
@@ -295,7 +313,17 @@ def build_report(dha, dent, sheryan):
 
     # Recommendations
     out.append(f"## 4. Recommendations\n")
-    if dha["duplicate_ids"] > 0:
+    if dha.get("exact_duplicate_rows", 0) > 0:
+        n = dha["exact_duplicate_rows"]
+        out.append(
+            f"- 🔧 **CRITICAL — Deduplicate `dha_professionals_full.csv`** by full-row hash "
+            f"(or by `dhaUniqueId` keeping first occurrence). Currently **{n:,} exact duplicate rows** "
+            f"({round(n*100/dha['rows'],1)}% of total). Likely cause: scraper re-appends results from a paginated "
+            f"or facility-grouped loop without checking if the (id, name, facility, specialty, license_type) tuple is new. "
+            f"**Action:** add a `seen` set keyed on the tuple before `csv.writer.writerow(...)` in the scraper; "
+            f"or post-process with `pandas.drop_duplicates()` on all columns."
+        )
+    elif dha["duplicate_ids"] > 0:
         out.append(f"- 🔧 **Deduplicate** `dha_professionals_full.csv` by `dhaUniqueId` (keep first occurrence).")
     if dent and dent["duplicate_keys"] > 0:
         out.append(f"- 🔧 **Deduplicate** `dentists_emirates.csv` by (full_name, clinic_name) tuple.")
@@ -355,7 +383,7 @@ def main():
     except Exception as e:
         print(f"[DMD-QA] delta skipped: {e}")
     # Print summary for cron logs
-    print(f"[DMD-QA] DHA: {dha['rows']} rows, {dha['duplicate_ids']} dup IDs, {dha['unique_facilities']} facilities")
+    print(f"[DMD-QA] DHA: {dha['rows']} rows, {dha.get('exact_duplicate_rows',0)} exact-dup rows, {dha['duplicate_ids']} dup IDs, {dha['unique_facilities']} facilities")
     if dent:
         print(f"[DMD-QA] Dentists: {dent['rows']} rows, {dent['duplicate_keys']} dup keys, "
               f"langs raw={dent['languages_unique_raw']} norm={dent['languages_unique_normalized']}")
