@@ -1,0 +1,18 @@
+{
+  "name": "Arpita Singh",
+  "specialty": "Chirurgien dentiste",
+  "sub_specialty": null,
+  "bio": "Arpita Singh est chirurgien dentiste à Dubaï, EAU. Licenciée sous licence licence régulière délivrée par la Dubai Health Authority (DHA).",
+  "services": [
+    "Consultation",
+    "Diagnostic",
+    "Plan de traitement"
+  ],
+  "languages_spoken": [
+    "en"
+  ],
+  "city": "Dubaï",
+  "license_type": "Licence régulière",
+  "nationality": "",
+  "source_license": "30135001"
+}

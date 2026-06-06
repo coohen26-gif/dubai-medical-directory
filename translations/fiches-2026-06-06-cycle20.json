@@ -1,0 +1,709 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T05:42:41Z",
+    "generator": "build_cycle20.py",
+    "cron": "ad25646f-4b17-4eb0-b148-0b7d037c7231",
+    "cron_name": "Dubai - Traduction 5 Langues (Medical)",
+    "cycle": "2026-06-06 cycle 20/30min",
+    "previous_cycle": "2026-06-06 cycle 19/30min (90 fiches cumul)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "new_fiches": 5,
+    "fill_fiches": 0,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "endodontist": 2,
+      "general-dentist": 1,
+      "oral-surgeon": 1,
+      "orthodontist": 1
+    },
+    "gender_mix": {
+      "M": 2,
+      "F": 3
+    },
+    "license_mix": {
+      "FTL": 4,
+      "REG": 1
+    },
+    "nationality_mix": {},
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle20_notes": [
+      "1× Endodontist (Khaled Alqadi, 46889163) — prénom Khaled خالد + patronyme Alqadi القاضي (juge/القاضي shariah)",
+      "1× General Dentist (Mohammed Mohammed, 00251485) — prénom composé arabe (محمد محمد) rare, tradition Hijaz/Saudi",
+      "1× Oral Surgeon (Arpita Singh, 30135001) — Inde (Arpita Sanskrit अर्पित 'offered' + Singh Pendjab सिंह 'lion' kshatriya)",
+      "1× Endodontist (Maria Morales, 00245491) — hispanophone (Maria hébreu מרים / Morales patronyme espagnol 'peupliers')",
+      "1× Orthodontist (Jensyll Rodrigues, 94338321) — Philippines/Brésil probable (Jensyll prénom rare filipin, Rodrigues patronyme portugais)",
+      "Diversification : 4 specialties distinctes (2× Endodontist, 1× General Dentist, 1× Oral Surgeon, 1× Orthodontist)",
+      "5 nationalités probables (JO/PS, SA, IN, ES/MX, PH/BR) — 5 régions du globe couvertes",
+      "Mapping NAME_TRANS : 9 entrées arabes + indiennes + hispaniques translittérées en EN/FR/RU/ZH + arabe natif",
+      "Cohérence terminologique maintenue sur 13 specialties glossary v1.0 (validé cycles 1-19)"
+    ]
+  },
+  "new_fiches": [
+    {
+      "id": "46889163",
+      "license_number": "46889163",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "endodontist",
+        "orig": "Endodontist",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist",
+        "ru": "Эндодонтист",
+        "zh": "牙髓病医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "M",
+      "fr": {
+        "name": "Khaled Alqadi",
+        "specialty": "Endodontiste",
+        "sub_specialty": null,
+        "bio": "Khaled Alqadi est endodontiste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "",
+        "source_license": "46889163"
+      },
+      "ar": {
+        "name": "خالد القاضي",
+        "specialty": "أخصائي علاج العصب",
+        "sub_specialty": null,
+        "bio": "يعمل خالد القاضي أخصائي علاج العصب في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "",
+        "source_license": "46889163"
+      },
+      "en": {
+        "name": "Khaled Alqadi",
+        "specialty": "Endodontist",
+        "sub_specialty": null,
+        "bio": "Khaled Alqadi is an Endodontist based in Dubai, UAE. He holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "",
+        "source_license": "46889163"
+      },
+      "ru": {
+        "name": "Халед Аль-Кади",
+        "specialty": "Эндодонтист",
+        "sub_specialty": null,
+        "bio": "Халед Аль-Кади — эндодонтист в Дубай, ОАЭ. Он имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "",
+        "source_license": "46889163"
+      },
+      "zh": {
+        "name": "哈立德 阿尔卡迪",
+        "specialty": "牙髓病医生",
+        "sub_specialty": null,
+        "bio": "哈立德 阿尔卡迪是位于迪拜（阿联酋）的牙髓病医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "",
+        "source_license": "46889163"
+      }
+    },
+    {
+      "id": "00251485",
+      "license_number": "00251485",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "orig": "General Dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "M",
+      "fr": {
+        "name": "Mohammed Mohammed",
+        "specialty": "Dentiste généraliste",
+        "sub_specialty": null,
+        "bio": "Mohammed Mohammed est dentiste généraliste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "",
+        "source_license": "00251485"
+      },
+      "ar": {
+        "name": "محمد محمد",
+        "specialty": "طبيب أسنان عام",
+        "sub_specialty": null,
+        "bio": "يعمل محمد محمد طبيب أسنان عام في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "",
+        "source_license": "00251485"
+      },
+      "en": {
+        "name": "Mohammed Mohammed",
+        "specialty": "General Dentist",
+        "sub_specialty": null,
+        "bio": "Mohammed Mohammed is a General Dentist based in Dubai, UAE. He holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "",
+        "source_license": "00251485"
+      },
+      "ru": {
+        "name": "Мухаммед Мухаммед",
+        "specialty": "Стоматолог общей практики",
+        "sub_specialty": null,
+        "bio": "Мухаммед Мухаммед — стоматолог общей практики в Дубай, ОАЭ. Он имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "",
+        "source_license": "00251485"
+      },
+      "zh": {
+        "name": "穆罕默德 穆罕默德",
+        "specialty": "全科牙医",
+        "sub_specialty": null,
+        "bio": "穆罕默德 穆罕默德是位于迪拜（阿联酋）的全科牙医。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "",
+        "source_license": "00251485"
+      }
+    },
+    {
+      "id": "30135001",
+      "license_number": "30135001",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "nationality": {
+        "orig": "",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "oral-surgeon",
+        "orig": "Oral Surgeon",
+        "fr": "Chirurgien dentiste",
+        "ar": "جراح الفم والأسنان",
+        "en": "Oral Surgeon",
+        "ru": "Челюстно-лицевой хирург",
+        "zh": "口腔外科医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "fr": {
+        "name": "Arpita Singh",
+        "specialty": "Chirurgien dentiste",
+        "sub_specialty": null,
+        "bio": "Arpita Singh est chirurgien dentiste à Dubaï, EAU. Licenciée sous licence licence régulière délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Licence régulière",
+        "nationality": "",
+        "source_license": "30135001"
+      },
+      "ar": {
+        "name": "أربيتا سينغ",
+        "specialty": "جراح الفم والأسنان",
+        "sub_specialty": null,
+        "bio": "تعمل أربيتا سينغ جراح الفم والأسنان في دبي، الإمارات. تحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "رخصة منتظمة",
+        "nationality": "",
+        "source_license": "30135001"
+      },
+      "en": {
+        "name": "Arpita Singh",
+        "specialty": "Oral Surgeon",
+        "sub_specialty": null,
+        "bio": "Arpita Singh is an Oral Surgeon based in Dubai, UAE. She holds a Regular License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Regular License",
+        "nationality": "",
+        "source_license": "30135001"
+      },
+      "ru": {
+        "name": "Арпита Сингх",
+        "specialty": "Челюстно-лицевой хирург",
+        "sub_specialty": null,
+        "bio": "Арпита Сингх — челюстно-лицевой хирург в Дубай, ОАЭ. Она имеет обычная лицензия, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Обычная лицензия",
+        "nationality": "",
+        "source_license": "30135001"
+      },
+      "zh": {
+        "name": "阿尔皮塔 辛格",
+        "specialty": "口腔外科医生",
+        "sub_specialty": null,
+        "bio": "阿尔皮塔 辛格是位于迪拜（阿联酋）的口腔外科医生。持有由迪拜卫生局 (DHA) 颁发的普通执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "普通执照",
+        "nationality": "",
+        "source_license": "30135001"
+      }
+    },
+    {
+      "id": "00245491",
+      "license_number": "00245491",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "endodontist",
+        "orig": "Endodontist",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist",
+        "ru": "Эндодонтист",
+        "zh": "牙髓病医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "fr": {
+        "name": "Maria Morales",
+        "specialty": "Endodontiste",
+        "sub_specialty": null,
+        "bio": "Maria Morales est endodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "",
+        "source_license": "00245491"
+      },
+      "ar": {
+        "name": "ماريا موراليس",
+        "specialty": "أخصائي علاج العصب",
+        "sub_specialty": null,
+        "bio": "تعمل ماريا موراليس أخصائي علاج العصب في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "",
+        "source_license": "00245491"
+      },
+      "en": {
+        "name": "Maria Morales",
+        "specialty": "Endodontist",
+        "sub_specialty": null,
+        "bio": "Maria Morales is an Endodontist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "",
+        "source_license": "00245491"
+      },
+      "ru": {
+        "name": "Мария Моралес",
+        "specialty": "Эндодонтист",
+        "sub_specialty": null,
+        "bio": "Мария Моралес — эндодонтист в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "",
+        "source_license": "00245491"
+      },
+      "zh": {
+        "name": "玛丽亚 莫拉莱斯",
+        "specialty": "牙髓病医生",
+        "sub_specialty": null,
+        "bio": "玛丽亚 莫拉莱斯是位于迪拜（阿联酋）的牙髓病医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "",
+        "source_license": "00245491"
+      }
+    },
+    {
+      "id": "94338321",
+      "license_number": "94338321",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "orig": "Orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "fr": {
+        "name": "Jensyll Rodrigues",
+        "specialty": "Orthodontiste",
+        "sub_specialty": null,
+        "bio": "Jensyll Rodrigues est orthodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "",
+        "source_license": "94338321"
+      },
+      "ar": {
+        "name": "جينسيل رودريغيز",
+        "specialty": "أخصائي تقويم الأسنان",
+        "sub_specialty": null,
+        "bio": "تعمل جينسيل رودريغيز أخصائي تقويم الأسنان في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "",
+        "source_license": "94338321"
+      },
+      "en": {
+        "name": "Jensyll Rodrigues",
+        "specialty": "Orthodontist",
+        "sub_specialty": null,
+        "bio": "Jensyll Rodrigues is an Orthodontist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "",
+        "source_license": "94338321"
+      },
+      "ru": {
+        "name": "Дженсилл Родригес",
+        "specialty": "Ортодонт",
+        "sub_specialty": null,
+        "bio": "Дженсилл Родригес — ортодонт в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "",
+        "source_license": "94338321"
+      },
+      "zh": {
+        "name": "詹西尔 罗德里格斯",
+        "specialty": "正畸医生",
+        "sub_specialty": null,
+        "bio": "詹西尔 罗德里格斯是位于迪拜（阿联酋）的正畸医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "",
+        "source_license": "94338321"
+      }
+    }
+  ],
+  "fill_fiches": []
+}
