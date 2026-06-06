@@ -99,3 +99,40 @@
     2. OR a public uptime endpoint (healthchecks.io / BetterStack / Cronitor ping URL)
     3. OR remove this cron until DMD is actually deployed
 - Note: This is run #6. Cron continues to fire every 30min producing NO_REPLY noise. W should remove the cron if deployment is not imminent, or wire up the missing config.
+
+[2026-06-06 03:10 UTC] DMD DEPLOY CHECK #7
+- Source: cron b0a55e6e (Dubai - Deploy Check), run triggered
+- Status: ⚠️  UNCONFIGURED — cannot perform check
+- Findings (UNCHANGED from #1–#6 — 3h35min total, 6 escalation-flagged runs):
+  * deploy/ dir contains only status.log (no scripts, no config)
+  * no vercel.json anywhere in repo
+  * no .vercel/ directory
+  * no vercel.app / dmd-*.vercel URL in any code, config, or md file
+  * no Vercel API token, no UPTIME_URL, no PING_URL in env
+  * no production deploy has ever occurred — repo is content/translation/SEO + PG schema work only
+  * Latest commits (since #6): see git log
+  * No env change. No deploy config added. Cron is firing on 30-min schedule.
+- Action: NO_REPLY — site is not deployed (not "down", just non-existent). Escalation already sent at #4 (01:35 UTC).
+- Follow-up (UNCHANGED): W must provide one of:
+    1. Vercel project URL + VERCEL_TOKEN → enable real status check
+    2. OR a public uptime endpoint (healthchecks.io / BetterStack / Cronitor ping URL)
+    3. OR remove this cron until DMD is actually deployed
+- Note: This is run #7. Cron continues to fire every 30min producing NO_REPLY noise. W should remove the cron if deployment is not imminent, or wire up the missing config.
+
+[2026-06-06 03:10 UTC] DMD HEALTH CHECK #N (cron 567b5bee — scraping & PG insertion)
+- DHA Sheryan scraping: ✅ DONE (2026-06-05)
+    * data/dha_sheryan_full.jsonl: 101 080 rows
+    * data/dha_professionals_full.csv: 9.5 MB, 65 593 unique by dhaUniqueId
+    * dha_professionals_full_stats.json: 5 categories, 410 specialties, 5 240 facilities
+- Dentist extract: ✅ done (run 02:07 UTC, 9 537 matched in Sheryan, 6 187 written to dentists_emirates.csv with dhaUniqueId dedupe)
+- Dentist enrichment: ✅ 54/6187 fiches enrichies (nationality+language depuis Sheryan full JSONL) — 6 133 still pending
+- Dataset > 1000 fiches: ✅ largement (65 593)
+- PG insertion: ⏸️  READY but BLOCKED
+    * code/db/schema.sql: ✅ applied-ready
+    * code/db/load_csv_to_pg.py: ✅ ready (COPY via psycopg2, idempotent on dhaUniqueId)
+    * BLOCKER: pas de psql / pg_isready dans le sandbox, pas de DMD_PG_DSN dans .env*
+    * Action requise de W: fournir DMD_PG_DSN pour exécuter la COPY
+- Captcha/blocker sur Sheryan direct: aucun signal de blocage — dernier run 2026-06-05 20:50 UTC a scraped 101 080 rows sans erreur (visible dans stats JSON)
+- Audit présence digitale: pas de tâche automatisée en cours — fiches dentists n'ont pas encore de website/Instagram/Google Maps à scraper; à planifier après insertion PG
+- Action: NO_REPLY — état stable, scraping terminé, blocage clair sur W pour PG DSN
+- Next: cron continue toutes les 30min; prochaine étape = commit progression + attendre DSN
