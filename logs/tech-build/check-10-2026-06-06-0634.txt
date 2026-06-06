@@ -1,0 +1,14 @@
+2026-06-06 06:34 UTC — DMD tech-build check #10 (cron 314f1ee1)
+Verdict: 🔴 BLOQUÉ — décisions humaines requises (6th consecutive blocked cycle, ~31min après #9)
+- Next.js setup: ❌ (code/web/ reste static HTML, pas de package.json)
+- DB connectée: ❌ (DMD_PG_DSN non défini, schema + loader prêts)
+- 10+ pages profil: ✅ (120 statiques = 40 dentists × FR/AR/EN)
+- Recherche full-text: ❌ (bloqué en cascade DB)
+- Traductions FR/AR/EN: ✅ (40 fiches × 3 langues)
+- Sitemap.xml: ✅ (121 URLs, 123 lignes)
+- Per-lang JSON: 450 (90 fiches × 5 langues après cycles 21-23 intégrés au commit #10)
+PG loader awaiting DSN, Next.js pending W decision.
+Activités hors-scope en parallèle: scraping 060757Z actif (+6 Zavis, total 6,750), cycles trad 21-23 committés.
+NO_REPLY — état strictement identique à #9 (06:03 UTC) sur les 6 axes de la checklist.
+Commit: 35329c8 "DMD tech-build check #10..."
+Detail: /root/.openclaw/workspace/memory/2026-06-06-dmd-tech-build-0634.md

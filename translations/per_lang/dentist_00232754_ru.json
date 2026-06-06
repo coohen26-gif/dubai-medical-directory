@@ -1,0 +1,31 @@
+{
+  "id": "anish-gupta-00232754",
+  "license_number": "00232754",
+  "license_type": "Обычная лицензия",
+  "name": {
+    "original": "Anish Gupta",
+    "ru": "Аниш Гупта"
+  },
+  "specialty": "Ортопед-стоматолог",
+  "sub_specialty": null,
+  "facility": "",
+  "area": "Dubai, Дубай, Объединённые Арабские Эмираты",
+  "city": "Дубай",
+  "country": "Объединённые Арабские Эмираты",
+  "country_short": "ОАЭ",
+  "category": "dentists",
+  "bio": "Аниш Гупта — ортопед-стоматолог в Дубае, ОАЭ. Он имеет обычная лицензия, выданную Управлением здравоохранения Дубая (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T06:46:13Z",
+  "_lang": "ru",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00232754",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 3298
+  }
+}

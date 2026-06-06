@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T06:46:13Z",
+    "generator": "build_cycle25.py",
+    "cron": "6e3d697a-91cb-4475-872a-8ab965e7ba7f",
+    "cron_name": "Dubai - Translation & Localization",
+    "cycle": "2026-06-06 cycle 25/30min",
+    "previous_cycle": "2026-06-06 cycle 24/30min (100 fiches cumul)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "new_fiches": 5,
+    "fill_fiches": 0,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "endodontist": 1,
+      "orthodontist": 1,
+      "prosthodontist": 1,
+      "restorative-dentist": 1,
+      "pediatric-dentist": 1
+    },
+    "gender_mix": {
+      "M": 2,
+      "F": 3
+    },
+    "license_mix": {
+      "FTL": 4,
+      "REG": 1
+    },
+    "nationality_mix": {
+      "Yemen/Levant": 1,
+      "Russia": 1,
+      "India": 1,
+      "Palestine": 1,
+      "Lebanon": 1
+    },
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle25_notes": [
+      "Cible cycle 25 = 5 fiches × 5 langues = 25 traductions (NO_REPLY cron, cadence normale)",
+      "1× Endodontist (Omar Alzarrad 13974586 AR probable Yemen/Levant — Alzarrad الزرارد patronyme yéménite)",
+      "1× Orthodontist (Elizaveta Kurashova 21860169 RU — translittération RU native Елизавета Курашова)",
+      "1× Prosthodontist (Anish Gupta 00232754 IN — REG, Gupta गुप्ता 'protector' hindi)",
+      "1× Restorative Dentist (Layal El Masri 41829241 PS — Layal ليان / El Masri المصري 'l'Egyptien')",
+      "1× Pediatric Dentist (Maha Yousef 00240606 LB — Maha مها 'oryx' / Yousef يوسف 'Joseph')",
+      "Diversification : 5 specialties distinctes (0 chevauchement avec cycles 1-24)",
+      "Mix national : 3 AR (Yemen, PS, LB) + 1 RU + 1 IN — diversification Moyen-Orient + CEI + sous-continent indien",
+      "Mix genres : F=3 (Elizaveta, Layal, Maha) / M=2 (Omar, Anish)",
+      "Mix licences : 4 FTL + 1 REG (Gupta) — continuité diversification observée cycle 24",
+      "Mapping NAME_TRANS : 5 nouveaux noms translittérés EN/FR/RU/ZH + AR natif (omar عمر, alzarrad الزرارد, layal ليان, masri المصري, maha مها, yousef يوسف) + RU natif (Елизавета Курашова) + IN translittéré (Anish Аниш, Gupta Гупта)",
+      "Cohérence terminologique specialties : Endodontist = أخصائي علاج العصب / Эндодонтист / 牙髓病医生 (aligné glossary v1.0)",
+      "Schéma per_lang v1.5 : 5 langues (FR/AR/EN/RU/ZH),14 champs par fiche",
+      "Aucun problème de traduction critique rencontré"
+    ]
+  },
+  "new_fiches": [
+    {
+      "id": "13974586",
+      "license_number": "13974586",
+      "name": "Omar Alzarrad",
+      "specialty": "endodontist",
+      "license_type": "FTL",
+      "nationality": "Yemen/Levant",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "21860169",
+      "license_number": "21860169",
+      "name": "Elizaveta Kurashova",
+      "specialty": "orthodontist",
+      "license_type": "FTL",
+      "nationality": "Russia",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "00232754",
+      "license_number": "00232754",
+      "name": "Anish Gupta",
+      "specialty": "prosthodontist",
+      "license_type": "REG",
+      "nationality": "India",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "41829241",
+      "license_number": "41829241",
+      "name": "Layal El Masri",
+      "specialty": "restorative-dentist",
+      "license_type": "FTL",
+      "nationality": "Palestine",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "00240606",
+      "license_number": "00240606",
+      "name": "Maha Yousef",
+      "specialty": "pediatric-dentist",
+      "license_type": "FTL",
+      "nationality": "Lebanon",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en"
+      ]
+    }
+  ],
+  "fill_fiches": []
+}

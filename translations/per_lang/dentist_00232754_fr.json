@@ -1,0 +1,31 @@
+{
+  "id": "anish-gupta-00232754",
+  "license_number": "00232754",
+  "license_type": "Licence régulière",
+  "name": {
+    "original": "Anish Gupta",
+    "fr": "Anish Gupta"
+  },
+  "specialty": "Prosthodontiste",
+  "sub_specialty": null,
+  "facility": "",
+  "area": "Dubai, Dubaï, Émirats arabes unis",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Anish Gupta est prosthodontiste à Dubaï, EAU. Licencié sous licence régulière délivrée par la Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T06:46:13Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00232754",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 3298
+  }
+}
