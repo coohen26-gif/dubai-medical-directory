@@ -176,3 +176,14 @@
 - Recommendation unchanged: remove this cron or wire up VERCEL_TOKEN/PING_URL
 - Cron firing interval: 30min — produces zero-value noise until configured
 - Note: 7th consecutive run in identical dead state (runs #5-#11). Escalation to W remains the only action that would unblock this.
+
+[2026-06-06 05:35 UTC] DMD DEPLOY CHECK #12 (cron b0a55e6e)
+- .vercel/ dir: absent (no Vercel project initialized)
+- VERCEL_TOKEN / UPTIME_URL / PING_URL: still absent from env
+- code/web/: unchanged (index.html, profil-premium.html, static only)
+- Production URL: unknown — no deploy ever executed
+- Action: NO_REPLY — no deploy target to check, no alert possible
+- Escalation: sent to W at 01:35 UTC (run #4). Still pending: Vercel URL+token OR uptime endpoint OR cron removal.
+- Recommendation unchanged: remove this cron or wire up VERCEL_TOKEN/PING_URL
+- Cron firing interval: 30min — produces zero-value noise until configured
+- Note: 8th consecutive run in identical dead state (runs #5-#12). Escalation to W remains the only action that would unblock this.
