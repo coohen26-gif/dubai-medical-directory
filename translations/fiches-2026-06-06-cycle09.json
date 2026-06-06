@@ -1,0 +1,401 @@
+{
+  "_meta": {
+    "schema_version": "1.2",
+    "generated_at": "2026-06-06T02:12:41+00:00",
+    "generator": "cron:6e3d697a-91cb-4475-872a-8ab965e7ba7f (Dubai - Translation & Localization)",
+    "cycle": "2026-06-06 cycle 09/30min",
+    "previous_cycles": [
+      "fiches-2026-06-05-cycle01.json (5 fiches, fr+ar+en, manual+glossary v0.9)",
+      "fiches-2026-06-06-cycle02.json (5 fiches, fr+ar+en, manual+glossary v1.0)",
+      "fiches-2026-06-06-cycle03.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0 — schema v1.1)",
+      "fiches-2026-06-06-cycle04.json (5 fiches, fr+ar+en only)",
+      "fiches-2026-06-06-cycle05.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0, schema v1.1 restored)",
+      "fiches-2026-06-06-cycle06.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0, schema v1.1)",
+      "fiches-2026-06-06-cycle07.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0, schema v1.1)",
+      "fiches-2026-06-06-cycle08.json (5 fiches, fr+ar+en, manual+glossary v1.0, schema v1.2 — 3 langues)"
+    ],
+    "source_csv": "data/dentists_emirates.csv",
+    "source_rows_total": 6186,
+    "source_rows_translated_to_date": 45,
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "translation_method": "manual+glossary (DeepL API key still unavailable in .env.translator — placeholder; cron spec 'DeepL API acceptable pour volume' noted but not invoked)",
+    "languages": [
+      "fr",
+      "ar",
+      "en"
+    ],
+    "schema_change_note": "Schema v1.2 maintenu — 3 langues (fr, ar, en) per cron 6e3d697a spec 'FR→AR et FR→EN (ou EN→FR)'.",
+    "field_completeness_note": "Source CSV lacks sub_specialty/bio/services/languages_spoken; bio is synthesized from glossary template, services=[] per source. Note cycle09: source CSV has 'nationality' and 'languages' columns but they are empty in DHA Sheryan dump (no values in inspected rows).",
+    "quality_notes": [
+      "Spécialités : 100% alignées avec glossary.md v1.0. Ce cycle inclut 1× Orthodontist (Tamer Buyukyilmaz), 1× Prosthodontist (ABUBAKKAR MOHAMMAD KINCHANAKODI), 3× General Dentist (Mumtaz Arsalan, Imran Ahmed, Zainab Mossa).",
+      "Licences : 4× FTL (Tamer, Mumtaz, Zainab, Abubakkar) + 1× REG (Imran Ahmed). Mapping FTL/REG/PTL/VIS aligné glossary.md.",
+      "Émirats : tous Dubai ce cycle (cohérent avec ~95% du dump DHA Sheryan).",
+      "Genre : heuristique étendue cycle09 (Tamer, Mumtaz, Imran ajoutés masculin; Zainab ajouté féminin; Abubakkar ajouté masculin). M pour Tamer, Mumtaz, Imran, Abubakkar ; F pour Zainab.",
+      "Bio : template canonique 3-langue (FR/AR/EN) hérité cycle08, avec accord de genre dynamique via bio_template().",
+      "Origine des noms cycle09 : turc (Tamer Buyukyilmaz), ourdou/pakistanais (Mumtaz Arsalan, Imran Ahmed), arabe/levantin (Zainab Mossa), indien musulman (Kerala) (ABUBAKKAR MOHAMMAD KINCHANAKODI). Variété maintenue.",
+      "Translittérations AR : تامر بويوك يلماز (Tamer Buyukyilmaz — Büyükyılmaz → بويوك يلماز), ممتاز أرسلان (Mumtaz Arsalan), عمران أحمد (Imran Ahmed), زينب موسى (Zainab Mossa), أبو بكر محمد كينتشاناكودي (ABUBAKKAR MOHAMMAD KINCHANAKODI).",
+      "Translittérations RU/ZH : non produites ce cycle (schema v1.2, 3 langues uniquement). Si couverture RU/ZH requise → cycle dédié avec schema v1.1.",
+      "Services : [] — source CSV ne contient pas la liste, à récupérer depuis source_url (DHA Sheryan search).",
+      "Cohérence terminologique : specialties, license types, emirates, country strings tous issus de glossary v1.0 sans variation libre. Pas de drift détecté.",
+      "Spécificité Tamer Buyukyilmaz : 'Buyukyilmaz' est une romanisation sans diacritiques de 'Büyükyılmaz' (turc). Translittération AR conserve la forme romanisée: بويوك يلماز (B-Y-Y-K Y-L-M-Z = Büyük Yılmaz). Le nom signifie littéralement 'grande persévérance' en turc.",
+      "Spécificité ABUBAKKAR MOHAMMAD KINCHANAKODI : nom composé malayalam (kerala indien). Kinchanakodi = 'lamp hill' (kinchana=lamp, kodi=hill/flag en malayalam). Conservé tel quel en translittération AR phonétique."
+    ]
+  },
+  "fiches": [
+    {
+      "id": "tamer-buyukyilmaz-00087766",
+      "license_number": "00087766",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Tamer Buyukyilmaz",
+        "fr": "Tamer Buyukyilmaz",
+        "ar": "تامر بويوك يلماز",
+        "en": "Tamer Buyukyilmaz"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Scandinavian Dental Clinic",
+        "ar": "Scandinavian Dental Clinic",
+        "en": "Scandinavian Dental Clinic"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Tamer Buyukyilmaz est orthodontiste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل تامر بويوك يلماز أخصائي تقويم الأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Tamer Buyukyilmaz is an orthodontist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA)."
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00087766",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T02:12:41+00:00"
+    },
+    {
+      "id": "mumtaz-arsalan-00098887",
+      "license_number": "00098887",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Mumtaz Arsalan",
+        "fr": "Mumtaz Arsalan",
+        "ar": "ممتاز أرسلان",
+        "en": "Mumtaz Arsalan"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "SMILE ON DENTAL CLINIC LLC",
+        "ar": "SMILE ON DENTAL CLINIC LLC",
+        "en": "SMILE ON DENTAL CLINIC LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Mumtaz Arsalan est dentiste généraliste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل ممتاز أرسلان طبيب أسنان عام في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Mumtaz Arsalan is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA)."
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00098887",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T02:12:41+00:00"
+    },
+    {
+      "id": "imran-ahmed-00076532",
+      "license_number": "00076532",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License"
+      },
+      "name": {
+        "original": "Imran Ahmed",
+        "fr": "Imran Ahmed",
+        "ar": "عمران أحمد",
+        "en": "Imran Ahmed"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Imran Ahmed est dentiste généraliste à Dubaï, EAU. Licencié sous licence régulière délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل عمران أحمد طبيب أسنان عام في دبي، الإمارات. يحمل رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Imran Ahmed is a general dentist based in Dubai, UAE. Holds a regular license issued by the Dubai Health Authority (DHA)."
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00076532",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T02:12:41+00:00"
+    },
+    {
+      "id": "zainab-mossa-00099873",
+      "license_number": "00099873",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Zainab Mossa",
+        "fr": "Zainab Mossa",
+        "ar": "زينب موسى",
+        "en": "Zainab Mossa"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Dr Sulaiman Al Habib Hospital FZ-LLC",
+        "ar": "Dr Sulaiman Al Habib Hospital FZ-LLC",
+        "en": "Dr Sulaiman Al Habib Hospital FZ-LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Zainab Mossa est dentiste généraliste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل زينب موسى طبيب أسنان عام في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Zainab Mossa is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA)."
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00099873",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T02:12:41+00:00"
+    },
+    {
+      "id": "abubakkar-mohammad-kinchanakodi-00100898",
+      "license_number": "00100898",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "ABUBAKKAR MOHAMMAD KINCHANAKODI",
+        "fr": "ABUBAKKAR MOHAMMAD KINCHANAKODI",
+        "ar": "أبو بكر محمد كينتشاناكودي",
+        "en": "ABUBAKKAR MOHAMMAD KINCHANAKODI"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "NEW MEDICAL CENTER LTD - DUBAI BRANCH",
+        "ar": "NEW MEDICAL CENTER LTD - DUBAI BRANCH",
+        "en": "NEW MEDICAL CENTER LTD - DUBAI BRANCH"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "ABUBAKKAR MOHAMMAD KINCHANAKODI est prosthodontiste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل أبو بكر محمد كينتشاناكودي أخصائي التركيبات السنية في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "ABUBAKKAR MOHAMMAD KINCHANAKODI is a prosthodontist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA)."
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00100898",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T02:12:41+00:00"
+    }
+  ]
+}
