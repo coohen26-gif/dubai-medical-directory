@@ -1,0 +1,3 @@
+2026-06-06 03:06:42,044 [INFO] Loaded enrichment: 250 total records, 54 dentist records, 54 unique dentist licenses
+2026-06-06 03:06:42,070 [INFO] Loaded 6186 dentist rows from data/dentists_emirates.csv
+2026-06-06 03:06:42,098 [INFO] DONE. matched=54 skipped_no_enrichment=6132 nationality_updates=49 language_updates=54 output=data/dentists_emirates.csv
