@@ -8,3 +8,7 @@
 2026-06-06 05:06:53,136 [INFO] [ZAVIS] fetching sitemap index https://www.zavis.ai/sitemap-dentists.xml
 2026-06-06 05:06:54,484 [INFO] [ZAVIS] 7713 total URLs, 7713 profile URLs (after filter)
 2026-06-06 05:06:54,484 [INFO] [ZAVIS] scraping up to 1500 URLs with 4 workers (delay=0.25s)
+2026-06-06 05:11:03,967 [INFO] [ZAVIS] DONE: 1500/1500 processed, 18 new rows
+2026-06-06 05:11:03,968 [INFO] [ZAVIS] elapsed=251.3s total_new=18
+2026-06-06 05:11:03,969 [INFO] append: wrote 18 new rows to /root/.openclaw/workspace/dubai-medical-directory/data/dentists_emirates.csv
+2026-06-06 05:11:03,969 [INFO] === CYCLE DONE ===  new_rows=18  written=18  total_elapsed=251.3s
