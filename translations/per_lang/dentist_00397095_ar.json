@@ -1,0 +1,31 @@
+{
+  "id": "mohammad-taher-00397095",
+  "license_number": "00397095",
+  "license_type": "دوام كامل",
+  "name": {
+    "original": "Mohammad Taher",
+    "ar": "محمد طاهر"
+  },
+  "specialty": "أخصائي أمراض اللثة",
+  "sub_specialty": null,
+  "facility": "NOUR AL OLA MEDICAL CENTER",
+  "area": "NOUR AL OLA MEDICAL CENTER, دبي, الإمارات العربية المتحدة",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "يعمل محمد طاهر أخصائي أمراض اللثة في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:12:02Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00397095",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 4567
+  }
+}

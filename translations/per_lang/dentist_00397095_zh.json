@@ -1,0 +1,31 @@
+{
+  "id": "mohammad-taher-00397095",
+  "license_number": "00397095",
+  "license_type": "全职执照",
+  "name": {
+    "original": "Mohammad Taher",
+    "zh": "穆罕默德 塔希尔"
+  },
+  "specialty": "牙周病医生",
+  "sub_specialty": null,
+  "facility": "NOUR AL OLA MEDICAL CENTER",
+  "area": "NOUR AL OLA MEDICAL CENTER, 迪拜, 阿拉伯联合酋长国",
+  "city": "迪拜",
+  "country": "阿拉伯联合酋长国",
+  "country_short": "阿联酋",
+  "category": "dentists",
+  "bio": "穆罕默德 塔希尔是位于迪拜（阿联酋）的牙周病医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:12:02Z",
+  "_lang": "zh",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00397095",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 4567
+  }
+}

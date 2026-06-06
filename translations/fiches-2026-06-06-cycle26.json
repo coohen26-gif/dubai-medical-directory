@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T07:12:02Z",
+    "generator": "build_cycle26.py",
+    "cron": "ad25646f-4b17-4eb0-b148-0b7d037c7231",
+    "cron_name": "Dubai - Traduction 5 Langues (Medical)",
+    "cycle": "2026-06-06 cycle 26/30min",
+    "previous_cycle": "2026-06-06 cycle 25/30min (105 fiches cumul)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "new_fiches": 5,
+    "fill_fiches": 0,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "orthodontist": 2,
+      "oral-surgeon": 1,
+      "implantologist": 1,
+      "periodontist": 1
+    },
+    "gender_mix": {
+      "F": 4,
+      "M": 1
+    },
+    "license_mix": {
+      "REG": 2,
+      "FTL": 3
+    },
+    "nationality_mix": {
+      "Iran": 2,
+      "UAE": 1,
+      "Arab": 1,
+      "Russia": 1
+    },
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle26_notes": [
+      "Cible cycle 26 = 5 fiches × 5 langues = 25 traductions (NO_REPLY cron, cadence normale)",
+      "1× Orthodontist (Salmeh Kalbassi 00191337 IR — REG, F, سلمى + كلبسي patronyme iranien)",
+      "1× Oral Surgeon (Shahala Mohammed Basheer 01257565 AE — FTL, F, شهلة 'gazelle' + بشير 'good news')",
+      "1× Dental Implant (Behnaz Motlagh 00241436 IR — FTL, F, بهناز 'best of beauties' + مطلب 'desired' persan)",
+      "1× Periodontist (Mohammad Taher 00397095 AR — FTL, M, محمد + طاهر 'pure')",
+      "1× Orthodontist (Nasiiat Velikhanova 04421979 RU/AZ — REG, F, Насият + Велиханова slave patronyme)",
+      "Diversification : 4 specialties distinctes (2× Orthodontist + Oral Surgeon + Dental Implant + Periodontist)",
+      "Mix national : 2× IR + 1× UAE + 1× AR + 1× RU/AZ (diversification Moyen-Orient + CEI)",
+      "Mix genres : F=4 (Salmeh, Shahala, Behnaz, Nasiiat) / M=1 (Mohammad) — biais genre féminin",
+      "Mix licences : 3 FTL + 2 REG (équilibre)",
+      "Mapping NAME_TRANS : 9 nouveaux noms translittérés EN/FR/RU/ZH + AR natif (salmeh سلمى, kalbassi كلبسي, shahala شهلة, basheer بشير, behnaz بهناز, motlagh مطلب, taher طاهر, nasiiat ناسيات, velikhanova فيليخانوفا)",
+      "Cohérence terminologique specialties : Orthodontist = أخصائي تقويم الأسنان / Ортодонт / 正畸医生 (aligné glossary v1.0)",
+      "Schéma per_lang v1.5 : 5 langues (FR/AR/EN/RU/ZH), 14 champs par fiche",
+      "Aucun problème de traduction critique rencontré"
+    ]
+  },
+  "new_fiches": [
+    {
+      "id": "00191337",
+      "license_number": "00191337",
+      "name": "Salmeh Kalbassi",
+      "specialty": "orthodontist",
+      "license_type": "REG",
+      "nationality": "Iran",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "01257565",
+      "license_number": "01257565",
+      "name": "Shahala Mohammed Basheer",
+      "specialty": "oral-surgeon",
+      "license_type": "FTL",
+      "nationality": "UAE",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "00241436",
+      "license_number": "00241436",
+      "name": "Behnaz Motlagh",
+      "specialty": "implantologist",
+      "license_type": "FTL",
+      "nationality": "Iran",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "00397095",
+      "license_number": "00397095",
+      "name": "Mohammad Taher",
+      "specialty": "periodontist",
+      "license_type": "FTL",
+      "nationality": "Arab",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "04421979",
+      "license_number": "04421979",
+      "name": "Nasiiat Velikhanova",
+      "specialty": "orthodontist",
+      "license_type": "REG",
+      "nationality": "Russia",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en"
+      ]
+    }
+  ],
+  "fill_fiches": []
+}

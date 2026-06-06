@@ -1,0 +1,31 @@
+{
+  "id": "behnaz-motlagh-00241436",
+  "license_number": "00241436",
+  "license_type": "Full-Time License",
+  "name": {
+    "original": "Behnaz Motlagh",
+    "en": "Behnaz Motlagh"
+  },
+  "specialty": "Implantologist",
+  "sub_specialty": null,
+  "facility": "SHIRAZ MEDICAL CENTER LLC",
+  "area": "SHIRAZ MEDICAL CENTER LLC, Dubai, United Arab Emirates",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "country_short": "UAE",
+  "category": "dentists",
+  "bio": "Behnaz Motlagh is an Implantologist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:12:02Z",
+  "_lang": "en",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00241436",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 4031
+  }
+}
