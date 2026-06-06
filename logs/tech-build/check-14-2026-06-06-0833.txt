@@ -1,0 +1,25 @@
+2026-06-06 08:33 UTC — DMD tech-build check #14 (cron 314f1ee1, +33min après #13)
+Verdict: 🔴 BLOQUÉ — décisions humaines toujours requises (7th consecutive blocked cycle, strictement identique à #13 08:00 UTC)
+
+- Next.js setup: ❌ (code/web/ reste static HTML, pas de package.json à la racine du projet)
+- DB connectée: ❌ (DMD_PG_DSN non défini, schema + loader prêts et idempotents)
+- 10+ pages profil: ✅ (120 statiques = 40 dentists × FR/AR/EN dans code/web/profiles/)
+- Recherche full-text: ❌ (bloqué en cascade DB)
+- Traductions FR/AR/EN: ✅ (40 fiches × 3 langues en HTML statique)
+- Per-lang JSON (FR/AR/EN/RU/ZH): 575 (115 fiches uniques × 5 langues — +0 vs #13)
+- Sitemap.xml: ✅ (121 URLs, 123 lignes, figé depuis 03:03 UTC)
+
+Activités hors-scope en parallèle depuis #13:
+- Scrape cycle 28 (08:00 UTC): +4 dentists Zavis, total 7,110 (commit d0efbdb)
+- Data quality check #4 (08:33 UTC): 177 name+clinic dups (régression depuis #3) — bug scraping Zavis à corriger
+- 0 nouvelles traductions / 0 nouveaux profils depuis #13
+
+Pending W decision (UNCHANGED depuis check #6, ~2h30):
+1. Fournir DMD_PG_DSN env var pour activer le loader PG
+2. Valider le scaffolding Next.js (package.json + next.config + pages/) en remplacement du static HTML
+3. Activer code/web/profiles/index.json comme index dynamique post-PG
+
+NO_REPLY — état strictement identique à #13 sur les 6 axes de la checklist, aucune action autonome utile sans décision W.
+Note: le cron "DMD TECH BUILD (5/30min)" tourne en parallèle du cron "tech-build (30min)". Le check #14 confirme la stabilité observée à #13 il y a 33min — pas d'avancement technique, juste scrape + data quality qui continuent de tourner en background.
+
+Detail: /root/.openclaw/workspace/memory/2026-06-06-dmd-tech-build-0833.md
