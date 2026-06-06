@@ -1,0 +1,11 @@
+[2026-06-06 10:04 UTC] DMD tech-build check #15 (cron 314f1ee1, 5/30min)
+- Next.js: ❌ not set up — code/web/ still static HTML (index.html, profil-premium.html, profiles/{ar,en,fr}/)
+- DB (Postgres): ❌ not connected — schema.sql + load_csv_to_pg.py present, ts_vector column defined, awaiting DMD_PG_DSN env var
+- 10+ profile pages: ✅ 120 static profiles (40 ar + 40 en + 40 fr)
+- Full-text search: ✅ ts_vector column defined in code/db/schema.sql, ready when DB up
+- FR/AR/EN translations: ✅ 115 fiches × 5 langs (ar/en/fr/ru/zh) = 575 JSON in translations/per_lang/
+- Sitemap: ✅ 121 URLs in code/web/sitemap.xml (last build 03:03 UTC)
+- Git: last commit 0876432 at 09:33 UTC (90min before this check)
+- State: identical to check #14 (08:33 UTC, +91min) — no build activity between checks
+- Blockers unchanged: (1) W decision on Next.js stack (static→Next migration), (2) DMD_PG_DSN env var to bring up PG
+- Action: NO_REPLY — nothing actionable on my side, no new errors, all components ready, awaiting W's two inputs
