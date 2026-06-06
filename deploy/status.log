@@ -259,3 +259,13 @@
 - Recommendation unchanged: remove this cron or wire up VERCEL_TOKEN/PING_URL
 - Cron firing interval: 30min — produces zero-value noise until configured
 - Note: 14th consecutive run in identical dead state (runs #5-#18). Escalation to W remains the only action that would unblock this.
+- .vercel/ dir: absent (no Vercel project initialized)
+- VERCEL_TOKEN / UPTIME_URL / PING_URL: still absent from env
+- .env files: only .env.translator (unrelated)
+- code/web/: unchanged (index.html, profil-premium.html, static only)
+- Production URL: unknown — no deploy ever executed
+- Action: NO_REPLY — no deploy target to check, no alert possible
+- Escalation: sent to W at 01:35 UTC (run #4). Still pending: Vercel URL+token OR uptime endpoint OR cron removal.
+- Recommendation unchanged: remove this cron or wire up VERCEL_TOKEN/PING_URL
+- Cron firing interval: 30min — produces zero-value noise until configured
+- Note: 15th consecutive run in identical dead state (runs #5-#19). Escalation to W remains the only action that would unblock this.
