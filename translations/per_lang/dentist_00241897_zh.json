@@ -1,0 +1,33 @@
+{
+  "id": "saju-kader-00241897",
+  "license_number": "00241897",
+  "license_type": "全职执照",
+  "name": {
+    "original": "Saju Kader",
+    "zh": "萨朱 卡德尔"
+  },
+  "specialty": "牙髓病医生",
+  "sub_specialty": null,
+  "facility": "Docib Clinic LLC",
+  "area": "Docib Clinic LLC, 迪拜, 阿拉伯联合酋长国",
+  "city": "迪拜",
+  "country": "阿拉伯联合酋长国",
+  "country_short": "阿联酋",
+  "category": "dentists",
+  "bio": "萨朱 卡德尔是位于迪拜（阿联酋）的牙髓病医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en",
+    "ml"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:43:44Z",
+  "_lang": "zh",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00241897",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 3765
+  }
+}

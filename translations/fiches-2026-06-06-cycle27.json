@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T07:43:44Z",
+    "generator": "build_cycle27.py",
+    "cron": "ad25646f-4b17-4eb0-b148-0b7d037c7231",
+    "cron_name": "Dubai - Traduction 5 Langues (Medical)",
+    "cycle": "2026-06-06 cycle 27/30min",
+    "previous_cycle": "2026-06-06 cycle 26/30min (65 fiches cumul)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "new_fiches": 5,
+    "fill_fiches": 0,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "restorative-dentist": 1,
+      "general-dentist": 1,
+      "endodontist": 1,
+      "prosthodontist": 1,
+      "pediatric-dentist": 1
+    },
+    "gender_mix": {
+      "M": 3,
+      "F": 2
+    },
+    "license_mix": {
+      "FTL": 5
+    },
+    "nationality_mix": {
+      "Sudan": 1,
+      "Philippines": 1,
+      "India": 2,
+      "UAE": 1
+    },
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle27_notes": [
+      "Cible cycle 27 = 5 fiches × 5 langues = 25 traductions (NO_REPLY cron, cadence 30min)",
+      "1× Restorative Dentist (Abdulhaq Suliman 00245284 SD/AR — FTL, M, عبدالحق + سليمان 'servant of Truth' + 'Solomon')",
+      "1× General Dentist (Rosedina Villero 00006587 PH — FTL, F, Rosedina روزيدينا Spanish-Filipino + Villero فيليرو)",
+      "1× Endodontist (Saju Kader 00241897 IN/Kerala — FTL, M, Saju ساجو Malayalam സാജു 'well-born' + Kader قادر Arabic 'capable')",
+      "1× Prosthodontist (May Aljanahi 16032372 AE — FTL, F, May مي + Al-Janahi الجناحي tribe émiratie)",
+      "1× Pediatric Dentist (Anup Kumar Panda 31640698 IN/Odisha — FTL, M, Anup أنوب Sanskrit 'incomparable' / Kumar كومار 'prince' / Panda بندا Odia Brahmin)",
+      "Diversification specialties : 5 distinctes (Restorative, General, Endodontist, Prosthodontist, Pediatric)",
+      "Mix national : SD/AR + PH + IN/Kerala + AE + IN/Odisha (5 origines, diversification Asie du Sud + émirati + arabe)",
+      "Mix genres : F=2 (Rosedina, May) / M=3 (Abdulhaq, Saju, Anup) — équilibrage après biais F cycle 26",
+      "Mix licences : 5 FTL (cohérence)",
+      "Mapping NAME_TRANS : 13 nouveaux tokens translittérés (abdulhaq, suliman, rosedina, villero, saju, kader, may, aljanahi, al-janahi, anup, kumar, panda) + fallbacks abdul/haq/soliman/suleiman/bint",
+      "Languages spoken extraites depuis CSV (Rosedina: en+tl ; Saju: en+ml+ar ; May: ar+en ; Anup: en+hi+or) — premier cycle 27 à activer 4+ trilingues",
+      "Cohérence terminologique specialties vérifiée vs glossary v1.0 : Restorative Dentist/Dentiste restaurateur/طبيب ترميم الأسنان/Стоматолог-реставратор/修复牙医 ✅",
+      "Schéma per_lang v1.5 stable : 5 langues × 14 champs localisés par fiche",
+      "Aucun problème de traduction critique"
+    ]
+  },
+  "new_fiches": [
+    {
+      "id": "00245284",
+      "license_number": "00245284",
+      "name": "Abdulhaq Suliman",
+      "specialty": "restorative-dentist",
+      "license_type": "FTL",
+      "nationality": "Sudan",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "00006587",
+      "license_number": "00006587",
+      "name": "Rosedina Villero",
+      "specialty": "general-dentist",
+      "license_type": "FTL",
+      "nationality": "Philippines",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en",
+        "tl"
+      ]
+    },
+    {
+      "id": "00241897",
+      "license_number": "00241897",
+      "name": "Saju Kader",
+      "specialty": "endodontist",
+      "license_type": "FTL",
+      "nationality": "India",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "ar",
+        "en",
+        "ml"
+      ]
+    },
+    {
+      "id": "16032372",
+      "license_number": "16032372",
+      "name": "May Aljanahi",
+      "specialty": "prosthodontist",
+      "license_type": "FTL",
+      "nationality": "UAE",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "id": "31640698",
+      "license_number": "31640698",
+      "name": "Anup Kumar Panda",
+      "specialty": "pediatric-dentist",
+      "license_type": "FTL",
+      "nationality": "India",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "en",
+        "hi",
+        "or"
+      ]
+    }
+  ],
+  "fill_fiches": []
+}

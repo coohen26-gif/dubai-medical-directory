@@ -1,0 +1,32 @@
+{
+  "id": "may-aljanahi-16032372",
+  "license_number": "16032372",
+  "license_type": "دوام كامل",
+  "name": {
+    "original": "May Aljanahi",
+    "ar": "مي الجناحي"
+  },
+  "specialty": "أخصائي التركيبات السنية",
+  "sub_specialty": null,
+  "facility": "Dubai Dental Hospital FZ LLC",
+  "area": "Dubai Dental Hospital FZ LLC, دبي, الإمارات العربية المتحدة",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "تعمل مي الجناحي أخصائي التركيبات السنية في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:43:44Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=16032372",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 5502
+  }
+}

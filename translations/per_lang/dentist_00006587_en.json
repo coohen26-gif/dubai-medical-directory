@@ -1,0 +1,32 @@
+{
+  "id": "rosedina-villero-00006587",
+  "license_number": "00006587",
+  "license_type": "Full-Time License",
+  "name": {
+    "original": "Rosedina Villero",
+    "en": "Rosedina Villero"
+  },
+  "specialty": "General Dentist",
+  "sub_specialty": null,
+  "facility": "Providence Dental Centre",
+  "area": "Providence Dental Centre, Dubai, United Arab Emirates",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "country_short": "UAE",
+  "category": "dentists",
+  "bio": "Rosedina Villero is a General Dentist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "en",
+    "tl"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:43:44Z",
+  "_lang": "en",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00006587",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 1208
+  }
+}

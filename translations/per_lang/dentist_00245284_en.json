@@ -1,0 +1,31 @@
+{
+  "id": "abdulhaq-suliman-00245284",
+  "license_number": "00245284",
+  "license_type": "Full-Time License",
+  "name": {
+    "original": "Abdulhaq Suliman",
+    "en": "Abdulhaq Suliman"
+  },
+  "specialty": "Restorative Dentist",
+  "sub_specialty": null,
+  "facility": "Liberty Dental Clinic",
+  "area": "Liberty Dental Clinic, Dubai, United Arab Emirates",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "country_short": "UAE",
+  "category": "dentists",
+  "bio": "Abdulhaq Suliman is a Restorative Dentist based in Dubai, UAE. He holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:43:44Z",
+  "_lang": "en",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00245284",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 4321
+  }
+}
