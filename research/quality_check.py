@@ -4,7 +4,7 @@ import csv
 import json
 import re
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -203,7 +203,7 @@ def check_sheryan_jsonl():
 
 
 def build_report(dha, dent, sheryan):
-    now = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     out = []
     out.append(f"# DMD Data Quality Report")
     out.append(f"\n_Generated: {now}_  ")
@@ -314,6 +314,40 @@ def main():
     dent = check_dentists()
     sheryan = check_sheryan_jsonl()
     report = build_report(dha, dent, sheryan)
+
+    # Delta vs. previous committed run (read from git HEAD)
+    try:
+        import subprocess
+        result = subprocess.run(
+            ["git", "show", "HEAD:research/data-quality-report.md"],
+            capture_output=True, text=True, cwd=Path(__file__).parent.parent,
+        )
+        prev = result.stdout if result.returncode == 0 else ""
+        if prev:
+            dha_section = prev.split("## 2. Dentists")[0]
+            dent_section = prev.split("## 2. Dentists")[1].split("## 3.")[0]
+            dha_rows_prev = None
+            for line in dha_section.splitlines():
+                if line.startswith("| Total rows |"):
+                    dha_rows_prev = int(line.split("|")[2].strip().replace(",", ""))
+                    break
+            dent_rows_prev = None
+            for line in dent_section.splitlines():
+                if line.startswith("| Total rows |"):
+                    dent_rows_prev = int(line.split("|")[2].strip().replace(",", ""))
+                    break
+            delta_lines = ["\n## 5. Delta vs. previous run\n"]
+            if dha_rows_prev is not None:
+                d = dha["rows"] - dha_rows_prev
+                delta_lines.append(f"- DHA main: {dha_rows_prev:,} → {dha['rows']:,} rows (Δ {d:+,})")
+            if dent_rows_prev is not None:
+                d = dent["rows"] - dent_rows_prev
+                delta_lines.append(f"- Dentists: {dent_rows_prev:,} → {dent['rows']:,} rows (Δ {d:+,})")
+            if len(delta_lines) > 1:
+                report += "\n".join(delta_lines) + "\n"
+    except Exception as e:
+        print(f"[DMD-QA] delta skipped: {e}")
+
     REPORT.write_text(report, encoding="utf-8")
     # Print summary for cron logs
     print(f"[DMD-QA] DHA: {dha['rows']} rows, {dha['duplicate_ids']} dup IDs, {dha['unique_facilities']} facilities")
