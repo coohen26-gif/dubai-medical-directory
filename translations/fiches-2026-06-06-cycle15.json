@@ -1,0 +1,531 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T03:46:57Z",
+    "generator": "build_cycle15.py",
+    "cron": "6e3d697a-91cb-4475-872a-8ab965e7ba7f",
+    "cron_name": "Dubai - Translation & Localization",
+    "cycle": "2026-06-06 cycle 15/30min",
+    "previous_cycle": "2026-06-06 cycle 14/30min (83 fiches cumul)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "target_fiches": 5,
+    "fiches_produced": 5,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "oral-surgeon": 1,
+      "periodontist": 1,
+      "implantologist": 1,
+      "pediatric-dentist": 1,
+      "general-dentist": 1
+    },
+    "gender_mix": {
+      "M": 3,
+      "F": 2
+    },
+    "license_mix": {
+      "FTL": 5
+    },
+    "per_lang_count": {
+      "fr": 5,
+      "ar": 5,
+      "en": 5,
+      "ru": 5,
+      "zh": 5
+    },
+    "per_lang_files": 25,
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle15_notes": [
+      "1× Oral Surgeon (Basim Abu Hawas) — arabe (Hawwara/Maghreb patronyme)",
+      "1× Periodontist (Reneesh Kareem) — indien Kerala chrétien (nouveau mapping non-arabe)",
+      "1× Implantologist (Marat Azizov) — russe/azeri, test translittération cyrillique (RU déjà en cyrillique natif)",
+      "1× Pediatric Dentist (Najah Abdelrahman) — arabe féminin (Najah = réussite)",
+      "1× General Dentist (Darya Shahabi) — iranien persan, test translittération (Shah = roi)"
+    ]
+  },
+  "fiches": [
+    {
+      "id": "basim-abu-hawas-00163490",
+      "license_number": "00163490",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Basim Abu Hawas",
+        "fr": "Basim Abu Hawas",
+        "ar": "باسم أبو حواس",
+        "en": "Basim Abu Hawas",
+        "ru": "Басим Абу Хавас",
+        "zh": "Bāxīmǔ Ābù Hāwǎsī"
+      },
+      "specialty": {
+        "slug": "oral-surgeon",
+        "fr": "Chirurgien dentiste",
+        "ar": "جراح الفم والأسنان",
+        "en": "Oral Surgeon",
+        "ru": "Челюстно-лицевой хирург",
+        "zh": "口腔外科医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Al Badaa Medical Center - PHC",
+        "fr": "Al Badaa Medical Center - PHC",
+        "ar": "Al Badaa Medical Center - PHC",
+        "en": "Al Badaa Medical Center - PHC",
+        "ru": "Al Badaa Medical Center - PHC",
+        "zh": "Al Badaa Medical Center - PHC"
+      },
+      "area": {
+        "original": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "fr": "Al Badaa Medical Center - PHC, Dubaï, Émirats arabes unis",
+        "ar": "Al Badaa Medical Center - PHC, دبي, الإمارات العربية المتحدة",
+        "en": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "ru": "Al Badaa Medical Center - PHC, Дубай, ОАЭ",
+        "zh": "Al Badaa Medical Center - PHC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Basim Abu Hawas est un chirurgien dentiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور باسم أبو حواس جراح الفم والأسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Basim Abu Hawas is an Oral Surgeon based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Басим Абу Хавас — Челюстно-лицевой хирург в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Bāxīmǔ Ābù Hāwǎsī医生是阿联酋迪拜的口腔外科医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00163490",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 89
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:46:57Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "reneesh-kareem-00220937",
+      "license_number": "00220937",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Reneesh Kareem",
+        "fr": "Reneesh Kareem",
+        "ar": "رينيش كريم",
+        "en": "Reneesh Kareem",
+        "ru": "Рениш Карим",
+        "zh": "Lèníshī Kǎlǐmǔ"
+      },
+      "specialty": {
+        "slug": "periodontist",
+        "fr": "Parodontiste",
+        "ar": "أخصائي أمراض اللثة",
+        "en": "Periodontist",
+        "ru": "Пародонтолог",
+        "zh": "牙周病医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Vcare Polyclinic LLC",
+        "fr": "Vcare Polyclinic LLC",
+        "ar": "Vcare Polyclinic LLC",
+        "en": "Vcare Polyclinic LLC",
+        "ru": "Vcare Polyclinic LLC",
+        "zh": "Vcare Polyclinic LLC"
+      },
+      "area": {
+        "original": "Vcare Polyclinic LLC, Dubai, UAE",
+        "fr": "Vcare Polyclinic LLC, Dubaï, Émirats arabes unis",
+        "ar": "Vcare Polyclinic LLC, دبي, الإمارات العربية المتحدة",
+        "en": "Vcare Polyclinic LLC, Dubai, UAE",
+        "ru": "Vcare Polyclinic LLC, Дубай, ОАЭ",
+        "zh": "Vcare Polyclinic LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Reneesh Kareem est un parodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور رينيش كريم أخصائي أمراض اللثة في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Reneesh Kareem is a Periodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Рениш Карим — Пародонтолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Lèníshī Kǎlǐmǔ医生是阿联酋迪拜的牙周病医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00220937",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 164
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:46:57Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "marat-azizov-00195849",
+      "license_number": "00195849",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Marat Azizov",
+        "fr": "Marat Azizov",
+        "ar": "مارات عزيزوف",
+        "en": "Marat Azizov",
+        "ru": "Марат Азизов",
+        "zh": "Mǎlā Āzīzīfū"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "fr": "Dentiste",
+        "ar": "طبيب أسنان",
+        "en": "Dentist",
+        "ru": "Стоматолог",
+        "zh": "牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Sakura Medical and Dental Clinic FZ-LLC",
+        "fr": "Sakura Medical and Dental Clinic FZ-LLC",
+        "ar": "Sakura Medical and Dental Clinic FZ-LLC",
+        "en": "Sakura Medical and Dental Clinic FZ-LLC",
+        "ru": "Sakura Medical and Dental Clinic FZ-LLC",
+        "zh": "Sakura Medical and Dental Clinic FZ-LLC"
+      },
+      "area": {
+        "original": "Sakura Medical and Dental Clinic FZ-LLC, Dubai, UAE",
+        "fr": "Sakura Medical and Dental Clinic FZ-LLC, Dubaï, Émirats arabes unis",
+        "ar": "Sakura Medical and Dental Clinic FZ-LLC, دبي, الإمارات العربية المتحدة",
+        "en": "Sakura Medical and Dental Clinic FZ-LLC, Dubai, UAE",
+        "ru": "Sakura Medical and Dental Clinic FZ-LLC, Дубай, ОАЭ",
+        "zh": "Sakura Medical and Dental Clinic FZ-LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Marat Azizov est un dentiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور مارات عزيزوف طبيب أسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Marat Azizov is a Dentist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Марат Азизов — Стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Mǎlā Āzīzīfū医生是阿联酋迪拜的牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00195849",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 111
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:46:57Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "najah-abdelrahman-00249759",
+      "license_number": "00249759",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Najah Abdelrahman",
+        "fr": "Najah Abdelrahman",
+        "ar": "نجاح عبدالرحمن",
+        "en": "Najah Abdelrahman",
+        "ru": "Наджа Абдельрахман",
+        "zh": "Nàjiāh Ābùdōulāhémàn"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Dubai Police Health Center - Al Qiyadah",
+        "fr": "Dubai Police Health Center - Al Qiyadah",
+        "ar": "Dubai Police Health Center - Al Qiyadah",
+        "en": "Dubai Police Health Center - Al Qiyadah",
+        "ru": "Dubai Police Health Center - Al Qiyadah",
+        "zh": "Dubai Police Health Center - Al Qiyadah"
+      },
+      "area": {
+        "original": "Dubai Police Health Center - Al Qiyadah, Dubai, UAE",
+        "fr": "Dubai Police Health Center - Al Qiyadah, Dubaï, Émirats arabes unis",
+        "ar": "Dubai Police Health Center - Al Qiyadah, دبي, الإمارات العربية المتحدة",
+        "en": "Dubai Police Health Center - Al Qiyadah, Dubai, UAE",
+        "ru": "Dubai Police Health Center - Al Qiyadah, Дубай, ОАЭ",
+        "zh": "Dubai Police Health Center - Al Qiyadah, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Najah Abdelrahman est une pédodontiste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتورة نجاح عبدالرحمن أخصائي أسنان الأطفال في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Najah Abdelrahman is a Pediatric Dentist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Наджа Абдельрахман — Детский стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Nàjiāh Ābùdōulāhémàn医生是阿联酋迪拜的儿童牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00249759",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 236
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:46:57Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    },
+    {
+      "id": "darya-shahabi-00093245",
+      "license_number": "00093245",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Darya Shahabi",
+        "fr": "Darya Shahabi",
+        "ar": "دريا شهابي",
+        "en": "Darya Shahabi",
+        "ru": "Дарья Шахаби",
+        "zh": "Dālǐyà Shāhābī"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Emirates Airline Clinic",
+        "fr": "Emirates Airline Clinic",
+        "ar": "Emirates Airline Clinic",
+        "en": "Emirates Airline Clinic",
+        "ru": "Emirates Airline Clinic",
+        "zh": "Emirates Airline Clinic"
+      },
+      "area": {
+        "original": "Emirates Airline Clinic, Dubai, UAE",
+        "fr": "Emirates Airline Clinic, Dubaï, Émirats arabes unis",
+        "ar": "Emirates Airline Clinic, دبي, الإمارات العربية المتحدة",
+        "en": "Emirates Airline Clinic, Dubai, UAE",
+        "ru": "Emirates Airline Clinic, Дубай, ОАЭ",
+        "zh": "Emirates Airline Clinic, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Darya Shahabi est une dentiste généraliste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتورة دريا شهابي طبيب أسنان عام في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Darya Shahabi is a General Dentist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Дарья Шахаби — Стоматолог общей практики в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Dālǐyà Shāhābī医生是阿联酋迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00093245",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 43
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:46:57Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    }
+  ]
+}

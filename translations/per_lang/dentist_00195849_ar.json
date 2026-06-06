@@ -1,0 +1,32 @@
+{
+  "id": "marat-azizov-00195849",
+  "license_number": "00195849",
+  "license_type": "دوام كامل",
+  "name": {
+    "original": "Marat Azizov",
+    "ar": "مارات عزيزوف"
+  },
+  "specialty": "طبيب أسنان",
+  "sub_specialty": null,
+  "facility": "Sakura Medical and Dental Clinic FZ-LLC",
+  "area": "Sakura Medical and Dental Clinic FZ-LLC, دبي, الإمارات العربية المتحدة",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "الدكتور مارات عزيزوف طبيب أسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:46:57Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00195849",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 111
+  }
+}

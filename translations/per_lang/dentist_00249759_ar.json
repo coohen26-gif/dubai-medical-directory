@@ -1,0 +1,32 @@
+{
+  "id": "najah-abdelrahman-00249759",
+  "license_number": "00249759",
+  "license_type": "دوام كامل",
+  "name": {
+    "original": "Najah Abdelrahman",
+    "ar": "نجاح عبدالرحمن"
+  },
+  "specialty": "أخصائي أسنان الأطفال",
+  "sub_specialty": null,
+  "facility": "Dubai Police Health Center - Al Qiyadah",
+  "area": "Dubai Police Health Center - Al Qiyadah, دبي, الإمارات العربية المتحدة",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "الدكتورة نجاح عبدالرحمن أخصائي أسنان الأطفال في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:46:57Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00249759",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 236
+  }
+}

@@ -136,3 +136,22 @@
 - Audit présence digitale: pas de tâche automatisée en cours — fiches dentists n'ont pas encore de website/Instagram/Google Maps à scraper; à planifier après insertion PG
 - Action: NO_REPLY — état stable, scraping terminé, blocage clair sur W pour PG DSN
 - Next: cron continue toutes les 30min; prochaine étape = commit progression + attendre DSN
+
+[2026-06-06 03:42 UTC] DMD DEPLOY CHECK #8 (cron b0a55e6e)
+- .vercel/ dir: absent
+- VERCEL_TOKEN / UPTIME_URL / PING_URL: absent
+- code/web/ = static HTML only (index.html, profil-premium.html) — no package.json, no framework
+- Production deploy: never executed (run #8, identical to #7)
+- Action: NO_REPLY — site is not deployed. Escalation to W was sent at run #4 (01:35 UTC).
+- Pending from W: Vercel URL+token OR uptime endpoint OR cron removal
+- Cron continues producing noise every 30min. Recommend: remove this cron if no deploy imminent.
+
+[2026-06-06 04:06 UTC] DMD DEPLOY CHECK #9 (cron b0a55e6e)
+- .vercel/ dir: absent (no Vercel project initialized)
+- VERCEL_TOKEN / UPTIME_URL / PING_URL: still absent from env
+- code/web/: static HTML only (index.html, profil-premium.html), no build config
+- Production URL: unknown — no deploy ever executed
+- Action: NO_REPLY — no deploy target to check, no alert possible
+- Escalation: sent to W at 01:35 UTC (run #4). Still pending: Vercel URL+token OR uptime endpoint OR cron removal.
+- Recommendation unchanged: remove this cron or wire up VERCEL_TOKEN/PING_URL
+- Cron firing interval: 30min — produces zero-value noise until configured

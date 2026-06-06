@@ -1,0 +1,32 @@
+{
+  "id": "darya-shahabi-00093245",
+  "license_number": "00093245",
+  "license_type": "دوام كامل",
+  "name": {
+    "original": "Darya Shahabi",
+    "ar": "دريا شهابي"
+  },
+  "specialty": "طبيب أسنان عام",
+  "sub_specialty": null,
+  "facility": "Emirates Airline Clinic",
+  "area": "Emirates Airline Clinic, دبي, الإمارات العربية المتحدة",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "الدكتورة دريا شهابي طبيب أسنان عام في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:46:57Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00093245",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 43
+  }
+}
