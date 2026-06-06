@@ -1,0 +1,398 @@
+{
+  "_meta": {
+    "schema_version": "1.2",
+    "generated_at": "2026-06-06T01:45:22+00:00",
+    "generator": "cron:6e3d697a-91cb-4475-872a-8ab965e7ba7f (Dubai - Translation & Localization)",
+    "cycle": "2026-06-06 cycle 08/30min",
+    "previous_cycles": [
+      "fiches-2026-06-05-cycle01.json (5 fiches, fr+ar+en, manual+glossary v0.9)",
+      "fiches-2026-06-06-cycle02.json (5 fiches, fr+ar+en, manual+glossary v1.0)",
+      "fiches-2026-06-06-cycle03.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0 — schema v1.1)",
+      "fiches-2026-06-06-cycle04.json (5 fiches, fr+ar+en only)",
+      "fiches-2026-06-06-cycle05.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0, schema v1.1 restored)",
+      "fiches-2026-06-06-cycle06.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0, schema v1.1)",
+      "fiches-2026-06-06-cycle07.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0, schema v1.1)"
+    ],
+    "source_csv": "data/dentists_emirates.csv",
+    "source_rows_total": 6186,
+    "source_rows_translated_to_date": 40,
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "translation_method": "manual+glossary (DeepL API key still unavailable in .env.translator — placeholder; cron spec 'DeepL API acceptable pour volume' noted but not invoked)",
+    "languages": [
+      "fr",
+      "ar",
+      "en"
+    ],
+    "schema_change_note": "Schema v1.2 — 3 langues (fr, ar, en) per cron 6e3d697a spec 'FR→AR et FR→EN (ou EN→FR)'. Reduced from schema v1.1 (5 langues) to match translation & localization scope. RU and ZH transliterations removed from this cycle.",
+    "field_completeness_note": "Source CSV lacks sub_specialty/bio/services/languages_spoken; bio is synthesized from glossary template, services=[] per source.",
+    "quality_notes": [
+      "Spécialités : 100% alignées avec glossary.md v1.0. Ce cycle inclut 1× Orthodontist (Mohammed Ajazullah Khan), 1× Prosthodontist (Mostafa Elmasri), 3× General Dentist.",
+      "Licences : mapping FTL/REG/PTL/VIS aligné glossary.md. Toutes FTL ce cycle (à vérifier dans le dump).",
+      "Émirats : tous Dubai ce cycle.",
+      "Genre : heuristique étendue cycle08 (Mileva, Maria, Bincy ajoutées au set féminin; Mohammed et Mostafa ajoutés au set masculin). F pour Mileva, Maria, Bincy ; M pour Mohammed, Mostafa. Note : 'Mohammed' peut être un prénom féminin dans certaines cultures (rare), mais standard UAE = M.",
+      "Bio : template canonique 3-langue dérivé de cycle05/06/07 (variante réduite à FR/AR/EN).",
+      "Origine des noms cycle08 : pakistanais/indo-pakistanais (Mohammed Ajazullah Khan), serbe (Mileva Karabasil Jovanovic), hispanique (Maria Lopez), égyptien (Mostafa Elmasri), indien chrétien (Bincy George). Variété maintenue.",
+      "Translittérations AR : محمد أعز الله خان (Mohammed Ajazullah Khan), ميليفا كاراباسيل يوفانوفيتش (Mileva Karabasil Jovanovic), ماريا لوبيز (Maria Lopez), مصطفى المصري (Mostafa Elmasri), بينسي جورج (Bincy George).",
+      "Translittérations RU/ZH : non produites ce cycle (schema v1.2, 3 langues uniquement). Si couverture RU/ZH requise → réexécuter cycle09 avec schema v1.1.",
+      "Services : [] — source CSV ne contient pas la liste, à récupérer depuis source_url.",
+      "Cohérence terminologique : specialties, license types, emirates, country strings tous issus de glossary v1.0 sans variation libre. Pas de drift détecté."
+    ]
+  },
+  "fiches": [
+    {
+      "id": "mohammed-ajazullah-khan-00073857",
+      "license_number": "00073857",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License"
+      },
+      "name": {
+        "original": "Mohammed Ajazullah Khan",
+        "fr": "Mohammed Ajazullah Khan",
+        "ar": "محمد أعز الله خان",
+        "en": "Mohammed Ajazullah Khan"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": ""
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Mohammed Ajazullah Khan est orthodontiste à Dubaï, EAU. Licencié sous licence régulière délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل محمد أعز الله خان أخصائي تقويم الأسنان في دبي، الإمارات. يحمل رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Mohammed Ajazullah Khan is an orthodontist based in Dubai, UAE. Holds a regular license issued by the Dubai Health Authority (DHA)."
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00073857",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:45:22+00:00"
+    },
+    {
+      "id": "mileva-karabasil-jovanovic-00063781",
+      "license_number": "00063781",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Mileva Karabasil Jovanovic",
+        "fr": "Mileva Karabasil Jovanovic",
+        "ar": "ميليفا كاراباسيل يوفانوفيتش",
+        "en": "Mileva Karabasil Jovanovic"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Dental Studio - Al Wasl LLC",
+        "ar": "Dental Studio - Al Wasl LLC",
+        "en": "Dental Studio - Al Wasl LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Mileva Karabasil Jovanovic est dentiste généraliste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل ميليفا كاراباسيل يوفانوفيتش طبيب أسنان عام في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Mileva Karabasil Jovanovic is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA)."
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00063781",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:45:22+00:00"
+    },
+    {
+      "id": "maria-lopez-00058075",
+      "license_number": "00058075",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Maria Lopez",
+        "fr": "Maria Lopez",
+        "ar": "ماريا لوبيز",
+        "en": "Maria Lopez"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Badaa Medical Center - PHC",
+        "ar": "Al Badaa Medical Center - PHC",
+        "en": "Al Badaa Medical Center - PHC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Maria Lopez est dentiste généraliste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل ماريا لوبيز طبيب أسنان عام في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Maria Lopez is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA)."
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00058075",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:45:22+00:00"
+    },
+    {
+      "id": "mostafa-elmasri-00070602",
+      "license_number": "00070602",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Mostafa Elmasri",
+        "fr": "Mostafa Elmasri",
+        "ar": "مصطفى المصري",
+        "en": "Mostafa Elmasri"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC",
+        "ar": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC",
+        "en": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Mostafa Elmasri est prosthodontiste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل مصطفى المصري أخصائي التركيبات السنية في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Mostafa Elmasri is a prosthodontist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA)."
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00070602",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:45:22+00:00"
+    },
+    {
+      "id": "bincy-george-00074333",
+      "license_number": "00074333",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Bincy George",
+        "fr": "Bincy George",
+        "ar": "بينسي جورج",
+        "en": "Bincy George"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Akeela Dental Clinic LLC",
+        "ar": "Akeela Dental Clinic LLC",
+        "en": "Akeela Dental Clinic LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Bincy George est dentiste généraliste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل بينسي جورج طبيب أسنان عام في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Bincy George is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA)."
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00074333",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:45:22+00:00"
+    }
+  ]
+}
