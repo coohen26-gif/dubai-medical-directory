@@ -1,0 +1,32 @@
+{
+  "id": "feras-yabroudi-00005038",
+  "license_number": "00005038",
+  "license_type": "Temps plein",
+  "name": {
+    "original": "Feras Yabroudi",
+    "fr": "Feras Yabroudi"
+  },
+  "specialty": "Chirurgien dentiste",
+  "sub_specialty": null,
+  "facility": "N L V Medical Center LLC",
+  "area": "N L V Medical Center LLC, Dubaï, Émirats arabes unis",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Dr Feras Yabroudi est un chirurgien dentiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:37:28Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00005038",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 0
+  }
+}

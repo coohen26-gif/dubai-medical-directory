@@ -1,0 +1,530 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T03:37:28Z",
+    "generator": "build_cycle14.py",
+    "cron": "ad25646f-4b17-4eb0-b148-0b7d037c7231",
+    "cron_name": "Dubai - Traduction 5 Langues (Medical)",
+    "cycle": "2026-06-06 cycle 14/30min",
+    "previous_cycle": "2026-06-06 cycle 13/30min (80 fiches cumul, 35 in per_lang)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "target_fiches": 5,
+    "fiches_produced": 5,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "oral-surgeon": 1,
+      "pediatric-dentist": 1,
+      "orthodontist": 1,
+      "prosthodontist": 1,
+      "general-dentist": 1
+    },
+    "gender_mix": {
+      "M": 3,
+      "F": 2
+    },
+    "license_mix": {
+      "FTL": 4,
+      "REG": 1
+    },
+    "per_lang_count": {
+      "fr": 5,
+      "ar": 5,
+      "en": 5,
+      "ru": 5,
+      "zh": 5
+    },
+    "per_lang_files": 25,
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle14_notes": [
+      "1× Oral Surgeon (Feras Yabroudi) — nouveau, pas couvert cycles 1-13",
+      "1× REG license (Mohammed Ajazullah Khan Orthodontist) — variant FTL pour test pipeline",
+      "1× nom espagnol (Cecilia Brizuela) — test translittération hors zone arabe/indienne"
+    ]
+  },
+  "fiches": [
+    {
+      "id": "feras-yabroudi-00005038",
+      "license_number": "00005038",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Feras Yabroudi",
+        "fr": "Feras Yabroudi",
+        "ar": "فراس يبرودي",
+        "en": "Feras Yabroudi",
+        "ru": "Ферас Ябруди",
+        "zh": "Fèilāsī Yàbùlǔdī"
+      },
+      "specialty": {
+        "slug": "oral-surgeon",
+        "fr": "Chirurgien dentiste",
+        "ar": "جراح الفم والأسنان",
+        "en": "Oral Surgeon",
+        "ru": "Челюстно-лицевой хирург",
+        "zh": "口腔外科医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "N L V Medical Center LLC",
+        "fr": "N L V Medical Center LLC",
+        "ar": "N L V Medical Center LLC",
+        "en": "N L V Medical Center LLC",
+        "ru": "N L V Medical Center LLC",
+        "zh": "N L V Medical Center LLC"
+      },
+      "area": {
+        "original": "N L V Medical Center LLC, Dubai, UAE",
+        "fr": "N L V Medical Center LLC, Dubaï, Émirats arabes unis",
+        "ar": "N L V Medical Center LLC, دبي, الإمارات العربية المتحدة",
+        "en": "N L V Medical Center LLC, Dubai, UAE",
+        "ru": "N L V Medical Center LLC, Дубай, ОАЭ",
+        "zh": "N L V Medical Center LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Feras Yabroudi est un chirurgien dentiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور فراس يبرودي جراح الفم والأسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Feras Yabroudi is an Oral Surgeon based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Ферас Ябруди — Челюстно-лицевой хирург в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Fèilāsī Yàbùlǔdī医生是阿联酋迪拜的口腔外科医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00005038",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 0
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:37:28Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "anila-virani-00018395",
+      "license_number": "00018395",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Anila Virani",
+        "fr": "Anila Virani",
+        "ar": "أنيلا فيراني",
+        "en": "Anila Virani",
+        "ru": "Анила Вирани",
+        "zh": "Ānílā Wéilāní"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "MICRIS DENTAL CLINIC LLC",
+        "fr": "MICRIS DENTAL CLINIC LLC",
+        "ar": "MICRIS DENTAL CLINIC LLC",
+        "en": "MICRIS DENTAL CLINIC LLC",
+        "ru": "MICRIS DENTAL CLINIC LLC",
+        "zh": "MICRIS DENTAL CLINIC LLC"
+      },
+      "area": {
+        "original": "MICRIS DENTAL CLINIC LLC, Dubai, UAE",
+        "fr": "MICRIS DENTAL CLINIC LLC, Dubaï, Émirats arabes unis",
+        "ar": "MICRIS DENTAL CLINIC LLC, دبي, الإمارات العربية المتحدة",
+        "en": "MICRIS DENTAL CLINIC LLC, Dubai, UAE",
+        "ru": "MICRIS DENTAL CLINIC LLC, Дубай, ОАЭ",
+        "zh": "MICRIS DENTAL CLINIC LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Anila Virani est une pédodontiste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتورة أنيلا فيراني أخصائي أسنان الأطفال في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Anila Virani is a Pediatric Dentist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Анила Вирани — Детский стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Ānílā Wéilāní医生是阿联酋迪拜的儿童牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00018395",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 6
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:37:28Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    },
+    {
+      "id": "mohammed-ajazullah-khan-00073857",
+      "license_number": "00073857",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "name": {
+        "original": "Mohammed Ajazullah Khan",
+        "fr": "Mohammed Ajazullah Khan",
+        "ar": "محمد عزالله خان",
+        "en": "Mohammed Ajazullah Khan",
+        "ru": "Мухаммед Аджазулла Хан",
+        "zh": "Mùhǎnmòdé Ājiǎzǔlā Hǎn"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "area": {
+        "original": "Dubai, UAE",
+        "fr": "Dubaï, Émirats arabes unis",
+        "ar": "دبي, الإمارات العربية المتحدة",
+        "en": "Dubai, UAE",
+        "ru": "Дубай, ОАЭ",
+        "zh": "迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Mohammed Ajazullah Khan est un orthodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous licence régulière délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور محمد عزالله خان أخصائي تقويم الأسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Mohammed Ajazullah Khan is an Orthodontist based in Dubai, United Arab Emirates (UAE). Holds a Regular License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Мухаммед Аджазулла Хан — Ортодонт в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает обычной лицензией, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Mùhǎnmòdé Ājiǎzǔlā Hǎn医生是阿联酋迪拜的正畸医生。持有迪拜卫生局 (DHA) 颁发的普通执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00073857",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 25
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:37:28Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "mostafa-elmasri-00070602",
+      "license_number": "00070602",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Mostafa Elmasri",
+        "fr": "Mostafa Elmasri",
+        "ar": "مصطفى المصري",
+        "en": "Mostafa Elmasri",
+        "ru": "Мостафа Эль-Масри",
+        "zh": "Mùsītǎfǎ Ā'ěrmàisīlǐ"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist",
+        "ru": "Ортопед-стоматолог",
+        "zh": "修复科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC",
+        "fr": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC",
+        "ar": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC",
+        "en": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC",
+        "ru": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC",
+        "zh": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC"
+      },
+      "area": {
+        "original": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC, Dubai, UAE",
+        "fr": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC, Dubaï, Émirats arabes unis",
+        "ar": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC, دبي, الإمارات العربية المتحدة",
+        "en": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC, Dubai, UAE",
+        "ru": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC, Дубай, ОАЭ",
+        "zh": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Mostafa Elmasri est un prosthodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور مصطفى المصري أخصائي التركيبات السنية في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Mostafa Elmasri is a Prosthodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Мостафа Эль-Масри — Ортопед-стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Mùsītǎfǎ Ā'ěrmàisīlǐ医生是阿联酋迪拜的修复科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00070602",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 28
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:37:28Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "cecilia-brizuela-00123367",
+      "license_number": "00123367",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Cecilia Brizuela",
+        "fr": "Cecilia Brizuela",
+        "ar": "سيسليا بريزويلا",
+        "en": "Cecilia Brizuela",
+        "ru": "Сесилия Брисуэла",
+        "zh": "Xīxīlìyà Bùlǐsūwēilā"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Middle East Dental Laboratory",
+        "fr": "Middle East Dental Laboratory",
+        "ar": "Middle East Dental Laboratory",
+        "en": "Middle East Dental Laboratory",
+        "ru": "Middle East Dental Laboratory",
+        "zh": "Middle East Dental Laboratory"
+      },
+      "area": {
+        "original": "Middle East Dental Laboratory, Dubai, UAE",
+        "fr": "Middle East Dental Laboratory, Dubaï, Émirats arabes unis",
+        "ar": "Middle East Dental Laboratory, دبي, الإمارات العربية المتحدة",
+        "en": "Middle East Dental Laboratory, Dubai, UAE",
+        "ru": "Middle East Dental Laboratory, Дубай, ОАЭ",
+        "zh": "Middle East Dental Laboratory, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Cecilia Brizuela est une dentiste généraliste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتورة سيسليا بريزويلا طبيب أسنان عام في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Cecilia Brizuela is a General Dentist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Сесилия Брисуэла — Стоматолог общей практики в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Xīxīlìyà Bùlǐsūwēilā医生是阿联酋迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00123367",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 53
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:37:28Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    }
+  ]
+}

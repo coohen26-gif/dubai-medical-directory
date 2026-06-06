@@ -1,0 +1,32 @@
+{
+  "id": "mostafa-elmasri-00070602",
+  "license_number": "00070602",
+  "license_type": "Полная занятость",
+  "name": {
+    "original": "Mostafa Elmasri",
+    "ru": "Мостафа Эль-Масри"
+  },
+  "specialty": "Ортопед-стоматолог",
+  "sub_specialty": null,
+  "facility": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC",
+  "area": "American Hospital Clinics Dubai Media City BR of American Hospital Dubai LLC, Дубай, ОАЭ",
+  "city": "Дубай",
+  "country": "Объединённые Арабские Эмираты",
+  "country_short": "ОАЭ",
+  "category": "dentists",
+  "bio": "Д-р Мостафа Эль-Масри — Ортопед-стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:37:28Z",
+  "_lang": "ru",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00070602",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 28
+  }
+}

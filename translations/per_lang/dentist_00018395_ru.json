@@ -1,0 +1,32 @@
+{
+  "id": "anila-virani-00018395",
+  "license_number": "00018395",
+  "license_type": "Полная занятость",
+  "name": {
+    "original": "Anila Virani",
+    "ru": "Анила Вирани"
+  },
+  "specialty": "Детский стоматолог",
+  "sub_specialty": null,
+  "facility": "MICRIS DENTAL CLINIC LLC",
+  "area": "MICRIS DENTAL CLINIC LLC, Дубай, ОАЭ",
+  "city": "Дубай",
+  "country": "Объединённые Арабские Эмираты",
+  "country_short": "ОАЭ",
+  "category": "dentists",
+  "bio": "Д-р Анила Вирани — Детский стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:37:28Z",
+  "_lang": "ru",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00018395",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 6
+  }
+}

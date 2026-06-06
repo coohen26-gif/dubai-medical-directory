@@ -1,0 +1,32 @@
+{
+  "id": "mohammed-ajazullah-khan-00073857",
+  "license_number": "00073857",
+  "license_type": "Regular License",
+  "name": {
+    "original": "Mohammed Ajazullah Khan",
+    "en": "Mohammed Ajazullah Khan"
+  },
+  "specialty": "Orthodontist",
+  "sub_specialty": null,
+  "facility": "",
+  "area": "Dubai, UAE",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "country_short": "UAE",
+  "category": "dentists",
+  "bio": "Dr. Mohammed Ajazullah Khan is an Orthodontist based in Dubai, United Arab Emirates (UAE). Holds a Regular License issued by the Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:37:28Z",
+  "_lang": "en",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00073857",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 25
+  }
+}

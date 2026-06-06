@@ -1,0 +1,32 @@
+{
+  "id": "feras-yabroudi-00005038",
+  "license_number": "00005038",
+  "license_type": "全职执照",
+  "name": {
+    "original": "Feras Yabroudi",
+    "zh": "Fèilāsī Yàbùlǔdī"
+  },
+  "specialty": "口腔外科医生",
+  "sub_specialty": null,
+  "facility": "N L V Medical Center LLC",
+  "area": "N L V Medical Center LLC, 迪拜, 阿联酋",
+  "city": "迪拜",
+  "country": "阿拉伯联合酋长国",
+  "country_short": "阿联酋",
+  "category": "dentists",
+  "bio": "Fèilāsī Yàbùlǔdī医生是阿联酋迪拜的口腔外科医生。持有迪拜卫生局 (DHA) 颁发的全职执照。",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:37:28Z",
+  "_lang": "zh",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00005038",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 0
+  }
+}
