@@ -1,0 +1,3 @@
+2026-06-06 00:38:40,722 [INFO] Loaded 6012 existing license_numbers from /root/.openclaw/workspace/data/dentists_emirates.csv
+2026-06-06 00:38:40,722 [INFO] Scanning /root/.openclaw/workspace/data/dha_sheryan_full.jsonl for Dentist* records…
+2026-06-06 00:38:41,046 [INFO] DONE. scanned=101080 matched=9537 written=174 dup_skip=9363 output=/root/.openclaw/workspace/data/dentists_emirates.csv

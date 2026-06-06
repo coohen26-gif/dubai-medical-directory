@@ -1,0 +1,45 @@
+[2026-06-06 00:06 UTC] DMD DEPLOY CHECK #1
+- Source: cron b0a55e6e (Dubai - Deploy Check), run triggered
+- Status: ⚠️  UNCONFIGURED — cannot perform check
+- Findings:
+  * deploy/ dir is empty (no status.log, no scripts)
+  * no vercel.json in project
+  * no production URL defined anywhere in code or config
+  * no Vercel API token in env
+  * no uptime check endpoint configured
+  * last commits are content/SEO work (c2e60ef, 8b6750b), no deploy
+- Action: NO_REPLY (no site to check, no outage to alert on)
+- Follow-up: W must provide Vercel project URL + token (or uptime URL) before this cron becomes meaningful
+- Previous identical finding: 2026-06-05 23:42 UTC (run 24b4d462)
+
+[2026-06-06 00:44 UTC] DMD DEPLOY CHECK #2
+- Source: cron b0a55e6e (Dubai - Deploy Check), run triggered
+- Status: ⚠️  UNCONFIGURED — cannot perform check
+- Findings (same as #1 38min ago):
+  * deploy/ dir contains only status.log (no scripts, no config)
+  * no vercel.json anywhere in repo
+  * no .vercel/ directory
+  * no vercel.app / dmd-*.vercel URL in any code, config, or md file
+  * no Vercel API token, no UPTIME_URL, no PING_URL in env
+  * no production deploy has ever occurred — repo is content/translation/SEO work only
+  * last 5 commits: e28e555 (translations), 719a19a (SEO pédiatre), b3a70ab (SEO derma/ortho), 3310478 (translations), c2e60ef (data-quality)
+- Action: NO_REPLY (no site to check, no outage to alert on)
+- Follow-up (UNCHANGED): W must provide one of:
+    1. Vercel project URL + VERCEL_TOKEN → enable real status check
+    2. OR a public uptime endpoint (healthchecks.io / BetterStack / Cronitor ping URL)
+    3. OR remove this cron until DMD is actually deployed
+- Same finding: runs #1 (00:06 UTC), #2 (00:44 UTC) — escalating to W in HEARTBEAT if still unconfigured by 02:00 UTC
+
+[2026-06-06 01:05 UTC] DMD DEPLOY CHECK #3
+- Source: cron b0a55e6e (Dubai - Deploy Check), run triggered
+- Status: ⚠️  UNCONFIGURED — cannot perform check
+- Findings (UNCHANGED from #2, 21min ago):
+  * deploy/ dir contains only status.log (no scripts, no config)
+  * no vercel.json anywhere in repo
+  * no .vercel/ directory
+  * no vercel.app / dmd-*.vercel URL in any code, config, or md file
+  * no Vercel API token, no UPTIME_URL, no PING_URL in env
+  * no production deploy has ever occurred — repo is content/translation/SEO work only
+- Action: NO_REPLY (no site to check, no outage to alert on)
+- Escalation trigger hit: 3 consecutive unconfigured runs within 1h. Will flag W in next HEARTBEAT (per #2 follow-up note).
+- Recommendation (same as #2): provide Vercel project URL + VERCEL_TOKEN, OR uptime endpoint, OR remove cron

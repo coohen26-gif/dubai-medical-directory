@@ -1,0 +1,514 @@
+{
+  "_meta": {
+    "schema_version": "1.1",
+    "generated_at": "2026-06-06T01:09:24+00:00",
+    "generator": "cron:ad25646f-4b17-4eb0-b148-0b7d037c7231 (Dubai - Traduction 5 Langues)",
+    "cycle": "2026-06-06 cycle 05/30min",
+    "previous_cycles": [
+      "fiches-2026-06-05-cycle01.json (5 fiches, fr+ar+en, manual+glossary v0.9)",
+      "fiches-2026-06-06-cycle02.json (5 fiches, fr+ar+en, manual+glossary v1.0)",
+      "fiches-2026-06-06-cycle03.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0 — schema v1.1)",
+      "fiches-2026-06-06-cycle04.json (5 fiches, fr+ar+en only — REGRESSION note: cycle04 lost RU/ZH coverage; cycle05 restores schema v1.1 5-langue)"
+    ],
+    "source_csv": "data/dentists_emirates.csv",
+    "source_rows_total": 6013,
+    "source_rows_translated_to_date": 25,
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "translation_method": "manual+glossary (DeepL API key still unavailable in .env.translator — placeholder)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "field_completeness_note": "Source CSV lacks sub_specialty/bio/services/languages_spoken; bio is synthesized from glossary template, services=[] per source.",
+    "quality_notes": [
+      "Noms : translittération manuelle (AR) + table ISO-9 (RU) + pinyin diacritique (ZH). Validation humaine requise pour AR/RU/ZH.",
+      "Spécialités : 100% alignées avec glossary.md v1.0 (10 specialties dont specialist-dentist fallback).",
+      "Licences : mapping FTL/REG/PTL/VIS aligné glossary.md.",
+      "Émirats : mapping glossary.md (Dubai/Abu Dhabi/Sharjah/Ajman/RAK/Fujairah/UAQ).",
+      "Genre : heuristique étendue cycle05 (Shreekala, Sara ajoutées au set féminin). F pour Samira, Claudia, Shreekala, Sara; M pour Fars.",
+      "Bio : template canonique 5-langue aligné cycle03.",
+      "Cohérence orthodontiste/orthodontist/Ортодонт/正畸医生/أخصائي تقويم الأسنان : VALIDÉE glossary v1.0.",
+      "Services : [] — source CSV ne contient pas la liste, à récupérer depuis source_url."
+    ]
+  },
+  "fiches": [
+    {
+      "id": "samira-diar-bakirly-00023817",
+      "license_number": "00023817",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Samira Diar Bakirly",
+        "fr": "Samira Diar Bakirly",
+        "ar": "سميرة ضار بكرلي",
+        "en": "Samira Diar Bakirly",
+        "ru": "Самира Диар Бакирли",
+        "zh": "Sàmǐlā Díyābā Bākè'ěrlì"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "MICRIS DENTAL CLINIC LLC",
+        "ar": "MICRIS DENTAL CLINIC LLC",
+        "en": "MICRIS DENTAL CLINIC LLC",
+        "ru": "MICRIS DENTAL CLINIC LLC",
+        "zh": "MICRIS DENTAL CLINIC LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Samira Diar Bakirly est orthodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل سميرة ضار بكرلي أخصائي تقويم الأسنان في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Samira Diar Bakirly is an orthodontist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Самира Диар Бакирли — ортодонт в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Sàmǐlā Díyābā Bākè'ěrlì是迪拜的正畸医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00023817",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:09:24+00:00"
+    },
+    {
+      "id": "claudia-lorenz-00023400",
+      "license_number": "00023400",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Claudia Lorenz",
+        "fr": "Claudia Lorenz",
+        "ar": "كلوديا لورينز",
+        "en": "Claudia Lorenz",
+        "ru": "Клаудиа Лоренц",
+        "zh": "Kèláodìyà Luólúncí"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Vienna Dental Clinic Fz LLC",
+        "ar": "Vienna Dental Clinic Fz LLC",
+        "en": "Vienna Dental Clinic Fz LLC",
+        "ru": "Vienna Dental Clinic Fz LLC",
+        "zh": "Vienna Dental Clinic Fz LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Claudia Lorenz est dentiste généraliste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل كلوديا لورينز طبيب أسنان عام في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Claudia Lorenz is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Клаудиа Лоренц — стоматолог общей практики в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Kèláodìyà Luólúncí是迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00023400",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:09:24+00:00"
+    },
+    {
+      "id": "shreekala-thazhe-veedu-00018819",
+      "license_number": "00018819",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Shreekala Thazhe Veedu",
+        "fr": "Shreekala Thazhe Veedu",
+        "ar": "شريكالا تازهي فيدو",
+        "en": "Shreekala Thazhe Veedu",
+        "ru": "Шрикала Тазхе Виду",
+        "zh": "Xīlǐkālā Tǎzéwéidū"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Tadawi Medical Centre",
+        "ar": "Al Tadawi Medical Centre",
+        "en": "Al Tadawi Medical Centre",
+        "ru": "Al Tadawi Medical Centre",
+        "zh": "Al Tadawi Medical Centre"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Shreekala Thazhe Veedu est dentiste généraliste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل شريكالا تازهي فيدو طبيب أسنان عام في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Shreekala Thazhe Veedu is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Шрикала Тазхе Виду — стоматолог общей практики в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Xīlǐkālā Tǎzéwéidū是迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00018819",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:09:24+00:00"
+    },
+    {
+      "id": "fars-qureshi-00019470",
+      "license_number": "00019470",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Fars Qureshi",
+        "fr": "Fars Qureshi",
+        "ar": "فارس قرشي",
+        "en": "Fars Qureshi",
+        "ru": "Фарс Куреши",
+        "zh": "Fǎ'ěrsī Kùlèxī"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Symbiosis Medical Centre Fzco",
+        "ar": "Symbiosis Medical Centre Fzco",
+        "en": "Symbiosis Medical Centre Fzco",
+        "ru": "Symbiosis Medical Centre Fzco",
+        "zh": "Symbiosis Medical Centre Fzco"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Fars Qureshi est dentiste généraliste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل فارس قرشي طبيب أسنان عام في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Fars Qureshi is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Фарс Куреши — стоматолог общей практики в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Fǎ'ěrsī Kùlèxī是迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00019470",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:09:24+00:00"
+    },
+    {
+      "id": "sara-abdelhady-00031860",
+      "license_number": "00031860",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Sara Abdelhady",
+        "fr": "Sara Abdelhady",
+        "ar": "سارة عبد الهادي",
+        "en": "Sara Abdelhady",
+        "ru": "Сара Абдельхади",
+        "zh": "Sàlā Ābǔdáihādī"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Mizher Medical Center - PHC",
+        "ar": "Al Mizher Medical Center - PHC",
+        "en": "Al Mizher Medical Center - PHC",
+        "ru": "Al Mizher Medical Center - PHC",
+        "zh": "Al Mizher Medical Center - PHC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Sara Abdelhady est dentiste généraliste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل سارة عبد الهادي طبيب أسنان عام في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Sara Abdelhady is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Сара Абдельхади — стоматолог общей практики в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Sàlā Ābǔdáihādī是迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00031860",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:09:24+00:00"
+    }
+  ]
+}
