@@ -1,0 +1,3 @@
+2026-06-06 02:07:54,702 [INFO] Loaded 6186 existing license_numbers from data/dentists_emirates.csv
+2026-06-06 02:07:54,702 [INFO] Scanning data/dha_sheryan_full.jsonl for Dentist* records…
+2026-06-06 02:07:55,097 [INFO] DONE. scanned=101080 matched=9537 written=0 dup_skip=9537 output=data/dentists_emirates.csv

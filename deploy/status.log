@@ -61,3 +61,22 @@
     2. OR a public uptime endpoint (healthchecks.io / BetterStack / Cronitor ping URL)
     3. OR remove this cron until DMD is actually deployed
 - Cron will keep firing every 30min. Recommend W resolve before 02:00 UTC to avoid further noise.
+
+[2026-06-06 02:04 UTC] DMD DEPLOY CHECK #5
+- Source: cron b0a55e6e (Dubai - Deploy Check), run triggered
+- Status: ⚠️  UNCONFIGURED — cannot perform check
+- Findings (UNCHANGED from #1–#4 — 1h58min total, 4 runs since last):
+  * deploy/ dir contains only status.log (no scripts, no config)
+  * no vercel.json anywhere in repo
+  * no .vercel/ directory
+  * no vercel.app / dmd-*.vercel URL in any code, config, or md file
+  * no Vercel API token, no UPTIME_URL, no PING_URL in env
+  * no production deploy has ever occurred — repo is content/translation/SEO + PG schema work only
+  * Latest commits (since #4): 9d92bfc (5 fiches FR/AR/EN/RU/ZH), e5b09c1 (3 trads FR+EN+AR), 5afd41b (1 fiche), 510e0b5 (P2 SEO), 9b2b9d1 (cycle 09 SEO com)
+  * No env change. No deploy config added.
+- Action: NO_REPLY — site is not deployed (not "down", just non-existent). Escalation already sent at #4 (01:35 UTC).
+- Follow-up (UNCHANGED): W must provide one of:
+    1. Vercel project URL + VERCEL_TOKEN → enable real status check
+    2. OR a public uptime endpoint (healthchecks.io / BetterStack / Cronitor ping URL)
+    3. OR remove this cron until DMD is actually deployed
+- Note: This is run #5 of unconfigured state. HEARTBEAT escalation has fired once (#4). Will continue NO_REPLY until config lands or W removes the cron.
