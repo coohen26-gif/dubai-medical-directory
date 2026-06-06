@@ -1,0 +1,32 @@
+{
+  "id": "ashraf-gad-00219511",
+  "license_number": "00219511",
+  "license_type": "Temps plein",
+  "name": {
+    "original": "Ashraf Gad",
+    "fr": "Ashraf Gad"
+  },
+  "specialty": "Implantologue",
+  "sub_specialty": null,
+  "facility": "Dr Gad Dental Clinic L.L.C",
+  "area": "Dr Gad Dental Clinic L.L.C, Dubaï, Émirats arabes unis",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Ashraf Gad est implantologue à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:59:43Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00219511",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 3810
+  }
+}

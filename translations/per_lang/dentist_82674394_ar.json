@@ -1,0 +1,33 @@
+{
+  "id": "esra-guzeldemir-akcakanat-82674394",
+  "license_number": "82674394",
+  "license_type": "دوام كامل",
+  "name": {
+    "original": "Esra Guzeldemir Akcakanat",
+    "ar": "إسراء قزدمير أكچاكانات"
+  },
+  "specialty": "أخصائي أمراض اللثة",
+  "sub_specialty": null,
+  "facility": "BIN ARAB DENTAL CENTRE L.L.C",
+  "area": "BIN ARAB DENTAL CENTRE L.L.C, دبي, الإمارات العربية المتحدة",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "تعمل إسراء قزدمير أكچاكانات أخصائي أمراض اللثة في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en",
+    "tr"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:59:43Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=82674394",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 9821
+  }
+}

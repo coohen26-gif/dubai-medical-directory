@@ -1,0 +1,32 @@
+{
+  "id": "ashraf-gad-00219511",
+  "license_number": "00219511",
+  "license_type": "Полная занятость",
+  "name": {
+    "original": "Ashraf Gad",
+    "ru": "Ашраф Гад"
+  },
+  "specialty": "Имплантолог",
+  "sub_specialty": null,
+  "facility": "Dr Gad Dental Clinic L.L.C",
+  "area": "Dr Gad Dental Clinic L.L.C, Дубай, Объединённые Арабские Эмираты",
+  "city": "Дубай",
+  "country": "Объединённые Арабские Эмираты",
+  "country_short": "ОАЭ",
+  "category": "dentists",
+  "bio": "Ашраф Гад — имплантолог в Дубае, ОАЭ. Он имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:59:43Z",
+  "_lang": "ru",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00219511",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 3810
+  }
+}

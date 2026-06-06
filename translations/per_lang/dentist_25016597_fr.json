@@ -1,0 +1,32 @@
+{
+  "id": "amirah-alnour-25016597",
+  "license_number": "25016597",
+  "license_type": "Licence régulière",
+  "name": {
+    "original": "Amirah Alnour",
+    "fr": "Amirah Alnour"
+  },
+  "specialty": "Dentiste spécialiste",
+  "sub_specialty": null,
+  "facility": "",
+  "area": "Dubai, Dubaï, Émirats arabes unis",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Amirah Alnour est dentiste spécialiste à Dubaï, EAU. Licenciée sous licence régulière délivrée par la Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:59:43Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=25016597",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 8412
+  }
+}

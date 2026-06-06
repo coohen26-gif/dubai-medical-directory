@@ -1,0 +1,32 @@
+{
+  "id": "ashraf-gad-00219511",
+  "license_number": "00219511",
+  "license_type": "全职执照",
+  "name": {
+    "original": "Ashraf Gad",
+    "zh": "阿什拉夫 贾德"
+  },
+  "specialty": "种植牙医生",
+  "sub_specialty": null,
+  "facility": "Dr Gad Dental Clinic L.L.C",
+  "area": "Dr Gad Dental Clinic L.L.C, 迪拜, 阿拉伯联合酋长国",
+  "city": "迪拜",
+  "country": "阿拉伯联合酋长国",
+  "country_short": "阿联酋",
+  "category": "dentists",
+  "bio": "阿什拉夫 贾德是位于迪拜（阿联酋）的种植牙医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:59:43Z",
+  "_lang": "zh",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00219511",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 3810
+  }
+}

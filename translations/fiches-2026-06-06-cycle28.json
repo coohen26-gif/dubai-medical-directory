@@ -1,0 +1,135 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T07:59:43Z",
+    "generator": "build_cycle28.py",
+    "cron": "6e3d697a-91cb-4475-872a-8ab965e7ba7f",
+    "cron_name": "Dubai - Translation & Localization",
+    "cycle": "2026-06-06 cycle 28/30min",
+    "previous_cycle": "2026-06-06 cycle 27/30min (115 fiches cumul)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "new_fiches": 5,
+    "fill_fiches": 0,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "restorative-dentist": 1,
+      "specialist-dentist": 1,
+      "pediatric-dentist": 1,
+      "periodontist": 1,
+      "implantologist": 1
+    },
+    "gender_mix": {
+      "F": 4,
+      "M": 1
+    },
+    "license_mix": {
+      "FTL": 4,
+      "REG": 1
+    },
+    "nationality_mix": {
+      "Egypt/Sudan": 1,
+      "Sudan": 1,
+      "India": 1,
+      "Turkey": 1,
+      "Egypt": 1
+    },
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle28_notes": [
+      "Cible cycle 28 = 5 fiches × 5 langues = 25 traductions (NO_REPLY cron, cadence 30min)",
+      "1× Restorative Dentist (Abeer Awad Elkaim 00108639 EG/SD — FTL, F, Abeer عبير 'fragrant' + Awad عوض 'return' + Elkaim الكائم patronyme Kordofan)",
+      "1× Specialist Dentist  (Amirah Alnour 25016597 SD — REG, F, Amirah أميرة 'princess' + Alnour النور 'the light' patronyme soudanais)",
+      "1× Pediatric Dentist  (Simran Kaur Sura 65010288 IN/Sikh-Punjabi — FTL, F, Simran सिमरन 'remembrance' + Kaur कौर 'princess' Sikh + Sura سورا Punjabi)",
+      "1× Periodontist       (Esra Guzeldemir Akcakanat 82674394 TR — FTL, F, Esra إسراء + Guzeldemir قزدمير 'rose-iron' + Akcakanat أكچاكانات TR compound)",
+      "1× Dental Implant     (Ashraf Gad 00219511 EG — FTL, M, Ashraf أشرف 'most noble' + Gad جاد 'serious/generous' Egyptian)",
+      "Diversification specialties : 5 distinctes (Restorative, Specialist, Pediatric, Periodontist, Implantologist)",
+      "Mix national : EG/SD + SD + IN/Sikh + TR + EG = 4 origines arabe, 1 indien Sikh, 1 turc (PREMIER praticien TURC du dataset)",
+      "Mix genres : F=4 (Abeer, Amirah, Simran, Esra) / M=1 (Ashraf) — rééquilibrage après biais M cycle 27",
+      "Mix licences : 4 FTL + 1 REG (variation cycle 28)",
+      "Mapping NAME_TRANS : 19 nouveaux tokens translittérés (abeer, awad, elkaim, el-kaim, amirah, alnour, al-nour, simran, kaur, sura, esra, guzeldemir, güzel, demir, akcakanat, akca, kanat, ashraf, gad)",
+      "Languages spoken extraites depuis CSV (Abeer: ar+en ; Amirah: ar+en ; Simran: en+hi+pa ; Esra: en+tr+ar ; Ashraf: ar+en) — 5/5 trilingues ou plus",
+      "Cohérence terminologique specialties vérifiée vs glossary v1.0 : Specialist Dentist/Dentiste spécialiste/طبيب أسنان أخصائي/Стоматолог-специалист/专科牙医 ✅",
+      "Schéma per_lang v1.5 stable : 5 langues × 14 champs localisés par fiche",
+      "Aucun problème de traduction critique",
+      "Note localisée : Esra Guzeldemir Akcakanat — prénom turc 'Esra' translittéré comme إسراء en AR (forme arabe), nom de famille Akcakanat préservé phonétiquement (TUR > AR mapping non-standard, OK)"
+    ]
+  },
+  "new_fiches": [
+    {
+      "id": "00108639",
+      "license_number": "00108639",
+      "name": "Abeer Awad Elkaim",
+      "specialty": "restorative-dentist",
+      "license_type": "FTL",
+      "nationality": "Egypt/Sudan",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "id": "25016597",
+      "license_number": "25016597",
+      "name": "Amirah Alnour",
+      "specialty": "specialist-dentist",
+      "license_type": "REG",
+      "nationality": "Sudan",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "ar",
+        "en"
+      ]
+    },
+    {
+      "id": "65010288",
+      "license_number": "65010288",
+      "name": "Simran Kaur Sura",
+      "specialty": "pediatric-dentist",
+      "license_type": "FTL",
+      "nationality": "India",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en",
+        "hi",
+        "pa"
+      ]
+    },
+    {
+      "id": "82674394",
+      "license_number": "82674394",
+      "name": "Esra Guzeldemir Akcakanat",
+      "specialty": "periodontist",
+      "license_type": "FTL",
+      "nationality": "Turkey",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "ar",
+        "en",
+        "tr"
+      ]
+    },
+    {
+      "id": "00219511",
+      "license_number": "00219511",
+      "name": "Ashraf Gad",
+      "specialty": "implantologist",
+      "license_type": "FTL",
+      "nationality": "Egypt",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "ar",
+        "en"
+      ]
+    }
+  ],
+  "fill_fiches": []
+}

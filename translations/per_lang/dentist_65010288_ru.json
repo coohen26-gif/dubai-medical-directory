@@ -1,0 +1,33 @@
+{
+  "id": "simran-kaur-sura-65010288",
+  "license_number": "65010288",
+  "license_type": "Полная занятость",
+  "name": {
+    "original": "Simran Kaur Sura",
+    "ru": "Симран Каур Сура"
+  },
+  "specialty": "Детский стоматолог",
+  "sub_specialty": null,
+  "facility": "Leila Hariri Dental and Medical Aesthetics LLC",
+  "area": "Leila Hariri Dental and Medical Aesthetics LLC, Дубай, Объединённые Арабские Эмираты",
+  "city": "Дубай",
+  "country": "Объединённые Арабские Эмираты",
+  "country_short": "ОАЭ",
+  "category": "dentists",
+  "bio": "Симран Каур Сура — детский стоматолог в Дубае, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "en",
+    "hi",
+    "pa"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:59:43Z",
+  "_lang": "ru",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=65010288",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 9021
+  }
+}

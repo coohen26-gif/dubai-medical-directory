@@ -1,0 +1,32 @@
+{
+  "id": "amirah-alnour-25016597",
+  "license_number": "25016597",
+  "license_type": "Regular License",
+  "name": {
+    "original": "Amirah Alnour",
+    "en": "Amirah Alnour"
+  },
+  "specialty": "Specialist Dentist",
+  "sub_specialty": null,
+  "facility": "",
+  "area": "Dubai, Dubai, United Arab Emirates",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "country_short": "UAE",
+  "category": "dentists",
+  "bio": "Amirah Alnour is a Specialist Dentist based in Dubai, UAE. She holds a Regular License issued by the Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:59:43Z",
+  "_lang": "en",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=25016597",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 8412
+  }
+}

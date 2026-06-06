@@ -1,0 +1,33 @@
+{
+  "id": "esra-guzeldemir-akcakanat-82674394",
+  "license_number": "82674394",
+  "license_type": "Полная занятость",
+  "name": {
+    "original": "Esra Guzeldemir Akcakanat",
+    "ru": "Эсра Гюзельдемир Акчаканат"
+  },
+  "specialty": "Пародонтолог",
+  "sub_specialty": null,
+  "facility": "BIN ARAB DENTAL CENTRE L.L.C",
+  "area": "BIN ARAB DENTAL CENTRE L.L.C, Дубай, Объединённые Арабские Эмираты",
+  "city": "Дубай",
+  "country": "Объединённые Арабские Эмираты",
+  "country_short": "ОАЭ",
+  "category": "dentists",
+  "bio": "Эсра Гюзельдемир Акчаканат — пародонтолог в Дубае, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en",
+    "tr"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T07:59:43Z",
+  "_lang": "ru",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=82674394",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 9821
+  }
+}
