@@ -1,0 +1,517 @@
+{
+  "_meta": {
+    "schema_version": "1.1",
+    "generated_at": "2026-06-06T01:38:30+00:00",
+    "generator": "cron:ad25646f-4b17-4eb0-b148-0b7d037c7231 (Dubai - Traduction 5 Langues)",
+    "cycle": "2026-06-06 cycle 07/30min",
+    "previous_cycles": [
+      "fiches-2026-06-05-cycle01.json (5 fiches, fr+ar+en, manual+glossary v0.9)",
+      "fiches-2026-06-06-cycle02.json (5 fiches, fr+ar+en, manual+glossary v1.0)",
+      "fiches-2026-06-06-cycle03.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0 — schema v1.1)",
+      "fiches-2026-06-06-cycle04.json (5 fiches, fr+ar+en only — REGRESSION note: cycle04 lost RU/ZH coverage; cycle05 restored schema v1.1 5-langue)",
+      "fiches-2026-06-06-cycle05.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0, specialty mix: orthodontist+4×general-dentist)",
+      "fiches-2026-06-06-cycle06.json (5 fiches, fr+ar+en+ru+zh, manual+glossary v1.0, specialty mix: 4×general-dentist+1×prosthodontist, name origins: arabe/allemand/indien/pakistanais/égyptien)"
+    ],
+    "source_csv": "data/dentists_emirates.csv",
+    "source_rows_total": 6186,
+    "source_rows_translated_to_date": 35,
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "translation_method": "manual+glossary (DeepL API key still unavailable in .env.translator — placeholder)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "field_completeness_note": "Source CSV lacks sub_specialty/bio/services/languages_spoken; bio is synthesized from glossary template, services=[] per source.",
+    "quality_notes": [
+      "Noms : translittération manuelle (AR) + table ISO-9 (RU) + pinyin diacritique (ZH). Validation humaine requise pour AR/RU/ZH.",
+      "Spécialités : 100% alignées avec glossary.md v1.0. Ce cycle inclut 2× Dental Implant correctement mappées vers implantologist (slug = 'dental-implant' en CSV → implantologist en glossary). Le mapping specialty_slug() utilise la règle 'if implant in s' qui couvre 'Dental Implant' (cycle07 première occurrence).",
+      "Licences : mapping FTL/REG/PTL/VIS aligné glossary.md (toutes FTL ce cycle).",
+      "Émirats : tous Dubai ce cycle (mapping glossary.md).",
+      "Genre : heuristique étendue cycle07 (Seema, Farha, Edna ajoutées au set féminin; Anas confirmé masculin — terminaison 's' non couverte par heuristique '-a', donc liste explicite). F pour Seema, Farha, Sara Ostovar, Edna ; M pour Anas.",
+      "Bio : template canonique 5-langue aligné cycle05/06.",
+      "Origine des noms cycle07 : syrien/libanais (Anas Karkout), indien (Seema Vohra), palestinien (Farha Baalawi), iranien (Sara Ostovar Zijerdi), philippin/espagnol (Edna Trinidad). Variété maintenue vs cycles précédents.",
+      "Translittérations Zijerdi (persan) → زيرجردي (AR) / Зиджерди (RU, source 2 prononciations distinctes possibles: Zijerdi ou Zijerdī, retenu la forme commune).",
+      "Services : [] — source CSV ne contient pas la liste, à récupérer depuis source_url."
+    ]
+  },
+  "fiches": [
+    {
+      "id": "anas-karkout-00040970",
+      "license_number": "00040970",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Anas Karkout",
+        "fr": "Anas Karkout",
+        "ar": "أنس كركوت",
+        "en": "Anas Karkout",
+        "ru": "Анас Каркут",
+        "zh": "Ānnàsī Kǎ'ěrkùtè"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "fr": "Implantologue",
+        "ar": "أخصائي زراعة الأسنان",
+        "en": "Implantologist",
+        "ru": "Имплантолог",
+        "zh": "种植牙医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Dr Aburas Dental Center LLC (Branch)",
+        "ar": "Dr Aburas Dental Center LLC (Branch)",
+        "en": "Dr Aburas Dental Center LLC (Branch)",
+        "ru": "Dr Aburas Dental Center LLC (Branch)",
+        "zh": "Dr Aburas Dental Center LLC (Branch)"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Anas Karkout est implantologue à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "يعمل أنس كركوت أخصائي زراعة الأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Anas Karkout is an implantologist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Анас Каркут — имплантолог в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Ānnàsī Kǎ'ěrkùtè是迪拜的种植牙医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "m",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00040970",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:38:30+00:00"
+    },
+    {
+      "id": "seema-vohra-00064404",
+      "license_number": "00064404",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Seema Vohra",
+        "fr": "Seema Vohra",
+        "ar": "سيما فورا",
+        "en": "Seema Vohra",
+        "ru": "Сима Вохра",
+        "zh": "Xīmǎ Wòhélā"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Jts Medical Centre LLC",
+        "ar": "Jts Medical Centre LLC",
+        "en": "Jts Medical Centre LLC",
+        "ru": "Jts Medical Centre LLC",
+        "zh": "Jts Medical Centre LLC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Seema Vohra est dentiste généraliste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل سيما فورا طبيب أسنان عام في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Seema Vohra is a general dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Сима Вохра — стоматолог общей практики в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Xīmǎ Wòhélā是迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00064404",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:38:30+00:00"
+    },
+    {
+      "id": "farha-baalawi-00067520",
+      "license_number": "00067520",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Farha Baalawi",
+        "fr": "Farha Baalawi",
+        "ar": "فرحة بعالوي",
+        "en": "Farha Baalawi",
+        "ru": "Фарха Бааляви",
+        "zh": "Fālèhā Bā'ālǔwéi"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Al Barsha Medical Center - PHC",
+        "ar": "Al Barsha Medical Center - PHC",
+        "en": "Al Barsha Medical Center - PHC",
+        "ru": "Al Barsha Medical Center - PHC",
+        "zh": "Al Barsha Medical Center - PHC"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Farha Baalawi est pédodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل فرحة بعالوي أخصائي أسنان الأطفال في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Farha Baalawi is a pediatric dentist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Фарха Бааляви — детский стоматолог в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Fālèhā Bā'ālǔwéi是迪拜的儿童牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00067520",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:38:30+00:00"
+    },
+    {
+      "id": "sara-ostovar-zijerdi-00067503",
+      "license_number": "00067503",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Sara Ostovar Zijerdi",
+        "fr": "Sara Ostovar Zijerdi",
+        "ar": "سارة استوار زيرجردي",
+        "en": "Sara Ostovar Zijerdi",
+        "ru": "Сара Остовар Зиджерди",
+        "zh": "Sàlā Àosītuōwǎ'ěr Zījié'ěrdī"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "fr": "Implantologue",
+        "ar": "أخصائي زراعة الأسنان",
+        "en": "Implantologist",
+        "ru": "Имплантолог",
+        "zh": "种植牙医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "Medical Specialists Center(Branch)",
+        "ar": "Medical Specialists Center(Branch)",
+        "en": "Medical Specialists Center(Branch)",
+        "ru": "Medical Specialists Center(Branch)",
+        "zh": "Medical Specialists Center(Branch)"
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Sara Ostovar Zijerdi est implantologue à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل سارة استوار زيرجردي أخصائي زراعة الأسنان في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Sara Ostovar Zijerdi is an implantologist based in Dubai, UAE. Holds a full-time license issued by the Dubai Health Authority (DHA).",
+        "ru": "Сара Остовар Зиджерди — имплантолог в Дубай, ОАЭ. Обладает полной занятости, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Sàlā Àosītuōwǎ'ěr Zījié'ěrdī是迪拜的种植牙医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00067503",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:38:30+00:00"
+    },
+    {
+      "id": "edna-trinidad-00043261",
+      "license_number": "00043261",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "name": {
+        "original": "Edna Trinidad",
+        "fr": "Edna Trinidad",
+        "ar": "إيدنا ترينيداد",
+        "en": "Edna Trinidad",
+        "ru": "Эдна Тринидад",
+        "zh": "Āidēnnà Tèlǐnīdádé"
+      },
+      "specialty": {
+        "slug": "general-dentist",
+        "fr": "Dentiste généraliste",
+        "ar": "طبيب أسنان عام",
+        "en": "General Dentist",
+        "ru": "Стоматолог общей практики",
+        "zh": "全科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "area": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Edna Trinidad est dentiste généraliste à Dubaï, EAU. Licenciée sous licence régulière délivrée par la Dubai Health Authority (DHA).",
+        "ar": "تعمل إيدنا ترينيداد طبيب أسنان عام في دبي، الإمارات. تحمل رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Edna Trinidad is a general dentist based in Dubai, UAE. Holds a regular license issued by the Dubai Health Authority (DHA).",
+        "ru": "Эдна Тринидад — стоматолог общей практики в Дубай, ОАЭ. Обладает обычной лицензией, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Āidēnnà Tèlǐnīdádé是迪拜的全科牙医。持有迪拜卫生局 (DHA) 颁发的普通执照。"
+      },
+      "services": [],
+      "languages_spoken": {
+        "fr": [
+          "en",
+          "ar"
+        ],
+        "ar": [
+          "en",
+          "ar"
+        ],
+        "en": [
+          "en",
+          "ar"
+        ],
+        "ru": [
+          "en",
+          "ar"
+        ],
+        "zh": [
+          "en",
+          "ar"
+        ]
+      },
+      "_gender_heuristic": "f",
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00043261",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "translated_at": "2026-06-06T01:38:30+00:00"
+    }
+  ]
+}
