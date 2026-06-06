@@ -1,0 +1,725 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T05:47:54Z",
+    "generator": "build_cycle21.py",
+    "cron": "6e3d697a-91cb-4475-872a-8ab965e7ba7f",
+    "cron_name": "Dubai - Translation & Localization",
+    "cycle": "2026-06-06 cycle 21/30min",
+    "previous_cycle": "2026-06-06 cycle 20/30min (95 fiches cumul)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "new_fiches": 5,
+    "fill_fiches": 0,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "pediatric-dentist": 1,
+      "periodontist": 1,
+      "prosthodontist": 1,
+      "implantologist": 1,
+      "restorative-dentist": 1
+    },
+    "gender_mix": {
+      "M": 1,
+      "F": 4
+    },
+    "license_mix": {
+      "FTL": 4,
+      "REG": 1
+    },
+    "nationality_mix": {
+      "IN": 1,
+      "LB": 1,
+      "RU": 1,
+      "IR": 2
+    },
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle21_notes": [
+      "1× Pediatric Dentist (Sana Patel, 11760430) — Inde (Sana सना 'praise' hindi / Patel पटेल gujarati)",
+      "1× Periodontist (Marwan Serhal, 00246759) — Liban (Marwan مروان 'lucky/flint' / Serhal سرحال patronyme libanais)",
+      "1× Prosthodontist (Rian Kalafatova, 00244673) — russe/translit (Rian prénom iranien / Kalafatova patronyme slave)",
+      "1× Implantologist (Sara Ostovar Zijerdi, 00067503) — Iran (Sara سارا 'princess' / Ostovar استوار 'stable' / Zijerdi زيردي 'turquoise' persan)",
+      "1× Restorative Dentist (Ensiyeh Rashvand, 95058696) — Iran (Ensiyeh انسيه persan / Rashvand راشوند patronyme iranien)",
+      "Diversification : 5 specialties distinctes (0 chevauchement avec cycles 1-20) — focus sous-représentation",
+      "4 nationalités distinctes (IN, LB, RU, IR×2) — diversification Moyen-Orient + CEI + sous-continent indien",
+      "Mapping NAME_TRANS : 5 entrées translittérées EN→AR/RU/ZH avec AR natif pour libanais + iranien",
+      "Cohérence terminologique maintenue sur 13 specialties glossary v1.0 (validé cycles 1-20)",
+      "Schema v1.5 stable : 5 langues (FR/AR/EN/RU/ZH), 8 champs localisés (name, specialty, bio, services, languages_spoken, city, license_type, source_license)"
+    ]
+  },
+  "new_fiches": [
+    {
+      "id": "11760430",
+      "license_number": "11760430",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "IN",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "orig": "Pediatric Dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "Medcare Royal Speciality Hospital (Br of Medcare Hospital LLC)",
+      "fr": {
+        "name": "Sana Patel",
+        "specialty": "Pédodontiste",
+        "sub_specialty": null,
+        "bio": "Sana Patel est Pédodontiste à Dubaï, EAU. Licencié sous licence Temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "",
+        "source_license": "11760430"
+      },
+      "ar": {
+        "name": "سانا باتيل",
+        "specialty": "أخصائي أسنان الأطفال",
+        "sub_specialty": null,
+        "bio": "يعمل سانا باتيل أخصائي أسنان الأطفال في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "",
+        "source_license": "11760430"
+      },
+      "en": {
+        "name": "Sana Patel",
+        "specialty": "Pediatric Dentist",
+        "sub_specialty": null,
+        "bio": "Sana Patel is a Pediatric Dentist based in Dubai, UAE. Licensed by the Dubai Health Authority (DHA) under a Full-Time License.",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "",
+        "source_license": "11760430"
+      },
+      "ru": {
+        "name": "Сана Патель",
+        "specialty": "Детский стоматолог",
+        "sub_specialty": null,
+        "bio": "Сана Патель — Детский стоматолог в городе Дубай, ОАЭ. Имеет Полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "",
+        "source_license": "11760430"
+      },
+      "zh": {
+        "name": "萨娜 帕特尔",
+        "specialty": "儿童牙医",
+        "sub_specialty": null,
+        "bio": "萨娜 帕特尔是位于迪拜（阿联酋）的儿童牙医。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "",
+        "source_license": "11760430"
+      }
+    },
+    {
+      "id": "00246759",
+      "license_number": "00246759",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "LB",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "periodontist",
+        "orig": "Periodontist",
+        "fr": "Parodontiste",
+        "ar": "أخصائي أمراض اللثة",
+        "en": "Periodontist",
+        "ru": "Пародонтолог",
+        "zh": "牙周病医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "M",
+      "clinic_name": "SMILE AVENUE DENTAL AND AESTHETIC CLINIC L.L.C",
+      "fr": {
+        "name": "Marwan Serhal",
+        "specialty": "Parodontiste",
+        "sub_specialty": null,
+        "bio": "Marwan Serhal est Parodontiste à Dubaï, EAU. Licencié sous licence Temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "",
+        "source_license": "00246759"
+      },
+      "ar": {
+        "name": "مروان سرحال",
+        "specialty": "أخصائي أمراض اللثة",
+        "sub_specialty": null,
+        "bio": "يعمل مروان سرحال أخصائي أمراض اللثة في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "",
+        "source_license": "00246759"
+      },
+      "en": {
+        "name": "Marwan Serhal",
+        "specialty": "Periodontist",
+        "sub_specialty": null,
+        "bio": "Marwan Serhal is a Periodontist based in Dubai, UAE. Licensed by the Dubai Health Authority (DHA) under a Full-Time License.",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "",
+        "source_license": "00246759"
+      },
+      "ru": {
+        "name": "Марван Серхал",
+        "specialty": "Пародонтолог",
+        "sub_specialty": null,
+        "bio": "Марван Серхал — Пародонтолог в городе Дубай, ОАЭ. Имеет Полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "",
+        "source_license": "00246759"
+      },
+      "zh": {
+        "name": "马万 塞尔哈尔",
+        "specialty": "牙周病医生",
+        "sub_specialty": null,
+        "bio": "马万 塞尔哈尔是位于迪拜（阿联酋）的牙周病医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "",
+        "source_license": "00246759"
+      }
+    },
+    {
+      "id": "00244673",
+      "license_number": "00244673",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "RU",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "orig": "Prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist",
+        "ru": "Ортопед-стоматолог",
+        "zh": "修复科牙医"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "STANDARD MEDICAL CLINIC L L C",
+      "fr": {
+        "name": "Rian Kalafatova",
+        "specialty": "Prosthodontiste",
+        "sub_specialty": null,
+        "bio": "Rian Kalafatova est Prosthodontiste à Dubaï, EAU. Licencié sous licence Temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "",
+        "source_license": "00244673"
+      },
+      "ar": {
+        "name": "ريان كالافاتوفا",
+        "specialty": "أخصائي التركيبات السنية",
+        "sub_specialty": null,
+        "bio": "يعمل ريان كالافاتوفا أخصائي التركيبات السنية في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "",
+        "source_license": "00244673"
+      },
+      "en": {
+        "name": "Rian Kalafatova",
+        "specialty": "Prosthodontist",
+        "sub_specialty": null,
+        "bio": "Rian Kalafatova is a Prosthodontist based in Dubai, UAE. Licensed by the Dubai Health Authority (DHA) under a Full-Time License.",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "",
+        "source_license": "00244673"
+      },
+      "ru": {
+        "name": "Риан Калафатова",
+        "specialty": "Ортопед-стоматолог",
+        "sub_specialty": null,
+        "bio": "Риан Калафатова — Ортопед-стоматолог в городе Дубай, ОАЭ. Имеет Полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "",
+        "source_license": "00244673"
+      },
+      "zh": {
+        "name": "里安 卡拉法托娃",
+        "specialty": "修复科牙医",
+        "sub_specialty": null,
+        "bio": "里安 卡拉法托娃是位于迪拜（阿联酋）的修复科牙医。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "",
+        "source_license": "00244673"
+      }
+    },
+    {
+      "id": "00067503",
+      "license_number": "00067503",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "Iran",
+        "code": "IR",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "orig": "Dental Implant",
+        "fr": "Implantologue",
+        "ar": "أخصائي زراعة الأسنان",
+        "en": "Implantologist",
+        "ru": "Имплантолог",
+        "zh": "种植牙医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "Medical Specialists Center(Branch)",
+      "fr": {
+        "name": "Sara Ostovar Zijerdi",
+        "specialty": "Implantologue",
+        "sub_specialty": null,
+        "bio": "Sara Ostovar Zijerdi est Implantologue à Dubaï, EAU. Licencié sous licence Temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "",
+        "source_license": "00067503"
+      },
+      "ar": {
+        "name": "سارا استوار زيردي",
+        "specialty": "أخصائي زراعة الأسنان",
+        "sub_specialty": null,
+        "bio": "يعمل سارا استوار زيردي أخصائي زراعة الأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "",
+        "source_license": "00067503"
+      },
+      "en": {
+        "name": "Sara Ostovar Zijerdi",
+        "specialty": "Implantologist",
+        "sub_specialty": null,
+        "bio": "Sara Ostovar Zijerdi is a Implantologist based in Dubai, UAE. Licensed by the Dubai Health Authority (DHA) under a Full-Time License.",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "",
+        "source_license": "00067503"
+      },
+      "ru": {
+        "name": "Сара Остовар Зижерди",
+        "specialty": "Имплантолог",
+        "sub_specialty": null,
+        "bio": "Сара Остовар Зижерди — Имплантолог в городе Дубай, ОАЭ. Имеет Полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "",
+        "source_license": "00067503"
+      },
+      "zh": {
+        "name": "萨拉 奥斯托瓦尔 齐杰尔迪",
+        "specialty": "种植牙医生",
+        "sub_specialty": null,
+        "bio": "萨拉 奥斯托瓦尔 齐杰尔迪是位于迪拜（阿联酋）的种植牙医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "",
+        "source_license": "00067503"
+      }
+    },
+    {
+      "id": "95058696",
+      "license_number": "95058696",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "IR",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "restorative-dentist",
+        "orig": "Restorative Dentist",
+        "fr": "Dentiste restaurateur",
+        "ar": "طبيب ترميم الأسنان",
+        "en": "Restorative Dentist",
+        "ru": "Стоматолог-реставратор",
+        "zh": "修复牙医"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "",
+      "fr": {
+        "name": "Ensiyeh Rashvand",
+        "specialty": "Dentiste restaurateur",
+        "sub_specialty": null,
+        "bio": "Ensiyeh Rashvand est Dentiste restaurateur à Dubaï, EAU. Licencié sous licence Licence régulière délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Licence régulière",
+        "nationality": "",
+        "source_license": "95058696"
+      },
+      "ar": {
+        "name": "انسيه راشوند",
+        "specialty": "طبيب ترميم الأسنان",
+        "sub_specialty": null,
+        "bio": "يعمل انسيه راشوند طبيب ترميم الأسنان في دبي، الإمارات. يحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "رخصة منتظمة",
+        "nationality": "",
+        "source_license": "95058696"
+      },
+      "en": {
+        "name": "Ensiyeh Rashvand",
+        "specialty": "Restorative Dentist",
+        "sub_specialty": null,
+        "bio": "Ensiyeh Rashvand is a Restorative Dentist based in Dubai, UAE. Licensed by the Dubai Health Authority (DHA) under a Regular License.",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Regular License",
+        "nationality": "",
+        "source_license": "95058696"
+      },
+      "ru": {
+        "name": "Энсийе Рашванд",
+        "specialty": "Стоматолог-реставратор",
+        "sub_specialty": null,
+        "bio": "Энсийе Рашванд — Стоматолог-реставратор в городе Дубай, ОАЭ. Имеет Обычная лицензия, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Обычная лицензия",
+        "nationality": "",
+        "source_license": "95058696"
+      },
+      "zh": {
+        "name": "恩西耶 拉什万德",
+        "specialty": "修复牙医",
+        "sub_specialty": null,
+        "bio": "恩西耶 拉什万德是位于迪拜（阿联酋）的修复牙医。持有由迪拜卫生局 (DHA) 颁发的普通执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "普通执照",
+        "nationality": "",
+        "source_license": "95058696"
+      }
+    }
+  ]
+}

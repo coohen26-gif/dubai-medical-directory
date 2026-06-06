@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T06:16:47Z",
+    "generator": "build_cycle23.py",
+    "cron": "6e3d697a-91cb-4475-872a-8ab965e7ba7f",
+    "cron_name": "Dubai - Translation & Localization",
+    "cycle": "2026-06-06 cycle 23/30min",
+    "previous_cycle": "2026-06-06 cycle 22/30min",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "new_fiches": 5,
+    "fill_fiches": 0,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "general-dentist": 1,
+      "orthodontist": 1,
+      "oral-surgeon": 1,
+      "periodontist": 1,
+      "implantologist": 1
+    },
+    "gender_mix": {
+      "F": 2,
+      "M": 3
+    },
+    "license_mix": {
+      "REG": 2,
+      "FTL": 3
+    },
+    "nationality_mix": {
+      "Pakistan": 1,
+      "Turkey": 1,
+      "Syria": 1,
+      "India": 1,
+      "Iran": 1
+    },
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle23_notes": [
+      "Cible cycle 23 = 5 fiches × 5 langues = 25 traductions (NO_REPLY cron, cadence normale)",
+      "1× General Dentist (Meena Shahnawaz 00000783 PK — trilingue en/ur/sd)",
+      "1× Orthodontist (Tamer Buyukyilmaz 00087766 TR)",
+      "1× Oral Surgeon (Monir Al Shakaki 00184141 SY)",
+      "1× Periodontist (Smrithi Vishakhavarma 00191631 IN)",
+      "1× Dental Implant (Bizhan Behrouz 00242078 IR)",
+      "Diversification 5 specialties distinctes + 5 nationalités (PK, TR, SY, IN, IR)",
+      "Nouveau : extraction `languages_spoken` avec code ISO Sindhi (sd) ajouté en plus de en/ur — Meena Shahnawaz est trilingue",
+      "Glossaire réutilisé tel quel (v1.0, 5 langues stable depuis cycle 19)",
+      "Mapping NAME_TRANS : 5 nouveaux noms translittérés EN/FR/RU/ZH + AR natif",
+      "Schéma per_lang v1.5 : 5 langues (FR/AR/EN/RU/ZH), 14 champs par fiche",
+      "Aucun problème de traduction critique rencontré"
+    ]
+  },
+  "new_fiches": [
+    {
+      "id": "00000783",
+      "license_number": "00000783",
+      "name": "Meena Shahnawaz",
+      "specialty": "general-dentist",
+      "license_type": "REG",
+      "nationality": "Pakistan",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en",
+        "ur",
+        "sd"
+      ]
+    },
+    {
+      "id": "00087766",
+      "license_number": "00087766",
+      "name": "Tamer Buyukyilmaz",
+      "specialty": "orthodontist",
+      "license_type": "FTL",
+      "nationality": "Turkey",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "00184141",
+      "license_number": "00184141",
+      "name": "Monir Al Shakaki",
+      "specialty": "oral-surgeon",
+      "license_type": "FTL",
+      "nationality": "Syria",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "00191631",
+      "license_number": "00191631",
+      "name": "Smrithi Vishakhavarma",
+      "specialty": "periodontist",
+      "license_type": "FTL",
+      "nationality": "India",
+      "gender_heuristic": "F",
+      "languages_spoken": [
+        "en"
+      ]
+    },
+    {
+      "id": "00242078",
+      "license_number": "00242078",
+      "name": "Bizhan Behrouz",
+      "specialty": "implantologist",
+      "license_type": "REG",
+      "nationality": "Iran",
+      "gender_heuristic": "M",
+      "languages_spoken": [
+        "en"
+      ]
+    }
+  ],
+  "fill_fiches": []
+}

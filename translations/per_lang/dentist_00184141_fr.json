@@ -1,0 +1,31 @@
+{
+  "id": "monir-al-shakaki-00184141",
+  "license_number": "00184141",
+  "license_type": "Temps plein",
+  "name": {
+    "original": "Monir Al Shakaki",
+    "fr": "Monir Al Al Shakaki"
+  },
+  "specialty": "Chirurgien dentiste",
+  "sub_specialty": null,
+  "facility": "",
+  "area": "Dubai, Dubaï, Émirats arabes unis",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Monir Al Al Shakaki est chirurgien dentiste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T06:16:47Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00184141",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 25
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "tamer-buyukyilmaz-00087766",
+  "license_number": "00087766",
+  "license_type": "Full-Time License",
+  "name": {
+    "original": "Tamer Buyukyilmaz",
+    "en": "Tamer Buyukyilmaz"
+  },
+  "specialty": "Orthodontist",
+  "sub_specialty": null,
+  "facility": "",
+  "area": "Dubai, Dubai, United Arab Emirates",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "country_short": "UAE",
+  "category": "dentists",
+  "bio": "Tamer Buyukyilmaz is an Orthodontist based in Dubai, UAE. He holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T06:16:47Z",
+  "_lang": "en",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00087766",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 16
+  }
+}

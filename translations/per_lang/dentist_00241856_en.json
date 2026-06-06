@@ -1,0 +1,18 @@
+{
+  "name": "Shaheen Basheer",
+  "specialty": "Endodontist",
+  "sub_specialty": null,
+  "bio": "Shaheen Basheer is an Endodontist based in Dubai, UAE. He holds a Regular License issued by the Dubai Health Authority (DHA).",
+  "services": [
+    "Consultation",
+    "Diagnostic",
+    "Treatment plan"
+  ],
+  "languages_spoken": [
+    "en"
+  ],
+  "city": "Dubai",
+  "license_type": "Regular License",
+  "nationality": "",
+  "source_license": "00241856"
+}

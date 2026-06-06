@@ -1,0 +1,18 @@
+{
+  "name": "Hany Kasem",
+  "specialty": "Chirurgien dentiste",
+  "sub_specialty": null,
+  "bio": "Hany Kasem est chirurgien dentiste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+  "services": [
+    "Consultation",
+    "Diagnostic",
+    "Plan de traitement"
+  ],
+  "languages_spoken": [
+    "en"
+  ],
+  "city": "Dubaï",
+  "license_type": "Temps plein",
+  "nationality": "Égypte",
+  "source_license": "00037358"
+}

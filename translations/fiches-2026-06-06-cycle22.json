@@ -1,0 +1,2734 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T06:11:25Z",
+    "generator": "build_cycle22.py",
+    "cron": "ad25646f-4b17-4eb0-b148-0b7d037c7231",
+    "cron_name": "Dubai - Traduction 5 Langues (Medical)",
+    "cycle": "2026-06-06 cycle 22/30min",
+    "previous_cycle": "2026-06-06 cycle 21/30min (95 fiches cumul + 5 cycle 21 = 100)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "new_fiches": 20,
+    "fill_fiches": 0,
+    "translations_produced": 100,
+    "specialty_mix": {
+      "prosthodontist": 3,
+      "endodontist": 3,
+      "periodontist": 3,
+      "pediatric-dentist": 3,
+      "oral-surgeon": 3,
+      "orthodontist": 3,
+      "implantologist": 2
+    },
+    "gender_mix": {
+      "F": 14,
+      "M": 6
+    },
+    "license_mix": {
+      "FTL": 15,
+      "REG": 5
+    },
+    "nationality_mix": {
+      "Pakistan": 1,
+      "India": 3,
+      "Iran": 2,
+      "Unknown": 3,
+      "Arab Region": 3,
+      "India/Pakistan": 1,
+      "Egypt": 1,
+      "Syria/Lebanon": 3,
+      "Turkey": 1,
+      "Egypt/Sudan": 1,
+      "Iraq": 1
+    },
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0",
+    "cycle22_notes": [
+      "Cible cycle 22 = 20 fiches × 5 langues = 100 traductions (cadence cible cron)",
+      "3× Prosthodontist (Tameeza Tejani PK, Manikandan Sankaramani IN, Pardis Ghorbani IR)",
+      "3× Endodontist (Tanweer Abdulnabee, Shaheen Basheer, Neha Singh)",
+      "3× Periodontist (Sonum Saileshkumar Vinubhai Patel IN, Onisha Vijaykumar IN, Ahmed Younis AR)",
+      "3× Pediatric Dentist (Lubab Mohammed AR, Dina Al Soud AR, Tahir Shahnawaz IN/PK)",
+      "3× Oral Surgeon (Hany Kasem EG, Darin Mohamad Tabbakh SY/LB, Mohamad Koleilat SY/LB)",
+      "3× Orthodontist (Fatma Oguz TR, Anahita Salehi IR, Nevin Abdelmagid EG/SD)",
+      "2× Dental Implant (Helme Altaee IQ, Mohamad Hadi Bankasli SY/LB)",
+      "Diversification 7 specialties distinctes + 11 nationalités distinctes (PK, IN, IR, AR, EG, SY/LB, TR, IQ, EG/SD, IN/PK, ?)",
+      "Mapping NAME_TRANS : 35 entrées translittérées EN/FR/RU/ZH + AR natif (arabe, persan, hindi/ourdou translittéré)",
+      "Glossaire maintenu : 13 specialties × 5 langues + 4 license types + 4 cities + 11 pays + 35 noms (cohérence v1.0)",
+      "Validation terminologique : orthodontiste (FR) = أخصائي تقويم الأسنان (AR) = Ортодонт (RU) = 正畸医生 (ZH) — aligné glossary.md",
+      "Schema v1.5 stable : 5 langues (FR/AR/EN/RU/ZH), 10 champs (id, license_type, nationality, city, specialty, languages_spoken, clinic_name + fr/ar/en/ru/zh)",
+      "Cumul post-cycle 22 estimé : ~115-120 fiches (65 déjà en per_lang/ + 5 cycle 21 + 20 cycle 22)"
+    ]
+  },
+  "new_fiches": [
+    {
+      "id": "00190271",
+      "license_number": "00190271",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Pakistan",
+        "fr": "Pakistan",
+        "ar": "باكستان",
+        "en": "Pakistan",
+        "ru": "Пакистан",
+        "zh": "巴基斯坦"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "orig": "Prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist",
+        "ru": "Ортопед-стоматолог",
+        "zh": "修复科牙医"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "The Dental Studio",
+      "fr": {
+        "name": "Tameeza Tejani",
+        "specialty": "Prosthodontiste",
+        "sub_specialty": null,
+        "bio": "Tameeza Tejani est prosthodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Pakistan",
+        "source_license": "00190271"
+      },
+      "ar": {
+        "name": "تميزة تجاني",
+        "specialty": "أخصائي التركيبات السنية",
+        "sub_specialty": null,
+        "bio": "تعمل تميزة تجاني أخصائي التركيبات السنية في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "باكستان",
+        "source_license": "00190271"
+      },
+      "en": {
+        "name": "Tameeza Tejani",
+        "specialty": "Prosthodontist",
+        "sub_specialty": null,
+        "bio": "Tameeza Tejani is a Prosthodontist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "Pakistan",
+        "source_license": "00190271"
+      },
+      "ru": {
+        "name": "Тамиза Теджани",
+        "specialty": "Ортопед-стоматолог",
+        "sub_specialty": null,
+        "bio": "Тамиза Теджани — ортопед-стоматолог в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Пакистан",
+        "source_license": "00190271"
+      },
+      "zh": {
+        "name": "塔米扎 特贾尼",
+        "specialty": "修复科牙医",
+        "sub_specialty": null,
+        "bio": "塔米扎 特贾尼是位于迪拜（阿联酋）的修复科牙医。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "巴基斯坦",
+        "source_license": "00190271"
+      }
+    },
+    {
+      "id": "00247720",
+      "license_number": "00247720",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "India",
+        "fr": "Inde",
+        "ar": "الهند",
+        "en": "India",
+        "ru": "Индия",
+        "zh": "印度"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "orig": "Prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist",
+        "ru": "Ортопед-стоматолог",
+        "zh": "修复科牙医"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "M",
+      "clinic_name": "Primecorp Medical Center AL QUSAIS",
+      "fr": {
+        "name": "Manikandan Sankaramani",
+        "specialty": "Prosthodontiste",
+        "sub_specialty": null,
+        "bio": "Manikandan Sankaramani est prosthodontiste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Inde",
+        "source_license": "00247720"
+      },
+      "ar": {
+        "name": "مانيكاندان سانكاراماني",
+        "specialty": "أخصائي التركيبات السنية",
+        "sub_specialty": null,
+        "bio": "يعمل مانيكاندان سانكاراماني أخصائي التركيبات السنية في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "الهند",
+        "source_license": "00247720"
+      },
+      "en": {
+        "name": "Manikandan Sankaramani",
+        "specialty": "Prosthodontist",
+        "sub_specialty": null,
+        "bio": "Manikandan Sankaramani is a Prosthodontist based in Dubai, UAE. He holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "India",
+        "source_license": "00247720"
+      },
+      "ru": {
+        "name": "Маникандан Санкарамани",
+        "specialty": "Ортопед-стоматолог",
+        "sub_specialty": null,
+        "bio": "Маникандан Санкарамани — ортопед-стоматолог в Дубай, ОАЭ. Он имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Индия",
+        "source_license": "00247720"
+      },
+      "zh": {
+        "name": "马尼坎丹 桑卡拉马尼",
+        "specialty": "修复科牙医",
+        "sub_specialty": null,
+        "bio": "马尼坎丹 桑卡拉马尼是位于迪拜（阿联酋）的修复科牙医。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "印度",
+        "source_license": "00247720"
+      }
+    },
+    {
+      "id": "07123104",
+      "license_number": "07123104",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Iran",
+        "fr": "Iran",
+        "ar": "إيران",
+        "en": "Iran",
+        "ru": "Иран",
+        "zh": "伊朗"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "orig": "Prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist",
+        "ru": "Ортопед-стоматолог",
+        "zh": "修复科牙医"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "DentaMed Clinic FZ-LLC",
+      "fr": {
+        "name": "Pardis Ghorbani",
+        "specialty": "Prosthodontiste",
+        "sub_specialty": null,
+        "bio": "Pardis Ghorbani est prosthodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Iran",
+        "source_license": "07123104"
+      },
+      "ar": {
+        "name": "بارديس قرباني",
+        "specialty": "أخصائي التركيبات السنية",
+        "sub_specialty": null,
+        "bio": "تعمل بارديس قرباني أخصائي التركيبات السنية في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "إيران",
+        "source_license": "07123104"
+      },
+      "en": {
+        "name": "Pardis Ghorbani",
+        "specialty": "Prosthodontist",
+        "sub_specialty": null,
+        "bio": "Pardis Ghorbani is a Prosthodontist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "Iran",
+        "source_license": "07123104"
+      },
+      "ru": {
+        "name": "Пардис Горбани",
+        "specialty": "Ортопед-стоматолог",
+        "sub_specialty": null,
+        "bio": "Пардис Горбани — ортопед-стоматолог в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Иран",
+        "source_license": "07123104"
+      },
+      "zh": {
+        "name": "帕尔迪斯 戈尔巴尼",
+        "specialty": "修复科牙医",
+        "sub_specialty": null,
+        "bio": "帕尔迪斯 戈尔巴尼是位于迪拜（阿联酋）的修复科牙医。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "伊朗",
+        "source_license": "07123104"
+      }
+    },
+    {
+      "id": "00227546",
+      "license_number": "00227546",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Unknown",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "endodontist",
+        "orig": "Endodontist",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist",
+        "ru": "Эндодонтист",
+        "zh": "牙髓病医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "M",
+      "clinic_name": "Good Living Medical Centre",
+      "fr": {
+        "name": "Tanweer Abdulnabee",
+        "specialty": "Endodontiste",
+        "sub_specialty": null,
+        "bio": "Tanweer Abdulnabee est endodontiste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "",
+        "source_license": "00227546"
+      },
+      "ar": {
+        "name": "تنوير عبد النبي",
+        "specialty": "أخصائي علاج العصب",
+        "sub_specialty": null,
+        "bio": "يعمل تنوير عبد النبي أخصائي علاج العصب في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "",
+        "source_license": "00227546"
+      },
+      "en": {
+        "name": "Tanweer Abdulnabee",
+        "specialty": "Endodontist",
+        "sub_specialty": null,
+        "bio": "Tanweer Abdulnabee is an Endodontist based in Dubai, UAE. He holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "",
+        "source_license": "00227546"
+      },
+      "ru": {
+        "name": "Танвир Абдулнаби",
+        "specialty": "Эндодонтист",
+        "sub_specialty": null,
+        "bio": "Танвир Абдулнаби — эндодонтист в Дубай, ОАЭ. Он имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "",
+        "source_license": "00227546"
+      },
+      "zh": {
+        "name": "坦维尔 阿卜杜勒纳比",
+        "specialty": "牙髓病医生",
+        "sub_specialty": null,
+        "bio": "坦维尔 阿卜杜勒纳比是位于迪拜（阿联酋）的牙髓病医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "",
+        "source_license": "00227546"
+      }
+    },
+    {
+      "id": "00241856",
+      "license_number": "00241856",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Unknown",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "endodontist",
+        "orig": "Endodontist",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist",
+        "ru": "Эндодонтист",
+        "zh": "牙髓病医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "M",
+      "clinic_name": "",
+      "fr": {
+        "name": "Shaheen Basheer",
+        "specialty": "Endodontiste",
+        "sub_specialty": null,
+        "bio": "Shaheen Basheer est endodontiste à Dubaï, EAU. Licencié sous licence licence régulière délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Licence régulière",
+        "nationality": "",
+        "source_license": "00241856"
+      },
+      "ar": {
+        "name": "شاهين بشير",
+        "specialty": "أخصائي علاج العصب",
+        "sub_specialty": null,
+        "bio": "يعمل شاهين بشير أخصائي علاج العصب في دبي، الإمارات. يحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "رخصة منتظمة",
+        "nationality": "",
+        "source_license": "00241856"
+      },
+      "en": {
+        "name": "Shaheen Basheer",
+        "specialty": "Endodontist",
+        "sub_specialty": null,
+        "bio": "Shaheen Basheer is an Endodontist based in Dubai, UAE. He holds a Regular License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Regular License",
+        "nationality": "",
+        "source_license": "00241856"
+      },
+      "ru": {
+        "name": "Шахин Башир",
+        "specialty": "Эндодонтист",
+        "sub_specialty": null,
+        "bio": "Шахин Башир — эндодонтист в Дубай, ОАЭ. Он имеет обычная лицензия, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Обычная лицензия",
+        "nationality": "",
+        "source_license": "00241856"
+      },
+      "zh": {
+        "name": "沙欣 巴希尔",
+        "specialty": "牙髓病医生",
+        "sub_specialty": null,
+        "bio": "沙欣 巴希尔是位于迪拜（阿联酋）的牙髓病医生。持有由迪拜卫生局 (DHA) 颁发的普通执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "普通执照",
+        "nationality": "",
+        "source_license": "00241856"
+      }
+    },
+    {
+      "id": "00234921",
+      "license_number": "00234921",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Unknown",
+        "fr": "",
+        "ar": "",
+        "en": "",
+        "ru": "",
+        "zh": ""
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "endodontist",
+        "orig": "Endodontist",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist",
+        "ru": "Эндодонтист",
+        "zh": "牙髓病医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "Mint Dental Care LLC",
+      "fr": {
+        "name": "Neha Singh",
+        "specialty": "Endodontiste",
+        "sub_specialty": null,
+        "bio": "Neha Singh est endodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "",
+        "source_license": "00234921"
+      },
+      "ar": {
+        "name": "نيها سينغ",
+        "specialty": "أخصائي علاج العصب",
+        "sub_specialty": null,
+        "bio": "تعمل نيها سينغ أخصائي علاج العصب في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "",
+        "source_license": "00234921"
+      },
+      "en": {
+        "name": "Neha Singh",
+        "specialty": "Endodontist",
+        "sub_specialty": null,
+        "bio": "Neha Singh is an Endodontist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "",
+        "source_license": "00234921"
+      },
+      "ru": {
+        "name": "Неха Сингх",
+        "specialty": "Эндодонтист",
+        "sub_specialty": null,
+        "bio": "Неха Сингх — эндодонтист в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "",
+        "source_license": "00234921"
+      },
+      "zh": {
+        "name": "内哈 辛格",
+        "specialty": "牙髓病医生",
+        "sub_specialty": null,
+        "bio": "内哈 辛格是位于迪拜（阿联酋）的牙髓病医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "",
+        "source_license": "00234921"
+      }
+    },
+    {
+      "id": "23394178",
+      "license_number": "23394178",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "India",
+        "fr": "Inde",
+        "ar": "الهند",
+        "en": "India",
+        "ru": "Индия",
+        "zh": "印度"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "periodontist",
+        "orig": "Periodontist",
+        "fr": "Parodontiste",
+        "ar": "أخصائي أمراض اللثة",
+        "en": "Periodontist",
+        "ru": "Пародонтолог",
+        "zh": "牙周病医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "M",
+      "clinic_name": "THE SMILE COLLECTIVE CLINIC L.L.C",
+      "fr": {
+        "name": "Sonum Saileshkumar Vinubhai Patel",
+        "specialty": "Parodontiste",
+        "sub_specialty": null,
+        "bio": "Sonum Saileshkumar Vinubhai Patel est parodontiste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Inde",
+        "source_license": "23394178"
+      },
+      "ar": {
+        "name": "سونوم سايليشكومار فينوبهاي Patel",
+        "specialty": "أخصائي أمراض اللثة",
+        "sub_specialty": null,
+        "bio": "يعمل سونوم سايليشكومار فينوبهاي Patel أخصائي أمراض اللثة في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "الهند",
+        "source_license": "23394178"
+      },
+      "en": {
+        "name": "Sonum Saileshkumar Vinubhai Patel",
+        "specialty": "Periodontist",
+        "sub_specialty": null,
+        "bio": "Sonum Saileshkumar Vinubhai Patel is a Periodontist based in Dubai, UAE. He holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "India",
+        "source_license": "23394178"
+      },
+      "ru": {
+        "name": "Сонум Саилешкумар Винубхай Пател",
+        "specialty": "Пародонтолог",
+        "sub_specialty": null,
+        "bio": "Сонум Саилешкумар Винубхай Пател — пародонтолог в Дубай, ОАЭ. Он имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Индия",
+        "source_license": "23394178"
+      },
+      "zh": {
+        "name": "索努姆 赛莱什库马尔 维努巴伊 普阿特厄尔",
+        "specialty": "牙周病医生",
+        "sub_specialty": null,
+        "bio": "索努姆 赛莱什库马尔 维努巴伊 普阿特厄尔是位于迪拜（阿联酋）的牙周病医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "印度",
+        "source_license": "23394178"
+      }
+    },
+    {
+      "id": "32369618",
+      "license_number": "32369618",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "India",
+        "fr": "Inde",
+        "ar": "الهند",
+        "en": "India",
+        "ru": "Индия",
+        "zh": "印度"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "periodontist",
+        "orig": "Periodontist",
+        "fr": "Parodontiste",
+        "ar": "أخصائي أمراض اللثة",
+        "en": "Periodontist",
+        "ru": "Пародонтолог",
+        "zh": "牙周病医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "LOTUS DENTAL CLINIC L.L.C (BRANCH)",
+      "fr": {
+        "name": "Onisha Vijaykumar",
+        "specialty": "Parodontiste",
+        "sub_specialty": null,
+        "bio": "Onisha Vijaykumar est parodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Inde",
+        "source_license": "32369618"
+      },
+      "ar": {
+        "name": "أونيشا فيجايكومار",
+        "specialty": "أخصائي أمراض اللثة",
+        "sub_specialty": null,
+        "bio": "تعمل أونيشا فيجايكومار أخصائي أمراض اللثة في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "الهند",
+        "source_license": "32369618"
+      },
+      "en": {
+        "name": "Onisha Vijaykumar",
+        "specialty": "Periodontist",
+        "sub_specialty": null,
+        "bio": "Onisha Vijaykumar is a Periodontist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "India",
+        "source_license": "32369618"
+      },
+      "ru": {
+        "name": "Ониша Виджайкумар",
+        "specialty": "Пародонтолог",
+        "sub_specialty": null,
+        "bio": "Ониша Виджайкумар — пародонтолог в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Индия",
+        "source_license": "32369618"
+      },
+      "zh": {
+        "name": "奥尼莎 维贾伊库马尔",
+        "specialty": "牙周病医生",
+        "sub_specialty": null,
+        "bio": "奥尼莎 维贾伊库马尔是位于迪拜（阿联酋）的牙周病医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "印度",
+        "source_license": "32369618"
+      }
+    },
+    {
+      "id": "60740936",
+      "license_number": "60740936",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Arab Region",
+        "fr": "Monde arabe",
+        "ar": "العالم العربي",
+        "en": "Arab Region",
+        "ru": "Арабский мир",
+        "zh": "阿拉伯地区"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "periodontist",
+        "orig": "Periodontist",
+        "fr": "Parodontiste",
+        "ar": "أخصائي أمراض اللثة",
+        "en": "Periodontist",
+        "ru": "Пародонтолог",
+        "zh": "牙周病医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "M",
+      "clinic_name": "",
+      "fr": {
+        "name": "Ahmed Younis",
+        "specialty": "Parodontiste",
+        "sub_specialty": null,
+        "bio": "Ahmed Younis est parodontiste à Dubaï, EAU. Licencié sous licence licence régulière délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Licence régulière",
+        "nationality": "Monde arabe",
+        "source_license": "60740936"
+      },
+      "ar": {
+        "name": "أحمد يونس",
+        "specialty": "أخصائي أمراض اللثة",
+        "sub_specialty": null,
+        "bio": "يعمل أحمد يونس أخصائي أمراض اللثة في دبي، الإمارات. يحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "رخصة منتظمة",
+        "nationality": "العالم العربي",
+        "source_license": "60740936"
+      },
+      "en": {
+        "name": "Ahmed Younis",
+        "specialty": "Periodontist",
+        "sub_specialty": null,
+        "bio": "Ahmed Younis is a Periodontist based in Dubai, UAE. He holds a Regular License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Regular License",
+        "nationality": "Arab Region",
+        "source_license": "60740936"
+      },
+      "ru": {
+        "name": "Ахмед Юнис",
+        "specialty": "Пародонтолог",
+        "sub_specialty": null,
+        "bio": "Ахмед Юнис — пародонтолог в Дубай, ОАЭ. Он имеет обычная лицензия, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Обычная лицензия",
+        "nationality": "Арабский мир",
+        "source_license": "60740936"
+      },
+      "zh": {
+        "name": "艾哈迈德 尤尼斯",
+        "specialty": "牙周病医生",
+        "sub_specialty": null,
+        "bio": "艾哈迈德 尤尼斯是位于迪拜（阿联酋）的牙周病医生。持有由迪拜卫生局 (DHA) 颁发的普通执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "普通执照",
+        "nationality": "阿拉伯地区",
+        "source_license": "60740936"
+      }
+    },
+    {
+      "id": "00244033",
+      "license_number": "00244033",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Arab Region",
+        "fr": "Monde arabe",
+        "ar": "العالم العربي",
+        "en": "Arab Region",
+        "ru": "Арабский мир",
+        "zh": "阿拉伯地区"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "orig": "Pediatric Dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "Medcare Medical Centre Jumeirah Br Of Medcare Hosp",
+      "fr": {
+        "name": "Lubab Mohammed",
+        "specialty": "Pédodontiste",
+        "sub_specialty": null,
+        "bio": "Lubab Mohammed est pédodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Monde arabe",
+        "source_license": "00244033"
+      },
+      "ar": {
+        "name": "لُبَاب محمد",
+        "specialty": "أخصائي أسنان الأطفال",
+        "sub_specialty": null,
+        "bio": "تعمل لُبَاب محمد أخصائي أسنان الأطفال في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "العالم العربي",
+        "source_license": "00244033"
+      },
+      "en": {
+        "name": "Lubab Mohammed",
+        "specialty": "Pediatric Dentist",
+        "sub_specialty": null,
+        "bio": "Lubab Mohammed is a Pediatric Dentist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "Arab Region",
+        "source_license": "00244033"
+      },
+      "ru": {
+        "name": "Лубаб Мухаммед",
+        "specialty": "Детский стоматолог",
+        "sub_specialty": null,
+        "bio": "Лубаб Мухаммед — детский стоматолог в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Арабский мир",
+        "source_license": "00244033"
+      },
+      "zh": {
+        "name": "卢巴卜 穆罕默德",
+        "specialty": "儿童牙医",
+        "sub_specialty": null,
+        "bio": "卢巴卜 穆罕默德是位于迪拜（阿联酋）的儿童牙医。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "阿拉伯地区",
+        "source_license": "00244033"
+      }
+    },
+    {
+      "id": "72419846",
+      "license_number": "72419846",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Arab Region",
+        "fr": "Monde arabe",
+        "ar": "العالم العربي",
+        "en": "Arab Region",
+        "ru": "Арабский мир",
+        "zh": "阿拉伯地区"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "orig": "Pediatric Dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "",
+      "fr": {
+        "name": "Dina Al Al Soud",
+        "specialty": "Pédodontiste",
+        "sub_specialty": null,
+        "bio": "Dina Al Al Soud est pédodontiste à Dubaï, EAU. Licenciée sous licence licence régulière délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Licence régulière",
+        "nationality": "Monde arabe",
+        "source_license": "72419846"
+      },
+      "ar": {
+        "name": "دينا Al السود",
+        "specialty": "أخصائي أسنان الأطفال",
+        "sub_specialty": null,
+        "bio": "تعمل دينا Al السود أخصائي أسنان الأطفال في دبي، الإمارات. تحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "رخصة منتظمة",
+        "nationality": "العالم العربي",
+        "source_license": "72419846"
+      },
+      "en": {
+        "name": "Dina Al Al Soud",
+        "specialty": "Pediatric Dentist",
+        "sub_specialty": null,
+        "bio": "Dina Al Al Soud is a Pediatric Dentist based in Dubai, UAE. She holds a Regular License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Regular License",
+        "nationality": "Arab Region",
+        "source_license": "72419846"
+      },
+      "ru": {
+        "name": "Дина Ал Аль-Суд",
+        "specialty": "Детский стоматолог",
+        "sub_specialty": null,
+        "bio": "Дина Ал Аль-Суд — детский стоматолог в Дубай, ОАЭ. Она имеет обычная лицензия, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Обычная лицензия",
+        "nationality": "Арабский мир",
+        "source_license": "72419846"
+      },
+      "zh": {
+        "name": "迪娜 阿尔 苏德",
+        "specialty": "儿童牙医",
+        "sub_specialty": null,
+        "bio": "迪娜 阿尔 苏德是位于迪拜（阿联酋）的儿童牙医。持有由迪拜卫生局 (DHA) 颁发的普通执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "普通执照",
+        "nationality": "阿拉伯地区",
+        "source_license": "72419846"
+      }
+    },
+    {
+      "id": "56084761",
+      "license_number": "56084761",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "India/Pakistan",
+        "fr": "Inde/Pakistan",
+        "ar": "الهند/باكستان",
+        "en": "India/Pakistan",
+        "ru": "Индия/Пакистан",
+        "zh": "印度/巴基斯坦"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "orig": "Pediatric Dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "Dr. Nicolas and Asp Centre",
+      "fr": {
+        "name": "Tahir Shahnawaz",
+        "specialty": "Pédodontiste",
+        "sub_specialty": null,
+        "bio": "Tahir Shahnawaz est pédodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Inde/Pakistan",
+        "source_license": "56084761"
+      },
+      "ar": {
+        "name": "طاهر شهنواز",
+        "specialty": "أخصائي أسنان الأطفال",
+        "sub_specialty": null,
+        "bio": "تعمل طاهر شهنواز أخصائي أسنان الأطفال في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "الهند/باكستان",
+        "source_license": "56084761"
+      },
+      "en": {
+        "name": "Tahir Shahnawaz",
+        "specialty": "Pediatric Dentist",
+        "sub_specialty": null,
+        "bio": "Tahir Shahnawaz is a Pediatric Dentist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "India/Pakistan",
+        "source_license": "56084761"
+      },
+      "ru": {
+        "name": "Тахир Шахнаваз",
+        "specialty": "Детский стоматолог",
+        "sub_specialty": null,
+        "bio": "Тахир Шахнаваз — детский стоматолог в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Индия/Пакистан",
+        "source_license": "56084761"
+      },
+      "zh": {
+        "name": "塔希尔 沙赫纳瓦兹",
+        "specialty": "儿童牙医",
+        "sub_specialty": null,
+        "bio": "塔希尔 沙赫纳瓦兹是位于迪拜（阿联酋）的儿童牙医。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "印度/巴基斯坦",
+        "source_license": "56084761"
+      }
+    },
+    {
+      "id": "00037358",
+      "license_number": "00037358",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Egypt",
+        "fr": "Égypte",
+        "ar": "مصر",
+        "en": "Egypt",
+        "ru": "Египет",
+        "zh": "埃及"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "oral-surgeon",
+        "orig": "Oral Surgeon",
+        "fr": "Chirurgien dentiste",
+        "ar": "جراح الفم والأسنان",
+        "en": "Oral Surgeon",
+        "ru": "Челюстно-лицевой хирург",
+        "zh": "口腔外科医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "M",
+      "clinic_name": "Al Badaa Medical Center - PHC",
+      "fr": {
+        "name": "Hany Kasem",
+        "specialty": "Chirurgien dentiste",
+        "sub_specialty": null,
+        "bio": "Hany Kasem est chirurgien dentiste à Dubaï, EAU. Licencié sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Égypte",
+        "source_license": "00037358"
+      },
+      "ar": {
+        "name": "هاني قاسم",
+        "specialty": "جراح الفم والأسنان",
+        "sub_specialty": null,
+        "bio": "يعمل هاني قاسم جراح الفم والأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "مصر",
+        "source_license": "00037358"
+      },
+      "en": {
+        "name": "Hany Kasem",
+        "specialty": "Oral Surgeon",
+        "sub_specialty": null,
+        "bio": "Hany Kasem is an Oral Surgeon based in Dubai, UAE. He holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "Egypt",
+        "source_license": "00037358"
+      },
+      "ru": {
+        "name": "Хани Касем",
+        "specialty": "Челюстно-лицевой хирург",
+        "sub_specialty": null,
+        "bio": "Хани Касем — челюстно-лицевой хирург в Дубай, ОАЭ. Он имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Египет",
+        "source_license": "00037358"
+      },
+      "zh": {
+        "name": "哈尼 卡西姆",
+        "specialty": "口腔外科医生",
+        "sub_specialty": null,
+        "bio": "哈尼 卡西姆是位于迪拜（阿联酋）的口腔外科医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "埃及",
+        "source_license": "00037358"
+      }
+    },
+    {
+      "id": "79883149",
+      "license_number": "79883149",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Syria/Lebanon",
+        "fr": "Syrie/Liban",
+        "ar": "سوريا/لبنان",
+        "en": "Syria/Lebanon",
+        "ru": "Сирия/Ливан",
+        "zh": "叙利亚/黎巴嫩"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "oral-surgeon",
+        "orig": "Oral Surgeon",
+        "fr": "Chirurgien dentiste",
+        "ar": "جراح الفم والأسنان",
+        "en": "Oral Surgeon",
+        "ru": "Челюстно-лицевой хирург",
+        "zh": "口腔外科医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "",
+      "fr": {
+        "name": "Darin Mohamad Tabbakh",
+        "specialty": "Chirurgien dentiste",
+        "sub_specialty": null,
+        "bio": "Darin Mohamad Tabbakh est chirurgien dentiste à Dubaï, EAU. Licenciée sous licence licence régulière délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Licence régulière",
+        "nationality": "Syrie/Liban",
+        "source_license": "79883149"
+      },
+      "ar": {
+        "name": "دارين Mohamad طبّاخ",
+        "specialty": "جراح الفم والأسنان",
+        "sub_specialty": null,
+        "bio": "تعمل دارين Mohamad طبّاخ جراح الفم والأسنان في دبي، الإمارات. تحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "رخصة منتظمة",
+        "nationality": "سوريا/لبنان",
+        "source_license": "79883149"
+      },
+      "en": {
+        "name": "Darin Mohamad Tabbakh",
+        "specialty": "Oral Surgeon",
+        "sub_specialty": null,
+        "bio": "Darin Mohamad Tabbakh is an Oral Surgeon based in Dubai, UAE. She holds a Regular License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Regular License",
+        "nationality": "Syria/Lebanon",
+        "source_license": "79883149"
+      },
+      "ru": {
+        "name": "Дарин Мохамад Таббах",
+        "specialty": "Челюстно-лицевой хирург",
+        "sub_specialty": null,
+        "bio": "Дарин Мохамад Таббах — челюстно-лицевой хирург в Дубай, ОАЭ. Она имеет обычная лицензия, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Обычная лицензия",
+        "nationality": "Сирия/Ливан",
+        "source_license": "79883149"
+      },
+      "zh": {
+        "name": "达林 姆奥赫阿姆阿德 塔巴赫",
+        "specialty": "口腔外科医生",
+        "sub_specialty": null,
+        "bio": "达林 姆奥赫阿姆阿德 塔巴赫是位于迪拜（阿联酋）的口腔外科医生。持有由迪拜卫生局 (DHA) 颁发的普通执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "普通执照",
+        "nationality": "叙利亚/黎巴嫩",
+        "source_license": "79883149"
+      }
+    },
+    {
+      "id": "00025361",
+      "license_number": "00025361",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Syria/Lebanon",
+        "fr": "Syrie/Liban",
+        "ar": "سوريا/لبنان",
+        "en": "Syria/Lebanon",
+        "ru": "Сирия/Ливан",
+        "zh": "叙利亚/黎巴嫩"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "oral-surgeon",
+        "orig": "Oral Surgeon",
+        "fr": "Chirurgien dentiste",
+        "ar": "جراح الفم والأسنان",
+        "en": "Oral Surgeon",
+        "ru": "Челюстно-лицевой хирург",
+        "zh": "口腔外科医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "Al Badaa Medical Center - PHC",
+      "fr": {
+        "name": "Mohamad Koleilat",
+        "specialty": "Chirurgien dentiste",
+        "sub_specialty": null,
+        "bio": "Mohamad Koleilat est chirurgien dentiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Syrie/Liban",
+        "source_license": "00025361"
+      },
+      "ar": {
+        "name": "Mohamad كليلات",
+        "specialty": "جراح الفم والأسنان",
+        "sub_specialty": null,
+        "bio": "تعمل Mohamad كليلات جراح الفم والأسنان في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "سوريا/لبنان",
+        "source_license": "00025361"
+      },
+      "en": {
+        "name": "Mohamad Koleilat",
+        "specialty": "Oral Surgeon",
+        "sub_specialty": null,
+        "bio": "Mohamad Koleilat is an Oral Surgeon based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "Syria/Lebanon",
+        "source_license": "00025361"
+      },
+      "ru": {
+        "name": "Мохамад Кулейлат",
+        "specialty": "Челюстно-лицевой хирург",
+        "sub_specialty": null,
+        "bio": "Мохамад Кулейлат — челюстно-лицевой хирург в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Сирия/Ливан",
+        "source_license": "00025361"
+      },
+      "zh": {
+        "name": "姆奥赫阿姆阿德 库莱拉特",
+        "specialty": "口腔外科医生",
+        "sub_specialty": null,
+        "bio": "姆奥赫阿姆阿德 库莱拉特是位于迪拜（阿联酋）的口腔外科医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "叙利亚/黎巴嫩",
+        "source_license": "00025361"
+      }
+    },
+    {
+      "id": "00018838",
+      "license_number": "00018838",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Turkey",
+        "fr": "Turquie",
+        "ar": "تركيا",
+        "en": "Turkey",
+        "ru": "Турция",
+        "zh": "土耳其"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "orig": "Orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "Oral Implantology Medical Center LLC",
+      "fr": {
+        "name": "Fatma Oguz",
+        "specialty": "Orthodontiste",
+        "sub_specialty": null,
+        "bio": "Fatma Oguz est orthodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Turquie",
+        "source_license": "00018838"
+      },
+      "ar": {
+        "name": "فاطمة أوغوز",
+        "specialty": "أخصائي تقويم الأسنان",
+        "sub_specialty": null,
+        "bio": "تعمل فاطمة أوغوز أخصائي تقويم الأسنان في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "تركيا",
+        "source_license": "00018838"
+      },
+      "en": {
+        "name": "Fatma Oguz",
+        "specialty": "Orthodontist",
+        "sub_specialty": null,
+        "bio": "Fatma Oguz is an Orthodontist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "Turkey",
+        "source_license": "00018838"
+      },
+      "ru": {
+        "name": "Фатма Огуз",
+        "specialty": "Ортодонт",
+        "sub_specialty": null,
+        "bio": "Фатма Огуз — ортодонт в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Турция",
+        "source_license": "00018838"
+      },
+      "zh": {
+        "name": "法蒂玛 奥古兹",
+        "specialty": "正畸医生",
+        "sub_specialty": null,
+        "bio": "法蒂玛 奥古兹是位于迪拜（阿联酋）的正畸医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "土耳其",
+        "source_license": "00018838"
+      }
+    },
+    {
+      "id": "00142880",
+      "license_number": "00142880",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Iran",
+        "fr": "Iran",
+        "ar": "إيران",
+        "en": "Iran",
+        "ru": "Иран",
+        "zh": "伊朗"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "orig": "Orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "Mediclinic Parkview Hospital LLC",
+      "fr": {
+        "name": "Anahita Salehi",
+        "specialty": "Orthodontiste",
+        "sub_specialty": null,
+        "bio": "Anahita Salehi est orthodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Iran",
+        "source_license": "00142880"
+      },
+      "ar": {
+        "name": "آناهيتا صالحي",
+        "specialty": "أخصائي تقويم الأسنان",
+        "sub_specialty": null,
+        "bio": "تعمل آناهيتا صالحي أخصائي تقويم الأسنان في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "إيران",
+        "source_license": "00142880"
+      },
+      "en": {
+        "name": "Anahita Salehi",
+        "specialty": "Orthodontist",
+        "sub_specialty": null,
+        "bio": "Anahita Salehi is an Orthodontist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "Iran",
+        "source_license": "00142880"
+      },
+      "ru": {
+        "name": "Анахита Салехи",
+        "specialty": "Ортодонт",
+        "sub_specialty": null,
+        "bio": "Анахита Салехи — ортодонт в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Иран",
+        "source_license": "00142880"
+      },
+      "zh": {
+        "name": "阿娜希塔 萨利希",
+        "specialty": "正畸医生",
+        "sub_specialty": null,
+        "bio": "阿娜希塔 萨利希是位于迪拜（阿联酋）的正畸医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "伊朗",
+        "source_license": "00142880"
+      }
+    },
+    {
+      "id": "00229970",
+      "license_number": "00229970",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Egypt/Sudan",
+        "fr": "Égypte/Soudan",
+        "ar": "مصر/السودان",
+        "en": "Egypt/Sudan",
+        "ru": "Египет/Судан",
+        "zh": "埃及/苏丹"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "orig": "Orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "Bissan Dental Center L L C",
+      "fr": {
+        "name": "Nevin Abdelmagid",
+        "specialty": "Orthodontiste",
+        "sub_specialty": null,
+        "bio": "Nevin Abdelmagid est orthodontiste à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Égypte/Soudan",
+        "source_license": "00229970"
+      },
+      "ar": {
+        "name": "نيفين عبد المجيد",
+        "specialty": "أخصائي تقويم الأسنان",
+        "sub_specialty": null,
+        "bio": "تعمل نيفين عبد المجيد أخصائي تقويم الأسنان في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "مصر/السودان",
+        "source_license": "00229970"
+      },
+      "en": {
+        "name": "Nevin Abdelmagid",
+        "specialty": "Orthodontist",
+        "sub_specialty": null,
+        "bio": "Nevin Abdelmagid is an Orthodontist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "Egypt/Sudan",
+        "source_license": "00229970"
+      },
+      "ru": {
+        "name": "Невин Абдельмагид",
+        "specialty": "Ортодонт",
+        "sub_specialty": null,
+        "bio": "Невин Абдельмагид — ортодонт в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Египет/Судан",
+        "source_license": "00229970"
+      },
+      "zh": {
+        "name": "内温 阿卜杜勒马吉德",
+        "specialty": "正畸医生",
+        "sub_specialty": null,
+        "bio": "内温 阿卜杜勒马吉德是位于迪拜（阿联酋）的正畸医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "埃及/苏丹",
+        "source_license": "00229970"
+      }
+    },
+    {
+      "id": "00242150",
+      "license_number": "00242150",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Iraq",
+        "fr": "Irak",
+        "ar": "العراق",
+        "en": "Iraq",
+        "ru": "Ирак",
+        "zh": "伊拉克"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "orig": "Dental Implant",
+        "fr": "Implantologue",
+        "ar": "أخصائي زراعة الأسنان",
+        "en": "Implantologist",
+        "ru": "Имплантолог",
+        "zh": "种植牙医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "DR HELMI S SPECIALIZED IMPLANTOLOGY & DENTAL CENTER",
+      "fr": {
+        "name": "Helme Altaee",
+        "specialty": "Implantologue",
+        "sub_specialty": null,
+        "bio": "Helme Altaee est implantologue à Dubaï, EAU. Licenciée sous licence temps plein délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Temps plein",
+        "nationality": "Irak",
+        "source_license": "00242150"
+      },
+      "ar": {
+        "name": "حلمه الطائي",
+        "specialty": "أخصائي زراعة الأسنان",
+        "sub_specialty": null,
+        "bio": "تعمل حلمه الطائي أخصائي زراعة الأسنان في دبي، الإمارات. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "دوام كامل",
+        "nationality": "العراق",
+        "source_license": "00242150"
+      },
+      "en": {
+        "name": "Helme Altaee",
+        "specialty": "Implantologist",
+        "sub_specialty": null,
+        "bio": "Helme Altaee is an Implantologist based in Dubai, UAE. She holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Full-Time License",
+        "nationality": "Iraq",
+        "source_license": "00242150"
+      },
+      "ru": {
+        "name": "Хелме Альтаи",
+        "specialty": "Имплантолог",
+        "sub_specialty": null,
+        "bio": "Хелме Альтаи — имплантолог в Дубай, ОАЭ. Она имеет полная занятость, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Полная занятость",
+        "nationality": "Ирак",
+        "source_license": "00242150"
+      },
+      "zh": {
+        "name": "海尔梅 阿尔塔伊",
+        "specialty": "种植牙医生",
+        "sub_specialty": null,
+        "bio": "海尔梅 阿尔塔伊是位于迪拜（阿联酋）的种植牙医生。持有由迪拜卫生局 (DHA) 颁发的全职执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "全职执照",
+        "nationality": "伊拉克",
+        "source_license": "00242150"
+      }
+    },
+    {
+      "id": "40121062",
+      "license_number": "40121062",
+      "license_type": {
+        "code": "REG",
+        "fr": "Licence régulière",
+        "ar": "رخصة منتظمة",
+        "en": "Regular License",
+        "ru": "Обычная лицензия",
+        "zh": "普通执照"
+      },
+      "nationality": {
+        "orig": "",
+        "code": "Syria/Lebanon",
+        "fr": "Syrie/Liban",
+        "ar": "سوريا/لبنان",
+        "en": "Syria/Lebanon",
+        "ru": "Сирия/Ливан",
+        "zh": "叙利亚/黎巴嫩"
+      },
+      "city": {
+        "orig": "Dubai",
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "orig": "Dental Implant",
+        "fr": "Implantologue",
+        "ar": "أخصائي زراعة الأسنان",
+        "en": "Implantologist",
+        "ru": "Имплантолог",
+        "zh": "种植牙医生"
+      },
+      "languages_spoken": [
+        "en"
+      ],
+      "_gender_heuristic": "F",
+      "clinic_name": "",
+      "fr": {
+        "name": "Mohamad Hadi Bankasli",
+        "specialty": "Implantologue",
+        "sub_specialty": null,
+        "bio": "Mohamad Hadi Bankasli est implantologue à Dubaï, EAU. Licenciée sous licence licence régulière délivrée par la Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Plan de traitement"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubaï",
+        "license_type": "Licence régulière",
+        "nationality": "Syrie/Liban",
+        "source_license": "40121062"
+      },
+      "ar": {
+        "name": "Mohamad هادي بنكصلّي",
+        "specialty": "أخصائي زراعة الأسنان",
+        "sub_specialty": null,
+        "bio": "تعمل Mohamad هادي بنكصلّي أخصائي زراعة الأسنان في دبي، الإمارات. تحمل رخصة رخصة منتظمة صادرة عن هيئة الصحة بدبي (DHA).",
+        "services": [
+          "استشارة",
+          "تشخيص",
+          "خطة علاج"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "دبي",
+        "license_type": "رخصة منتظمة",
+        "nationality": "سوريا/لبنان",
+        "source_license": "40121062"
+      },
+      "en": {
+        "name": "Mohamad Hadi Bankasli",
+        "specialty": "Implantologist",
+        "sub_specialty": null,
+        "bio": "Mohamad Hadi Bankasli is an Implantologist based in Dubai, UAE. She holds a Regular License issued by the Dubai Health Authority (DHA).",
+        "services": [
+          "Consultation",
+          "Diagnostic",
+          "Treatment plan"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Dubai",
+        "license_type": "Regular License",
+        "nationality": "Syria/Lebanon",
+        "source_license": "40121062"
+      },
+      "ru": {
+        "name": "Мохамад Хади Банкасли",
+        "specialty": "Имплантолог",
+        "sub_specialty": null,
+        "bio": "Мохамад Хади Банкасли — имплантолог в Дубай, ОАЭ. Она имеет обычная лицензия, выданную Управлением здравоохранения Дубая (DHA).",
+        "services": [
+          "Консультация",
+          "Диагностика",
+          "План лечения"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "Дубай",
+        "license_type": "Обычная лицензия",
+        "nationality": "Сирия/Ливан",
+        "source_license": "40121062"
+      },
+      "zh": {
+        "name": "姆奥赫阿姆阿德 哈迪 班卡斯利",
+        "specialty": "种植牙医生",
+        "sub_specialty": null,
+        "bio": "姆奥赫阿姆阿德 哈迪 班卡斯利是位于迪拜（阿联酋）的种植牙医生。持有由迪拜卫生局 (DHA) 颁发的普通执照。",
+        "services": [
+          "咨询",
+          "诊断",
+          "治疗方案"
+        ],
+        "languages_spoken": [
+          "en"
+        ],
+        "city": "迪拜",
+        "license_type": "普通执照",
+        "nationality": "叙利亚/黎巴嫩",
+        "source_license": "40121062"
+      }
+    }
+  ],
+  "fill_fiches": []
+}
