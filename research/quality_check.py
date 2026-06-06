@@ -316,6 +316,7 @@ def main():
     dent = check_dentists()
     sheryan = check_sheryan_jsonl()
     report = build_report(dha, dent, sheryan)
+    REPORT.write_text(report, encoding="utf-8")
 
     # Delta vs. previous committed run (read from git HEAD)
     try:
@@ -325,7 +326,7 @@ def main():
             capture_output=True, text=True, cwd=Path(__file__).parent.parent,
         )
         prev = result.stdout if result.returncode == 0 else ""
-        if prev:
+        if prev and "## 2. Dentists" in prev:
             dha_section = prev.split("## 2. Dentists")[0]
             dent_section = prev.split("## 2. Dentists")[1].split("## 3.")[0]
             dha_rows_prev = None
@@ -346,11 +347,9 @@ def main():
                 d = dent["rows"] - dent_rows_prev
                 delta_lines.append(f"- Dentists: {dent_rows_prev:,} → {dent['rows']:,} rows (Δ {d:+,})")
             if len(delta_lines) > 1:
-                report += "\n".join(delta_lines) + "\n"
+                REPORT.write_text(report + "\n".join(delta_lines) + "\n", encoding="utf-8")
     except Exception as e:
         print(f"[DMD-QA] delta skipped: {e}")
-
-    REPORT.write_text(report, encoding="utf-8")
     # Print summary for cron logs
     print(f"[DMD-QA] DHA: {dha['rows']} rows, {dha['duplicate_ids']} dup IDs, {dha['unique_facilities']} facilities")
     if dent:
