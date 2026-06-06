@@ -1,0 +1,31 @@
+{
+  "id": "sina-mokhtarian-00176925",
+  "license_number": "00176925",
+  "license_type": "دوام جزئي",
+  "name": {
+    "original": "Sina Mokhtarian",
+    "ar": "سينا مختاریان"
+  },
+  "specialty": "أخصائي زراعة الأسنان",
+  "sub_specialty": null,
+  "facility": "Myosmile Dental Clinic",
+  "area": "Myosmile Dental Clinic, Dubai, UAE",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "الدكتور سينا مختاریان أخصائي زراعة الأسنان في دبي، الإمارات. يحمل رخصة دوام جزئي صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.4",
+  "translated_at": "2026-06-06T02:47:30Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00176925",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "suzanna-almaali-00143904",
+  "license_number": "00143904",
+  "license_type": "Full-Time License",
+  "name": {
+    "original": "Suzanna Almaali",
+    "en": "Suzanna Almaali"
+  },
+  "specialty": "Orthodontist",
+  "sub_specialty": null,
+  "facility": "Al Maher Medical Center",
+  "area": "Al Maher Medical Center, Dubai, UAE",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "country_short": "UAE",
+  "category": "dentists",
+  "bio": "Dr. Suzanna Almaali is an Orthodontist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar.",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.4",
+  "translated_at": "2026-06-06T02:47:30Z",
+  "_lang": "en",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00143904",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+  }
+}

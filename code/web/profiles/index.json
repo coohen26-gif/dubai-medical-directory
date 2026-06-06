@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-06T00:39:07.155887+00:00",
-  "count": 20,
+  "generated_at": "2026-06-06T03:03:25.860595+00:00",
+  "count": 40,
   "profiles": [
     {
       "slug": "sruthi-balakkandy-suja-sukumaran-89396350",
@@ -161,6 +161,166 @@
       "license": "00248706",
       "facility": "",
       "profile_url": "https://www.zavis.ai/find-a-doctor/general-dentist/oday-ibrahim-00248706"
+    },
+    {
+      "slug": "fajar-panikkaveettil-00101777",
+      "name": "Fajar Panikkaveettil",
+      "specialty": "Periodontist",
+      "license": "00101777",
+      "facility": "KINGS DENTAL CENTER L.L.C",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00101777"
+    },
+    {
+      "slug": "nael-eid-00073013",
+      "name": "Nael Eid",
+      "specialty": "Prosthodontist",
+      "license": "00073013",
+      "facility": "Dubai Police Health Center - Al Qiyadah",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00073013"
+    },
+    {
+      "slug": "shaimaa-awad-00110769",
+      "name": "Shaimaa Awad",
+      "specialty": "Endodontist",
+      "license": "00110769",
+      "facility": "",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00110769"
+    },
+    {
+      "slug": "chantal-asimini-00095058",
+      "name": "Chantal Asimini",
+      "specialty": "Pediatric Dentist",
+      "license": "00095058",
+      "facility": "My Dental Clinic LLC",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00095058"
+    },
+    {
+      "slug": "layal-tarhini-00113487",
+      "name": "Layal Tarhini",
+      "specialty": "General Dentist",
+      "license": "00113487",
+      "facility": "GRAND EUROPEAN CLINIC LLC",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00113487"
+    },
+    {
+      "slug": "aarthy-viswanathan-00095848",
+      "name": "Aarthy Viswanathan",
+      "specialty": "Prosthodontist",
+      "license": "00095848",
+      "facility": "Aster Jubilee Medical Complex Br Of D M Healthcare LLC",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00095848"
+    },
+    {
+      "slug": "radhika-raj-00086684",
+      "name": "Radhika Raj",
+      "specialty": "General Dentist",
+      "license": "00086684",
+      "facility": "",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00086684"
+    },
+    {
+      "slug": "ahmadgazwan-zallat-aljazairi-00086416",
+      "name": "Ahmadgazwan Zallat aljazairi",
+      "specialty": "Oral Surgeon",
+      "license": "00086416",
+      "facility": "HARMONY MEDICAL CENTER L.L.C",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00086416"
+    },
+    {
+      "slug": "sabeer-salam-00097533",
+      "name": "Sabeer Salam",
+      "specialty": "Endodontist",
+      "license": "00097533",
+      "facility": "Aster Al Nahda Medical Center Br Of Dm Healthcare",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00097533"
+    },
+    {
+      "slug": "mukeshpal-rajput-00104281",
+      "name": "Mukeshpal Rajput",
+      "specialty": "Orthodontist",
+      "license": "00104281",
+      "facility": "New Emirates Medical Center",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00104281"
+    },
+    {
+      "slug": "sukhpreet-mangat-00100563",
+      "name": "Sukhpreet Mangat",
+      "specialty": "Orthodontist",
+      "license": "00100563",
+      "facility": "DR SOBCZAK DENTAL CLINIC",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00100563"
+    },
+    {
+      "slug": "raj-kumar-00103069",
+      "name": "Raj Kumar",
+      "specialty": "Orthodontist",
+      "license": "00103069",
+      "facility": "Icare Oasis Branch Of Excel Healthcare",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00103069"
+    },
+    {
+      "slug": "wael-wannous-00120527",
+      "name": "Wael Wannous",
+      "specialty": "Oral Surgeon",
+      "license": "00120527",
+      "facility": "Silesia Dental Clinic LLC",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00120527"
+    },
+    {
+      "slug": "maya-jacob-00129603",
+      "name": "Maya Jacob",
+      "specialty": "Pediatric Dentist",
+      "license": "00129603",
+      "facility": "DR MAYA DENTAL CENTRE L.L.C",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00129603"
+    },
+    {
+      "slug": "shehab-ahmad-ali-shahin-00135591",
+      "name": "Shehab Ahmad Ali Shahin",
+      "specialty": "Dental Implant",
+      "license": "00135591",
+      "facility": "N L V Medical Center LLC",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00135591"
+    },
+    {
+      "slug": "fatemeh-monfared-00152770",
+      "name": "Fatemeh Monfared",
+      "specialty": "Dental Implant",
+      "license": "00152770",
+      "facility": "NEW AL SHEFA MODERN CLINIC L.L.C",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00152770"
+    },
+    {
+      "slug": "bashayer-al-ali-00189259",
+      "name": "Bashayer Al Ali",
+      "specialty": "Periodontist",
+      "license": "00189259",
+      "facility": "Al Badaa Medical Center - PHC",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00189259"
+    },
+    {
+      "slug": "halah-binladen-00209539",
+      "name": "Halah Binladen",
+      "specialty": "Pediatric Dentist",
+      "license": "00209539",
+      "facility": "Dubai Dental Hospital FZ LLC",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/00209539"
+    },
+    {
+      "slug": "solmaz-francoise-vali-zadeh-06383172",
+      "name": "Solmaz Francoise Vali Zadeh",
+      "specialty": "Specialist Dentist",
+      "license": "06383172",
+      "facility": "",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/06383172"
+    },
+    {
+      "slug": "mazen-masri-37427806",
+      "name": "Mazen Masri",
+      "specialty": "Restorative Dentist",
+      "license": "37427806",
+      "facility": "",
+      "profile_url": "https://sheryan.dha.gov.ae/find-a-doctor/37427806"
     }
   ]
 }

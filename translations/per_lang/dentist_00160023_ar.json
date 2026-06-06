@@ -1,0 +1,31 @@
+{
+  "id": "fatemeh-razyanfard-00160023",
+  "license_number": "00160023",
+  "license_type": "دوام كامل",
+  "name": {
+    "original": "Fatemeh Razyanfard",
+    "ar": "فاطمة رازيانفارد"
+  },
+  "specialty": "أخصائي علاج العصب",
+  "sub_specialty": null,
+  "facility": "Al Badaa Medical Center - PHC",
+  "area": "Al Badaa Medical Center - PHC, Dubai, UAE",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "الدكتور فاطمة رازيانفارد أخصائي علاج العصب في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.4",
+  "translated_at": "2026-06-06T02:47:30Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00160023",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+  }
+}

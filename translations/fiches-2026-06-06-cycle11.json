@@ -1,0 +1,356 @@
+{
+  "_meta": {
+    "schema_version": "1.4",
+    "generated_at": "2026-06-06T02:47:30Z",
+    "generator": "build_cycle11.py",
+    "cron": "6e3d697a-91cb-4475-872a-8ab965e7ba7f",
+    "cron_name": "Dubai - Translation & Localization",
+    "cycle": "2026-06-06 cycle 11/30min",
+    "languages_count": 2,
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "translation_direction": "FR→AR + FR→EN",
+    "target_fiches": 5,
+    "fiches_produced": 5,
+    "translations_produced": 10,
+    "specialty_mix": {
+      "Orthodontist": 1,
+      "Endodontist": 1,
+      "Prosthodontist": 1,
+      "Dental Implant": 2
+    },
+    "per_lang_count": {
+      "ar": 5,
+      "en": 5
+    },
+    "per_lang_files": 10,
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (cycle11 subset AR+EN)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + table FR→X alignée glossary.md"
+  },
+  "fiches": [
+    {
+      "id": "suzanna-almaali-00143904",
+      "license_number": "00143904",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Suzanna Almaali",
+        "fr": "Suzanna Almaali",
+        "ar": "سوزانا المعالي",
+        "en": "Suzanna Almaali"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "ar": "Al Maher Medical Center",
+        "en": "Al Maher Medical Center"
+      },
+      "area": {
+        "original": "Al Maher Medical Center, Dubai, UAE",
+        "fr": "Al Maher Medical Center, Dubai, UAE",
+        "ar": "Al Maher Medical Center, Dubai, UAE",
+        "en": "Al Maher Medical Center, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "ar": "الدكتور سوزانا المعالي أخصائي تقويم الأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Suzanna Almaali is an Orthodontist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar."
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00143904",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:47:30Z",
+      "schema_version": "1.4"
+    },
+    {
+      "id": "fatemeh-razyanfard-00160023",
+      "license_number": "00160023",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Fatemeh Razyanfard",
+        "fr": "Fatemeh Razyanfard",
+        "ar": "فاطمة رازيانفارد",
+        "en": "Fatemeh Razyanfard"
+      },
+      "specialty": {
+        "slug": "endodontist",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "ar": "Al Badaa Medical Center - PHC",
+        "en": "Al Badaa Medical Center - PHC"
+      },
+      "area": {
+        "original": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "fr": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "ar": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "en": "Al Badaa Medical Center - PHC, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "ar": "الدكتور فاطمة رازيانفارد أخصائي علاج العصب في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Fatemeh Razyanfard is an Endodontist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar."
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00160023",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:47:30Z",
+      "schema_version": "1.4"
+    },
+    {
+      "id": "haitham-elbishari-00158407",
+      "license_number": "00158407",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Haitham Elbishari",
+        "fr": "Haitham Elbishari",
+        "ar": "هيثم البشيري",
+        "en": "Haitham Elbishari"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "ar": "Dubai Dental Hospital FZ LLC",
+        "en": "Dubai Dental Hospital FZ LLC"
+      },
+      "area": {
+        "original": "Dubai Dental Hospital FZ LLC, Dubai, UAE",
+        "fr": "Dubai Dental Hospital FZ LLC, Dubai, UAE",
+        "ar": "Dubai Dental Hospital FZ LLC, Dubai, UAE",
+        "en": "Dubai Dental Hospital FZ LLC, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "ar": "الدكتور هيثم البشيري أخصائي التركيبات السنية في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Haitham Elbishari is a Prosthodontist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar."
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00158407",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:47:30Z",
+      "schema_version": "1.4"
+    },
+    {
+      "id": "hazem-hassan-00146446",
+      "license_number": "00146446",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License"
+      },
+      "name": {
+        "original": "Hazem Hassan",
+        "fr": "Hazem Hassan",
+        "ar": "حازم حسن",
+        "en": "Hazem Hassan"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "fr": "Implantologue",
+        "ar": "أخصائي زراعة الأسنان",
+        "en": "Implantologist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "ar": "Al Badaa Medical Center - PHC",
+        "en": "Al Badaa Medical Center - PHC"
+      },
+      "area": {
+        "original": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "fr": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "ar": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "en": "Al Badaa Medical Center - PHC, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "ar": "الدكتور حازم حسن أخصائي زراعة الأسنان في دبي، الإمارات. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Hazem Hassan is an Implantologist based in Dubaï, UAE. Holds a Full-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar."
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00146446",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:47:30Z",
+      "schema_version": "1.4"
+    },
+    {
+      "id": "sina-mokhtarian-00176925",
+      "license_number": "00176925",
+      "license_type": {
+        "code": "PTL",
+        "fr": "Temps partiel",
+        "ar": "دوام جزئي",
+        "en": "Part-Time License"
+      },
+      "name": {
+        "original": "Sina Mokhtarian",
+        "fr": "Sina Mokhtarian",
+        "ar": "سينا مختاریان",
+        "en": "Sina Mokhtarian"
+      },
+      "specialty": {
+        "slug": "implantologist",
+        "fr": "Implantologue",
+        "ar": "أخصائي زراعة الأسنان",
+        "en": "Implantologist"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "ar": "Myosmile Dental Clinic",
+        "en": "Myosmile Dental Clinic"
+      },
+      "area": {
+        "original": "Myosmile Dental Clinic, Dubai, UAE",
+        "fr": "Myosmile Dental Clinic, Dubai, UAE",
+        "ar": "Myosmile Dental Clinic, Dubai, UAE",
+        "en": "Myosmile Dental Clinic, Dubai, UAE"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai"
+      },
+      "country": {
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "country_short": {
+        "ar": "الإمارات",
+        "en": "UAE"
+      },
+      "category": "dentists",
+      "bio": {
+        "ar": "الدكتور سينا مختاریان أخصائي زراعة الأسنان في دبي، الإمارات. يحمل رخصة دوام جزئي صادرة عن هيئة الصحة بدبي (DHA). لغات العمل: en, ar.",
+        "en": "Dr. Sina Mokhtarian is an Implantologist based in Dubaï, UAE. Holds a Part-Time License issued by the Dubai Health Authority (DHA). Working languages: en, ar."
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00176925",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00"
+      },
+      "_gender_heuristic": "unknown",
+      "translated_at": "2026-06-06T02:47:30Z",
+      "schema_version": "1.4"
+    }
+  ]
+}
