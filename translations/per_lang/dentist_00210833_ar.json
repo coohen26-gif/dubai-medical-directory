@@ -1,0 +1,32 @@
+{
+  "id": "yasser-alhindi-00210833",
+  "license_number": "00210833",
+  "license_type": "دوام كامل",
+  "name": {
+    "original": "Yasser Alhindi",
+    "ar": "ياسر الهندي"
+  },
+  "specialty": "أخصائي أمراض اللثة",
+  "sub_specialty": null,
+  "facility": "Levantine Dental Clinic L.L.C",
+  "area": "Levantine Dental Clinic L.L.C, دبي, الإمارات العربية المتحدة",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "الدكتور ياسر الهندي أخصائي أمراض اللثة في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:10:10Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00210833",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 143
+  }
+}

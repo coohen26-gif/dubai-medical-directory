@@ -1,0 +1,524 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T03:10:10Z",
+    "generator": "build_cycle12.py",
+    "cron": "ad25646f-4b17-4eb0-b148-0b7d037c7231",
+    "cron_name": "Dubai - Traduction 5 Langues",
+    "cycle": "2026-06-06 cycle 12/30min",
+    "previous_cycle": "2026-06-06 cycle 11/30min (70 fiches cumul, 25 in per_lang)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "target_fiches": 5,
+    "fiches_produced": 5,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "endodontist": 1,
+      "orthodontist": 1,
+      "pediatric-dentist": 1,
+      "periodontist": 1,
+      "prosthodontist": 1
+    },
+    "gender_mix": {
+      "F": 2,
+      "M": 3
+    },
+    "license_mix": {
+      "FTL": 5
+    },
+    "per_lang_count": {
+      "fr": 5,
+      "ar": 5,
+      "en": 5,
+      "ru": 5,
+      "zh": 5
+    },
+    "per_lang_files": 25,
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0"
+  },
+  "fiches": [
+    {
+      "id": "mehanas-kasthurikattil-00174955",
+      "license_number": "00174955",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Mehanas Kasthurikattil",
+        "fr": "Mehanas Kasthurikattil",
+        "ar": "ميهانس كاستوريكاتيل",
+        "en": "Mehanas Kasthurikattil",
+        "ru": "Механас Кастурикаттил",
+        "zh": "Mèhānàsī Kǎsītǔlīkǎtílí'ěr"
+      },
+      "specialty": {
+        "slug": "endodontist",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist",
+        "ru": "Эндодонтист",
+        "zh": "牙髓病医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Mankhool Dental Clinic",
+        "fr": "Mankhool Dental Clinic",
+        "ar": "Mankhool Dental Clinic",
+        "en": "Mankhool Dental Clinic",
+        "ru": "Mankhool Dental Clinic",
+        "zh": "Mankhool Dental Clinic"
+      },
+      "area": {
+        "original": "Mankhool Dental Clinic, Dubai, UAE",
+        "fr": "Mankhool Dental Clinic, Dubaï, Émirats arabes unis",
+        "ar": "Mankhool Dental Clinic, دبي, الإمارات العربية المتحدة",
+        "en": "Mankhool Dental Clinic, Dubai, UAE",
+        "ru": "Mankhool Dental Clinic, Дубай, ОАЭ",
+        "zh": "Mankhool Dental Clinic, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Mehanas Kasthurikattil est une endodontiste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتورة ميهانس كاستوريكاتيل أخصائي علاج العصب في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Mehanas Kasthurikattil is an Endodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Механас Кастурикаттил — Эндодонтист в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Mèhānàsī Kǎsītǔlīkǎtílí'ěr医生是阿联酋迪拜的牙髓病医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00174955",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 88
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:10:10Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    },
+    {
+      "id": "muawya-alkaseasbeh-00150972",
+      "license_number": "00150972",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Muawya Alkaseasbeh",
+        "fr": "Muawya Alkaseasbeh",
+        "ar": "معاوية الكسياسب",
+        "en": "Muawya Alkaseasbeh",
+        "ru": "Муавия Аль-Касиасбех",
+        "zh": "Mù'āwīyà Ā'ěrKǎxīāsībèihē"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Derma Zone Laser And Cosmetic LLC",
+        "fr": "Derma Zone Laser And Cosmetic LLC",
+        "ar": "Derma Zone Laser And Cosmetic LLC",
+        "en": "Derma Zone Laser And Cosmetic LLC",
+        "ru": "Derma Zone Laser And Cosmetic LLC",
+        "zh": "Derma Zone Laser And Cosmetic LLC"
+      },
+      "area": {
+        "original": "Derma Zone Laser And Cosmetic LLC, Dubai, UAE",
+        "fr": "Derma Zone Laser And Cosmetic LLC, Dubaï, Émirats arabes unis",
+        "ar": "Derma Zone Laser And Cosmetic LLC, دبي, الإمارات العربية المتحدة",
+        "en": "Derma Zone Laser And Cosmetic LLC, Dubai, UAE",
+        "ru": "Derma Zone Laser And Cosmetic LLC, Дубай, ОАЭ",
+        "zh": "Derma Zone Laser And Cosmetic LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Muawya Alkaseasbeh est un orthodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور معاوية الكسياسب أخصائي تقويم الأسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Muawya Alkaseasbeh is an Orthodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Муавия Аль-Касиасбех — Ортодонт в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Mù'āwīyà Ā'ěrKǎxīāsībèihē医生是阿联酋迪拜的正畸医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00150972",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 71
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:10:10Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "rihab-al-obaidi-00246724",
+      "license_number": "00246724",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Rihab Al Obaidi",
+        "fr": "Rihab Al Obaidi",
+        "ar": "رحاب العبيدي",
+        "en": "Rihab Al Obaidi",
+        "ru": "Рихаб Аль-Обаиди",
+        "zh": "Līhābù Ā'ěrĀobāiyīdì"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Liberty Dental Clinic",
+        "fr": "Liberty Dental Clinic",
+        "ar": "Liberty Dental Clinic",
+        "en": "Liberty Dental Clinic",
+        "ru": "Liberty Dental Clinic",
+        "zh": "Liberty Dental Clinic"
+      },
+      "area": {
+        "original": "Liberty Dental Clinic, Dubai, UAE",
+        "fr": "Liberty Dental Clinic, Dubaï, Émirats arabes unis",
+        "ar": "Liberty Dental Clinic, دبي, الإمارات العربية المتحدة",
+        "en": "Liberty Dental Clinic, Dubai, UAE",
+        "ru": "Liberty Dental Clinic, Дубай, ОАЭ",
+        "zh": "Liberty Dental Clinic, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Rihab Al Obaidi est une pédodontiste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتورة رحاب العبيدي أخصائي أسنان الأطفال في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Rihab Al Obaidi is a Pediatric Dentist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Рихаб Аль-Обаиди — Детский стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Līhābù Ā'ěrĀobāiyīdì医生是阿联酋迪拜的儿童牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00246724",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 218
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:10:10Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    },
+    {
+      "id": "yasser-alhindi-00210833",
+      "license_number": "00210833",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Yasser Alhindi",
+        "fr": "Yasser Alhindi",
+        "ar": "ياسر الهندي",
+        "en": "Yasser Alhindi",
+        "ru": "Ясер Аль-Хинди",
+        "zh": "Yàsè'ěr Ā'ěrHīndì"
+      },
+      "specialty": {
+        "slug": "periodontist",
+        "fr": "Parodontiste",
+        "ar": "أخصائي أمراض اللثة",
+        "en": "Periodontist",
+        "ru": "Пародонтолог",
+        "zh": "牙周病医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Levantine Dental Clinic L.L.C",
+        "fr": "Levantine Dental Clinic L.L.C",
+        "ar": "Levantine Dental Clinic L.L.C",
+        "en": "Levantine Dental Clinic L.L.C",
+        "ru": "Levantine Dental Clinic L.L.C",
+        "zh": "Levantine Dental Clinic L.L.C"
+      },
+      "area": {
+        "original": "Levantine Dental Clinic L.L.C, Dubai, UAE",
+        "fr": "Levantine Dental Clinic L.L.C, Dubaï, Émirats arabes unis",
+        "ar": "Levantine Dental Clinic L.L.C, دبي, الإمارات العربية المتحدة",
+        "en": "Levantine Dental Clinic L.L.C, Dubai, UAE",
+        "ru": "Levantine Dental Clinic L.L.C, Дубай, ОАЭ",
+        "zh": "Levantine Dental Clinic L.L.C, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Yasser Alhindi est un parodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور ياسر الهندي أخصائي أمراض اللثة في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Yasser Alhindi is a Periodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Ясер Аль-Хинди — Пародонтолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Yàsè'ěr Ā'ěrHīndì医生是阿联酋迪拜的牙周病医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00210833",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 143
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:10:10Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "mohamed-almoselli-00177345",
+      "license_number": "00177345",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Mohamed Almoselli",
+        "fr": "Mohamed Almoselli",
+        "ar": "محمد المسلّي",
+        "en": "Mohamed Almoselli",
+        "ru": "Мухаммед Аль-Моселли",
+        "zh": "Mùhǎnmòdé Ā'ěrmòsāilì"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist",
+        "ru": "Ортопед-стоматолог",
+        "zh": "修复科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "PROCARE AVENUES MEDICAL CENTER L.L.C",
+        "fr": "PROCARE AVENUES MEDICAL CENTER L.L.C",
+        "ar": "PROCARE AVENUES MEDICAL CENTER L.L.C",
+        "en": "PROCARE AVENUES MEDICAL CENTER L.L.C",
+        "ru": "PROCARE AVENUES MEDICAL CENTER L.L.C",
+        "zh": "PROCARE AVENUES MEDICAL CENTER L.L.C"
+      },
+      "area": {
+        "original": "PROCARE AVENUES MEDICAL CENTER L.L.C, Dubai, UAE",
+        "fr": "PROCARE AVENUES MEDICAL CENTER L.L.C, Dubaï, Émirats arabes unis",
+        "ar": "PROCARE AVENUES MEDICAL CENTER L.L.C, دبي, الإمارات العربية المتحدة",
+        "en": "PROCARE AVENUES MEDICAL CENTER L.L.C, Dubai, UAE",
+        "ru": "PROCARE AVENUES MEDICAL CENTER L.L.C, Дубай, ОАЭ",
+        "zh": "PROCARE AVENUES MEDICAL CENTER L.L.C, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Mohamed Almoselli est un prosthodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور محمد المسلّي أخصائي التركيبات السنية في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Mohamed Almoselli is a Prosthodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Мухаммед Аль-Моселли — Ортопед-стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Mùhǎnmòdé Ā'ěrmòsāilì医生是阿联酋迪拜的修复科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00177345",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 95
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:10:10Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    }
+  ]
+}

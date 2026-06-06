@@ -1,0 +1,525 @@
+{
+  "_meta": {
+    "schema_version": "1.5",
+    "generated_at": "2026-06-06T03:14:12Z",
+    "generator": "build_cycle13.py",
+    "cron": "6e3d697a-91cb-4475-872a-8ab965e7ba7f",
+    "cron_name": "Dubai - Translation & Localization",
+    "cycle": "2026-06-06 cycle 13/30min",
+    "previous_cycle": "2026-06-06 cycle 12/30min (75 fiches cumul, 50 in per_lang)",
+    "languages": [
+      "fr",
+      "ar",
+      "en",
+      "ru",
+      "zh"
+    ],
+    "target_fiches": 5,
+    "fiches_produced": 5,
+    "translations_produced": 25,
+    "specialty_mix": {
+      "endodontist": 1,
+      "orthodontist": 1,
+      "pediatric-dentist": 1,
+      "periodontist": 1,
+      "prosthodontist": 1
+    },
+    "gender_mix": {
+      "?": 1,
+      "M": 1,
+      "F": 3
+    },
+    "license_mix": {
+      "FTL": 5
+    },
+    "per_lang_count": {
+      "fr": 5,
+      "ar": 5,
+      "en": 5,
+      "ru": 5,
+      "zh": 5
+    },
+    "per_lang_files": 25,
+    "source_csv": "data/dentists_emirates.csv",
+    "glossary_version": "v1.0 (translations/glossary.md)",
+    "deepl_used": false,
+    "deepl_note": "DEEPL_API_KEY vide dans .env.translator (template) → translittération manuelle + tables FR→AR/RU/ZH alignées glossary.md v1.0"
+  },
+  "fiches": [
+    {
+      "id": "neetu-singh-00148580",
+      "license_number": "00148580",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Neetu Singh",
+        "fr": "Neetu Singh",
+        "ar": "Neetu Singh",
+        "en": "Neetu Singh",
+        "ru": "Neetu Singh",
+        "zh": "Neetu Singh"
+      },
+      "specialty": {
+        "slug": "endodontist",
+        "fr": "Endodontiste",
+        "ar": "أخصائي علاج العصب",
+        "en": "Endodontist",
+        "ru": "Эндодонтист",
+        "zh": "牙髓病医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Dr Sirajuddin Medical Centre",
+        "fr": "Dr Sirajuddin Medical Centre",
+        "ar": "Dr Sirajuddin Medical Centre",
+        "en": "Dr Sirajuddin Medical Centre",
+        "ru": "Dr Sirajuddin Medical Centre",
+        "zh": "Dr Sirajuddin Medical Centre"
+      },
+      "area": {
+        "original": "Dr Sirajuddin Medical Centre, Dubai, UAE",
+        "fr": "Dr Sirajuddin Medical Centre, Dubaï, Émirats arabes unis",
+        "ar": "Dr Sirajuddin Medical Centre, دبي, الإمارات العربية المتحدة",
+        "en": "Dr Sirajuddin Medical Centre, Dubai, UAE",
+        "ru": "Dr Sirajuddin Medical Centre, Дубай, ОАЭ",
+        "zh": "Dr Sirajuddin Medical Centre, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Neetu Singh est un endodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور Neetu Singh أخصائي علاج العصب في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Neetu Singh is an Endodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Neetu Singh — Эндодонтист в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Neetu Singh医生是阿联酋迪拜的牙髓病医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00148580",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 123
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:14:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "?"
+    },
+    {
+      "id": "gunter-neumann-00006621",
+      "license_number": "00006621",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Gunter Neumann",
+        "fr": "Gunter Neumann",
+        "ar": "Gunter Neumann",
+        "en": "Gunter Neumann",
+        "ru": "Gunter Neumann",
+        "zh": "Gunter Neumann"
+      },
+      "specialty": {
+        "slug": "orthodontist",
+        "fr": "Orthodontiste",
+        "ar": "أخصائي تقويم الأسنان",
+        "en": "Orthodontist",
+        "ru": "Ортодонт",
+        "zh": "正畸医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Towerclinic FZ-LLC",
+        "fr": "Towerclinic FZ-LLC",
+        "ar": "Towerclinic FZ-LLC",
+        "en": "Towerclinic FZ-LLC",
+        "ru": "Towerclinic FZ-LLC",
+        "zh": "Towerclinic FZ-LLC"
+      },
+      "area": {
+        "original": "Towerclinic FZ-LLC, Dubai, UAE",
+        "fr": "Towerclinic FZ-LLC, Dubaï, Émirats arabes unis",
+        "ar": "Towerclinic FZ-LLC, دبي, الإمارات العربية المتحدة",
+        "en": "Towerclinic FZ-LLC, Dubai, UAE",
+        "ru": "Towerclinic FZ-LLC, Дубай, ОАЭ",
+        "zh": "Towerclinic FZ-LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Gunter Neumann est un orthodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتور Gunter Neumann أخصائي تقويم الأسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Gunter Neumann is an Orthodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Gunter Neumann — Ортодонт в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Gunter Neumann医生是阿联酋迪拜的正畸医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00006621",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 7
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:14:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "M"
+    },
+    {
+      "id": "zeina-armouche-00004781",
+      "license_number": "00004781",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Zeina Armouche",
+        "fr": "Zeina Armouche",
+        "ar": "زينة Armouche",
+        "en": "Zeina Armouche",
+        "ru": "Зейна Armouche",
+        "zh": "Zāinà Armouche"
+      },
+      "specialty": {
+        "slug": "pediatric-dentist",
+        "fr": "Pédodontiste",
+        "ar": "أخصائي أسنان الأطفال",
+        "en": "Pediatric Dentist",
+        "ru": "Детский стоматолог",
+        "zh": "儿童牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C",
+        "fr": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C",
+        "ar": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C",
+        "en": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C",
+        "ru": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C",
+        "zh": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C"
+      },
+      "area": {
+        "original": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C, Dubai, UAE",
+        "fr": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C, Dubaï, Émirats arabes unis",
+        "ar": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C, دبي, الإمارات العربية المتحدة",
+        "en": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C, Dubai, UAE",
+        "ru": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C, Дубай, ОАЭ",
+        "zh": "BEYOND 32 DENTAL AND MEDICAL CLINIC L.L.C, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Zeina Armouche est une pédodontiste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتورة زينة Armouche أخصائي أسنان الأطفال في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Zeina Armouche is a Pediatric Dentist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Зейна Armouche — Детский стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Zāinà Armouche医生是阿联酋迪拜的儿童牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00004781",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 1
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:14:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    },
+    {
+      "id": "priyanka-nunna-00213213",
+      "license_number": "00213213",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Priyanka Nunna",
+        "fr": "Priyanka Nunna",
+        "ar": "Priyanka Nunna",
+        "en": "Priyanka Nunna",
+        "ru": "Priyanka Nunna",
+        "zh": "Priyanka Nunna"
+      },
+      "specialty": {
+        "slug": "periodontist",
+        "fr": "Parodontiste",
+        "ar": "أخصائي أمراض اللثة",
+        "en": "Periodontist",
+        "ru": "Пародонтолог",
+        "zh": "牙周病医生"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Shine And Smile Dental Clinic LLC",
+        "fr": "Shine And Smile Dental Clinic LLC",
+        "ar": "Shine And Smile Dental Clinic LLC",
+        "en": "Shine And Smile Dental Clinic LLC",
+        "ru": "Shine And Smile Dental Clinic LLC",
+        "zh": "Shine And Smile Dental Clinic LLC"
+      },
+      "area": {
+        "original": "Shine And Smile Dental Clinic LLC, Dubai, UAE",
+        "fr": "Shine And Smile Dental Clinic LLC, Dubaï, Émirats arabes unis",
+        "ar": "Shine And Smile Dental Clinic LLC, دبي, الإمارات العربية المتحدة",
+        "en": "Shine And Smile Dental Clinic LLC, Dubai, UAE",
+        "ru": "Shine And Smile Dental Clinic LLC, Дубай, ОАЭ",
+        "zh": "Shine And Smile Dental Clinic LLC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Priyanka Nunna est une parodontiste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتورة Priyanka Nunna أخصائي أمراض اللثة في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Priyanka Nunna is a Periodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Priyanka Nunna — Пародонтолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Priyanka Nunna医生是阿联酋迪拜的牙周病医生。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00213213",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 163
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:14:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    },
+    {
+      "id": "shamma-ali-al-ali-00032021",
+      "license_number": "00032021",
+      "license_type": {
+        "code": "FTL",
+        "fr": "Temps plein",
+        "ar": "دوام كامل",
+        "en": "Full-Time License",
+        "ru": "Полная занятость",
+        "zh": "全职执照"
+      },
+      "name": {
+        "original": "Shamma Ali Al Ali",
+        "fr": "Shamma Ali Al Ali",
+        "ar": "Shamma علي العلي",
+        "en": "Shamma Ali Al Ali",
+        "ru": "Shamma Али Аль-Али",
+        "zh": "Shamma Ālì Ā'ěr Ālì"
+      },
+      "specialty": {
+        "slug": "prosthodontist",
+        "fr": "Prosthodontiste",
+        "ar": "أخصائي التركيبات السنية",
+        "en": "Prosthodontist",
+        "ru": "Ортопед-стоматолог",
+        "zh": "修复科牙医"
+      },
+      "sub_specialty": null,
+      "facility": {
+        "original": "Al Badaa Medical Center - PHC",
+        "fr": "Al Badaa Medical Center - PHC",
+        "ar": "Al Badaa Medical Center - PHC",
+        "en": "Al Badaa Medical Center - PHC",
+        "ru": "Al Badaa Medical Center - PHC",
+        "zh": "Al Badaa Medical Center - PHC"
+      },
+      "area": {
+        "original": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "fr": "Al Badaa Medical Center - PHC, Dubaï, Émirats arabes unis",
+        "ar": "Al Badaa Medical Center - PHC, دبي, الإمارات العربية المتحدة",
+        "en": "Al Badaa Medical Center - PHC, Dubai, UAE",
+        "ru": "Al Badaa Medical Center - PHC, Дубай, ОАЭ",
+        "zh": "Al Badaa Medical Center - PHC, 迪拜, 阿联酋"
+      },
+      "city": {
+        "fr": "Dubaï",
+        "ar": "دبي",
+        "en": "Dubai",
+        "ru": "Дубай",
+        "zh": "迪拜"
+      },
+      "country": {
+        "fr": "Émirats arabes unis",
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates",
+        "ru": "Объединённые Арабские Эмираты",
+        "zh": "阿拉伯联合酋长国"
+      },
+      "country_short": {
+        "fr": "EAU",
+        "ar": "الإمارات",
+        "en": "UAE",
+        "ru": "ОАЭ",
+        "zh": "阿联酋"
+      },
+      "category": "dentists",
+      "bio": {
+        "fr": "Dr Shamma Ali Al Ali est une prosthodontiste à Dubaï, Émirats arabes unis (EAU). Licenciée sous temps plein délivrée par la Dubai Health Authority (DHA).",
+        "ar": "الدكتورة Shamma علي العلي أخصائي التركيبات السنية في دبي، الإمارات العربية المتحدة. تحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+        "en": "Dr. Shamma Ali Al Ali is a Prosthodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+        "ru": "Д-р Shamma Али Аль-Али — Ортопед-стоматолог в Дубай, Объединённые Арабские Эмираты (ОАЭ). Обладает полной занятостью, выданной Управлением здравоохранения Дубая (DHA).",
+        "zh": "Shamma Ālì Ā'ěr Ālì医生是阿联酋迪拜的修复科牙医。持有迪拜卫生局 (DHA) 颁发的全职执照。"
+      },
+      "services": null,
+      "languages_spoken": [
+        "ar",
+        "en"
+      ],
+      "_provenance": {
+        "source_csv": "data/dentists_emirates.csv",
+        "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00032021",
+        "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+        "row_index": 17
+      },
+      "schema_version": "1.5",
+      "translated_at": "2026-06-06T03:14:12Z",
+      "_langs_produced": [
+        "fr",
+        "ar",
+        "en",
+        "ru",
+        "zh"
+      ],
+      "_gender_heuristic": "F"
+    }
+  ]
+}

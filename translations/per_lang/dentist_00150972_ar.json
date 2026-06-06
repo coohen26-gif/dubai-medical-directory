@@ -1,0 +1,32 @@
+{
+  "id": "muawya-alkaseasbeh-00150972",
+  "license_number": "00150972",
+  "license_type": "دوام كامل",
+  "name": {
+    "original": "Muawya Alkaseasbeh",
+    "ar": "معاوية الكسياسب"
+  },
+  "specialty": "أخصائي تقويم الأسنان",
+  "sub_specialty": null,
+  "facility": "Derma Zone Laser And Cosmetic LLC",
+  "area": "Derma Zone Laser And Cosmetic LLC, دبي, الإمارات العربية المتحدة",
+  "city": "دبي",
+  "country": "الإمارات العربية المتحدة",
+  "country_short": "الإمارات",
+  "category": "dentists",
+  "bio": "الدكتور معاوية الكسياسب أخصائي تقويم الأسنان في دبي، الإمارات العربية المتحدة. يحمل رخصة دوام كامل صادرة عن هيئة الصحة بدبي (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:10:10Z",
+  "_lang": "ar",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00150972",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 71
+  }
+}

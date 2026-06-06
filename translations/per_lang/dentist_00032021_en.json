@@ -1,0 +1,32 @@
+{
+  "id": "shamma-ali-al-ali-00032021",
+  "license_number": "00032021",
+  "license_type": "Full-Time License",
+  "name": {
+    "original": "Shamma Ali Al Ali",
+    "en": "Shamma Ali Al Ali"
+  },
+  "specialty": "Prosthodontist",
+  "sub_specialty": null,
+  "facility": "Al Badaa Medical Center - PHC",
+  "area": "Al Badaa Medical Center - PHC, Dubai, UAE",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "country_short": "UAE",
+  "category": "dentists",
+  "bio": "Dr. Shamma Ali Al Ali is a Prosthodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:14:12Z",
+  "_lang": "en",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00032021",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 17
+  }
+}

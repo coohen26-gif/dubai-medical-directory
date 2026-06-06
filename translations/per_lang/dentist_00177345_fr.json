@@ -1,0 +1,32 @@
+{
+  "id": "mohamed-almoselli-00177345",
+  "license_number": "00177345",
+  "license_type": "Temps plein",
+  "name": {
+    "original": "Mohamed Almoselli",
+    "fr": "Mohamed Almoselli"
+  },
+  "specialty": "Prosthodontiste",
+  "sub_specialty": null,
+  "facility": "PROCARE AVENUES MEDICAL CENTER L.L.C",
+  "area": "PROCARE AVENUES MEDICAL CENTER L.L.C, Dubaï, Émirats arabes unis",
+  "city": "Dubaï",
+  "country": "Émirats arabes unis",
+  "country_short": "EAU",
+  "category": "dentists",
+  "bio": "Dr Mohamed Almoselli est un prosthodontiste à Dubaï, Émirats arabes unis (EAU). Licencié sous temps plein délivrée par la Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:10:10Z",
+  "_lang": "fr",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00177345",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 95
+  }
+}

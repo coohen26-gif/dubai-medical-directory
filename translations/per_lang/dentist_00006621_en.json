@@ -1,0 +1,32 @@
+{
+  "id": "gunter-neumann-00006621",
+  "license_number": "00006621",
+  "license_type": "Full-Time License",
+  "name": {
+    "original": "Gunter Neumann",
+    "en": "Gunter Neumann"
+  },
+  "specialty": "Orthodontist",
+  "sub_specialty": null,
+  "facility": "Towerclinic FZ-LLC",
+  "area": "Towerclinic FZ-LLC, Dubai, UAE",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "country_short": "UAE",
+  "category": "dentists",
+  "bio": "Dr. Gunter Neumann is an Orthodontist based in Dubai, United Arab Emirates (UAE). Holds a Full-Time License issued by the Dubai Health Authority (DHA).",
+  "services": null,
+  "languages_spoken": [
+    "ar",
+    "en"
+  ],
+  "schema_version": "1.5",
+  "translated_at": "2026-06-06T03:14:12Z",
+  "_lang": "en",
+  "_provenance": {
+    "source_csv": "data/dentists_emirates.csv",
+    "source_url": "https://sheryan.dha.gov.ae/SearchProfessionals?search=00006621",
+    "scraped_at": "2026-06-05T20:38:07.374434+00:00",
+    "row_index": 7
+  }
+}
